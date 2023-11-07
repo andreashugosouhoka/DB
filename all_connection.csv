@@ -1,0 +1,12 @@
+.id,protocol,src-address,dst-address,reply-src-address,reply-dst-address,gre-key,tcp-state,connection-type,timeout,connection-mark,orig-packets,orig-bytes,orig-fasttrack-packets,orig-fasttrack-bytes,repl-packets,repl-bytes,repl-fasttrack-packets,repl-fasttrack-bytes,orig-rate,repl-rate,expected,seen-reply,assured,confirmed,dying,fasttrack,srcnat,dstnat,icmp-code,icmp-type,icmp-id,timestamp
+*400C,udp,12.202.156.236:30301,10.0.0.4:5060,10.0.0.4:5060,12.202.156.236:30301,,,sip,42m9s,,1,86,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*400D,tcp,34.105.86.190:47463,10.0.0.4:7502,10.0.0.4:7502,34.105.86.190:47463,,established,,5m,,5,336,0,0,3,171,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*400E,udp,103.136.42.40:25692,10.0.0.4:5060,10.0.0.4:5060,103.136.42.40:25692,,,sip,56m39s,,1,1059,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*400F,tcp,175.103.43.90:51041,10.0.0.4:4075,10.0.0.4:4075,175.103.43.90:51041,,established,,23h59m59s,,11226,847051,0,0,7856,5068183,0,0,1760,10640,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*4010,udp,10.0.0.4:4500,20.205.36.71:4500,20.205.36.71:4500,10.0.0.4:4500,,,,2m50s,,2332,211039,0,0,3291,315027,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*4011,tcp,10.0.0.4:179,20.205.36.71:34788,20.205.36.71:34788,10.0.0.4:179,,established,,23h59m36s,,799,49167,0,0,799,49110,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*4012,udp,175.103.43.90:4500,10.0.0.4:4500,10.0.0.4:4500,175.103.43.90:4500,,,,2m51s,,4786,674226,0,0,3868,751915,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*4013,udp,10.0.0.4:1701,20.205.36.71:1701,20.205.36.71:1701,10.0.0.4:1701,,,,2m37s,,1348,60604,0,0,1700,124668,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*4014,udp,175.103.43.90:1701,10.0.0.4:1701,10.0.0.4:1701,175.103.43.90:1701,,,,2m48s,,3530,429573,0,0,2763,565871,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
+*4015,tcp,192.168.55.150:49608,34.107.243.93:443,34.107.243.93:443,10.0.0.4:49608,,established,,23h50m21s,,7,1765,0,0,7,1468,0,0,0,0,False,True,True,True,False,False,True,False,,,,2023-11-07 17:08:53 WIB
+*4016,tcp,34.105.86.190:46049,10.0.0.4:7502,10.0.0.4:7502,34.105.86.190:46049,,established,,23h59m37s,,133,7461,0,0,131,7087,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-07 17:08:53 WIB
