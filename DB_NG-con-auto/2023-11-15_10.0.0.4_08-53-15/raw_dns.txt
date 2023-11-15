@@ -1,0 +1,2 @@
+{'.id': '*11E8', 'type': 'A', 'data': '159.148.147.244', 'name': 'global-balancer-d.mikrotik.com', 'ttl': '16m30s', 'static': False, 'timestamp': '2023-11-15 08:53:09 WIB'}
+{'.id': '*11F3', 'type': 'CNAME', 'data': 'global-balancer-d.mikrotik.com', 'name': 'licence.mikrotik.com', 'ttl': '16m30s', 'static': False, 'timestamp': '2023-11-15 08:53:09 WIB'}
