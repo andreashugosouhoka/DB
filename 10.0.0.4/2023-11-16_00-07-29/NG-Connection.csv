@@ -1,0 +1,5 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,20.205.36.71,34788,10.0.0.4,179,IN.bound,established,,,HK,AS8075 microsoft corporation,,,
+udp,10.0.0.4,4500,20.205.36.71,4500,OUT.bound,,,,HK,AS8075 microsoft corporation,,,
+udp,10.0.0.4,1701,20.205.36.71,1701,OUT.bound,,,,HK,AS8075 microsoft corporation,,,
+udp,167.248.133.165,15620,10.0.0.4,5060,IN.bound,,,,US,AS398722 censys  inc.,ETIC Cybersecurity 2023-11-15 Port Scan,,2023-11-15T17:07:24.259000
