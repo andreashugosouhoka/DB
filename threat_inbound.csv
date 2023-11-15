@@ -1,3 +1,0 @@
-protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-udp,12.202.156.236,30301,10.0.0.4,5060,IN.bound,,,,US,AS7018 att services inc,ETIC Cybersecurity 2023-11-06 Port Scan,,2023-11-06 22:58:38.623
-udp,103.136.42.40,25692,10.0.0.4,5060,IN.bound,,,,NL,AS139884 apeiron global pvt. ltd.,ETIC Cybersecurity 2023-11-07 Port Scan,,2023-11-07 10:08:48.162
