@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,175.103.43.90,52361,10.0.0.4,7502,IN.bound,time-wait,,,ID,AS38320 pt maxindo mitra solusi,,,
+tcp,20.205.36.71,34788,10.0.0.4,179,IN.bound,established,,,HK,AS8075 microsoft corporation,,,
+udp,10.0.0.4,4500,20.205.36.71,4500,OUT.bound,,,,HK,AS8075 microsoft corporation,,,
+udp,10.0.0.4,1701,20.205.36.71,1701,OUT.bound,,,,HK,AS8075 microsoft corporation,,,
+tcp,175.103.43.90,52362,10.0.0.4,7502,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
