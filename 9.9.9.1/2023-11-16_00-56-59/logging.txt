@@ -1,0 +1,65 @@
+.......................................
+NG-Connection on (2023-11-16 00:56:57)
+
+Fetched IP Firewall Connections with 5 entries
+Fetched IP DNS Cache with 2 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol   src-address src-port  dst-address dst-port   tcp-state  connection-mark
+     udp      10.0.0.4     4500 20.205.36.71     4500         NaN              NaN
+     tcp  20.205.36.71    34788     10.0.0.4      179 established              NaN
+     tcp 175.103.43.90    52969     10.0.0.4     4075 established              NaN
+
+[DNS]
+Sample DNS Entries:
+                          name            data
+global-balancer-d.mikrotik.com 159.148.147.244
+
+No Resolved Entries
+
+IP PUBLIC LAN : 9.9.9.1
+
+Public Address with 3 entries
+
+Count of each flow:
+OUT.bound      : 3
+IN.bound       : 2
+
+OTX result has been Fetched for 1 seconds
+Sample Entries from OTX:
+   indicator                          asn country_code2 name description modified created
+20.205.36.71 AS8075 microsoft corporation            HK  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 40% ||||||||            udp            : 40% ||||||||            icmp           : 20%
+flow              ==         OUT.bound         : 60% ||||||||          IN.bound         : 40%
+dst-port          ==            179            : 20% ||||||||            4075           : 20% ||||||||            4500           : 20% ||||||||            1701           : 20% ||||||||     others     : 40%
+dst-address       ==          10.0.0.4         : 40% ||||||||        20.205.36.71       : 40% ||||||||       202.58.172.61       : 20%
+src-address       ==          10.0.0.4         : 60% ||||||||        20.205.36.71       : 20% ||||||||       175.103.43.90       : 20%
+src-port          ==           34788           : 20% ||||||||           52969           : 20% ||||||||            4500           : 20% ||||||||            1701           : 20% ||||||||     others     : 40%
+cc                ==             HK            : 60% ||||||||             ID            : 40%
+asn               == AS8075 microsoft corporation : 60% |||||||| AS38320 pt maxindo mitra solusi : 20% |||||||| AS24526 bina nusantara university : 20%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol  src-address src-port  dst-address dst-port      flow   tcp-state  resolved  mark cc                          asn  threat  description  modified
+     tcp 20.205.36.71    34788     10.0.0.4      179  IN.bound established       NaN   NaN HK AS8075 microsoft corporation     NaN          NaN       NaN
+     udp     10.0.0.4     4500 20.205.36.71     4500 OUT.bound         NaN       NaN   NaN HK AS8075 microsoft corporation     NaN          NaN       NaN
+
+No Entries from the Last 7 days
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+Empty DataFrame
+Columns: [protocol, src-address, src-port, dst-address, dst-port, flow, tcp-state, resolved, mark, cc, asn, threat, description, modified]
+Index: []
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
