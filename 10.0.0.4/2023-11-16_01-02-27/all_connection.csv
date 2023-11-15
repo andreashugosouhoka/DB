@@ -1,0 +1,7 @@
+.id,protocol,src-address,dst-address,reply-src-address,reply-dst-address,gre-key,tcp-state,connection-type,timeout,connection-mark,orig-packets,orig-bytes,orig-fasttrack-packets,orig-fasttrack-bytes,repl-packets,repl-bytes,repl-fasttrack-packets,repl-fasttrack-bytes,orig-rate,repl-rate,expected,seen-reply,assured,confirmed,dying,fasttrack,srcnat,dstnat,icmp-code,icmp-type,icmp-id,timestamp
+*7B78,tcp,20.205.36.71:34788,10.0.0.4:179,10.0.0.4:179,20.205.36.71:34788,,established,,23h59m41s,,3350,206063,0,0,3350,205987,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-16 01:02:25 WIB
+*7B79,tcp,175.103.43.90:52969,10.0.0.4:4075,10.0.0.4:4075,175.103.43.90:52969,,established,,23h59m59s,,902,94035,0,0,1229,664047,0,0,3424,23792,False,True,True,True,False,False,False,False,,,,2023-11-16 01:02:25 WIB
+*7B7B,udp,10.0.0.4:4500,20.205.36.71:4500,20.205.36.71:4500,10.0.0.4:4500,,,,2m57s,,7474,783248,0,0,13392,1272044,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-16 01:02:25 WIB
+*7B7C,udp,10.0.0.4:1701,20.205.36.71:1701,20.205.36.71:1701,10.0.0.4:1701,,,,2m52s,,5660,254504,0,0,7125,521134,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-16 01:02:25 WIB
+*7B7D,icmp,10.0.0.4,202.58.172.61,202.58.172.61,10.0.0.4,,,,9s,,341,17050,0,0,341,17050,0,0,400,400,False,True,False,True,False,False,False,False,0,8,27400,2023-11-16 01:02:25 WIB
+*7B8E,udp,192.168.55.2:5678,255.255.255.255:5678,255.255.255.255:5678,192.168.55.2:5678,,,,2s,,1,144,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-16 01:02:25 WIB
