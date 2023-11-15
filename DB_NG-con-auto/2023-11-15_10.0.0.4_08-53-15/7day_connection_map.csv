@@ -1,2 +1,0 @@
-protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-udp,198.235.24.198,56218,10.0.0.4,5060,IN.bound,,,,CA,AS396982 google,IP Addresses Logged by the Rosethorn PotNet,Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp,2023-11-15 01:52:42.583
