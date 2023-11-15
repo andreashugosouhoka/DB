@@ -1,3 +1,0 @@
-name,data,.id,type,static,ttl,timestamp
-global-balancer-d.mikrotik.com,159.148.147.244,*11E8,A,False,16m30s,2023-11-15 08:53:09 WIB
-licence.mikrotik.com,global-balancer-d.mikrotik.com,*11F3,CNAME,False,16m30s,2023-11-15 08:53:09 WIB
