@@ -1,0 +1,65 @@
+.......................................
+NG-Connection on (2023-11-15 17:33:54)
+
+Fetched IP Firewall Connections with 5 entries
+Fetched IP DNS Cache with 1 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol   src-address src-port  dst-address dst-port   tcp-state  connection-mark
+     udp      10.0.0.4     1701 20.205.36.71     1701         NaN              NaN
+     udp      10.0.0.4     4500 20.205.36.71     4500         NaN              NaN
+     tcp 175.103.43.90    52420     10.0.0.4     7502 established              NaN
+
+[DNS]
+Sample DNS Entries:
+                          name            data
+global-balancer-d.mikrotik.com 159.148.147.244
+
+No Resolved Entries
+
+IP PUBLIC LAN : 172.188.58.135
+
+Public Address with 2 entries
+
+Count of each flow:
+IN.bound       : 3
+OUT.bound      : 2
+
+OTX result has been Fetched for 1 seconds
+Sample Entries from OTX:
+   indicator                          asn country_code2 name description modified created
+20.205.36.71 AS8075 microsoft corporation            HK  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 60% ||||||||            udp            : 40%
+flow              ==          IN.bound         : 60% ||||||||         OUT.bound         : 40%
+dst-port          ==            7502           : 40% ||||||||            179            : 20% ||||||||            4500           : 20% ||||||||            1701           : 20% ||||||||     others     : 20%
+dst-address       ==          10.0.0.4         : 60% ||||||||        20.205.36.71       : 40%
+src-address       ==          10.0.0.4         : 40% ||||||||       175.103.43.90       : 40% ||||||||        20.205.36.71       : 20%
+src-port          ==           34788           : 20% ||||||||            4500           : 20% ||||||||            1701           : 20% ||||||||           52420           : 20% ||||||||     others     : 40%
+cc                ==             HK            : 60% ||||||||             ID            : 40%
+asn               == AS8075 microsoft corporation : 60% |||||||| AS38320 pt maxindo mitra solusi : 40%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol   src-address src-port  dst-address dst-port      flow tcp-state  resolved  mark cc                             asn  threat  description  modified
+     tcp 175.103.43.90    52419     10.0.0.4     7502  IN.bound time-wait       NaN   NaN ID AS38320 pt maxindo mitra solusi     NaN          NaN       NaN
+     udp      10.0.0.4     4500 20.205.36.71     4500 OUT.bound       NaN       NaN   NaN HK    AS8075 microsoft corporation     NaN          NaN       NaN
+
+No Entries from the Last 7 days
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+Empty DataFrame
+Columns: [protocol, src-address, src-port, dst-address, dst-port, flow, tcp-state, resolved, mark, cc, asn, threat, description, modified]
+Index: []
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
