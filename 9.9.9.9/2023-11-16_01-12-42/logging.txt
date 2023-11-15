@@ -1,0 +1,7 @@
+Error executing the script. Error: Traceback (most recent call last):
+  File "F:\PYT\FLASK 2 auto\TAKE 33 cloning sync\analyzer.py", line 44, in <module>
+    fetch_router_data(router_ip, router_port, username, password, lan_networks)
+  File "F:\PYT\FLASK 2 auto\TAKE 33 cloning sync\analyzer.py", line 23, in fetch_router_data
+    connection.close()
+    ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'connection' where it is not associated with a value
