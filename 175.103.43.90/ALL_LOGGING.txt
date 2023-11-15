@@ -1,20 +1,20 @@
 
 
-Timestamp: 2023-11-16 00:13:21
+Timestamp: 2023-11-16 00:28:34
 .......................................
-NG-Connection on (2023-11-16 00:13:19)
+NG-Connection on (2023-11-16 00:28:32)
 
-Fetched IP Firewall Connections with 5 entries
+Fetched IP Firewall Connections with 3 entries
 Fetched IP DNS Cache with 1 entries
 Raw Connection data is Extracted'
 Raw DNS data is Extracted
 
 [Connections]
 Sample Entries:
-protocol     src-address src-port  dst-address dst-port   tcp-state  connection-mark
-     tcp    20.205.36.71    34788     10.0.0.4      179 established              NaN
-     udp        10.0.0.4     4500 20.205.36.71     4500         NaN              NaN
-     udp 167.248.133.165    15620     10.0.0.4     5060         NaN              NaN
+protocol  src-address src-port  dst-address dst-port   tcp-state  connection-mark
+     udp     10.0.0.4     4500 20.205.36.71     4500         NaN              NaN
+     udp     10.0.0.4     1701 20.205.36.71     1701         NaN              NaN
+     tcp 20.205.36.71    34788     10.0.0.4      179 established              NaN
 
 [DNS]
 Sample DNS Entries:
@@ -23,115 +23,44 @@ global-balancer-d.mikrotik.com 159.148.147.244
 
 No Resolved Entries
 
-IP PUBLIC LAN : 175.103.43.90/30 || 8.8.8.0/24
+IP PUBLIC LAN : 175.103.43.90/30
 
-Public Address with 2 entries
+Public Address with 1 entries
 
 Count of each flow:
-IN.bound       : 2
 OUT.bound      : 2
-broadcast      : 1
+IN.bound       : 1
 
-OTX result has been Fetched for 1 seconds
+OTX result has been Fetched for 2 seconds
 Sample Entries from OTX:
    indicator                          asn country_code2 name description modified created
 20.205.36.71 AS8075 microsoft corporation            HK  NaN         NaN      NaN     NaN
 
 ::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 80% ||||||||            tcp            : 20%
-flow              ==          IN.bound         : 40% ||||||||         OUT.bound         : 40% ||||||||         broadcast         : 20%
-dst-port          ==            179            : 20% ||||||||            4500           : 20% ||||||||            1701           : 20% ||||||||            5060           : 20% ||||||||     others     : 40%
-dst-address       ==          10.0.0.4         : 40% ||||||||        20.205.36.71       : 40% ||||||||      255.255.255.255      : 20%
-src-address       ==          10.0.0.4         : 40% ||||||||        20.205.36.71       : 20% ||||||||      167.248.133.165      : 20% ||||||||        192.168.55.2       : 20% ||||||||     others     : 20%
-src-port          ==           34788           : 20% ||||||||            4500           : 20% ||||||||            1701           : 20% ||||||||           15620           : 20% ||||||||     others     : 40%
-cc                ==             HK            : 60% ||||||||             US            : 20%
-asn               == AS8075 microsoft corporation : 60% ||||||||   AS398722 censys  inc.   : 20%
+protocol          ==            udp            : 67% ||||||||            tcp            : 33%
+flow              ==         OUT.bound         : 67% ||||||||          IN.bound         : 33%
+dst-port          ==            179            : 33% ||||||||            4500           : 33% ||||||||            1701           : 33%
+dst-address       ==        20.205.36.71       : 67% ||||||||          10.0.0.4         : 33%
+src-address       ==          10.0.0.4         : 67% ||||||||        20.205.36.71       : 33%
+src-port          ==           34788           : 33% ||||||||            4500           : 33% ||||||||            1701           : 33%
+cc                ==             HK            : 100%
+asn               == AS8075 microsoft corporation : 100%
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 Sample NG-Connection Entries :
-protocol  src-address src-port     dst-address dst-port      flow tcp-state  resolved  mark  cc                          asn threat  description modified
-     udp 192.168.55.2     5678 255.255.255.255     5678 broadcast       NaN       NaN   NaN NaN                          NaN    NaN          NaN      NaN
-     udp     10.0.0.4     1701    20.205.36.71     1701 OUT.bound       NaN       NaN   NaN  HK AS8075 microsoft corporation    NaN          NaN      NaN
+protocol  src-address src-port  dst-address dst-port      flow   tcp-state  resolved  mark cc                          asn  threat  description  modified
+     udp     10.0.0.4     1701 20.205.36.71     1701 OUT.bound         NaN       NaN   NaN HK AS8075 microsoft corporation     NaN          NaN       NaN
+     tcp 20.205.36.71    34788     10.0.0.4      179  IN.bound established       NaN   NaN HK AS8075 microsoft corporation     NaN          NaN       NaN
 
-Sample Entries from the Last 7 Days:
-b'protocol     src-address src-port dst-address dst-port     flow tcp-state  resolved  mark cc                   asn                                  threat  description                modified\n     udp 167.248.133.165    15620    10.0.0.4     5060 IN.bound       NaN       NaN   NaN US AS398722 censys  inc. ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 17:13:12.195'
+No Entries from the Last 7 days
 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 All Last 7 days Potential Threat Entries !Big ASN:
-protocol     src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                   asn                                  threat  description                modified
-     udp 167.248.133.165     15620    10.0.0.4      5060 IN.bound        NaN       NaN   NaN US AS398722 censys  inc. ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 17:13:12.195
-Error adding address 167.248.133.165 to address list: failure: already have such entry
-Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
-
-
-Timestamp: 2023-11-16 00:13:09
-.......................................
-NG-Connection on (2023-11-16 00:13:07)
-
-Fetched IP Firewall Connections with 4 entries
-Fetched IP DNS Cache with 1 entries
-Raw Connection data is Extracted'
-Raw DNS data is Extracted
-
-[Connections]
-Sample Entries:
-protocol     src-address src-port  dst-address dst-port   tcp-state  connection-mark
-     tcp    20.205.36.71    34788     10.0.0.4      179 established              NaN
-     udp        10.0.0.4     4500 20.205.36.71     4500         NaN              NaN
-     udp 167.248.133.165    15620     10.0.0.4     5060         NaN              NaN
-
-[DNS]
-Sample DNS Entries:
-                          name            data
-global-balancer-d.mikrotik.com 159.148.147.244
-
-No Resolved Entries
-
-IP PUBLIC LAN : 175.103.43.90/30 || 8.8.8.0/24
-
-Public Address with 2 entries
-
-Count of each flow:
-IN.bound       : 2
-OUT.bound      : 2
-
-OTX result has been Fetched for 1 seconds
-Sample Entries from OTX:
-   indicator                          asn country_code2 name description modified created
-20.205.36.71 AS8075 microsoft corporation            HK  NaN         NaN      NaN     NaN
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 75% ||||||||            tcp            : 25%
-flow              ==          IN.bound         : 50% ||||||||         OUT.bound         : 50%
-dst-port          ==            179            : 25% ||||||||            4500           : 25% ||||||||            1701           : 25% ||||||||            5060           : 25% ||||||||     others     : 25%
-dst-address       ==          10.0.0.4         : 50% ||||||||        20.205.36.71       : 50%
-src-address       ==          10.0.0.4         : 50% ||||||||        20.205.36.71       : 25% ||||||||      167.248.133.165      : 25%
-src-port          ==           34788           : 25% ||||||||            4500           : 25% ||||||||            1701           : 25% ||||||||           15620           : 25% ||||||||     others     : 25%
-cc                ==             HK            : 75% ||||||||             US            : 25%
-asn               == AS8075 microsoft corporation : 75% ||||||||   AS398722 censys  inc.   : 25%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-Sample NG-Connection Entries :
-protocol     src-address src-port  dst-address dst-port      flow tcp-state  resolved  mark cc                          asn                                  threat  description                   modified
-     udp 167.248.133.165    15620     10.0.0.4     5060  IN.bound       NaN       NaN   NaN US        AS398722 censys  inc. ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15T17:12:29.925000
-     udp        10.0.0.4     4500 20.205.36.71     4500 OUT.bound       NaN       NaN   NaN HK AS8075 microsoft corporation                                     NaN          NaN                        NaN
-
-Sample Entries from the Last 7 Days:
-b'protocol     src-address src-port dst-address dst-port     flow tcp-state  resolved  mark cc                   asn                                  threat  description                modified\n     udp 167.248.133.165    15620    10.0.0.4     5060 IN.bound       NaN       NaN   NaN US AS398722 censys  inc. ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 17:12:29.925'
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-All Last 7 days Potential Threat Entries !Big ASN:
-protocol     src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                   asn                                  threat  description                modified
-     udp 167.248.133.165     15620    10.0.0.4      5060 IN.bound        NaN       NaN   NaN US AS398722 censys  inc. ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 17:12:29.925
-Error adding address 167.248.133.165 to address list: failure: already have such entry
+Empty DataFrame
+Columns: [protocol, src-address, src-port, dst-address, dst-port, flow, tcp-state, resolved, mark, cc, asn, threat, description, modified]
+Index: []
 Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
 Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
 
