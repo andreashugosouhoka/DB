@@ -1,0 +1,1 @@
+{'.id': '*11FA', 'type': 'A', 'data': '159.148.147.244', 'name': 'global-balancer-d.mikrotik.com', 'ttl': '37m15s', 'static': False, 'timestamp': '2023-11-16 00:07:13 WIB'}
