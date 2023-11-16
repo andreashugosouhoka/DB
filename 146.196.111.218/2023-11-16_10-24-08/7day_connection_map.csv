@@ -1,0 +1,27 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,175.103.46.158,62191,20.189.173.14,443,OUT.bound,close,,speedtest.c,US,AS8075 microsoft corporation,bkp16oct,,2023-11-15 00:01:55.056
+tcp,175.103.46.158,50213,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,37214,34.117.59.81,443,OUT.bound,established,,speedtest.c,US,AS396982 google,CVE-2021-27065,The full text of the Microsoft Exchange Server Remote Code Execution Vulnerability (RCV) in its late,2023-11-16 03:04:23.777
+tcp,175.103.46.158,50215,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,185.10.68.123,443,175.103.46.158,53675,IN.bound,established,,speedtest.c,SC,AS200651 flokinet ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-14 20:31:11.734
+tcp,175.103.46.158,50206,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,39.106.18.244,44561,175.103.46.159,8090,IN.bound,syn-sent,,,CN,AS37963 hangzhou alibaba advertising co. ltd.,ETIC Cybersecurity 2023-11-15 Port Scan,,2023-11-15 22:59:53.097
+tcp,175.103.46.158,50304,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50199,34.107.221.82,80,OUT.bound,last-ack,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+udp,64.235.37.62,53407,175.103.46.157,5060,IN.bound,,,speedtest.c,NL,AS26277 las vegas nv datacenter,ETIC Cybersecurity 2023-11-15 Port Scan,,2023-11-15 22:59:53.097
+tcp,175.103.46.158,50298,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,59021,152.195.38.76,80,OUT.bound,established,,speedtest.c,US,AS15133 verizon,Black Tech,"Found in a malicious Apple iTunes link. Lists several independent artists. Music ""producer"" is poten",2023-11-13 12:00:59.446
+udp,175.103.46.158,51408,142.251.10.84,443,OUT.bound,,,speedtest.c,US,AS15169 google llc,Apple | iOS | Automated Attacks | Resource Hijacking | Google Tracker,Boot or Logon Autostart Execution\nCommand and Scripting Interpreter\nAutomated Collection\nWebToolb,2023-11-15 19:05:43.285
+tcp,175.103.46.158,59023,34.104.35.123,80,OUT.bound,established,,speedtest.c,US,AS15169 google llc,Application Layer Protocol,Critical. Fitbit download link found in Google search results.\n[https://play.google.com/store/apps/,2023-11-13 22:04:06.580
+tcp,175.103.46.158,50214,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,62060,20.189.173.14,443,OUT.bound,close,,speedtest.c,US,AS8075 microsoft corporation,bkp16oct,,2023-11-15 00:01:55.056
+tcp,175.103.46.158,50204,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,36.95.251.155,49602,175.103.46.159,1433,IN.bound,syn-sent,,,ID,AS7713 pt telekomunikasi indonesia,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-14 20:31:11.734
+tcp,36.95.251.155,49596,175.103.46.158,1433,IN.bound,syn-sent,,,ID,AS7713 pt telekomunikasi indonesia,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-14 20:31:11.734
+tcp,175.103.46.158,50306,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50216,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50299,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,185.169.4.105,42274,175.103.46.156,3389,IN.bound,syn-sent,,,GB,AS43463 infocom uk ltd,Georgs Honeypot,Honeypot,2023-11-16 03:20:07.268
+tcp,36.95.251.155,49588,175.103.46.156,1433,IN.bound,syn-sent,,,ID,AS7713 pt telekomunikasi indonesia,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-14 20:31:11.734
+tcp,175.103.46.158,50305,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50297,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
