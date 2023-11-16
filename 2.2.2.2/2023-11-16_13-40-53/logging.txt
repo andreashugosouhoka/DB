@@ -1,0 +1,62 @@
+.......................................
+NG-Connection on (2023-11-16 13:40:49)
+
+Fetched IP Firewall Connections with 8 entries
+Fetched IP DNS Cache with 2 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol   src-address src-port  dst-address dst-port tcp-state  connection-mark
+    icmp 18.227.134.92     None     10.0.0.4     None       NaN              NaN
+     udp      10.0.0.4     4500 20.205.36.71     4500       NaN              NaN
+     udp      10.0.0.4     1701 20.205.36.71     1701       NaN              NaN
+
+[DNS]
+Sample DNS Entries:
+                          name            data
+global-balancer-d.mikrotik.com 159.148.147.244
+
+No Resolved Entries
+
+IP PUBLIC LAN : 2.2.2.2/32
+
+Public Address with 5 entries
+
+Count of each flow:
+OUT.bound      : 4
+IN.bound       : 3
+
+OTX result has been Fetched for 3 seconds
+Sample Entries from OTX:
+     indicator             asn country_code2 name description modified created
+183.150.217.64 AS4134 chinanet            CN  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 43% ||||||||            tcp            : 29% ||||||||            icmp           : 29%
+flow              ==         OUT.bound         : 57% ||||||||          IN.bound         : 43%
+dst-port          ==             0             : 29% ||||||||            4500           : 14% ||||||||           34788           : 14% ||||||||            1701           : 14% ||||||||     others     : 43%
+dst-address       ==        20.205.36.71       : 43% ||||||||          10.0.0.4         : 43% ||||||||       175.103.43.90       : 14%
+src-address       ==          10.0.0.4         : 57% ||||||||        3.144.111.33       : 14% ||||||||       183.150.217.64      : 14% ||||||||       18.227.134.92       : 14% ||||||||     others     : 14%
+src-port          ==             0             : 29% ||||||||            4500           : 14% ||||||||            179            : 14% ||||||||            1701           : 14% ||||||||     others     : 43%
+cc                ==             HK            : 43% ||||||||             US            : 29% ||||||||             ID            : 14% ||||||||             CN            : 14% ||||||||     others     : 14%
+asn               == AS8075 microsoft corporation : 43% ||||||||   AS16509 amazon.com inc  : 29% |||||||| AS38320 pt maxindo mitra solusi : 14% ||||||||      AS4134 chinanet      : 14% ||||||||     others     : 14%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol src-address src-port   dst-address dst-port      flow   tcp-state  resolved  mark cc                             asn  threat  description  modified
+     udp    10.0.0.4     1701  20.205.36.71     1701 OUT.bound         NaN       NaN   NaN HK    AS8075 microsoft corporation     NaN          NaN       NaN
+     tcp    10.0.0.4     4075 175.103.43.90    57452 OUT.bound established       NaN   NaN ID AS38320 pt maxindo mitra solusi     NaN          NaN       NaN
+
+No Entries from the Last 7 days
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+Empty DataFrame
+Columns: [protocol, src-address, src-port, dst-address, dst-port, flow, tcp-state, resolved, mark, cc, asn, threat, description, modified]
+Index: []
+filter rule added successfully for IN.bound Threat.
+filter rule added successfully for OUT.bound Threat.
