@@ -1,0 +1,5 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,39.106.18.244,44561,175.103.46.159,8090,IN.bound,syn-sent,,,CN,AS37963 hangzhou alibaba advertising co. ltd.,ETIC Cybersecurity 2023-11-15 Port Scan,,2023-11-15 22:59:53.097
+udp,64.235.37.62,53407,175.103.46.157,5060,IN.bound,,,speedtest.c,NL,AS26277 las vegas nv datacenter,ETIC Cybersecurity 2023-11-15 Port Scan,,2023-11-15 22:59:53.097
+tcp,175.103.46.158,59021,152.195.38.76,80,OUT.bound,established,,speedtest.c,US,AS15133 verizon,Black Tech,"Found in a malicious Apple iTunes link. Lists several independent artists. Music ""producer"" is poten",2023-11-13 12:00:59.446
+tcp,185.169.4.105,42274,175.103.46.156,3389,IN.bound,syn-sent,,,GB,AS43463 infocom uk ltd,Georgs Honeypot,Honeypot,2023-11-16 03:20:07.268
