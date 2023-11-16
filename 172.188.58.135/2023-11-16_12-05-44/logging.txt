@@ -1,0 +1,68 @@
+.......................................
+NG-Connection on (2023-11-16 12:05:41)
+
+Fetched IP Firewall Connections with 7 entries
+Fetched IP DNS Cache with 2 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol    src-address src-port dst-address dst-port   tcp-state  connection-mark
+     udp 51.158.156.235     5142    10.0.0.4     5060         NaN              NaN
+     udp 194.233.83.164     4000    10.0.0.4     5060         NaN              NaN
+     tcp  175.103.43.90    55433    10.0.0.4     7502 established              NaN
+
+[DNS]
+Sample DNS Entries:
+                          name            data
+global-balancer-d.mikrotik.com 159.148.147.244
+
+No Resolved Entries
+
+IP PUBLIC LAN : 172.188.58.135
+
+Public Address with 4 entries
+
+Count of each flow:
+IN.bound       : 5
+OUT.bound      : 2
+
+OTX result has been Fetched for 1 seconds
+Sample Entries from OTX:
+    indicator                             asn country_code2 name description modified created
+175.103.43.90 AS38320 pt maxindo mitra solusi            ID  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 57% ||||||||            tcp            : 43%
+flow              ==          IN.bound         : 71% ||||||||         OUT.bound         : 29%
+dst-port          ==            7502           : 29% ||||||||            5060           : 29% ||||||||            179            : 14% ||||||||            4500           : 14% ||||||||     others     : 29%
+dst-address       ==          10.0.0.4         : 71% ||||||||        20.205.36.71       : 29%
+src-address       ==       175.103.43.90       : 29% ||||||||          10.0.0.4         : 29% ||||||||        20.205.36.71       : 14% ||||||||       194.233.83.164      : 14% ||||||||     others     : 29%
+src-port          ==           55433           : 14% ||||||||           34788           : 14% ||||||||            4000           : 14% ||||||||            4500           : 14% ||||||||     others     : 57%
+cc                ==             HK            : 43% ||||||||             ID            : 29% ||||||||             SG            : 14% ||||||||             FR            : 14% ||||||||     others     : 14%
+asn               == AS8075 microsoft corporation : 43% |||||||| AS38320 pt maxindo mitra solusi : 29% |||||||| AS141995 contabo asia private limited : 14% ||||||||   AS12876 online s.a.s.   : 14% ||||||||     others     : 14%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol   src-address src-port  dst-address dst-port      flow   tcp-state  resolved  mark cc                             asn threat  description modified
+     udp      10.0.0.4     1701 20.205.36.71     1701 OUT.bound         NaN       NaN   NaN HK    AS8075 microsoft corporation    NaN          NaN      NaN
+     tcp 175.103.43.90    55433     10.0.0.4     7502  IN.bound established       NaN   NaN ID AS38320 pt maxindo mitra solusi    NaN          NaN      NaN
+
+Sample Entries from the Last 7 Days:
+b'protocol    src-address src-port dst-address dst-port     flow tcp-state  resolved  mark cc                                   asn                                  threat  description                modified\n     udp 194.233.83.164     4000    10.0.0.4     5060 IN.bound       NaN       NaN   NaN SG AS141995 contabo asia private limited ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 22:59:53.097\n     udp 51.158.156.235     5142    10.0.0.4     5060 IN.bound       NaN       NaN   NaN FR                 AS12876 online s.a.s. ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 22:59:53.097'
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+protocol    src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                                   asn                                  threat  description                modified
+     udp 194.233.83.164      4000    10.0.0.4      5060 IN.bound        NaN       NaN   NaN SG AS141995 contabo asia private limited ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 22:59:53.097
+     udp 51.158.156.235      5142    10.0.0.4      5060 IN.bound        NaN       NaN   NaN FR                 AS12876 online s.a.s. ETIC Cybersecurity 2023-11-15 Port Scan          NaN 2023-11-15 22:59:53.097
+Error adding address 51.158.156.235 to address list: failure: already have such entry
+Error adding address 194.233.83.164 to address list: failure: already have such entry
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
