@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,216.218.206.78,18053,10.0.0.4,5060,IN.bound,,,,US,AS6939 hurricane electric llc,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-16 06:20:18.969
