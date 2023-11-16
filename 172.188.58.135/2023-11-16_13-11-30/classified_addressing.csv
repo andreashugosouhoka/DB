@@ -1,0 +1,5 @@
+protocol,src-address,src-port,dst-address,dst-port,tcp-state,connection-mark,resolved,flow
+tcp,20.205.36.71,34788,10.0.0.4,179,established,,,IN.bound
+udp,10.0.0.4,4500,20.205.36.71,4500,,,,OUT.bound
+udp,10.0.0.4,1701,20.205.36.71,1701,,,,OUT.bound
+udp,112.111.41.105,55863,10.0.0.4,8610,,,,IN.bound
