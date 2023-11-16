@@ -1,0 +1,69 @@
+.......................................
+NG-Connection on (2023-11-16 10:06:16)
+
+Fetched IP Firewall Connections with 326 entries
+Fetched IP DNS Cache with 0 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol     src-address src-port     dst-address dst-port   tcp-state connection-mark
+     tcp  175.103.46.158    61450 172.217.194.188     5228 established             NaN
+     tcp  175.103.46.158    49568   142.250.190.3      443 established             NaN
+     udp 146.196.111.218    54651      10.79.16.9     1812         NaN     speedtest.c
+
+[DNS]
+Sample DNS Entries:
+Empty DataFrame
+Columns: [name, data]
+Index: []
+
+No Resolved Entries
+
+IP PUBLIC LAN : 146.196.111.218/32 || 175.103.46.156/30
+
+Public Address with 159 entries
+
+Count of each flow:
+OUT.bound      : 202
+IN.bound       : 108
+local          : 10
+broadcast      : 6
+
+OTX result has been Fetched for 3 minutes and 43 seconds
+Sample Entries from OTX:
+    indicator                asn country_code2 name description modified created
+142.250.4.139 AS15169 google llc            US  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 80% ||||||||            udp            : 18% ||||||||            icmp           : 2%
+flow              ==         OUT.bound         : 80% ||||||||          IN.bound         : 18% ||||||||           local           : 2% ||||||||         broadcast         : 1% ||||||||     others     : 1%
+dst-port          ==            443            : 58% ||||||||             80            : 10% ||||||||             53            : 3% ||||||||            5228           : 2% ||||||||     others     : 29%
+dst-address       ==       175.103.46.158      : 16% ||||||||        74.125.68.95       : 4% ||||||||       34.107.221.82       : 4% ||||||||       157.240.211.61      : 4% ||||||||     others     : 76%
+src-address       ==       175.103.46.158      : 79% ||||||||      146.196.111.218      : 2% ||||||||       43.134.53.107       : 2% ||||||||       43.134.120.219      : 2% ||||||||     others     : 17%
+src-port          ==            799            : 7% ||||||||            443            : 3% ||||||||             0             : 2% ||||||||            5678           : 1% ||||||||     others     : 89%
+cc                ==             US            : 26% ||||||||             SG            : 19% ||||||||             HK            : 9% ||||||||             ID            : 8% ||||||||     others     : 16%
+asn               ==     AS15169 google llc    : 19% |||||||| AS132203 tencent building  kejizhongyi avenue : 13% ||||||||   AS32934 facebook  inc.  : 11% |||||||| AS8075 microsoft corporation : 6% ||||||||     others     : 27%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol    src-address src-port    dst-address dst-port      flow   tcp-state resolved        mark  cc                                       asn threat description modified
+     tcp 175.103.46.158    53851 194.138.37.194      443 OUT.bound established      NaN speedtest.c NaN                                       NaN    NaN         NaN      NaN
+     tcp   8.210.217.47     1906 175.103.46.158    39800  IN.bound established      NaN speedtest.c  HK AS45102 alibaba (us) technology co.  ltd.    NaN         NaN      NaN
+
+Sample Entries from the Last 7 Days:
+b'protocol    src-address src-port    dst-address dst-port      flow   tcp-state resolved        mark cc                   asn                             threat                                                                        description                modified\n     tcp 175.103.46.158    50124  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50163  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50160  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50110  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50136  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50111  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50122  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50138  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50141  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50142  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50176  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50123  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp  198.74.56.135    42883 175.103.46.158       80  IN.bound       close      NaN         NaN US   AS63949 linode  llc                    Georgs Honeypot                                                                           Honeypot 2023-11-16 03:06:01.983\n     tcp 175.103.46.158    50185  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50174  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50112  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50118  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50143  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50161  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp  185.10.68.123      443 175.103.46.158    53675  IN.bound established      NaN speedtest.c SC AS200651 flokinet ltd IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-14 20:31:11.734\n     tcp 175.103.46.158    50119  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50135  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50117  34.107.221.82       80 OUT.bound established      NaN         NaN US    AS15169 google llc                            SOC2023                                                                                NaN 2023-11-15 11:59:37.006'
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+protocol   src-address  src-port    dst-address  dst-port     flow tcp-state  resolved  mark cc                 asn          threat description                modified
+     tcp 198.74.56.135     42883 175.103.46.158        80 IN.bound     close       NaN   NaN US AS63949 linode  llc Georgs Honeypot    Honeypot 2023-11-16 03:06:01.983
+Added address 198.74.56.135 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
