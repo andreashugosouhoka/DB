@@ -1,0 +1,24 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,175.103.46.158,50118,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50160,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50141,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50117,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,185.10.68.123,443,175.103.46.158,53675,IN.bound,established,,speedtest.c,SC,AS200651 flokinet ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-14 20:31:11.734
+tcp,175.103.46.158,50123,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50136,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50176,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50174,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,198.74.56.135,42883,175.103.46.158,80,IN.bound,close,,,US,AS63949 linode  llc,Georgs Honeypot,Honeypot,2023-11-16 03:06:01.983
+tcp,175.103.46.158,50138,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50112,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50122,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50143,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50161,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50119,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50185,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50110,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50111,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50163,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50124,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50142,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50135,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
