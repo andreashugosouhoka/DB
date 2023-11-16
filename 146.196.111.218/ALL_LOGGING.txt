@@ -1,5 +1,85 @@
 
 
+Timestamp: 2023-11-16 10:24:08
+.......................................
+NG-Connection on (2023-11-16 10:20:21)
+
+Fetched IP Firewall Connections with 571 entries
+Fetched IP DNS Cache with 0 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol    src-address src-port    dst-address dst-port   tcp-state connection-mark
+     tcp 175.103.46.158    25004    34.81.162.5     5938 established     speedtest.c
+     tcp 175.103.46.158    49524  142.251.10.95      443 established     speedtest.c
+     tcp 175.103.46.158    44100 157.240.211.61      443 established     speedtest.c
+
+[DNS]
+Sample DNS Entries:
+Empty DataFrame
+Columns: [name, data]
+Index: []
+
+No Resolved Entries
+
+IP PUBLIC LAN : 146.196.111.218/32 || 175.103.46.156/30
+
+Public Address with 234 entries
+
+Count of each flow:
+OUT.bound      : 452
+IN.bound       : 96
+broadcast      : 11
+local          : 10
+
+OTX result has been Fetched for 3 minutes and 44 seconds
+Sample Entries from OTX:
+    indicator                    asn country_code2 name description modified created
+52.76.110.238 AS16509 amazon.com inc            SG  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 83% ||||||||            udp            : 17% ||||||||            icmp           : 1%
+flow              ==         OUT.bound         : 79% ||||||||          IN.bound         : 17% ||||||||         broadcast         : 2% ||||||||           local           : 2% ||||||||     others     : 2%
+dst-port          ==            443            : 57% ||||||||             80            : 10% ||||||||            799            : 3% ||||||||            5228           : 2% ||||||||     others     : 31%
+dst-address       ==       175.103.46.158      : 15% ||||||||       142.251.10.95       : 6% ||||||||       157.240.211.61      : 4% ||||||||       216.239.38.120      : 3% ||||||||     others     : 76%
+src-address       ==       175.103.46.158      : 80% ||||||||       43.134.53.107       : 2% ||||||||       43.134.120.219      : 1% ||||||||      146.196.111.218      : 1% ||||||||     others     : 17%
+src-port          ==            799            : 6% ||||||||            443            : 3% ||||||||            5678           : 2% ||||||||           13501           : 1% ||||||||     others     : 90%
+cc                ==             US            : 40% ||||||||             SG            : 24% ||||||||             HK            : 10% ||||||||             ID            : 9% ||||||||     others     : 22%
+asn               ==     AS15169 google llc    : 26% |||||||| AS132203 tencent building  kejizhongyi avenue : 14% ||||||||   AS32934 facebook  inc.  : 12% |||||||| AS8075 microsoft corporation : 9% ||||||||     others     : 44%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol    src-address src-port   dst-address dst-port      flow   tcp-state  resolved        mark cc                                           asn  threat description                   modified
+     tcp 175.103.46.158    50199 34.107.221.82       80 OUT.bound    last-ack       NaN         NaN US                            AS15169 google llc SOC2023         NaN 2023-11-15T11:59:37.006000
+     tcp 175.103.46.158    36852 43.133.45.194      799 OUT.bound established       NaN speedtest.c SG AS132203 tencent building  kejizhongyi avenue     NaN         NaN                        NaN
+
+Sample Entries from the Last 7 Days:
+b'protocol    src-address src-port    dst-address dst-port      flow   tcp-state  resolved        mark cc                                           asn                                                                threat                                                                                          description                modified\n     udp   64.235.37.62    53407 175.103.46.157     5060  IN.bound         NaN       NaN speedtest.c NL               AS26277 las vegas nv datacenter                               ETIC Cybersecurity 2023-11-15 Port Scan                                                                                                  NaN 2023-11-15 22:59:53.097\n     tcp 175.103.46.158    50214  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    37214   34.117.59.81      443 OUT.bound established       NaN speedtest.c US                               AS396982 google                                                        CVE-2021-27065 The full text of the Microsoft Exchange Server Remote Code Execution Vulnerability (RCV) in its late 2023-11-16 03:04:23.777\n     tcp  185.169.4.105    42274 175.103.46.156     3389  IN.bound    syn-sent       NaN         NaN GB                        AS43463 infocom uk ltd                                                       Georgs Honeypot                                                                                             Honeypot 2023-11-16 03:20:07.268\n     tcp  36.95.251.155    49602 175.103.46.159     1433  IN.bound    syn-sent       NaN         NaN ID            AS7713 pt telekomunikasi indonesia                                    IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-14 20:31:11.734\n     tcp 175.103.46.158    50213  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50206  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50304  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50199  34.107.221.82       80 OUT.bound    last-ack       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50298  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    59021  152.195.38.76       80 OUT.bound established       NaN speedtest.c US                               AS15133 verizon                                                            Black Tech Found in a malicious Apple iTunes link. Lists several independent artists. Music "producer" is poten 2023-11-13 12:00:59.446\n     tcp  36.95.251.155    49588 175.103.46.156     1433  IN.bound    syn-sent       NaN         NaN ID            AS7713 pt telekomunikasi indonesia                                    IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-14 20:31:11.734\n     tcp 175.103.46.158    50299  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50204  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50305  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    59023  34.104.35.123       80 OUT.bound established       NaN speedtest.c US                            AS15169 google llc                                            Application Layer Protocol Critical. Fitbit download link found in Google search results.\\n[https://play.google.com/store/apps/ 2023-11-13 22:04:06.580\n     tcp  185.10.68.123      443 175.103.46.158    53675  IN.bound established       NaN speedtest.c SC                         AS200651 flokinet ltd                                    IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-14 20:31:11.734\n     tcp 175.103.46.158    50306  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50297  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    62191  20.189.173.14      443 OUT.bound       close       NaN speedtest.c US                  AS8075 microsoft corporation                                                              bkp16oct                                                                                                  NaN 2023-11-15 00:01:55.056\n     udp 175.103.46.158    51408  142.251.10.84      443 OUT.bound         NaN       NaN speedtest.c US                            AS15169 google llc Apple | iOS | Automated Attacks | Resource Hijacking | Google Tracker Boot or Logon Autostart Execution\\nCommand and Scripting Interpreter\\nAutomated Collection\\nWebToolb 2023-11-15 19:05:43.285\n     tcp 175.103.46.158    62060  20.189.173.14      443 OUT.bound       close       NaN speedtest.c US                  AS8075 microsoft corporation                                                              bkp16oct                                                                                                  NaN 2023-11-15 00:01:55.056\n     tcp 175.103.46.158    50216  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp  36.95.251.155    49596 175.103.46.158     1433  IN.bound    syn-sent       NaN         NaN ID            AS7713 pt telekomunikasi indonesia                                    IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-14 20:31:11.734\n     tcp  39.106.18.244    44561 175.103.46.159     8090  IN.bound    syn-sent       NaN         NaN CN AS37963 hangzhou alibaba advertising co. ltd.                               ETIC Cybersecurity 2023-11-15 Port Scan                                                                                                  NaN 2023-11-15 22:59:53.097\n     tcp 175.103.46.158    50215  34.107.221.82       80 OUT.bound established       NaN         NaN US                            AS15169 google llc                                                               SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006'
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+protocol    src-address  src-port    dst-address  dst-port      flow   tcp-state  resolved        mark cc                                           asn                                  threat                                                                                          description                modified
+     tcp  39.106.18.244     44561 175.103.46.159      8090  IN.bound    syn-sent       NaN         NaN CN AS37963 hangzhou alibaba advertising co. ltd. ETIC Cybersecurity 2023-11-15 Port Scan                                                                                                  NaN 2023-11-15 22:59:53.097
+     udp   64.235.37.62     53407 175.103.46.157      5060  IN.bound         NaN       NaN speedtest.c NL               AS26277 las vegas nv datacenter ETIC Cybersecurity 2023-11-15 Port Scan                                                                                                  NaN 2023-11-15 22:59:53.097
+     tcp 175.103.46.158     59021  152.195.38.76        80 OUT.bound established       NaN speedtest.c US                               AS15133 verizon                              Black Tech Found in a malicious Apple iTunes link. Lists several independent artists. Music "producer" is poten 2023-11-13 12:00:59.446
+     tcp  185.169.4.105     42274 175.103.46.156      3389  IN.bound    syn-sent       NaN         NaN GB                        AS43463 infocom uk ltd                         Georgs Honeypot                                                                                             Honeypot 2023-11-16 03:20:07.268
+Added address 152.195.38.76 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 39.106.18.244 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 185.169.4.105 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 64.235.37.62 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+
+
+
+
 Timestamp: 2023-11-16 10:12:58
 Error executing the script. Error: Traceback (most recent call last):
   File "F:\PYT\FLASK 2 auto\TAKE 33 cloning sync\analyzer.py", line 583, in <module>
