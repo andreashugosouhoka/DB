@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,tcp-state,connection-mark,resolved
+udp,10.0.0.4,4500,20.205.36.71,4500,,,
+tcp,10.0.0.4,179,20.205.36.71,34788,established,,
+udp,10.0.0.4,1701,20.205.36.71,1701,,,
+tcp,10.0.0.4,4075,175.103.43.90,57452,established,,
+udp,192.168.55.2,5678,255.255.255.255,5678,,,
