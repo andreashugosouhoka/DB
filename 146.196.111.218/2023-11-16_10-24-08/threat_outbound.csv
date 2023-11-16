@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,175.103.46.158,59021,152.195.38.76,80,OUT.bound,established,,speedtest.c,US,AS15133 verizon,Black Tech,"Found in a malicious Apple iTunes link. Lists several independent artists. Music ""producer"" is poten",2023-11-13 12:00:59.446
