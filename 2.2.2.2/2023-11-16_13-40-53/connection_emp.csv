@@ -1,0 +1,8 @@
+protocol,src-address,src-port,dst-address,dst-port,tcp-state,connection-mark
+udp,10.0.0.4,4500,20.205.36.71,4500,,
+tcp,10.0.0.4,179,20.205.36.71,34788,established,
+udp,10.0.0.4,1701,20.205.36.71,1701,,
+tcp,10.0.0.4,4075,175.103.43.90,57452,established,
+icmp,3.144.111.33,None,10.0.0.4,None,,
+udp,183.150.217.64,54817,10.0.0.4,8610,,
+icmp,18.227.134.92,None,10.0.0.4,None,,
