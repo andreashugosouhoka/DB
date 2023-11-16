@@ -1,0 +1,209 @@
+
+
+Timestamp: 2023-11-16 13:25:48
+.......................................
+NG-Connection on (2023-11-16 13:25:42)
+
+Fetched IP Firewall Connections with 12 entries
+Fetched IP DNS Cache with 1 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol    src-address src-port  dst-address dst-port   tcp-state  connection-mark
+     udp 112.111.41.105    64320     10.0.0.4     8610         NaN              NaN
+     tcp   20.205.36.71    34788     10.0.0.4      179 established              NaN
+     udp       10.0.0.4     1701 20.205.36.71     1701         NaN              NaN
+
+[DNS]
+Sample DNS Entries:
+                          name            data
+global-balancer-d.mikrotik.com 159.148.147.244
+
+No Resolved Entries
+
+IP PUBLIC LAN : 2.2.2.2/32
+
+Public Address with 7 entries
+
+Count of each flow:
+IN.bound       : 7
+OUT.bound      : 2
+
+OTX result has been Fetched for 5 seconds
+Sample Entries from OTX:
+   indicator                          asn country_code2 name description modified created
+20.205.36.71 AS8075 microsoft corporation            HK  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 56% ||||||||            icmp           : 33% ||||||||            tcp            : 11%
+flow              ==          IN.bound         : 78% ||||||||         OUT.bound         : 22%
+dst-port          ==             0             : 33% ||||||||            8610           : 22% ||||||||            179            : 11% ||||||||            4500           : 11% ||||||||     others     : 33%
+dst-address       ==          10.0.0.4         : 78% ||||||||        20.205.36.71       : 22%
+src-address       ==          10.0.0.4         : 22% ||||||||        20.205.36.71       : 11% ||||||||       216.218.206.78      : 11% ||||||||        3.14.127.112       : 11% ||||||||     others     : 56%
+src-port          ==             0             : 33% ||||||||           34788           : 11% ||||||||            4500           : 11% ||||||||           18053           : 11% ||||||||     others     : 44%
+cc                ==             US            : 44% ||||||||             HK            : 33% ||||||||             CN            : 22%
+asn               == AS8075 microsoft corporation : 33% ||||||||   AS16509 amazon.com inc  : 33% |||||||| AS6939 hurricane electric llc : 11% |||||||| AS4837 china unicom china169 backbone : 11% ||||||||     others     : 22%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol    src-address src-port dst-address dst-port     flow tcp-state  resolved  mark cc                           asn                                   threat                                     description                   modified
+     udp 183.150.217.64    62508    10.0.0.4     8610 IN.bound       NaN       NaN   NaN CN               AS4134 chinanet                                      NaN                                             NaN                        NaN
+     udp 216.218.206.78    18053    10.0.0.4     5060 IN.bound       NaN       NaN   NaN US AS6939 hurricane electric llc Webscanners 2018-02-09  thru current day Automated detection of webscanners based on 404 2023-11-16T06:25:13.452000
+
+Sample Entries from the Last 7 Days:
+b'protocol    src-address src-port dst-address dst-port     flow tcp-state  resolved  mark cc                           asn                                   threat                                     description                modified\n     udp 216.218.206.78    18053    10.0.0.4     5060 IN.bound       NaN       NaN   NaN US AS6939 hurricane electric llc Webscanners 2018-02-09  thru current day Automated detection of webscanners based on 404 2023-11-16 06:25:13.452'
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+protocol    src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                           asn                                   threat                                     description                modified
+     udp 216.218.206.78     18053    10.0.0.4      5060 IN.bound        NaN       NaN   NaN US AS6939 hurricane electric llc Webscanners 2018-02-09  thru current day Automated detection of webscanners based on 404 2023-11-16 06:25:13.452
+Error adding address 216.218.206.78 to address list: failure: already have such entry
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+
+
+Timestamp: 2023-11-16 13:25:31
+.......................................
+NG-Connection on (2023-11-16 13:25:27)
+
+Fetched IP Firewall Connections with 7 entries
+Fetched IP DNS Cache with 1 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol   src-address src-port     dst-address dst-port   tcp-state  connection-mark
+     tcp 175.103.43.90    57334        10.0.0.4     7502 established              NaN
+     tcp  20.205.36.71    34788        10.0.0.4      179 established              NaN
+     udp  192.168.55.2     5678 255.255.255.255     5678         NaN              NaN
+
+[DNS]
+Sample DNS Entries:
+                          name            data
+global-balancer-d.mikrotik.com 159.148.147.244
+
+No Resolved Entries
+
+IP PUBLIC LAN : 2.2.2.2/32
+
+Public Address with 3 entries
+
+Count of each flow:
+IN.bound       : 4
+OUT.bound      : 2
+broadcast      : 1
+
+OTX result has been Fetched for 3 seconds
+Sample Entries from OTX:
+   indicator                          asn country_code2 name description modified created
+20.205.36.71 AS8075 microsoft corporation            HK  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 57% ||||||||            tcp            : 43%
+flow              ==          IN.bound         : 57% ||||||||         OUT.bound         : 29% ||||||||         broadcast         : 14%
+dst-port          ==            7502           : 29% ||||||||            179            : 14% ||||||||            4500           : 14% ||||||||            5060           : 14% ||||||||     others     : 43%
+dst-address       ==          10.0.0.4         : 57% ||||||||        20.205.36.71       : 29% ||||||||      255.255.255.255      : 14%
+src-address       ==          10.0.0.4         : 29% ||||||||       175.103.43.90       : 29% ||||||||        20.205.36.71       : 14% ||||||||       216.218.206.78      : 14% ||||||||     others     : 29%
+src-port          ==           34788           : 14% ||||||||            4500           : 14% ||||||||           18053           : 14% ||||||||            1701           : 14% ||||||||     others     : 57%
+cc                ==             HK            : 43% ||||||||             ID            : 29% ||||||||             US            : 14%
+asn               == AS8075 microsoft corporation : 43% |||||||| AS38320 pt maxindo mitra solusi : 29% |||||||| AS6939 hurricane electric llc : 14%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol   src-address src-port dst-address dst-port     flow   tcp-state  resolved  mark cc                             asn threat description modified
+     tcp  20.205.36.71    34788    10.0.0.4      179 IN.bound established       NaN   NaN HK    AS8075 microsoft corporation    NaN         NaN      NaN
+     tcp 175.103.43.90    57334    10.0.0.4     7502 IN.bound established       NaN   NaN ID AS38320 pt maxindo mitra solusi    NaN         NaN      NaN
+
+Sample Entries from the Last 7 Days:
+b'protocol    src-address src-port dst-address dst-port     flow tcp-state  resolved  mark cc                           asn                                   threat                                     description                modified\n     udp 216.218.206.78    18053    10.0.0.4     5060 IN.bound       NaN       NaN   NaN US AS6939 hurricane electric llc Webscanners 2018-02-09  thru current day Automated detection of webscanners based on 404 2023-11-16 06:25:13.452'
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+protocol    src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                           asn                                   threat                                     description                modified
+     udp 216.218.206.78     18053    10.0.0.4      5060 IN.bound        NaN       NaN   NaN US AS6939 hurricane electric llc Webscanners 2018-02-09  thru current day Automated detection of webscanners based on 404 2023-11-16 06:25:13.452
+Error adding address 216.218.206.78 to address list: failure: already have such entry
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+
+
+Timestamp: 2023-11-16 13:25:16
+.......................................
+NG-Connection on (2023-11-16 13:25:12)
+
+Fetched IP Firewall Connections with 7 entries
+Fetched IP DNS Cache with 1 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol    src-address src-port dst-address dst-port   tcp-state  connection-mark
+     tcp   20.205.36.71    34788    10.0.0.4      179 established              NaN
+     udp 112.111.41.105    50740    10.0.0.4     8610         NaN              NaN
+     tcp  175.103.43.90    57316    10.0.0.4     7502   time-wait              NaN
+
+[DNS]
+Sample DNS Entries:
+                          name            data
+global-balancer-d.mikrotik.com 159.148.147.244
+
+No Resolved Entries
+
+IP PUBLIC LAN : 2.2.2.2/32
+
+Public Address with 4 entries
+
+Count of each flow:
+IN.bound       : 5
+OUT.bound      : 2
+
+OTX result has been Fetched for 3 seconds
+Sample Entries from OTX:
+    indicator                             asn country_code2 name description modified created
+175.103.43.90 AS38320 pt maxindo mitra solusi            ID  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 57% ||||||||            tcp            : 43%
+flow              ==          IN.bound         : 71% ||||||||         OUT.bound         : 29%
+dst-port          ==            7502           : 29% ||||||||            8610           : 14% ||||||||            179            : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
+dst-address       ==          10.0.0.4         : 71% ||||||||        20.205.36.71       : 29%
+src-address       ==       175.103.43.90       : 29% ||||||||          10.0.0.4         : 29% ||||||||       112.111.41.105      : 14% ||||||||        20.205.36.71       : 14% ||||||||     others     : 29%
+src-port          ==           50740           : 14% ||||||||           34788           : 14% ||||||||           57317           : 14% ||||||||           57316           : 14% ||||||||     others     : 57%
+cc                ==             HK            : 43% ||||||||             ID            : 29% ||||||||             CN            : 14% ||||||||             US            : 14% ||||||||     others     : 14%
+asn               == AS8075 microsoft corporation : 43% |||||||| AS38320 pt maxindo mitra solusi : 29% |||||||| AS4837 china unicom china169 backbone : 14% |||||||| AS6939 hurricane electric llc : 14% ||||||||     others     : 14%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol src-address src-port  dst-address dst-port      flow tcp-state  resolved  mark cc                          asn threat description modified
+     udp    10.0.0.4     4500 20.205.36.71     4500 OUT.bound       NaN       NaN   NaN HK AS8075 microsoft corporation    NaN         NaN      NaN
+     udp    10.0.0.4     1701 20.205.36.71     1701 OUT.bound       NaN       NaN   NaN HK AS8075 microsoft corporation    NaN         NaN      NaN
+
+Sample Entries from the Last 7 Days:
+b'protocol    src-address src-port dst-address dst-port     flow tcp-state  resolved  mark cc                           asn                                   threat                                     description                modified\n     udp 216.218.206.78    18053    10.0.0.4     5060 IN.bound       NaN       NaN   NaN US AS6939 hurricane electric llc Webscanners 2018-02-09  thru current day Automated detection of webscanners based on 404 2023-11-16 06:25:13.452'
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+protocol    src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                           asn                                   threat                                     description                modified
+     udp 216.218.206.78     18053    10.0.0.4      5060 IN.bound        NaN       NaN   NaN US AS6939 hurricane electric llc Webscanners 2018-02-09  thru current day Automated detection of webscanners based on 404 2023-11-16 06:25:13.452
+Error adding address 216.218.206.78 to address list: failure: already have such entry
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+POWERED BY NG-Connection [AUTO] Threat Verdict
