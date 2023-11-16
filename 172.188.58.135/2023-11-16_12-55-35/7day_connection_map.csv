@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,194.233.83.164,4000,10.0.0.4,5060,IN.bound,,,,SG,AS141995 contabo asia private limited,ETIC Cybersecurity 2023-11-15 Port Scan,,2023-11-15 22:59:53.097
