@@ -1,5 +1,79 @@
 
 
+Timestamp: 2023-11-16 10:08:59
+.......................................
+NG-Connection on (2023-11-16 10:02:09)
+
+Fetched IP Firewall Connections with 1173 entries
+Fetched IP DNS Cache with 0 entries
+Raw Connection data is Extracted'
+Raw DNS data is Extracted
+
+[Connections]
+Sample Entries:
+protocol    src-address src-port     dst-address dst-port   tcp-state connection-mark
+     tcp 175.103.46.158    49246 129.226.106.210      443   time-wait     speedtest.c
+     tcp 175.103.46.158    48542    157.240.7.53      443 established     speedtest.c
+     tcp 157.240.235.60      443  175.103.46.158    64870 established     speedtest.c
+
+[DNS]
+Sample DNS Entries:
+Empty DataFrame
+Columns: [name, data]
+Index: []
+
+No Resolved Entries
+
+IP PUBLIC LAN : 146.196.111.218/32 || 175.103.46.156/30
+
+Public Address with 388 entries
+
+Count of each flow:
+OUT.bound      : 832
+IN.bound       : 325
+local          : 10
+broadcast      : 6
+
+OTX result has been Fetched for 6 minutes and 46 seconds
+Sample Entries from OTX:
+     indicator                    asn country_code2 name description modified created
+54.255.247.221 AS16509 amazon.com inc            SG  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 86% ||||||||            udp            : 10% ||||||||            icmp           : 3%
+flow              ==         OUT.bound         : 62% ||||||||          IN.bound         : 33% ||||||||           local           : 3% ||||||||         broadcast         : 2% ||||||||     others     : 2%
+dst-port          ==            443            : 41% ||||||||             80            : 8% ||||||||             0             : 3% ||||||||            5228           : 3% ||||||||     others     : 48%
+dst-address       ==       175.103.46.158      : 27% ||||||||        74.125.68.95       : 4% ||||||||      146.196.111.218      : 4% ||||||||      129.226.103.123      : 3% ||||||||     others     : 65%
+src-address       ==       175.103.46.158      : 63% ||||||||       43.134.53.107       : 3% ||||||||       43.134.120.219      : 3% ||||||||       43.133.45.194       : 2% ||||||||     others     : 31%
+src-port          ==            799            : 12% ||||||||            443            : 6% ||||||||             0             : 3% ||||||||            5678           : 2% ||||||||     others     : 79%
+cc                ==             SG            : 29% ||||||||             US            : 23% ||||||||             HK            : 10% ||||||||             ID            : 8% ||||||||     others     : 16%
+asn               == AS132203 tencent building  kejizhongyi avenue : 20% ||||||||     AS15169 google llc    : 13% ||||||||   AS32934 facebook  inc.  : 9% ||||||||   AS16509 amazon.com inc  : 5% ||||||||     others     : 35%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Sample NG-Connection Entries :
+protocol    src-address src-port     dst-address dst-port      flow tcp-state  resolved        mark  cc                                           asn threat description modified
+     tcp 175.103.46.158    43619 129.226.106.210      443 OUT.bound time-wait       NaN speedtest.c  HK AS132203 tencent building  kejizhongyi avenue    NaN         NaN      NaN
+     udp 175.103.46.158    56231   74.125.68.190      443 OUT.bound       NaN       NaN speedtest.c NaN                                           NaN    NaN         NaN      NaN
+
+Sample Entries from the Last 7 Days:
+b'protocol    src-address src-port    dst-address dst-port      flow   tcp-state  resolved        mark cc                          asn                             threat                                                                                          description                modified\n     tcp 131.253.33.203      443 175.103.46.158    50824  IN.bound  close-wait       NaN         NaN US AS8068 microsoft corporation                     Threat Network Malvertizing,\\nt.call,  \\nHello,\\nhttps://www.milehighmedia.com/legal/2257,\\nphishing,\\ntrojanspywar 2023-11-15 20:21:06.879\n     tcp 175.103.46.158    50110  34.107.221.82       80 OUT.bound established       NaN         NaN US           AS15169 google llc                            SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp  185.10.68.123      443 175.103.46.158    53675  IN.bound established       NaN speedtest.c SC        AS200651 flokinet ltd IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-14 20:31:11.734\n     tcp 175.103.46.158    50112  34.107.221.82       80 OUT.bound established       NaN         NaN US           AS15169 google llc                            SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006\n     tcp 175.103.46.158    50111  34.107.221.82       80 OUT.bound established       NaN         NaN US           AS15169 google llc                            SOC2023                                                                                                  NaN 2023-11-15 11:59:37.006'
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+Empty DataFrame
+Columns: [protocol, src-address, src-port, dst-address, dst-port, flow, tcp-state, resolved, mark, cc, asn, threat, description, modified]
+Index: []
+Raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+Raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+POWERED BY NG-Connection [AUTO] Threat Verdict
+
+
+
 Timestamp: 2023-11-16 10:01:58
 .......................................
 NG-Connection on (2023-11-16 09:56:02)
