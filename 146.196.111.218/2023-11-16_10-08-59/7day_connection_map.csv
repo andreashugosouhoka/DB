@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,175.103.46.158,50110,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50111,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,175.103.46.158,50112,34.107.221.82,80,OUT.bound,established,,,US,AS15169 google llc,SOC2023,,2023-11-15 11:59:37.006
+tcp,185.10.68.123,443,175.103.46.158,53675,IN.bound,established,,speedtest.c,SC,AS200651 flokinet ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-14 20:31:11.734
+tcp,131.253.33.203,443,175.103.46.158,50824,IN.bound,close-wait,,,US,AS8068 microsoft corporation,Threat Network,"Malvertizing,\nt.call,  \nHello,\nhttps://www.milehighmedia.com/legal/2257,\nphishing,\ntrojanspywar",2023-11-15 20:21:06.879
