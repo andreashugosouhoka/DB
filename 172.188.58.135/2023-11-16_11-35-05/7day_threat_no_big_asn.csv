@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,51.158.156.235,5142,10.0.0.4,5060,IN.bound,,,,FR,AS12876 online s.a.s.,ETIC Cybersecurity 2023-11-15 Port Scan,,2023-11-15 22:59:53.097
