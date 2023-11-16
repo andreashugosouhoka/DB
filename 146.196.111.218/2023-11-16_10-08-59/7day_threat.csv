@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,131.253.33.203,443,175.103.46.158,50824,IN.bound,close-wait,,,US,AS8068 microsoft corporation,Threat Network,"Malvertizing,\nt.call,  \nHello,\nhttps://www.milehighmedia.com/legal/2257,\nphishing,\ntrojanspywar",2023-11-15 20:21:06.879
