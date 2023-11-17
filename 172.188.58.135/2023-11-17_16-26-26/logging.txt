@@ -1,0 +1,71 @@
+.......................................
+NG-Connection on: 2023-11-17 16:25:44
+
+Fetched IP Firewall Connections with 99 entries
+Fetched IP DNS Cache with 579 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Connections]
+protocol    src-address src-port     dst-address dst-port   tcp-state  connection-mark
+     tcp 192.168.55.150    61003   74.125.68.155      443 established              NaN
+    icmp 192.168.55.150     None 203.190.242.211     None         NaN              NaN
+     tcp 192.168.55.150    61184    52.84.228.19      443 established              NaN
+
+[DNS]
+                      name            data
+    euw1.smartadserver.com    81.17.55.112
+pubads46.g.doubleclick.net 172.217.194.156
+    ads.adnuntius.delivery    172.67.172.5
+
+Sample Entries with Resolved Values:
+protocol  src-address   src-port   dst-address   dst-port  tcp-state   connection-mark               resolved              
+  tcp    192.168.55.150  61070   172.217.194.154   443    established       NaN                  pubads46.g.doubleclick.net
+  tcp    192.168.55.150  61126     172.66.42.247   443    established       NaN                        router.infolinks.com
+  tcp    192.168.55.150  61043     104.18.21.134   443    established       NaN        idsync.reson8.com.cdn.cloudflare.net
+
+IP PUBLIC LAN : 172.188.58.135
+
+Public Address with 72 entries
+
+Count of each flow:
+OUT.bound      : 92
+IN.bound       : 8
+
+OTX result has been Fetched for 39 seconds
+
+[OTX]
+     indicator                asn country_code2 name description modified created
+104.17.216.204 AS13335 cloudflare            US  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 87% ||||||||            icmp           : 8% ||||||||            udp            : 5%
+flow              ==         OUT.bound         : 92% ||||||||          IN.bound         : 8%
+dst-port          ==            443            : 89% ||||||||             0             : 8% ||||||||            4500           : 1% ||||||||            1701           : 1% ||||||||     others     : 2%
+dst-address       ==      203.190.242.211      : 10% ||||||||          10.0.0.4         : 8% ||||||||       69.173.158.64       : 3% ||||||||        13.33.88.46        : 3% ||||||||     others     : 79%
+src-address       ==       192.168.55.150      : 90% ||||||||       175.103.43.90       : 3% ||||||||          10.0.0.4         : 2% ||||||||       108.137.50.54       : 1% ||||||||     others     : 5%
+src-port          ==             0             : 8% ||||||||           61003           : 2% ||||||||           61070           : 2% ||||||||           61007           : 2% ||||||||     others     : 88%
+cc                ==             US            : 67% ||||||||             ID            : 19% ||||||||             SG            : 8% ||||||||             AU            : 2% ||||||||     others     : 6%
+asn               ==   AS16509 amazon.com inc  : 19% ||||||||     AS15169 google llc    : 15% ||||||||       AS24211 detik       : 10% ||||||||     AS13335 cloudflare    : 8% ||||||||     others     : 56%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+protocol    src-address src-port    dst-address dst-port      flow   tcp-state                         resolved  mark cc                asn threat description modified
+     tcp 192.168.55.150    60994 142.251.12.132      443 OUT.bound established pagead-googlehosted.l.google.com   NaN US AS15169 google llc    NaN         NaN      NaN
+
+Information Related from the Last 7 Days:
+protocol    src-address src-port    dst-address dst-port      flow   tcp-state resolved  mark cc                  asn     threat description                modified
+     tcp 192.168.55.150    61029 104.244.42.195      443 OUT.bound established      NaN   NaN US AS13414 twitter inc. WHO IS NIC         NaN 2023-11-14 06:01:29.027
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+No Last 7 days Potential Threat Entries !Big ASN.
+
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
