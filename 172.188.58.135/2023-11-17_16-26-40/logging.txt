@@ -1,0 +1,66 @@
+.......................................
+NG-Connection on: 2023-11-17 16:26:37
+
+Fetched IP Firewall Connections with 4 entries
+Fetched IP DNS Cache with 512 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Connections]
+protocol    src-address src-port    dst-address dst-port tcp-state  connection-mark
+    icmp       10.0.0.4     None 202.58.182.241     None       NaN              NaN
+     udp 112.111.41.105    54276       10.0.0.4     8610       NaN              NaN
+    icmp       10.0.0.4     None  175.103.43.90     None       NaN              NaN
+
+[DNS]
+                  name         data
+  lb.eu-1-id5-sync.com 141.95.98.65
+euw2.smartadserver.com 5.196.111.64
+    applets.ebxcdn.com 172.64.160.3
+
+Sample Entries with Resolved Values:
+protocol src-address src-port  dst-address   dst-port tcp-state  connection-mark     resolved   
+  icmp     10.0.0.4     0     202.58.182.241    0        NaN          NaN        bcs.binus.ac.id
+
+IP PUBLIC LAN : 172.188.58.135
+
+Public Address with 3 entries
+
+Count of each flow:
+OUT.bound      : 3
+IN.bound       : 1
+
+OTX result has been Fetched for 1 seconds
+
+[OTX]
+     indicator                                   asn country_code2 name description modified created
+112.111.41.105 AS4837 china unicom china169 backbone            CN  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            icmp           : 50% ||||||||            tcp            : 25% ||||||||            udp            : 25%
+flow              ==         OUT.bound         : 75% ||||||||          IN.bound         : 25%
+dst-port          ==             0             : 50% ||||||||           57307           : 25% ||||||||            8610           : 25%
+dst-address       ==       175.103.43.90       : 50% ||||||||       202.58.182.241      : 25% ||||||||          10.0.0.4         : 25%
+src-address       ==          10.0.0.4         : 75% ||||||||       112.111.41.105      : 25%
+src-port          ==             0             : 50% ||||||||            4075           : 25% ||||||||           54276           : 25%
+cc                ==             ID            : 75% ||||||||             CN            : 25%
+asn               == AS38320 pt maxindo mitra solusi : 50% |||||||| AS24526 bina nusantara university : 25% |||||||| AS4837 china unicom china169 backbone : 25%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+protocol src-address src-port   dst-address dst-port      flow tcp-state resolved  mark cc                             asn  threat  description  modified
+    icmp    10.0.0.4        0 175.103.43.90        0 OUT.bound       NaN      NaN   NaN ID AS38320 pt maxindo mitra solusi     NaN          NaN       NaN
+..
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+No Last 7 days Potential Threat Entries !Big ASN.
+
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
