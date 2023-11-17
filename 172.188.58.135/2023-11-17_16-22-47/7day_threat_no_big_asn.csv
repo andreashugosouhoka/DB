@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,207.188.6.237,8082,10.0.0.4,5060,IN.bound,,,,US,AS396356 maxihost llc,ETIC Cybersecurity 2023-11-16 Port Scan,,2023-11-16 22:59:32.686
