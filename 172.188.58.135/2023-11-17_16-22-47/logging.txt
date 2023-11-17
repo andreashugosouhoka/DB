@@ -1,0 +1,72 @@
+.......................................
+NG-Connection on: 2023-11-17 16:22:44
+
+Fetched IP Firewall Connections with 7 entries
+Fetched IP DNS Cache with 179 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Connections]
+protocol  src-address src-port   dst-address dst-port   tcp-state  connection-mark
+     udp     10.0.0.4     1701  20.205.36.71     1701         NaN              NaN
+    icmp     10.0.0.4     None 175.103.43.90     None         NaN              NaN
+     tcp 20.205.36.71    34788      10.0.0.4      179 established              NaN
+
+[DNS]
+              name           data
+data.cdnbasket.net 34.149.164.179
+    mood.detik.com 103.49.221.122
+   bcs.binus.ac.id 202.58.182.241
+
+Sample Entries with Resolved Values:
+protocol src-address src-port  dst-address   dst-port tcp-state  connection-mark     resolved   
+  icmp     10.0.0.4     0     202.58.182.241    0        NaN          NaN        bcs.binus.ac.id
+
+IP PUBLIC LAN : 172.188.58.135
+
+Public Address with 4 entries
+
+Count of each flow:
+OUT.bound      : 4
+IN.bound       : 3
+
+OTX result has been Fetched for 2 seconds
+
+[OTX]
+    indicator                   asn country_code2                                    name description                   modified                    created
+207.188.6.237 AS396356 maxihost llc            US ETIC Cybersecurity 2023-11-16 Port Scan             2023-11-16T22:59:32.686000 2023-11-15T23:00:04.487000
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 43% ||||||||            tcp            : 29% ||||||||            icmp           : 29%
+flow              ==         OUT.bound         : 57% ||||||||          IN.bound         : 43%
+dst-port          ==             0             : 29% ||||||||            4075           : 14% ||||||||            179            : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
+dst-address       ==          10.0.0.4         : 43% ||||||||        20.205.36.71       : 29% ||||||||       202.58.182.241      : 14% ||||||||       175.103.43.90       : 14% ||||||||     others     : 14%
+src-address       ==          10.0.0.4         : 57% ||||||||       175.103.43.90       : 14% ||||||||        20.205.36.71       : 14% ||||||||       207.188.6.237       : 14% ||||||||     others     : 14%
+src-port          ==             0             : 29% ||||||||           57307           : 14% ||||||||           34788           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
+cc                ==             ID            : 43% ||||||||             HK            : 43% ||||||||             US            : 14%
+asn               == AS8075 microsoft corporation : 43% |||||||| AS38320 pt maxindo mitra solusi : 29% |||||||| AS24526 bina nusantara university : 14% ||||||||   AS396356 maxihost llc   : 14% ||||||||     others     : 14%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+protocol src-address src-port    dst-address dst-port      flow tcp-state        resolved  mark cc                               asn threat  description modified
+    icmp    10.0.0.4        0 202.58.182.241        0 OUT.bound       NaN bcs.binus.ac.id   NaN ID AS24526 bina nusantara university    NaN          NaN      NaN
+
+Information Related from the Last 7 Days:
+protocol   src-address src-port dst-address dst-port     flow tcp-state resolved  mark cc                   asn                                  threat  description                modified
+     udp 207.188.6.237     8082    10.0.0.4     5060 IN.bound       NaN      NaN   NaN US AS396356 maxihost llc ETIC Cybersecurity 2023-11-16 Port Scan          NaN 2023-11-16 22:59:32.686
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol   src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                   asn                                  threat  description                modified
+     udp 207.188.6.237      8082    10.0.0.4      5060 IN.bound        NaN       NaN   NaN US AS396356 maxihost llc ETIC Cybersecurity 2023-11-16 Port Scan          NaN 2023-11-16 22:59:32.686
+Added address 207.188.6.237 to address list 'threat_inbound_addresses' (IN.bound Threat).
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
