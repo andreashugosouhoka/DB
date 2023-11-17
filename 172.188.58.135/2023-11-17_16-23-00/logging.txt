@@ -1,0 +1,67 @@
+.......................................
+NG-Connection on: 2023-11-17 16:22:58
+
+Fetched IP Firewall Connections with 7 entries
+Fetched IP DNS Cache with 179 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Connections]
+protocol src-address src-port   dst-address dst-port   tcp-state  connection-mark
+    icmp    10.0.0.4     None 175.103.43.90     None         NaN              NaN
+     tcp    10.0.0.4     4075 175.103.43.90    57307 established              NaN
+     udp    10.0.0.4     4500  20.205.36.71     4500         NaN              NaN
+
+[DNS]
+           name            data
+  rec.detik.com  103.49.221.155
+ push.detik.com  103.49.221.172
+video.detik.com 203.190.242.240
+
+Sample Entries with Resolved Values:
+protocol src-address src-port  dst-address   dst-port tcp-state  connection-mark     resolved   
+  icmp     10.0.0.4     0     202.58.182.241    0        NaN          NaN        bcs.binus.ac.id
+
+IP PUBLIC LAN : 172.188.58.135
+
+Public Address with 3 entries
+
+Count of each flow:
+OUT.bound      : 4
+IN.bound       : 2
+broadcast      : 1
+
+OTX result has been Fetched for 1 seconds
+
+[OTX]
+     indicator                               asn country_code2 name description modified created
+202.58.182.241 AS24526 bina nusantara university            ID  NaN         NaN      NaN     NaN
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 57% ||||||||            icmp           : 29% ||||||||            tcp            : 14%
+flow              ==         OUT.bound         : 57% ||||||||          IN.bound         : 29% ||||||||         broadcast         : 14%
+dst-port          ==             0             : 29% ||||||||           57307           : 14% ||||||||            1701           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
+dst-address       ==       175.103.43.90       : 29% ||||||||          10.0.0.4         : 29% ||||||||       202.58.182.241      : 14% ||||||||        20.205.36.71       : 14% ||||||||     others     : 29%
+src-address       ==          10.0.0.4         : 57% ||||||||        20.205.36.71       : 14% ||||||||        192.168.55.2       : 14% ||||||||       175.103.43.90       : 14% ||||||||     others     : 14%
+src-port          ==             0             : 29% ||||||||            4075           : 14% ||||||||            1701           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
+cc                ==             ID            : 57% ||||||||             HK            : 29%
+asn               == AS38320 pt maxindo mitra solusi : 43% |||||||| AS8075 microsoft corporation : 29% |||||||| AS24526 bina nusantara university : 14%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+protocol  src-address src-port dst-address dst-port     flow tcp-state resolved  mark cc                          asn  threat  description  modified
+     udp 20.205.36.71     1701    10.0.0.4     1701 IN.bound       NaN      NaN   NaN HK AS8075 microsoft corporation     NaN          NaN       NaN
+..
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+No Last 7 days Potential Threat Entries !Big ASN.
+
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
