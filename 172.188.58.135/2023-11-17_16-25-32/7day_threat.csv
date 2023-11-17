@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,192.168.55.150,58308,104.18.25.173,443,OUT.bound,,a.tribalfusion.com,,US,AS13335 cloudflare,Apple iTunes| Malicious site | Anonyization | Siphoning | Trojan Downloader,"IC3 attached to links, apple , messaging, Skype.\nIC3 CN?\nChina? Unclear. Possibly intercepting  IC",2023-11-12 17:01:15.222
