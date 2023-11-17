@@ -1,0 +1,5 @@
+protocol,src-address,src-port,dst-address,dst-port,tcp-state,connection-mark,resolved
+tcp,10.0.0.4,4075,175.103.43.90,57307,established,,
+icmp,10.0.0.4,0,202.58.182.241,0,,,bcs.binus.ac.id
+icmp,10.0.0.4,0,175.103.43.90,0,,,
+udp,112.111.41.105,54276,10.0.0.4,8610,,,
