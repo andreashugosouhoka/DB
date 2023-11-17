@@ -1,0 +1,8 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-17_16-26-53,icmp,10.0.0.4,0,202.58.182.241,0,OUT.bound,,bcs.binus.ac.id,,ID,AS24526 bina nusantara university,,,
+2023-11-17_16-26-53,icmp,10.0.0.4,0,175.103.43.90,0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-17_16-26-53,tcp,10.0.0.4,179,20.205.36.71,34788,OUT.bound,established,,,HK,AS8075 microsoft corporation,,,
+2023-11-17_16-26-53,tcp,175.103.43.90,57307,10.0.0.4,4075,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-17_16-26-53,udp,20.205.36.71,4500,10.0.0.4,4500,IN.bound,,,,HK,AS8075 microsoft corporation,,,
+2023-11-17_16-26-53,udp,20.205.36.71,1701,10.0.0.4,1701,IN.bound,,,,HK,AS8075 microsoft corporation,,,
+2023-11-17_16-26-53,udp,192.168.55.2,5678,255.255.255.255,5678,broadcast,,,,,,,,
