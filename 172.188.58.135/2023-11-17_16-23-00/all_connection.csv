@@ -1,0 +1,8 @@
+.id,protocol,src-address,dst-address,reply-src-address,reply-dst-address,gre-key,tcp-state,connection-type,timeout,connection-mark,orig-packets,orig-bytes,orig-fasttrack-packets,orig-fasttrack-bytes,repl-packets,repl-bytes,repl-fasttrack-packets,repl-fasttrack-bytes,orig-rate,repl-rate,expected,seen-reply,assured,confirmed,dying,fasttrack,srcnat,dstnat,icmp-code,icmp-type,icmp-id,timestamp
+*E528,icmp,10.0.0.4,202.58.182.241,202.58.182.241,10.0.0.4,,,,9s,,11,616,0,0,11,616,0,0,448,448,False,True,False,True,False,False,False,False,0,8,6154,2023-11-17 16:22:58 WIB
+*E529,icmp,10.0.0.4,175.103.43.90,175.103.43.90,10.0.0.4,,,,9s,,11,616,0,0,10,560,0,0,448,896,False,True,False,True,False,False,False,False,0,8,6154,2023-11-17 16:22:58 WIB
+*E533,tcp,10.0.0.4:4075,175.103.43.90:57307,175.103.43.90:57307,10.0.0.4:4075,,established,,4m59s,,85,26990,0,0,76,7964,0,0,18192,5856,False,True,True,True,False,False,False,False,,,,2023-11-17 16:22:58 WIB
+*E535,udp,20.205.36.71:1701,10.0.0.4:1701,10.0.0.4:1701,20.205.36.71:1701,,,,1s,,1,182,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-17 16:22:58 WIB
+*E536,udp,10.0.0.4:4500,20.205.36.71:4500,20.205.36.71:4500,10.0.0.4:4500,,,,2m53s,,2,248,0,0,3,488,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-17 16:22:58 WIB
+*E537,udp,192.168.55.2:5678,255.255.255.255:5678,255.255.255.255:5678,192.168.55.2:5678,,,,1s,,1,144,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-17 16:22:58 WIB
+*E538,udp,175.103.43.90:500,10.0.0.4:500,10.0.0.4:500,175.103.43.90:500,,,,9s,,1,436,0,0,1,188,0,0,0,0,False,True,False,True,False,False,False,False,,,,2023-11-17 16:22:58 WIB
