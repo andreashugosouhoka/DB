@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,192.168.55.150,61029,104.244.42.195,443,OUT.bound,established,,,US,AS13414 twitter inc.,WHO IS NIC,,2023-11-14 06:01:29.027
