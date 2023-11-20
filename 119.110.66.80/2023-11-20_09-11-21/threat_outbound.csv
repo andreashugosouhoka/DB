@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,119.110.75.198,50801.0,17.111.105.242,443.0,OUT.bound,time-wait,,INTL.c,US,AS714 apple inc.,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-20 01:14:19.697
+tcp,119.110.75.198,50473.0,17.111.105.242,443.0,OUT.bound,time-wait,,INTL.c,US,AS714 apple inc.,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-20 01:14:19.697
+tcp,119.110.75.198,50475.0,17.111.105.242,443.0,OUT.bound,time-wait,,INTL.c,US,AS714 apple inc.,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-20 01:14:19.697
+tcp,119.110.75.198,50807.0,17.111.105.242,443.0,OUT.bound,time-wait,,INTL.c,US,AS714 apple inc.,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-20 01:14:19.697
+tcp,119.110.75.198,50482.0,17.111.105.242,443.0,OUT.bound,time-wait,,INTL.c,US,AS714 apple inc.,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-20 01:14:19.697
