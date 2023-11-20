@@ -1,0 +1,25 @@
+name,data,.id,type,static,ttl,timestamp
+account.sonyentertainmentnetwork.com,23.9.193.168,*1,A,True,1d,2023-11-20 08:52:16 WIB
+auth.np.ac.playstation.net,23.9.193.75,*3,A,True,1d,2023-11-20 08:52:16 WIB
+auth.api.sonyentertainmentnetwork.com,23.9.195.183,*5,A,True,1d,2023-11-20 08:52:16 WIB
+auth.api.np.ac.playstation.net,23.0.182.235,*7,A,True,1d,2023-11-20 08:52:16 WIB
+forcesafesearch.google.com,216.239.38.120,*1A,A,False,10m17s,2023-11-20 08:52:16 WIB
+com,l.gtld-servers.net,*DF2,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,i.gtld-servers.net,*DF3,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,b.gtld-servers.net,*DF4,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,f.gtld-servers.net,*DF5,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,k.gtld-servers.net,*DF6,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,g.gtld-servers.net,*DF7,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,h.gtld-servers.net,*DF8,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,m.gtld-servers.net,*DF9,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,j.gtld-servers.net,*DFA,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,d.gtld-servers.net,*DFB,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,a.gtld-servers.net,*DFC,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,c.gtld-servers.net,*DFD,NS,False,10m17s,2023-11-20 08:52:16 WIB
+com,e.gtld-servers.net,*DFE,NS,False,10m17s,2023-11-20 08:52:16 WIB
+mail2.adhimix.co.id,103.143.2.219,*1815,A,False,6m59s,2023-11-20 08:52:16 WIB
+mail.adhimix.co.id,103.143.2.219,*1817,A,False,7m7s,2023-11-20 08:52:16 WIB
+4shared.com,204.155.149.43,*1820,A,False,4m11s,2023-11-20 08:52:16 WIB
+4shared.com,204.155.146.95,*1821,A,False,4m11s,2023-11-20 08:52:16 WIB
+4shared.com,204.155.149.41,*1822,A,False,4m11s,2023-11-20 08:52:16 WIB
+4shared.com,204.155.149.42,*1823,A,False,4m11s,2023-11-20 08:52:16 WIB
