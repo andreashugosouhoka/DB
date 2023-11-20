@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,192.241.230.57,34908.0,119.110.66.86,1434.0,IN.bound,,,,US,AS14061 digitalocean  llc,IP Addresses Logged by the Rosethorn PotNet,Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp,2023-11-20 02:05:04.942
