@@ -1,0 +1,5 @@
+name,data,.id,type,static,ttl,timestamp
+account.sonyentertainmentnetwork.com,23.9.193.168,*1,A,True,1d,2023-11-20 09:08:38 WIB
+auth.np.ac.playstation.net,23.9.193.75,*3,A,True,1d,2023-11-20 09:08:38 WIB
+auth.api.sonyentertainmentnetwork.com,23.9.195.183,*5,A,True,1d,2023-11-20 09:08:38 WIB
+auth.api.np.ac.playstation.net,23.0.182.235,*7,A,True,1d,2023-11-20 09:08:38 WIB
