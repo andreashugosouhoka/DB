@@ -1,0 +1,112 @@
+.......................................
+NG-Connection on: 2023-11-20 09:08:38
+
+Fetched IP Firewall Connections with 207 entries
+Fetched IP DNS Cache with 4 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+     .id   protocol      src-address           dst-address         reply-src-address      reply-dst-address    tcp-state    timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+52   *3597    tcp    119.110.75.198:50783         2.59.169.86:80         2.59.169.86:80  119.110.75.198:50783  established  23h59m48s        1            41           1            52           0         0      False   2023-11-20 09:08:38 WIB
+107  *35D9    udp    192.241.230.57:34908     119.110.66.86:1434     119.110.66.86:1434  192.241.230.57:34908                      3s        1            53           0             0           0         0      False   2023-11-20 09:08:38 WIB
+105  *35D7    udp     172.16.236.51:44498  255.255.255.255:10002  255.255.255.255:10002   172.16.236.51:44498                      2s        1           199           0             0           0         0      False   2023-11-20 09:08:38 WIB
+140  *35FA    udp    119.110.75.198:55318      34.149.173.23:443      34.149.173.23:443  119.110.75.198:55318                      5s        1            61           1            61           0         0      False   2023-11-20 09:08:38 WIB
+154  *3608    tcp    119.110.75.198:50482     17.111.105.242:443     17.111.105.242:443  119.110.75.198:50482    time-wait         9s       13          2928           9          5051       17608      9480       True   2023-11-20 09:08:38 WIB
+
+[Connections]
+   protocol   src-address   src-port   dst-address   dst-port  tcp-state   connection-mark
+14    tcp    157.240.208.16     443   119.110.75.198   58322      last-ack                
+75    tcp    134.119.183.60      80   119.110.75.198   62409   established       INTL.c   
+41    tcp    119.110.75.198   50343    163.70.153.42     443   established      LOKAL.c   
+
+[DNS]
+                   name                       data    
+1             auth.np.ac.playstation.net   23.9.193.75
+3         auth.api.np.ac.playstation.net  23.0.182.235
+0   account.sonyentertainmentnetwork.com  23.9.193.168
+2  auth.api.sonyentertainmentnetwork.com  23.9.195.183
+No Resolved Entries
+
+IP PUBLIC LAN : 119.110.66.80/28 || 119.110.75.196/30
+
+Public Address with 105 entries
+
+Count of each flow:
+OUT.bound      : 141
+IN.bound       : 29
+broadcast      : 27
+local          : 9
+
+OTX result has been Fetched for 2 minutes and 36 seconds
+
+::[OTX]
+      indicator                          asn                      country_code2 name description modified created
+96     92.53.64.209  AS49505 ooo network of data-centers selectel       RU                                       
+18  103.234.253.135               AS38320 pt maxindo mitra solusi       ID                                       
+51   157.240.208.14                        AS32934 facebook  inc.       ID                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 62% ||||||||            udp            : 32% ||||||||            icmp           : 6%
+flow              ==         OUT.bound         : 68% ||||||||          IN.bound         : 14% ||||||||         broadcast         : 13% ||||||||           local           : 4% ||||||||     others     : 4%
+dst-port          ==            443            : 49% ||||||||           10002           : 7% ||||||||            5678           : 6% ||||||||     others     : 38%
+dst-address       ==      255.255.255.255      : 13% ||||||||       119.110.75.198      : 12% ||||||||        104.21.28.80       : 5% ||||||||       182.23.50.233       : 4% ||||||||     others     : 70%
+src-address       ==       119.110.75.198      : 66% ||||||||       119.110.66.86       : 7% ||||||||       175.103.43.90       : 2% ||||||||       182.23.50.233       : 1% ||||||||     others     : 26%
+src-port          ==            5678           : 6% ||||||||            443            : 6% ||||||||             80            : 2% ||||||||     others     : 82%
+cc                ==             US            : 31% ||||||||             ID            : 25% ||||||||             SG            : 8% ||||||||     others     : 24%
+asn               ==     AS13335 cloudflare    : 11% ||||||||     AS15169 google llc    : 9% |||||||| AS38320 pt maxindo mitra solusi : 7% ||||||||     others     : 62%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+    protocol   src-address   src-port   dst-address    dst-port    flow     tcp-state   resolved   mark    cc                    asn                          threat      description           modified         
+44     tcp    119.110.75.198   56139    210.210.145.91      80   OUT.bound  established           LOKAL.c  ID                AS4787 pt cyberindo aditama                                                         
+190    tcp    119.110.75.198   50483      40.126.35.86     443   OUT.bound  established           LOKAL.c  SG               AS8075 microsoft corporation  AppleAutoUpdate              2022-04-14T00:01:40.805000
+136    udp    119.110.75.198   53258       122.144.2.2      53   OUT.bound                        LOKAL.c  ID            AS38320 pt maxindo mitra solusi                                                         
+142    udp      10.172.91.68    5678   255.255.255.255    5678   broadcast                                                                                                                                       
+76     tcp    119.110.75.198   41314       143.92.85.2     443   OUT.bound  established            INTL.c  SG  AS138341 shopee singapore private limited                                                         
+117    udp    119.110.75.198   59448      23.215.35.68     443   OUT.bound                        LOKAL.c  FR          AS20940 akamai international b.v.                                                         
+61     tcp    119.110.75.198   43356    35.213.190.132     443   OUT.bound  established           LOKAL.c  SG                         AS15169 google llc                                                         
+167    tcp    119.110.75.198   50481    172.64.150.207     443   OUT.bound    time-wait           LOKAL.c  US                         AS13335 cloudflare                                                         
+19     udp    119.110.75.198   34920     163.70.153.21     443   OUT.bound                        LOKAL.c  FR                                    ASNone                                                          
+17     tcp    119.110.75.198   50464      104.21.28.80     443   OUT.bound  established            INTL.c  US                         AS13335 cloudflare                                                         
+33     tcp    119.110.75.198   50466      104.21.28.80     443   OUT.bound  established            INTL.c  US                         AS13335 cloudflare                                                         
+133    udp     172.16.236.27   38289   255.255.255.255   10002   broadcast                                                                                                                                       
+75     tcp    134.119.183.60      80    119.110.75.198   62409    IN.bound  established            INTL.c  FR                   AS29066 host europe gmbh                                                         
+148    udp    119.110.75.198   40727     23.48.173.210     443   OUT.bound                        LOKAL.c  US          AS20940 akamai international b.v.                                                         
+199    udp    119.110.75.198   44442     34.149.173.23     443   OUT.bound                         INTL.c  US                         AS15169 google llc                                                         
+
+Information Related from the Last 7 Days:
+protocol src-address    src-port dst-address     dst-port flow      tcp-state   resolved mark    cc asn                              threat                                                  description                                                                                          modified               
+ tcp     119.110.75.198 56046    162.159.133.233   443    OUT.bound established          LOKAL.c                  AS13335 cloudflare                                             PuffStealer                                                                                                      2023-11-18 01:24:48.887
+ tcp     119.110.75.198 51154        31.13.95.35   443    OUT.bound established          LOKAL.c ID           AS32934 facebook  inc.                      IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-16 20:30:53.391
+ tcp     119.110.75.198 50484     149.154.167.99   443    OUT.bound established           INTL.c AG   AS62041 telegram messenger inc ACTIVIDAD MALICIOSA | Relacionada con Remcos 18-10-2023 Remcos (acrónimo en inglés que significa "Control remoto y vigilancia") es una herramienta de acceso 2023-11-18 05:04:47.366
+ udp     192.241.230.57 34908      119.110.66.86  1434     IN.bound                              US        AS14061 digitalocean  llc             IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-20 02:05:04.942
+ tcp     119.110.75.198 50473     17.111.105.242   443    OUT.bound   time-wait           INTL.c US                 AS714 apple inc.                                 Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+ tcp      185.244.24.41  8443     119.110.75.198 63996     IN.bound established           INTL.c UA AS44437 ahorro corporacion  s.a.                                               TOR nodes                                                                                                      2023-11-15 00:01:55.056
+ tcp     119.110.75.198 50475     17.111.105.242   443    OUT.bound   time-wait           INTL.c US                 AS714 apple inc.                                 Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+ tcp     119.110.75.198 50482     17.111.105.242   443    OUT.bound   time-wait           INTL.c US                 AS714 apple inc.                                 Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+icmp      119.110.66.86          199.181.132.250          OUT.bound                              US                          ASNone                       IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-16 20:30:53.391
+ tcp     119.110.75.198 50801     17.111.105.242   443    OUT.bound   time-wait           INTL.c US                 AS714 apple inc.                                 Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+ tcp     119.110.75.198 50807     17.111.105.242   443    OUT.bound   time-wait           INTL.c US                 AS714 apple inc.                                 Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol    src-address src-port    dst-address dst-port      flow tcp-state resolved   mark cc                       asn                                      threat                                                                                          description                modified
+     tcp 119.110.75.198    50801 17.111.105.242      443 OUT.bound time-wait          INTL.c US          AS714 apple inc.                     Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+     tcp 119.110.75.198    50473 17.111.105.242      443 OUT.bound time-wait          INTL.c US          AS714 apple inc.                     Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+     tcp 119.110.75.198    50475 17.111.105.242      443 OUT.bound time-wait          INTL.c US          AS714 apple inc.                     Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+     udp 192.241.230.57    34908  119.110.66.86     1434  IN.bound                           US AS14061 digitalocean  llc IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-20 02:05:04.942
+     tcp 119.110.75.198    50807 17.111.105.242      443 OUT.bound time-wait          INTL.c US          AS714 apple inc.                     Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+     tcp 119.110.75.198    50482 17.111.105.242      443 OUT.bound time-wait          INTL.c US          AS714 apple inc.                     Japanese phishing site. phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu 2023-11-20 01:14:19.697
+Added address 17.111.105.242 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 192.241.230.57 to address list 'threat_inbound_addresses' (IN.bound Threat).
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
