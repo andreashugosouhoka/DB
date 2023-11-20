@@ -1,0 +1,4 @@
+{'.id': '*1', 'type': 'A', 'data': '23.9.193.168', 'name': 'account.sonyentertainmentnetwork.com', 'ttl': '1d', 'static': True, 'timestamp': '2023-11-20 08:58:50 WIB'}
+{'.id': '*3', 'type': 'A', 'data': '23.9.193.75', 'name': 'auth.np.ac.playstation.net', 'ttl': '1d', 'static': True, 'timestamp': '2023-11-20 08:58:50 WIB'}
+{'.id': '*5', 'type': 'A', 'data': '23.9.195.183', 'name': 'auth.api.sonyentertainmentnetwork.com', 'ttl': '1d', 'static': True, 'timestamp': '2023-11-20 08:58:50 WIB'}
+{'.id': '*7', 'type': 'A', 'data': '23.0.182.235', 'name': 'auth.api.np.ac.playstation.net', 'ttl': '1d', 'static': True, 'timestamp': '2023-11-20 08:58:50 WIB'}
