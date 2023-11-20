@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,167.235.112.134,9000,119.110.75.198,49160,IN.bound,established,,,DE,AS24940 hetzner online gmbh,TrojanDownloader:Win32/Cutwail.BS/Win.Trojan.Pushdo-20,,2023-11-16 21:45:11.721
+tcp,119.110.75.198,63996,185.244.24.41,8443,OUT.bound,established,,INTL.c,UA,AS44437 ahorro corporacion  s.a.,TOR nodes,,2023-11-15 00:01:55.056
+tcp,119.110.75.198,65289,173.232.194.21,8443,OUT.bound,established,,INTL.c,US,ASNone ,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-16 20:30:53.391
+tcp,119.110.75.198,60494,31.13.95.37,5222,OUT.bound,established,,LOKAL.c,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-16 20:30:53.391
+tcp,35.203.210.55,51398,119.110.75.199,13228,IN.bound,syn-sent,,,GB,AS396982 google,Webscanners with Bad Requests - HTTP Status 400 - 1/20/2018 thru current day,Webscanners who&amp;amp;amp;#39;s requests resulted in HTTP Status code 400 due to WAF rules or LB p,2023-11-20 01:50:14.756
