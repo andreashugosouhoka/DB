@@ -1,0 +1,100 @@
+.......................................
+NG-Connection on: 2023-11-20 08:58:50
+
+Fetched IP Firewall Connections with 205 entries
+Fetched IP DNS Cache with 4 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+     .id   protocol      src-address           dst-address        reply-src-address     reply-dst-address    tcp-state    timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+27   *1974   icmp          119.110.75.197        119.110.75.198        119.110.75.198        119.110.75.197                      8s        1            56           1            56         0          0       False   2023-11-20 08:58:50 WIB
+89   *19DD   icmp             122.144.3.5         119.110.66.86         119.110.66.86           122.144.3.5                      2s        1            60           1            60         0          0       False   2023-11-20 08:58:50 WIB
+22   *195C    tcp    119.110.75.198:54250     182.23.50.233:443     182.23.50.233:443  119.110.75.198:54250  established  23h59m56s        2           881           3           633         0          0        True   2023-11-20 08:58:50 WIB
+156  *1A21    tcp      34.117.214.157:443  119.110.75.198:47462  119.110.75.198:47462    34.117.214.157:443    time-wait         7s        2           177           2           104         0          0       False   2023-11-20 08:58:50 WIB
+45   *19A8    tcp    119.110.75.198:49202    157.240.208.35:443    157.240.208.35:443  119.110.75.198:49202  established  23h59m49s        1            41           1            52         0          0       False   2023-11-20 08:58:50 WIB
+
+[Connections]
+    protocol   src-address   src-port dst-address  dst-port tcp-state connection-mark
+160    tcp    119.110.75.198   32873   192.168.0.3   9920    syn-sent       INTL.c   
+130    udp    119.110.75.198   59488   122.144.1.1     53                  LOKAL.c   
+167    udp    119.110.75.198   48391   122.144.1.1     53                  LOKAL.c   
+
+[DNS]
+                   name                       data    
+1             auth.np.ac.playstation.net   23.9.193.75
+3         auth.api.np.ac.playstation.net  23.0.182.235
+0   account.sonyentertainmentnetwork.com  23.9.193.168
+2  auth.api.sonyentertainmentnetwork.com  23.9.195.183
+No Resolved Entries
+
+IP PUBLIC LAN : 119.110.66.80/28 || 119.110.75.196/30
+
+Public Address with 103 entries
+
+Count of each flow:
+OUT.bound      : 150
+broadcast      : 26
+IN.bound       : 24
+local          : 4
+
+OTX result has been Fetched for 2 minutes and 27 seconds
+
+::[OTX]
+      indicator                 asn              country_code2                           name                          description           modified                    created          
+2   167.235.112.134  AS24940 hetzner online gmbh       DE       TrojanDownloader:Win32/Cutwail.BS/Win.Trojan.Pushdo-20              2023-11-16T21:45:11.721000  2023-11-16T21:45:11.721000
+33    142.251.12.94           AS15169 google llc       US                                     uTorrent seeds from a VM  The world\  2022-12-16T13:03:24.863000  2022-11-16T13:55:36.805000
+15                                                                                                                                                                                        
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 61% ||||||||            udp            : 33% ||||||||            icmp           : 6%
+flow              ==         OUT.bound         : 74% ||||||||         broadcast         : 13% ||||||||          IN.bound         : 12% ||||||||           local           : 2% ||||||||     others     : 2%
+dst-port          ==            443            : 50% ||||||||             53            : 9% ||||||||            5678           : 7% ||||||||     others     : 34%
+dst-address       ==      255.255.255.255      : 13% ||||||||       119.110.75.198      : 10% ||||||||        122.144.1.1        : 9% ||||||||       182.23.50.233       : 4% ||||||||     others     : 68%
+src-address       ==       119.110.75.198      : 71% ||||||||       119.110.66.86       : 4% ||||||||       175.103.43.90       : 1% ||||||||        31.13.95.61        : 1% ||||||||     others     : 24%
+src-port          ==            5678           : 7% ||||||||            443            : 5% ||||||||           59488           : 1% ||||||||     others     : 81%
+cc                ==             ID            : 35% ||||||||             US            : 25% ||||||||             SG            : 10% ||||||||     others     : 24%
+asn               == AS38320 pt maxindo mitra solusi : 11% ||||||||     AS15169 google llc    : 10% ||||||||   AS32934 facebook  inc.  : 8% ||||||||     others     : 63%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+    protocol   src-address    src-port   dst-address    dst-port    flow     tcp-state   resolved   mark    cc                   asn                                            threat                                                             description                                               modified         
+164    tcp     119.110.75.198   49500       23.207.36.6     443   OUT.bound  established           LOKAL.c  AU       AS16625 akamai technologies  inc.                                                                                                                                                                        
+117    tcp       162.125.40.1     443    119.110.75.198   64431    IN.bound  established            INTL.c  US                   AS19679 dropbox  inc.                                                                                                                                                                        
+100    udp     119.110.75.198   40120      157.240.15.1     443   OUT.bound                        LOKAL.c  SG                  AS32934 facebook  inc.                                                                                                                                                                        
+25     tcp     119.110.75.198   65289    173.232.194.21    8443   OUT.bound  established            INTL.c  US                                 ASNone                       IOC Records Provided by @NextRayAI  This IOC report provided and daily updated by NextRay AI Detection & Response Inc.  2023-11-16T20:30:53.391000
+17     udp     119.110.75.198   49757   103.134.189.139     443   OUT.bound                         INTL.c  ID  AS140399 pt parsaoran global datatrans                                                                                                                                                                        
+143    tcp     119.110.75.198   49493     184.25.236.11     443   OUT.bound  established           LOKAL.c  ID      AS7713 pt telekomunikasi indonesia                                                                                                                                                                        
+124    tcp        31.13.95.61     443    119.110.75.198   34582    IN.bound     fin-wait           LOKAL.c  ID                  AS32934 facebook  inc.                                                                                                                                                                        
+31     tcp     119.110.75.198   42226    130.44.212.234     443   OUT.bound  established            INTL.c  US                 AS396986 bytedance inc.                                                                                                                                                                        
+125    udp     172.16.236.194   35661   255.255.255.255   10002   broadcast                                                                                                                                                                                                                                                   
+153    udp     119.110.75.198   59914      23.215.35.68     443   OUT.bound                        LOKAL.c  FR       AS20940 akamai international b.v.                                                                                                                                                                        
+148    udp     119.110.75.198   47791     163.70.153.63     443   OUT.bound                        LOKAL.c  FR                                 ASNone                                                                                                                                                                         
+6      tcp    167.235.112.134    9000    119.110.75.198   49160    IN.bound  established                    DE             AS24940 hetzner online gmbh  TrojanDownloader:Win32/Cutwail.BS/Win.Trojan.Pushdo-20                                                                                      2023-11-16T21:45:11.721000
+7      tcp     119.110.75.198   38366     103.143.2.221    1197   OUT.bound  established           LOKAL.c  ID     AS139385 pt. lantip teknologi prima                                                                                                                                                                        
+186    tcp     119.110.75.198   49514     172.64.154.35     443   OUT.bound  established           LOKAL.c  US                      AS13335 cloudflare                                                                                                                                                                        
+12     tcp     119.110.75.198   51810    157.240.208.60     443   OUT.bound  established           LOKAL.c  ID                  AS32934 facebook  inc.                                                                                                                                                                        
+
+Information Related from the Last 7 Days:
+protocol src-address     src-port dst-address    dst-port flow      tcp-state   resolved mark    cc asn                              threat                                                                       description                                                                                          modified               
+tcp      167.235.112.134  9000    119.110.75.198 49160     IN.bound established                  DE      AS24940 hetzner online gmbh                       TrojanDownloader:Win32/Cutwail.BS/Win.Trojan.Pushdo-20                                                                                                      2023-11-16 21:45:11.721
+tcp        35.203.210.55 51398    119.110.75.199 13228     IN.bound    syn-sent                  GB                  AS396982 google Webscanners with Bad Requests - HTTP Status 400 - 1/20/2018 thru current day Webscanners who&amp;amp;amp;#39;s requests resulted in HTTP Status code 400 due to WAF rules or LB p 2023-11-20 01:50:14.756
+tcp       119.110.75.198 60494       31.13.95.37  5222    OUT.bound established          LOKAL.c ID           AS32934 facebook  inc.                                           IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-16 20:30:53.391
+tcp       119.110.75.198 65289    173.232.194.21  8443    OUT.bound established           INTL.c US                          ASNone                                            IOC Records Provided by @NextRayAI                   This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-16 20:30:53.391
+tcp       119.110.75.198 63996     185.244.24.41  8443    OUT.bound established           INTL.c UA AS44437 ahorro corporacion  s.a.                                                                    TOR nodes                                                                                                      2023-11-15 00:01:55.056
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol     src-address  src-port    dst-address  dst-port     flow   tcp-state resolved mark cc                         asn                                                 threat description                modified
+     tcp 167.235.112.134      9000 119.110.75.198     49160 IN.bound established               DE AS24940 hetzner online gmbh TrojanDownloader:Win32/Cutwail.BS/Win.Trojan.Pushdo-20             2023-11-16 21:45:11.721
+Added address 167.235.112.134 to address list 'threat_inbound_addresses' (IN.bound Threat).
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
