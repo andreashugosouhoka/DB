@@ -1,0 +1,12 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,149.12.246.2,55137,203.123.56.244,5060,IN.bound,,,,US,AS174 cogent communications,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+tcp,183.99.102.83,51563,203.123.56.244,23,IN.bound,syn-sent,,,KR,AS4766 korea telecom,ETIC Cybersecurity 2023-11-17 Port Scan,nan,2023-11-17 15:28:36.452
+tcp,123.56.178.100,38445,203.123.56.247,6379,IN.bound,syn-sent,,,CN,AS37963 hangzhou alibaba advertising co. ltd.,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+tcp,203.123.56.246,50242,104.21.23.184,443,OUT.bound,established,,,US,AS13335 cloudflare,Japanese phishing site.,phishing-site list generated from scattered spam emails. n nOTX(2021): https://otx.alienvault.com/pu,2023-11-21 04:16:27.788
+udp,51.254.229.161,1434,203.123.56.245,5060,IN.bound,,,,FR,AS16276 ovh sas,ETIC Cybersecurity 2023-11-21 Port Scan,nan,2023-11-21 04:19:18.296
+tcp,203.123.56.246,63410,35.186.224.25,443,OUT.bound,established,,,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+tcp,203.123.56.246,49268,162.159.135.233,443,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,nan,2023-11-14 17:01:45.019
+udp,103.178.153.233,3502,203.123.56.245,5060,IN.bound,,,,,AS140443 pt herza digital indonesia,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+tcp,203.123.56.246,49177,162.159.134.233,443,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,nan,2023-11-14 17:01:45.019
+tcp,123.56.178.100,38670,203.123.56.244,6379,IN.bound,syn-sent,,,CN,AS37963 hangzhou alibaba advertising co. ltd.,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,158.160.54.41,25088,203.123.56.244,5060,IN.bound,,,,VE,AS200350 yandex.cloud llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
