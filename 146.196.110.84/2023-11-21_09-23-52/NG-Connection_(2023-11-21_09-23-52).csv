@@ -1,659 +1,659 @@
 session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-2023-11-21_09-23-52,tcp,203.123.56.246,43834.0,163.70.153.34,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,175.103.43.90,51221.0,146.196.110.84,899.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49174.0,135.148.150.100,443.0,OUT.bound,established,,,US,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,60436.0,52.220.25.133,443.0,OUT.bound,established,,,SG,AS16509 amazon.com inc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,58854.0,172.253.118.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,52294.0,134.119.183.59,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54641.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,11585.0,203.123.56.247,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,53499.0,2.59.169.86,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,192.168.120.253,51064.0,45.121.219.179,443.0,OUT.bound,established,,,ID,AS131702 moratelindo internet exchange,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53015.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,34464.0,172.253.118.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,37630.0,118.26.252.226,443.0,OUT.bound,established,,,CN,AS23724 idc china telecommunications corporation,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49215.0,217.160.192.232,443.0,OUT.bound,established,,,DE,AS8560 1&1 ionos se,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,192.168.120.218,40910.0,13.107.42.16,443.0,OUT.bound,established,,,US,AS8068 microsoft corporation,ChromeDriver.exe,There is a malware spread under the name of chromedriver.exe (which is a malware downland ) as per :,2023-10-31T15:03:52.440000
-2023-11-21_09-23-52,udp,203.123.56.246,59397.0,92.204.242.245,49850.0,OUT.bound,,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49462.0,2.59.169.42,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49155.0,92.223.85.164,443.0,OUT.bound,established,,,SG,AS199524 g-core labs s.a.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,41242.0,74.125.68.94,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49165.0,54.39.118.29,8080.0,OUT.bound,established,,speedtest.c,CA,AS16276 ovh sas,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,46268.0,142.251.10.95,443.0,OUT.bound,established,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
-2023-11-21_09-23-52,tcp,203.123.56.246,46286.0,35.213.190.132,443.0,OUT.bound,established,,,SG,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,52266.0,47.241.111.159,6000.0,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,2257.0,142.251.10.101,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,43834,163.70.153.34,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,175.103.43.90,51221,146.196.110.84,899,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49174,135.148.150.100,443,OUT.bound,established,,,US,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,60436,52.220.25.133,443,OUT.bound,established,,,SG,AS16509 amazon.com inc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,58854,172.253.118.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,52294,134.119.183.59,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54641,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,11585,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,53499,2.59.169.86,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,192.168.120.253,51064,45.121.219.179,443,OUT.bound,established,,,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53015,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,34464,172.253.118.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,37630,118.26.252.226,443,OUT.bound,established,,,CN,AS23724 idc china telecommunications corporation,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49215,217.160.192.232,443,OUT.bound,established,,,DE,AS8560 1&1 ionos se,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,192.168.120.218,40910,13.107.42.16,443,OUT.bound,established,,,US,AS8068 microsoft corporation,ChromeDriver.exe,There is a malware spread under the name of chromedriver.exe (which is a malware downland ) as per :,2023-10-31T15:03:52.440000
+2023-11-21_09-23-52,udp,203.123.56.246,59397,92.204.242.245,49850,OUT.bound,,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49462,2.59.169.42,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49155,92.223.85.164,443,OUT.bound,established,,,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,41242,74.125.68.94,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49165,54.39.118.29,8080,OUT.bound,established,,speedtest.c,CA,AS16276 ovh sas,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,46268,142.251.10.95,443,OUT.bound,established,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
+2023-11-21_09-23-52,tcp,203.123.56.246,46286,35.213.190.132,443,OUT.bound,established,,,SG,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,52266,47.241.111.159,6000,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,2257,142.251.10.101,443,OUT.bound,established,,,US,AS15169 google llc,,,
 2023-11-21_09-23-52,gre,146.196.110.84,,203.123.56.202,,OUT.bound,,,,ID,AS139460 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49476.0,34.149.173.23,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49222.0,163.172.53.201,443.0,OUT.bound,established,,,FR,AS12876 online s.a.s.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,udp,175.103.36.115,13231.0,203.123.56.246,13231.0,IN.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,203.123.56.246,46417.0,64.233.170.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49548.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,42764.0,142.251.175.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,40880.0,142.250.4.94,443.0,OUT.bound,established,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
-2023-11-21_09-23-52,tcp,203.123.56.246,49768.0,142.251.175.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,43589.0,122.144.2.205,443.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,60955.0,47.245.116.47,6800.0,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,44074.0,216.239.36.135,443.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,49308.0,212.227.43.225,443.0,OUT.bound,established,,,DE,AS8560 1&1 ionos se,onionoo,,2023-07-07T08:02:14.681000
-2023-11-21_09-23-52,tcp,203.123.56.246,45896.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,185.224.128.184,26115.0,203.123.56.245,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,udp,203.123.56.246,50712.0,172.217.194.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,50540.0,122.144.2.204,443.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,45862.0,156.59.239.227,8888.0,OUT.bound,established,,,SG,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,59734.0,199.103.24.6,443.0,OUT.bound,established,,,US,AS396986 bytedance inc.,,,
-2023-11-21_09-23-52,tcp,142.251.10.188,5228.0,192.168.120.195,47356.0,IN.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
-2023-11-21_09-23-52,tcp,203.123.56.246,49896.0,209.209.10.208,443.0,OUT.bound,established,,,CA,AS26832 rica web services,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,59544.0,17.57.145.137,5223.0,OUT.bound,established,,,US,AS714 apple inc.,,,
-2023-11-21_09-23-52,tcp,199.43.203.163,22.0,203.123.56.244,35307.0,IN.bound,established,,,US,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49895.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42040.0,45.60.158.227,443.0,OUT.bound,established,,,US,AS19551 incapsula inc,LCIA:HoneyNet:2023,,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,203.123.56.246,47030.0,157.240.208.16,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50870.0,31.13.95.34,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,36076.0,142.251.175.95,443.0,OUT.bound,last-ack,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,104.253.91.98,80.0,203.123.56.247,51672.0,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
-2023-11-21_09-23-52,tcp,203.123.56.246,49171.0,51.91.58.34,9001.0,OUT.bound,established,,,FR,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,49388.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,104.253.91.98,80.0,203.123.56.244,8161.0,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
-2023-11-21_09-23-52,tcp,203.123.56.246,41662.0,142.251.175.94,443.0,OUT.bound,established,,,US,AS15169 google llc,Speechless   Critical,,2023-10-30T03:23:08.790000
-2023-11-21_09-23-52,tcp,203.123.56.246,49230.0,74.125.200.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,203.123.56.246,42054.0,45.60.158.227,443.0,OUT.bound,established,,,US,AS19551 incapsula inc,LCIA:HoneyNet:2023,,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,203.123.56.246,43798.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,udp,203.123.56.246,42517.0,74.125.24.147,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,58714.0,176.9.57.92,60684.0,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49396.0,45.141.215.6,110.0,OUT.bound,established,,,NL,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49214.0,198.71.53.137,443.0,OUT.bound,established,,,US,AS8560 1&1 ionos se,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,39272.0,74.125.200.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,203.123.56.246,49320.0,190.2.153.200,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,39368.0,142.251.10.95,443.0,OUT.bound,established,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
-2023-11-21_09-23-52,udp,205.210.31.72,49199.0,203.123.56.245,5060.0,IN.bound,,,,CA,AS396982 google,Webscanners with Bad Requests - HTTP Status 400 - 1/20/2018 thru current day,Webscanners who&amp;amp;amp;#39;s requests resulted in HTTP Status code 400 due to WAF rules or LB p,2023-11-21T02:15:15.467000
-2023-11-21_09-23-52,tcp,203.123.56.246,33960.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,65117.0,17.57.145.133,5223.0,OUT.bound,established,,,US,AS714 apple inc.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,19277.0,203.123.56.247,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,udp,203.123.56.246,53427.0,122.144.2.204,443.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,45452.0,157.240.208.34,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49476,34.149.173.23,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49222,163.172.53.201,443,OUT.bound,established,,,FR,AS12876 online s.a.s.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,udp,175.103.36.115,13231,203.123.56.246,13231,IN.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,203.123.56.246,46417,64.233.170.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49548,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,42764,142.251.175.188,5228,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,40880,142.250.4.94,443,OUT.bound,established,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
+2023-11-21_09-23-52,tcp,203.123.56.246,49768,142.251.175.188,5228,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,43589,122.144.2.205,443,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,60955,47.245.116.47,6800,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,44074,216.239.36.135,443,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,49308,212.227.43.225,443,OUT.bound,established,,,DE,AS8560 1&1 ionos se,onionoo,,2023-07-07T08:02:14.681000
+2023-11-21_09-23-52,tcp,203.123.56.246,45896,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,185.224.128.184,26115,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,udp,203.123.56.246,50712,172.217.194.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,50540,122.144.2.204,443,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,45862,156.59.239.227,8888,OUT.bound,established,,,SG,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,59734,199.103.24.6,443,OUT.bound,established,,,US,AS396986 bytedance inc.,,,
+2023-11-21_09-23-52,tcp,142.251.10.188,5228,192.168.120.195,47356,IN.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-23-52,tcp,203.123.56.246,49896,209.209.10.208,443,OUT.bound,established,,,CA,AS26832 rica web services,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,59544,17.57.145.137,5223,OUT.bound,established,,,US,AS714 apple inc.,,,
+2023-11-21_09-23-52,tcp,199.43.203.163,22,203.123.56.244,35307,IN.bound,established,,,US,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49895,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42040,45.60.158.227,443,OUT.bound,established,,,US,AS19551 incapsula inc,LCIA:HoneyNet:2023,,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,203.123.56.246,47030,157.240.208.16,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50870,31.13.95.34,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,36076,142.251.175.95,443,OUT.bound,last-ack,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.247,51672,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
+2023-11-21_09-23-52,tcp,203.123.56.246,49171,51.91.58.34,9001,OUT.bound,established,,,FR,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,49388,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,8161,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
+2023-11-21_09-23-52,tcp,203.123.56.246,41662,142.251.175.94,443,OUT.bound,established,,,US,AS15169 google llc,Speechless   Critical,,2023-10-30T03:23:08.790000
+2023-11-21_09-23-52,tcp,203.123.56.246,49230,74.125.200.188,5228,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,203.123.56.246,42054,45.60.158.227,443,OUT.bound,established,,,US,AS19551 incapsula inc,LCIA:HoneyNet:2023,,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,203.123.56.246,43798,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,udp,203.123.56.246,42517,74.125.24.147,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,58714,176.9.57.92,60684,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49396,45.141.215.6,110,OUT.bound,established,,,NL,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49214,198.71.53.137,443,OUT.bound,established,,,US,AS8560 1&1 ionos se,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,39272,74.125.200.188,5228,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,203.123.56.246,49320,190.2.153.200,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,39368,142.251.10.95,443,OUT.bound,established,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
+2023-11-21_09-23-52,udp,205.210.31.72,49199,203.123.56.245,5060,IN.bound,,,,CA,AS396982 google,Webscanners with Bad Requests - HTTP Status 400 - 1/20/2018 thru current day,Webscanners who&amp;amp;amp;#39;s requests resulted in HTTP Status code 400 due to WAF rules or LB p,2023-11-21T02:15:15.467000
+2023-11-21_09-23-52,tcp,203.123.56.246,33960,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,65117,17.57.145.133,5223,OUT.bound,established,,,US,AS714 apple inc.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,19277,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,udp,203.123.56.246,53427,122.144.2.204,443,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,45452,157.240.208.34,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
 2023-11-21_09-23-52,gre,203.123.56.246,,140.0.23.161,,OUT.bound,,,,ID,AS23700 linknet fastnet asn,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,46230.0,172.217.194.155,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,34054.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,36556.0,172.253.118.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,34284.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50629.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49175.0,81.169.159.28,29001.0,OUT.bound,established,,,DE,AS6724 strato ag,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,43820.0,172.217.194.95,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,57729.0,34.79.221.98,443.0,OUT.bound,established,,,BE,AS396982 google,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49333.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,37028.0,142.251.12.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
-2023-11-21_09-23-52,tcp,203.123.56.246,42444.0,167.114.32.111,443.0,OUT.bound,established,,,US,AS16276 ovh sas,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,39733.0,23.50.117.216,443.0,OUT.bound,established,,,ID,AS20940 akamai international b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,59467.0,8.222.192.32,6800.0,OUT.bound,established,,,SG,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49177.0,190.2.153.231,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,24757.0,203.123.56.246,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,49355.0,104.21.33.59,80.0,OUT.bound,established,,,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
-2023-11-21_09-23-52,tcp,203.123.56.246,60447.0,20.198.118.190,443.0,OUT.bound,established,,,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
-2023-11-21_09-23-52,udp,203.123.56.246,53829.0,194.88.105.16,47274.0,OUT.bound,,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60559.0,148.153.184.114,6114.0,OUT.bound,,,,SG,AS63199 capitalonline data service co. ltd,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42450.0,74.125.130.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,30933.0,203.123.56.246,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,55954.0,163.70.141.34,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,46424.0,47.241.71.123,443.0,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,9959.0,146.196.110.84,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,36078.0,142.251.175.95,443.0,OUT.bound,last-ack,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,49825.0,74.125.24.99,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49169.0,190.2.153.205,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,2.59.169.43,80.0,192.168.120.223,49563.0,IN.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49740.0,20.198.119.143,443.0,OUT.bound,established,,,IN,AS8075 microsoft corporation,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,47246.0,31.13.95.34,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,60139.0,34.111.101.25,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49222.0,89.58.56.112,587.0,OUT.bound,established,,,DE,ASNone ,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,185.224.128.184,5819.0,146.196.110.84,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,udp,203.123.56.246,54536.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,44750.0,157.240.208.34,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51446.0,172.253.118.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,41462.0,142.251.175.132,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52500.0,64.233.170.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,74.125.68.188,5228.0,192.168.120.221,53235.0,IN.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
-2023-11-21_09-23-52,tcp,203.123.56.246,49748.0,74.125.24.99,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49164.0,162.159.133.233,443.0,OUT.bound,established,,,,AS13335 cloudflare,PuffStealer,,2023-11-18T01:24:48.887000
-2023-11-21_09-23-52,tcp,203.123.56.246,49712.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,39401.0,74.125.200.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,185.224.128.184,31765.0,146.196.110.84,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,33137.0,216.239.36.135,443.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,60822.0,157.240.208.34,443.0,OUT.bound,last-ack,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,74.82.47.19,33920.0,203.123.56.244,80.0,IN.bound,established,,,US,AS6939 hurricane electric llc,Georgs Honeypot,Honeypot,2023-11-21T02:01:29.502000
-2023-11-21_09-23-52,tcp,192.168.120.199,37260.0,216.239.36.135,443.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,185.224.128.184,21217.0,203.123.56.245,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,udp,203.123.56.246,15885.0,47.241.62.3,6000.0,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,62423.0,138.201.130.61,64222.0,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,40762.0,142.251.12.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
-2023-11-21_09-23-52,tcp,203.123.56.246,46394.0,47.246.177.253,80.0,OUT.bound,established,,,US,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,39172.0,142.251.10.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
-2023-11-21_09-23-52,tcp,203.123.56.246,51566.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,49417.0,2.59.169.43,80.0,OUT.bound,close,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49181.0,80.66.135.123,9001.0,OUT.bound,established,,,BE,AS1239 sprint,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,185.224.128.184,30185.0,146.196.110.84,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,54504.0,157.240.217.34,443.0,OUT.bound,established,,,SG,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53505.0,2.59.169.85,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,44512.0,74.125.24.156,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,35135.0,216.239.36.135,443.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,49656.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,74.125.130.188,5228.0,192.168.120.207,38343.0,IN.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,58901.0,199.103.24.2,443.0,OUT.bound,established,,,US,AS396986 bytedance inc.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,31227.0,203.123.56.245,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,39318.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,43255.0,163.70.153.61,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,16539.0,203.123.56.245,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,49195.0,190.2.153.205,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,55956.0,148.251.179.103,56317.0,OUT.bound,,,,DE,AS24940 hetzner online gmbh,Compromised Open Proxies used for HEAD Floods,IPs of open proxies generated by cc.py tool to relay DDoS HEAD Flood attacks against externally face,2023-08-06T20:04:55.097000
-2023-11-21_09-23-52,tcp,185.224.128.184,7063.0,203.123.56.244,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,49166.0,138.201.55.77,8444.0,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,52626.0,74.125.200.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,185.224.128.184,30449.0,203.123.56.247,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,48514.0,163.70.153.61,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42032.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,50689.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,2.59.169.86,80.0,192.168.120.24,55264.0,IN.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,34928.0,74.125.200.95,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52072.0,83.151.27.237,143.0,OUT.bound,established,,,DE,AS31333 hosting.de gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49583.0,190.2.153.214,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54297.0,104.244.42.130,443.0,OUT.bound,close,,,US,AS13414 twitter inc.,Speechless   Critical,,2023-10-30T03:23:08.790000
-2023-11-21_09-23-52,tcp,203.123.56.246,56886.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,udp,203.123.56.246,63679.0,134.119.187.245,43625.0,OUT.bound,,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,44657.0,216.239.36.135,443.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,185.224.128.184,6677.0,146.196.110.84,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,49472.0,34.149.173.23,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50680.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49224.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52459.0,91.121.219.14,9001.0,OUT.bound,established,,,FR,AS16276 ovh sas,test,,2022-09-27T10:23:28.226000
-2023-11-21_09-23-52,tcp,203.123.56.246,49247.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49248.0,190.2.153.211,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,40492.0,130.44.212.234,443.0,OUT.bound,established,,,US,AS396986 bytedance inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49203.0,74.125.200.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,udp,203.123.56.246,15885.0,47.241.57.66,6000.0,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55298.0,47.236.114.84,8820.0,OUT.bound,established,,,US,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,38527.0,140.0.23.161,1723.0,OUT.bound,established,,,ID,AS23700 linknet fastnet asn,,,
-2023-11-21_09-23-52,udp,203.123.56.246,52266.0,47.241.107.12,6000.0,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,1100.0,34.120.160.131,443.0,OUT.bound,established,,,US,AS396982 google,Unlucky Kamran: Android malware spying on Urdu-speaking residents of Gilgit-Baltistan,ESET researchers have identified malware that spies on Urdu-speaking readers of Hunza News  a region,2023-11-10T13:10:20.801000
-2023-11-21_09-23-52,tcp,185.224.128.184,17595.0,203.123.56.244,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,37036.0,142.250.4.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
-2023-11-21_09-23-52,tcp,203.123.56.246,37270.0,142.251.10.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
-2023-11-21_09-23-52,tcp,190.2.153.211,40001.0,192.168.120.223,63198.0,IN.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49888.0,65.108.58.113,10101.0,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,49268.0,162.159.135.233,443.0,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,,2023-11-14T17:01:45.019000
-2023-11-21_09-23-52,tcp,185.224.128.184,25183.0,203.123.56.244,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,40426.0,162.247.241.4,443.0,OUT.bound,established,,,US,AS23467 new relic,,,
-2023-11-21_09-23-52,tcp,104.253.91.98,80.0,203.123.56.247,39297.0,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
-2023-11-21_09-23-52,tcp,14.191.233.157,16362.0,203.123.56.247,445.0,IN.bound,established,,,VN,AS45899 vnpt corp,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,36086.0,142.251.175.95,443.0,OUT.bound,last-ack,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,43410.0,142.251.175.94,443.0,OUT.bound,,,,US,AS15169 google llc,Speechless   Critical,,2023-10-30T03:23:08.790000
-2023-11-21_09-23-52,tcp,203.123.56.246,49170.0,190.2.153.211,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,27341.0,203.123.56.246,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,172.253.118.188,443.0,192.168.120.211,49681.0,IN.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,udp,144.91.109.70,37191.0,146.196.110.84,5060.0,IN.bound,,,,DE,AS51167 contabo gmbh,ETIC Cybersecurity 2023-11-19 Port Scan,,2023-11-19T22:59:43.803000
-2023-11-21_09-23-52,tcp,203.123.56.246,52466.0,91.121.86.59,995.0,OUT.bound,established,,,FR,AS16276 ovh sas,TOR nodes,,2023-11-15T00:01:55.056000
-2023-11-21_09-23-52,tcp,203.123.56.246,52412.0,45.92.33.62,443.0,OUT.bound,established,,,GR,AS9009 m247 ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,47040.0,157.240.208.16,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55284.0,2.59.169.42,80.0,OUT.bound,time-wait,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49170.0,205.185.124.189,8443.0,OUT.bound,established,,,US,AS53667 frantech solutions,IOCs - 20237211810 - ANIA Threat Feeds - IP Segment 6,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-08-21T02:04:06.774000
-2023-11-21_09-23-52,tcp,14.191.233.157,24102.0,203.123.56.244,445.0,IN.bound,established,,,VN,AS45899 vnpt corp,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,56790.0,157.240.208.34,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,56783.0,144.76.28.178,38317.0,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
-2023-11-21_09-23-52,tcp,150.242.182.187,80.0,203.123.56.247,47921.0,IN.bound,established,,,MY,AS17564 gitn (m) sdn. bhd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,47196.0,172.253.118.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,41844.0,74.125.200.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,203.123.56.246,49562.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,30021.0,203.123.56.245,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,49703.0,190.2.153.205,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,45550.0,74.125.130.94,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53720.0,2.59.169.42,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54356.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,185.224.128.184,29409.0,146.196.110.84,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,42016.0,142.251.12.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
-2023-11-21_09-23-52,tcp,203.123.56.246,48613.0,74.125.200.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
-2023-11-21_09-23-52,tcp,203.123.56.246,1075.0,34.120.160.131,443.0,OUT.bound,established,,,US,AS396982 google,Unlucky Kamran: Android malware spying on Urdu-speaking residents of Gilgit-Baltistan,ESET researchers have identified malware that spies on Urdu-speaking readers of Hunza News  a region,2023-11-10T13:10:20.801000
-2023-11-21_09-23-52,tcp,203.123.56.246,49197.0,190.2.153.205,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,30131.0,203.123.56.245,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,118.26.252.226,443.0,192.168.120.207,49559.0,IN.bound,established,,,CN,AS23724 idc china telecommunications corporation,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,41131.0,47.245.116.47,6800.0,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49540.0,134.119.183.61,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49188.0,190.2.153.231,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42293.0,163.70.153.35,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,36072.0,142.251.175.95,443.0,OUT.bound,last-ack,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,104.253.91.98,80.0,203.123.56.244,45281.0,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
-2023-11-21_09-23-52,tcp,185.224.128.184,9607.0,203.123.56.244,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,41460.0,142.251.175.132,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49184.0,185.241.208.101,143.0,OUT.bound,established,,,NL,ASNone ,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,47032.0,157.240.208.16,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49184.0,178.215.228.25,443.0,OUT.bound,established,,,DE,AS48927 eseven devops gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,52413.0,78.46.123.26,8443.0,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,46230,172.217.194.155,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,34054,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,36556,172.253.118.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,34284,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50629,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49175,81.169.159.28,29001,OUT.bound,established,,,DE,AS6724 strato ag,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,43820,172.217.194.95,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,57729,34.79.221.98,443,OUT.bound,established,,,BE,AS396982 google,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49333,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,37028,142.251.12.188,5228,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
+2023-11-21_09-23-52,tcp,203.123.56.246,42444,167.114.32.111,443,OUT.bound,established,,,US,AS16276 ovh sas,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,39733,23.50.117.216,443,OUT.bound,established,,,ID,AS20940 akamai international b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,59467,8.222.192.32,6800,OUT.bound,established,,,SG,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49177,190.2.153.231,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,24757,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,49355,104.21.33.59,80,OUT.bound,established,,,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-23-52,tcp,203.123.56.246,60447,20.198.118.190,443,OUT.bound,established,,,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-23-52,udp,203.123.56.246,53829,194.88.105.16,47274,OUT.bound,,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60559,148.153.184.114,6114,OUT.bound,,,,SG,AS63199 capitalonline data service co. ltd,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42450,74.125.130.188,5228,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,30933,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,55954,163.70.141.34,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,46424,47.241.71.123,443,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,9959,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,36078,142.251.175.95,443,OUT.bound,last-ack,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,49825,74.125.24.99,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49169,190.2.153.205,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,2.59.169.43,80,192.168.120.223,49563,IN.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49740,20.198.119.143,443,OUT.bound,established,,,IN,AS8075 microsoft corporation,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,47246,31.13.95.34,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,60139,34.111.101.25,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49222,89.58.56.112,587,OUT.bound,established,,,DE,ASNone ,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,185.224.128.184,5819,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,udp,203.123.56.246,54536,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,44750,157.240.208.34,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51446,172.253.118.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,41462,142.251.175.132,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52500,64.233.170.188,5228,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,74.125.68.188,5228,192.168.120.221,53235,IN.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
+2023-11-21_09-23-52,tcp,203.123.56.246,49748,74.125.24.99,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49164,162.159.133.233,443,OUT.bound,established,,,,AS13335 cloudflare,PuffStealer,,2023-11-18T01:24:48.887000
+2023-11-21_09-23-52,tcp,203.123.56.246,49712,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,39401,74.125.200.188,5228,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,185.224.128.184,31765,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,33137,216.239.36.135,443,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,60822,157.240.208.34,443,OUT.bound,last-ack,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,74.82.47.19,33920,203.123.56.244,80,IN.bound,established,,,US,AS6939 hurricane electric llc,Georgs Honeypot,Honeypot,2023-11-21T02:01:29.502000
+2023-11-21_09-23-52,tcp,192.168.120.199,37260,216.239.36.135,443,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,185.224.128.184,21217,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,udp,203.123.56.246,15885,47.241.62.3,6000,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,62423,138.201.130.61,64222,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,40762,142.251.12.188,5228,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
+2023-11-21_09-23-52,tcp,203.123.56.246,46394,47.246.177.253,80,OUT.bound,established,,,US,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,39172,142.251.10.188,5228,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-23-52,tcp,203.123.56.246,51566,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,49417,2.59.169.43,80,OUT.bound,close,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49181,80.66.135.123,9001,OUT.bound,established,,,BE,AS1239 sprint,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,185.224.128.184,30185,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,54504,157.240.217.34,443,OUT.bound,established,,,SG,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53505,2.59.169.85,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,44512,74.125.24.156,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,35135,216.239.36.135,443,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,49656,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,74.125.130.188,5228,192.168.120.207,38343,IN.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,58901,199.103.24.2,443,OUT.bound,established,,,US,AS396986 bytedance inc.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,31227,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,39318,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,43255,163.70.153.61,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,16539,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,49195,190.2.153.205,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,55956,148.251.179.103,56317,OUT.bound,,,,DE,AS24940 hetzner online gmbh,Compromised Open Proxies used for HEAD Floods,IPs of open proxies generated by cc.py tool to relay DDoS HEAD Flood attacks against externally face,2023-08-06T20:04:55.097000
+2023-11-21_09-23-52,tcp,185.224.128.184,7063,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,49166,138.201.55.77,8444,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,52626,74.125.200.188,5228,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,185.224.128.184,30449,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,48514,163.70.153.61,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42032,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,50689,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,2.59.169.86,80,192.168.120.24,55264,IN.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,34928,74.125.200.95,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52072,83.151.27.237,143,OUT.bound,established,,,DE,AS31333 hosting.de gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49583,190.2.153.214,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54297,104.244.42.130,443,OUT.bound,close,,,US,AS13414 twitter inc.,Speechless   Critical,,2023-10-30T03:23:08.790000
+2023-11-21_09-23-52,tcp,203.123.56.246,56886,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,udp,203.123.56.246,63679,134.119.187.245,43625,OUT.bound,,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,44657,216.239.36.135,443,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,185.224.128.184,6677,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,49472,34.149.173.23,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50680,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49224,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52459,91.121.219.14,9001,OUT.bound,established,,,FR,AS16276 ovh sas,test,,2022-09-27T10:23:28.226000
+2023-11-21_09-23-52,tcp,203.123.56.246,49247,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49248,190.2.153.211,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,40492,130.44.212.234,443,OUT.bound,established,,,US,AS396986 bytedance inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49203,74.125.200.188,5228,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,udp,203.123.56.246,15885,47.241.57.66,6000,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55298,47.236.114.84,8820,OUT.bound,established,,,US,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,38527,140.0.23.161,1723,OUT.bound,established,,,ID,AS23700 linknet fastnet asn,,,
+2023-11-21_09-23-52,udp,203.123.56.246,52266,47.241.107.12,6000,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,1100,34.120.160.131,443,OUT.bound,established,,,US,AS396982 google,Unlucky Kamran: Android malware spying on Urdu-speaking residents of Gilgit-Baltistan,ESET researchers have identified malware that spies on Urdu-speaking readers of Hunza News  a region,2023-11-10T13:10:20.801000
+2023-11-21_09-23-52,tcp,185.224.128.184,17595,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,37036,142.250.4.188,5228,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-23-52,tcp,203.123.56.246,37270,142.251.10.188,5228,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-23-52,tcp,190.2.153.211,40001,192.168.120.223,63198,IN.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49888,65.108.58.113,10101,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,49268,162.159.135.233,443,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,,2023-11-14T17:01:45.019000
+2023-11-21_09-23-52,tcp,185.224.128.184,25183,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,40426,162.247.241.4,443,OUT.bound,established,,,US,AS23467 new relic,,,
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.247,39297,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
+2023-11-21_09-23-52,tcp,14.191.233.157,16362,203.123.56.247,445,IN.bound,established,,,VN,AS45899 vnpt corp,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,36086,142.251.175.95,443,OUT.bound,last-ack,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,43410,142.251.175.94,443,OUT.bound,,,,US,AS15169 google llc,Speechless   Critical,,2023-10-30T03:23:08.790000
+2023-11-21_09-23-52,tcp,203.123.56.246,49170,190.2.153.211,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,27341,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,172.253.118.188,443,192.168.120.211,49681,IN.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,udp,144.91.109.70,37191,146.196.110.84,5060,IN.bound,,,,DE,AS51167 contabo gmbh,ETIC Cybersecurity 2023-11-19 Port Scan,,2023-11-19T22:59:43.803000
+2023-11-21_09-23-52,tcp,203.123.56.246,52466,91.121.86.59,995,OUT.bound,established,,,FR,AS16276 ovh sas,TOR nodes,,2023-11-15T00:01:55.056000
+2023-11-21_09-23-52,tcp,203.123.56.246,52412,45.92.33.62,443,OUT.bound,established,,,GR,AS9009 m247 ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,47040,157.240.208.16,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55284,2.59.169.42,80,OUT.bound,time-wait,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49170,205.185.124.189,8443,OUT.bound,established,,,US,AS53667 frantech solutions,IOCs - 20237211810 - ANIA Threat Feeds - IP Segment 6,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-08-21T02:04:06.774000
+2023-11-21_09-23-52,tcp,14.191.233.157,24102,203.123.56.244,445,IN.bound,established,,,VN,AS45899 vnpt corp,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,56790,157.240.208.34,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,56783,144.76.28.178,38317,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-23-52,tcp,150.242.182.187,80,203.123.56.247,47921,IN.bound,established,,,MY,AS17564 gitn (m) sdn. bhd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,47196,172.253.118.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,41844,74.125.200.188,5228,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,203.123.56.246,49562,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,30021,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,49703,190.2.153.205,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,45550,74.125.130.94,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53720,2.59.169.42,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54356,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,185.224.128.184,29409,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,42016,142.251.12.188,5228,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
+2023-11-21_09-23-52,tcp,203.123.56.246,48613,74.125.200.188,5228,OUT.bound,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-23-52,tcp,203.123.56.246,1075,34.120.160.131,443,OUT.bound,established,,,US,AS396982 google,Unlucky Kamran: Android malware spying on Urdu-speaking residents of Gilgit-Baltistan,ESET researchers have identified malware that spies on Urdu-speaking readers of Hunza News  a region,2023-11-10T13:10:20.801000
+2023-11-21_09-23-52,tcp,203.123.56.246,49197,190.2.153.205,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,30131,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,118.26.252.226,443,192.168.120.207,49559,IN.bound,established,,,CN,AS23724 idc china telecommunications corporation,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,41131,47.245.116.47,6800,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49540,134.119.183.61,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49188,190.2.153.231,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42293,163.70.153.35,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,36072,142.251.175.95,443,OUT.bound,last-ack,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,45281,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
+2023-11-21_09-23-52,tcp,185.224.128.184,9607,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,41460,142.251.175.132,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49184,185.241.208.101,143,OUT.bound,established,,,NL,ASNone ,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,47032,157.240.208.16,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49184,178.215.228.25,443,OUT.bound,established,,,DE,AS48927 eseven devops gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,52413,78.46.123.26,8443,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
 2023-11-21_09-23-52,icmp,175.103.43.90,,203.123.56.246,,IN.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,47254.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,37372.0,74.125.68.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
-2023-11-21_09-23-52,tcp,203.123.56.246,36074.0,142.251.175.95,443.0,OUT.bound,last-ack,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,36084.0,142.251.175.95,443.0,OUT.bound,last-ack,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,54285.0,134.119.184.235,58617.0,OUT.bound,,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,1036.0,92.223.85.164,443.0,OUT.bound,established,,,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,47254,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,37372,74.125.68.188,5228,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
+2023-11-21_09-23-52,tcp,203.123.56.246,36074,142.251.175.95,443,OUT.bound,last-ack,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,36084,142.251.175.95,443,OUT.bound,last-ack,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,54285,134.119.184.235,58617,OUT.bound,,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,1036,92.223.85.164,443,OUT.bound,established,,,SG,AS199524 g-core labs s.a.,,,
 2023-11-21_09-23-52,icmp,146.196.110.84,,146.196.110.81,,OUT.bound,,,,ID,AS139460 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,59560.0,142.251.12.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
-2023-11-21_09-23-52,tcp,203.123.56.246,54090.0,2.59.169.86,80.0,OUT.bound,time-wait,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50364.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50363.0,190.2.153.205,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49192.0,190.2.153.208,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,195.85.201.201,30120.0,203.123.56.247,17989.0,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,49362.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,48175.0,122.144.2.204,443.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51742.0,2.59.169.42,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49694.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49177.0,162.159.134.233,443.0,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,,2023-11-14T17:01:45.019000
-2023-11-21_09-23-52,tcp,203.123.56.246,45828.0,142.251.12.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
-2023-11-21_09-23-52,tcp,203.123.56.246,49293.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,4645.0,203.123.56.246,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,43730.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,50455.0,23.195.156.56,443.0,OUT.bound,established,,,ID,AS131702 moratelindo internet exchange,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,11245.0,203.123.56.244,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,53181.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,43888.0,13.33.88.8,443.0,OUT.bound,established,,,US,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49166.0,185.120.145.83,9001.0,OUT.bound,established,,,RO,AS9009 m247 ltd,,,
-2023-11-21_09-23-52,udp,203.123.56.246,54922.0,142.251.12.138,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,40735.0,74.125.68.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
-2023-11-21_09-23-52,tcp,203.123.56.246,55990.0,163.70.153.61,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49345.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,48962.0,140.0.23.161,1723.0,OUT.bound,established,,,ID,AS23700 linknet fastnet asn,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,45606.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,udp,203.123.56.246,15097.0,47.241.61.177,6000.0,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,40422.0,162.247.241.4,443.0,OUT.bound,established,,,US,AS23467 new relic,,,
-2023-11-21_09-23-52,udp,203.123.56.246,50387.0,93.190.141.101,37235.0,OUT.bound,,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49675.0,74.125.68.188,443.0,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
-2023-11-21_09-23-52,tcp,172.217.194.188,5228.0,192.168.120.253,48430.0,IN.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,49108.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,185.224.128.184,20135.0,203.123.56.247,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,36922.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,60590.0,163.70.153.34,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,36550.0,157.240.208.34,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,184.105.247.228,64290.0,146.196.110.84,5060.0,IN.bound,,,,US,AS6939 hurricane electric llc,Georgs Honeypot,Honeypot,2023-11-21T02:01:29.502000
-2023-11-21_09-23-52,tcp,203.123.56.246,49262.0,190.2.153.214,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,3269.0,203.123.56.244,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,38864.0,163.70.153.61,80.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,16289.0,203.123.56.246,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,45514.0,74.125.68.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
-2023-11-21_09-23-52,tcp,2.59.169.86,80.0,192.168.120.24,53727.0,IN.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51786.0,157.240.208.61,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49164.0,162.159.130.233,443.0,OUT.bound,established,,,,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49221.0,195.90.208.159,443.0,OUT.bound,established,,,DE,AS42730 evanzo e-commerce gmbh,,,
-2023-11-21_09-23-52,tcp,104.253.91.98,80.0,203.123.56.244,31458.0,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
-2023-11-21_09-23-52,tcp,203.123.56.246,49709.0,2.59.169.85,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49478.0,2.59.169.86,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,103.9.159.55,25565.0,203.123.56.244,58045.0,IN.bound,established,,,VN,AS63730 vnso technology company,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,36770.0,106.10.236.40,443.0,OUT.bound,established,,,SG,AS56173 internet content provider,,,
-2023-11-21_09-23-52,udp,203.123.56.246,44510.0,142.251.10.139,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,104.253.91.98,80.0,203.123.56.244,64574.0,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
-2023-11-21_09-23-52,tcp,203.123.56.246,58773.0,8.219.43.42,31006.0,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,192.168.8.215,47445.0,45.121.219.249,443.0,OUT.bound,established,,,ID,AS131702 moratelindo internet exchange,,,
-2023-11-21_09-23-52,udp,203.123.56.246,15097.0,47.241.116.15,6000.0,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49391.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60559.0,148.153.184.114,6113.0,OUT.bound,,,,SG,AS63199 capitalonline data service co. ltd,,,
-2023-11-21_09-23-52,udp,176.97.210.129,49108.0,203.123.56.247,5060.0,IN.bound,,,,,AS49581 bil-tim bilgisayar hizmetleri,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:44.769000
-2023-11-21_09-23-52,tcp,203.123.56.246,41846.0,47.241.94.208,31006.0,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49179.0,190.2.153.202,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,53969.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,50669.0,172.253.118.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,31583.0,203.123.56.247,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,udp,203.123.56.246,47058.0,172.253.118.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42384.0,172.253.118.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,58158.0,8.222.216.16,6800.0,OUT.bound,established,,,SG,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42924.0,172.253.118.95,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49340.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,61053.0,136.243.103.112,52054.0,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
-2023-11-21_09-23-52,tcp,190.2.153.214,40001.0,192.168.120.24,51939.0,IN.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,36448.0,74.125.200.94,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49309.0,51.81.93.145,9001.0,OUT.bound,established,,,US,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,37918.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49233.0,190.2.153.202,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50347.0,149.154.170.100,443.0,OUT.bound,established,,,AG,AS62014 telegram messenger inc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49172.0,46.228.199.128,9001.0,OUT.bound,established,,,DE,AS24961 myloc managed it ag,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,54694.0,142.251.10.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
-2023-11-21_09-23-52,tcp,203.123.56.246,45078.0,47.241.213.210,443.0,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,37166.0,173.194.202.188,443.0,OUT.bound,established,,,US,AS15169 google llc,Blackshades    Remote attacks   Malicious Google Search   DNS Requests,Botnet Command and Control  nCobalt Strike nMisc Attack nHidden users nTargets: network  communicati,2023-11-06T03:00:36.709000
-2023-11-21_09-23-52,tcp,203.123.56.246,37345.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,185.224.128.184,14337.0,203.123.56.247,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,tcp,203.123.56.246,49166.0,69.30.239.126,443.0,OUT.bound,established,,,US,AS32097 wholesale internet  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,49187.0,190.2.153.200,40001.0,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,40886.0,142.251.10.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
-2023-11-21_09-23-52,tcp,203.123.56.246,36072.0,216.239.36.135,443.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,60546.0,8.222.210.32,8820.0,OUT.bound,established,,,SG,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,56163.0,89.38.96.61,38863.0,OUT.bound,,,,NL,AS49981 worldstream b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50360.0,81.6.47.149,9001.0,OUT.bound,established,,,CH,AS13030 init7 switzerland  ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,44843.0,74.125.24.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,130.44.212.235,443.0,203.123.56.246,38822.0,IN.bound,established,,,US,AS396986 bytedance inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49307.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,37592.0,157.240.208.34,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,42381.0,172.253.118.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,34544.0,142.251.175.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,47680.0,142.251.10.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
-2023-11-21_09-23-52,tcp,203.123.56.246,43312.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,53513.0,2.59.169.42,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55140.0,20.198.118.190,443.0,OUT.bound,established,,,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
-2023-11-21_09-23-52,udp,203.123.56.246,41055.0,74.125.68.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,185.224.128.184,14233.0,203.123.56.246,80.0,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,udp,203.123.56.246,44839.0,172.217.194.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52458.0,88.99.248.158,9001.0,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,49611.0,167.114.32.111,443.0,OUT.bound,established,,,US,AS16276 ovh sas,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,46598.0,34.111.101.25,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,38699.0,8.219.82.150,6800.0,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,udp,205.210.31.89,51932.0,203.123.56.246,5060.0,IN.bound,,,,CA,AS396982 google,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:44.769000
-2023-11-21_09-23-52,tcp,203.123.56.246,50358.0,51.77.90.246,8081.0,OUT.bound,established,,,FR,AS16276 ovh sas,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49314.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53798.0,202.78.195.146,443.0,OUT.bound,established,,,ID,AS18059 dtpnet nap,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55361.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,45680.0,172.253.118.139,443.0,OUT.bound,established,google.com,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60133.0,163.70.153.21,443.0,OUT.bound,,,,FR,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,49181.0,157.240.208.14,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42888.0,157.240.208.23,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42546.0,163.70.153.20,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60293.0,140.213.23.17,443.0,OUT.bound,,,,ID,AS24203 pt xl axiata,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54658.0,151.101.108.159,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,40472.0,163.70.153.36,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49433.0,34.107.243.93,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49322.0,163.70.153.61,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49434.0,34.149.100.209,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,37178.0,64.233.170.101,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,57518.0,172.217.194.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,57411.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,54089.0,74.125.24.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,47780.0,74.125.24.95,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,54638.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,58340.0,142.251.10.95,443.0,OUT.bound,,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
-2023-11-21_09-23-52,udp,203.123.56.246,36370.0,142.251.12.100,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52260.0,2.59.169.85,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,35084.0,64.233.170.139,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60183.0,74.125.200.94,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,35041.0,74.125.24.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,56062.0,172.253.118.101,443.0,OUT.bound,,google.com,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54710.0,163.70.153.42,443.0,OUT.bound,close,,,FR,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,57787.0,74.125.68.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,42884.0,64.233.170.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,44221.0,64.233.170.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,47325.0,64.233.170.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52369.0,23.0.168.151,80.0,OUT.bound,established,,,ID,AS16625 akamai technologies  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,57806.0,203.161.21.9,443.0,OUT.bound,established,,,ID,AS133840 pt jala lintas media,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49667.0,104.21.23.184,443.0,OUT.bound,established,,,US,AS13335 cloudflare,Japanese phishing site.,phishing-site list generated from scattered spam emails. n nOTX(2021): https://otx.alienvault.com/pu,2023-11-21T01:15:11.912000
-2023-11-21_09-23-52,tcp,203.123.56.246,49444.0,34.120.208.123,443.0,OUT.bound,established,,,US,AS396982 google,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,52374.0,172.64.148.55,80.0,OUT.bound,established,,,US,AS13335 cloudflare,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21T01:02:17.904000
-2023-11-21_09-23-52,udp,203.123.56.246,33711.0,157.240.208.16,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49445.0,104.21.33.59,80.0,OUT.bound,established,,,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
-2023-11-21_09-23-52,tcp,203.123.56.246,52379.0,152.195.38.76,80.0,OUT.bound,established,,,US,AS15133 verizon,quick look at 79.12.165.51,,2023-11-20T00:05:28.436000
-2023-11-21_09-23-52,udp,203.123.56.246,36488.0,142.251.12.138,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49808.0,104.21.33.59,80.0,OUT.bound,established,,,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
-2023-11-21_09-23-52,udp,203.123.56.246,64125.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49809.0,104.21.72.246,80.0,OUT.bound,established,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52382.0,23.215.35.86,80.0,OUT.bound,established,,,FR,AS20940 akamai international b.v.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,56336.0,172.217.194.95,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,48116.0,47.246.159.247,80.0,OUT.bound,established,,,US,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49348.0,172.67.141.182,80.0,OUT.bound,established,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,203.123.56.246,56230.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,40527.0,157.240.208.14,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49412.0,142.251.12.19,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49446.0,163.70.153.60,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,57625.0,34.117.97.41,443.0,OUT.bound,,,,US,AS396982 google,,,
-2023-11-21_09-23-52,udp,203.123.56.246,56029.0,23.221.50.97,443.0,OUT.bound,,,,ID,AS20940 akamai international b.v.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60567.0,34.96.106.127,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,53939.0,34.111.174.196,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,32841.0,34.110.200.237,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,37204.0,34.149.173.23,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,47063.0,64.233.170.138,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,64051.0,172.217.194.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,53553.0,210.210.145.138,443.0,OUT.bound,,,,ID,AS4787 pt cyberindo aditama,,,
-2023-11-21_09-23-52,udp,203.123.56.246,58743.0,210.210.145.8,443.0,OUT.bound,,,,ID,AS4787 pt cyberindo aditama,,,
-2023-11-21_09-23-52,udp,203.123.56.246,54573.0,163.70.153.21,443.0,OUT.bound,,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50576.0,163.70.153.35,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,38876.0,163.70.153.21,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50580.0,163.70.153.35,443.0,OUT.bound,established,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49208.0,94.74.90.138,80.0,OUT.bound,established,,,SG,AS136907 huawei clouds,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,36186.0,157.240.208.16,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,41762.0,8.211.30.153,443.0,OUT.bound,established,,,DE,AS45102 alibaba (us) technology co.  ltd.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,50718.0,138.113.250.33,443.0,OUT.bound,,,,US,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,35178.0,157.240.208.61,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53524.0,157.240.208.60,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,56696.0,74.125.68.95,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,62178.0,74.125.68.139,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,57648.0,74.125.130.101,80.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,33905.0,210.210.145.8,443.0,OUT.bound,,,,ID,AS4787 pt cyberindo aditama,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49548.0,172.217.194.188,5228.0,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
-2023-11-21_09-23-52,tcp,203.123.56.246,49440.0,185.199.108.133,443.0,OUT.bound,established,,,US,AS54113 fastly,CVE-2017-11882,This is the full list of terms and terms used to describe a vulnerability in Microsoft Office that h,2023-11-15T06:02:53.764000
-2023-11-21_09-23-52,tcp,203.123.56.246,40356.0,142.251.12.95,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54757.0,157.240.208.35,443.0,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55463.0,104.16.120.50,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,Quasar - Dark Web Instagram Account   Link found   Remote Access Trojan (RAT),Link: apple.instagram.com  nQuasar is a lightweight  publicly available open-source Remote Access Tr,2023-10-19T14:04:37.381000
-2023-11-21_09-23-52,udp,203.123.56.246,58178.0,142.251.12.100,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,42622.0,163.70.153.60,443.0,OUT.bound,last-ack,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55154.0,94.74.90.138,80.0,OUT.bound,established,,,SG,AS136907 huawei clouds,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55466.0,40.126.35.20,443.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
-2023-11-21_09-23-52,tcp,203.123.56.246,55467.0,104.16.198.132,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55470.0,104.18.40.25,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55469.0,157.240.208.35,443.0,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54761.0,2.59.169.43,80.0,OUT.bound,close,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55471.0,172.64.153.46,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54763.0,104.18.33.170,443.0,OUT.bound,close,,,US,AS13335 cloudflare,IOCs - 2023117226 - ANIA Threat Feeds - IP Segment 7,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T21:41:25.668000
-2023-11-21_09-23-52,udp,203.123.56.246,44887.0,142.251.10.95,443.0,OUT.bound,,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
-2023-11-21_09-23-52,tcp,203.123.56.246,55472.0,157.240.208.35,443.0,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60542.0,142.250.4.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52933.0,134.119.183.61,80.0,OUT.bound,time-wait,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51544.0,2.59.169.85,80.0,OUT.bound,time-wait,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52318.0,157.240.208.35,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55689.0,2.59.169.85,80.0,OUT.bound,time-wait,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54768.0,104.244.42.1,443.0,OUT.bound,close,,,US,AS13414 twitter inc.,PuffStealer,,2023-11-18T01:24:48.887000
-2023-11-21_09-23-52,tcp,203.123.56.246,54770.0,172.64.154.86,443.0,OUT.bound,close,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49819.0,185.82.216.62,443.0,OUT.bound,established,,,BG,AS59729 itl llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54771.0,104.244.43.131,443.0,OUT.bound,close,,,US,AS54113 fastly,Browser Malware Attack,Attacking  browser to identify researcher. nCommand for critical failure/destruction:    https://sea,2023-11-04T23:13:21.883000
-2023-11-21_09-23-52,tcp,203.123.56.246,53902.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52234.0,2.59.169.42,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52599.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50725.0,34.94.245.237,443.0,OUT.bound,time-wait,,,US,AS396982 google,Fraud Services,http://kramtechnology.com/  fraud services  network  rat  trojan  phishing  malvertizing  malware ho,2023-11-18T14:04:48.923000
-2023-11-21_09-23-52,tcp,203.123.56.246,56850.0,115.238.23.23,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53656.0,2.59.169.86,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54773.0,64.233.170.95,443.0,OUT.bound,close,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55474.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53655.0,34.160.111.145,80.0,OUT.bound,established,,,US,AS15169 google llc,Malware Command and Control IPs,,2023-11-20T22:02:01.220000
-2023-11-21_09-23-52,tcp,203.123.56.246,53657.0,157.240.208.35,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,43222.0,172.253.118.138,443.0,OUT.bound,established,google.com,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52326.0,2.59.169.86,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49939.0,115.238.23.30,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,59560,142.251.12.188,5228,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
+2023-11-21_09-23-52,tcp,203.123.56.246,54090,2.59.169.86,80,OUT.bound,time-wait,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50364,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50363,190.2.153.205,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49192,190.2.153.208,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,195.85.201.201,30120,203.123.56.247,17989,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,49362,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,48175,122.144.2.204,443,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51742,2.59.169.42,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49694,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49177,162.159.134.233,443,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,,2023-11-14T17:01:45.019000
+2023-11-21_09-23-52,tcp,203.123.56.246,45828,142.251.12.188,5228,OUT.bound,established,,,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
+2023-11-21_09-23-52,tcp,203.123.56.246,49293,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,4645,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,43730,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,50455,23.195.156.56,443,OUT.bound,established,,,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,11245,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,53181,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,43888,13.33.88.8,443,OUT.bound,established,,,US,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49166,185.120.145.83,9001,OUT.bound,established,,,RO,AS9009 m247 ltd,,,
+2023-11-21_09-23-52,udp,203.123.56.246,54922,142.251.12.138,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,40735,74.125.68.188,5228,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
+2023-11-21_09-23-52,tcp,203.123.56.246,55990,163.70.153.61,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49345,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,48962,140.0.23.161,1723,OUT.bound,established,,,ID,AS23700 linknet fastnet asn,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,45606,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,udp,203.123.56.246,15097,47.241.61.177,6000,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,40422,162.247.241.4,443,OUT.bound,established,,,US,AS23467 new relic,,,
+2023-11-21_09-23-52,udp,203.123.56.246,50387,93.190.141.101,37235,OUT.bound,,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49675,74.125.68.188,443,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
+2023-11-21_09-23-52,tcp,172.217.194.188,5228,192.168.120.253,48430,IN.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,49108,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,185.224.128.184,20135,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,36922,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,60590,163.70.153.34,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,36550,157.240.208.34,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,184.105.247.228,64290,146.196.110.84,5060,IN.bound,,,,US,AS6939 hurricane electric llc,Georgs Honeypot,Honeypot,2023-11-21T02:01:29.502000
+2023-11-21_09-23-52,tcp,203.123.56.246,49262,190.2.153.214,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,3269,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,38864,163.70.153.61,80,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,16289,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,45514,74.125.68.188,5228,OUT.bound,established,,,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000
+2023-11-21_09-23-52,tcp,2.59.169.86,80,192.168.120.24,53727,IN.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51786,157.240.208.61,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49164,162.159.130.233,443,OUT.bound,established,,,,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49221,195.90.208.159,443,OUT.bound,established,,,DE,AS42730 evanzo e-commerce gmbh,,,
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,31458,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
+2023-11-21_09-23-52,tcp,203.123.56.246,49709,2.59.169.85,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49478,2.59.169.86,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,103.9.159.55,25565,203.123.56.244,58045,IN.bound,established,,,VN,AS63730 vnso technology company,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,36770,106.10.236.40,443,OUT.bound,established,,,SG,AS56173 internet content provider,,,
+2023-11-21_09-23-52,udp,203.123.56.246,44510,142.251.10.139,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,64574,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:27.192000
+2023-11-21_09-23-52,tcp,203.123.56.246,58773,8.219.43.42,31006,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,192.168.8.215,47445,45.121.219.249,443,OUT.bound,established,,,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-23-52,udp,203.123.56.246,15097,47.241.116.15,6000,OUT.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49391,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60559,148.153.184.114,6113,OUT.bound,,,,SG,AS63199 capitalonline data service co. ltd,,,
+2023-11-21_09-23-52,udp,176.97.210.129,49108,203.123.56.247,5060,IN.bound,,,,,AS49581 bil-tim bilgisayar hizmetleri,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:44.769000
+2023-11-21_09-23-52,tcp,203.123.56.246,41846,47.241.94.208,31006,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49179,190.2.153.202,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,53969,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,50669,172.253.118.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,31583,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,udp,203.123.56.246,47058,172.253.118.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42384,172.253.118.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,58158,8.222.216.16,6800,OUT.bound,established,,,SG,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42924,172.253.118.95,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49340,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,61053,136.243.103.112,52054,OUT.bound,,,,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-23-52,tcp,190.2.153.214,40001,192.168.120.24,51939,IN.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,36448,74.125.200.94,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49309,51.81.93.145,9001,OUT.bound,established,,,US,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,37918,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49233,190.2.153.202,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50347,149.154.170.100,443,OUT.bound,established,,,AG,AS62014 telegram messenger inc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49172,46.228.199.128,9001,OUT.bound,established,,,DE,AS24961 myloc managed it ag,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,54694,142.251.10.188,5228,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-23-52,tcp,203.123.56.246,45078,47.241.213.210,443,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,37166,173.194.202.188,443,OUT.bound,established,,,US,AS15169 google llc,Blackshades    Remote attacks   Malicious Google Search   DNS Requests,Botnet Command and Control  nCobalt Strike nMisc Attack nHidden users nTargets: network  communicati,2023-11-06T03:00:36.709000
+2023-11-21_09-23-52,tcp,203.123.56.246,37345,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,185.224.128.184,14337,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,49166,69.30.239.126,443,OUT.bound,established,,,US,AS32097 wholesale internet  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,49187,190.2.153.200,40001,OUT.bound,established,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,40886,142.251.10.188,5228,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-23-52,tcp,203.123.56.246,36072,216.239.36.135,443,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,60546,8.222.210.32,8820,OUT.bound,established,,,SG,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,56163,89.38.96.61,38863,OUT.bound,,,,NL,AS49981 worldstream b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50360,81.6.47.149,9001,OUT.bound,established,,,CH,AS13030 init7 switzerland  ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,44843,74.125.24.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,130.44.212.235,443,203.123.56.246,38822,IN.bound,established,,,US,AS396986 bytedance inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49307,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,37592,157.240.208.34,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,42381,172.253.118.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,34544,142.251.175.188,5228,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,47680,142.251.10.188,5228,OUT.bound,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-23-52,tcp,203.123.56.246,43312,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,53513,2.59.169.42,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55140,20.198.118.190,443,OUT.bound,established,,,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-23-52,udp,203.123.56.246,41055,74.125.68.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,185.224.128.184,14233,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,udp,203.123.56.246,44839,172.217.194.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52458,88.99.248.158,9001,OUT.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,49611,167.114.32.111,443,OUT.bound,established,,,US,AS16276 ovh sas,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,46598,34.111.101.25,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,38699,8.219.82.150,6800,OUT.bound,established,,,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,udp,205.210.31.89,51932,203.123.56.246,5060,IN.bound,,,,CA,AS396982 google,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:44.769000
+2023-11-21_09-23-52,tcp,203.123.56.246,50358,51.77.90.246,8081,OUT.bound,established,,,FR,AS16276 ovh sas,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49314,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53798,202.78.195.146,443,OUT.bound,established,,,ID,AS18059 dtpnet nap,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55361,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,45680,172.253.118.139,443,OUT.bound,established,google.com,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60133,163.70.153.21,443,OUT.bound,,,,FR,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,49181,157.240.208.14,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42888,157.240.208.23,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42546,163.70.153.20,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60293,140.213.23.17,443,OUT.bound,,,,ID,AS24203 pt xl axiata,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54658,151.101.108.159,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,40472,163.70.153.36,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49433,34.107.243.93,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49322,163.70.153.61,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49434,34.149.100.209,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,37178,64.233.170.101,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,57518,172.217.194.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,57411,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,54089,74.125.24.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,47780,74.125.24.95,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,54638,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,58340,142.251.10.95,443,OUT.bound,,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
+2023-11-21_09-23-52,udp,203.123.56.246,36370,142.251.12.100,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52260,2.59.169.85,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,35084,64.233.170.139,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60183,74.125.200.94,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,35041,74.125.24.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,56062,172.253.118.101,443,OUT.bound,,google.com,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54710,163.70.153.42,443,OUT.bound,close,,,FR,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,57787,74.125.68.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,42884,64.233.170.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,44221,64.233.170.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,47325,64.233.170.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52369,23.0.168.151,80,OUT.bound,established,,,ID,AS16625 akamai technologies  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,57806,203.161.21.9,443,OUT.bound,established,,,ID,AS133840 pt jala lintas media,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49667,104.21.23.184,443,OUT.bound,established,,,US,AS13335 cloudflare,Japanese phishing site.,phishing-site list generated from scattered spam emails. n nOTX(2021): https://otx.alienvault.com/pu,2023-11-21T01:15:11.912000
+2023-11-21_09-23-52,tcp,203.123.56.246,49444,34.120.208.123,443,OUT.bound,established,,,US,AS396982 google,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,52374,172.64.148.55,80,OUT.bound,established,,,US,AS13335 cloudflare,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21T01:02:17.904000
+2023-11-21_09-23-52,udp,203.123.56.246,33711,157.240.208.16,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49445,104.21.33.59,80,OUT.bound,established,,,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-23-52,tcp,203.123.56.246,52379,152.195.38.76,80,OUT.bound,established,,,US,AS15133 verizon,quick look at 79.12.165.51,,2023-11-20T00:05:28.436000
+2023-11-21_09-23-52,udp,203.123.56.246,36488,142.251.12.138,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49808,104.21.33.59,80,OUT.bound,established,,,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-23-52,udp,203.123.56.246,64125,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49809,104.21.72.246,80,OUT.bound,established,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52382,23.215.35.86,80,OUT.bound,established,,,FR,AS20940 akamai international b.v.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,56336,172.217.194.95,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,48116,47.246.159.247,80,OUT.bound,established,,,US,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49348,172.67.141.182,80,OUT.bound,established,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,203.123.56.246,56230,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,40527,157.240.208.14,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49412,142.251.12.19,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49446,163.70.153.60,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,57625,34.117.97.41,443,OUT.bound,,,,US,AS396982 google,,,
+2023-11-21_09-23-52,udp,203.123.56.246,56029,23.221.50.97,443,OUT.bound,,,,ID,AS20940 akamai international b.v.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60567,34.96.106.127,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,53939,34.111.174.196,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,32841,34.110.200.237,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,37204,34.149.173.23,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,47063,64.233.170.138,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,64051,172.217.194.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,53553,210.210.145.138,443,OUT.bound,,,,ID,AS4787 pt cyberindo aditama,,,
+2023-11-21_09-23-52,udp,203.123.56.246,58743,210.210.145.8,443,OUT.bound,,,,ID,AS4787 pt cyberindo aditama,,,
+2023-11-21_09-23-52,udp,203.123.56.246,54573,163.70.153.21,443,OUT.bound,,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50576,163.70.153.35,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,38876,163.70.153.21,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50580,163.70.153.35,443,OUT.bound,established,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49208,94.74.90.138,80,OUT.bound,established,,,SG,AS136907 huawei clouds,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,36186,157.240.208.16,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,41762,8.211.30.153,443,OUT.bound,established,,,DE,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,50718,138.113.250.33,443,OUT.bound,,,,US,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,35178,157.240.208.61,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53524,157.240.208.60,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,56696,74.125.68.95,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,62178,74.125.68.139,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,57648,74.125.130.101,80,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,33905,210.210.145.8,443,OUT.bound,,,,ID,AS4787 pt cyberindo aditama,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49548,172.217.194.188,5228,OUT.bound,established,,,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-23-52,tcp,203.123.56.246,49440,185.199.108.133,443,OUT.bound,established,,,US,AS54113 fastly,CVE-2017-11882,This is the full list of terms and terms used to describe a vulnerability in Microsoft Office that h,2023-11-15T06:02:53.764000
+2023-11-21_09-23-52,tcp,203.123.56.246,40356,142.251.12.95,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54757,157.240.208.35,443,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55463,104.16.120.50,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,Quasar - Dark Web Instagram Account   Link found   Remote Access Trojan (RAT),Link: apple.instagram.com  nQuasar is a lightweight  publicly available open-source Remote Access Tr,2023-10-19T14:04:37.381000
+2023-11-21_09-23-52,udp,203.123.56.246,58178,142.251.12.100,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,42622,163.70.153.60,443,OUT.bound,last-ack,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55154,94.74.90.138,80,OUT.bound,established,,,SG,AS136907 huawei clouds,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55466,40.126.35.20,443,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
+2023-11-21_09-23-52,tcp,203.123.56.246,55467,104.16.198.132,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55470,104.18.40.25,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55469,157.240.208.35,443,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54761,2.59.169.43,80,OUT.bound,close,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55471,172.64.153.46,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54763,104.18.33.170,443,OUT.bound,close,,,US,AS13335 cloudflare,IOCs - 2023117226 - ANIA Threat Feeds - IP Segment 7,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T21:41:25.668000
+2023-11-21_09-23-52,udp,203.123.56.246,44887,142.251.10.95,443,OUT.bound,,,,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
+2023-11-21_09-23-52,tcp,203.123.56.246,55472,157.240.208.35,443,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60542,142.250.4.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52933,134.119.183.61,80,OUT.bound,time-wait,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51544,2.59.169.85,80,OUT.bound,time-wait,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52318,157.240.208.35,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55689,2.59.169.85,80,OUT.bound,time-wait,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54768,104.244.42.1,443,OUT.bound,close,,,US,AS13414 twitter inc.,PuffStealer,,2023-11-18T01:24:48.887000
+2023-11-21_09-23-52,tcp,203.123.56.246,54770,172.64.154.86,443,OUT.bound,close,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49819,185.82.216.62,443,OUT.bound,established,,,BG,AS59729 itl llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54771,104.244.43.131,443,OUT.bound,close,,,US,AS54113 fastly,Browser Malware Attack,Attacking  browser to identify researcher. nCommand for critical failure/destruction:    https://sea,2023-11-04T23:13:21.883000
+2023-11-21_09-23-52,tcp,203.123.56.246,53902,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52234,2.59.169.42,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52599,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50725,34.94.245.237,443,OUT.bound,time-wait,,,US,AS396982 google,Fraud Services,http://kramtechnology.com/  fraud services  network  rat  trojan  phishing  malvertizing  malware ho,2023-11-18T14:04:48.923000
+2023-11-21_09-23-52,tcp,203.123.56.246,56850,115.238.23.23,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53656,2.59.169.86,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54773,64.233.170.95,443,OUT.bound,close,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55474,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53655,34.160.111.145,80,OUT.bound,established,,,US,AS15169 google llc,Malware Command and Control IPs,,2023-11-20T22:02:01.220000
+2023-11-21_09-23-52,tcp,203.123.56.246,53657,157.240.208.35,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,43222,172.253.118.138,443,OUT.bound,established,google.com,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52326,2.59.169.86,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49939,115.238.23.30,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
 2023-11-21_09-23-52,icmp,203.123.56.246,,203.123.56.245,,local,,,,,,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49820.0,185.82.216.62,443.0,OUT.bound,established,,,BG,AS59729 itl llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55476.0,40.126.35.20,443.0,OUT.bound,established,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
-2023-11-21_09-23-52,tcp,203.123.56.246,55696.0,199.232.45.16,443.0,OUT.bound,established,,,SG,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49958.0,115.238.23.30,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54776.0,157.240.208.35,443.0,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50726.0,203.161.21.9,80.0,OUT.bound,established,,,ID,AS133840 pt jala lintas media,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,56916.0,115.238.23.23,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53903.0,40.126.35.18,443.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,Spyware: http://browser.events.data.microsoftstart.cn,,2023-11-20T05:49:10.586000
-2023-11-21_09-23-52,udp,203.123.56.246,62832.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54783.0,104.16.120.50,443.0,OUT.bound,close,,,US,AS13335 cloudflare,Quasar - Dark Web Instagram Account   Link found   Remote Access Trojan (RAT),Link: apple.instagram.com  nQuasar is a lightweight  publicly available open-source Remote Access Tr,2023-10-19T14:04:37.381000
-2023-11-21_09-23-52,tcp,203.123.56.246,56939.0,115.238.23.23,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55703.0,157.240.208.35,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54784.0,151.101.108.159,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53904.0,40.100.29.242,993.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55704.0,52.218.252.83,443.0,OUT.bound,time-wait,,,US,AS16509 amazon.com inc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55706.0,212.55.154.47,143.0,OUT.bound,close,,,PT,AS3243 meo servicos de comunicacoes e multimedia sa,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54788.0,2.59.169.43,80.0,OUT.bound,close,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50046.0,115.238.23.30,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51553.0,104.21.60.188,80.0,OUT.bound,established,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,146.196.110.84,46677.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54786.0,104.16.198.132,443.0,OUT.bound,close,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54787.0,190.223.55.10,143.0,OUT.bound,close,,,PE,AS12252 america movil peru s.a.c.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53668.0,20.190.144.166,443.0,OUT.bound,established,,,KR,AS8075 microsoft corporation,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60800.0,157.240.208.60,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54789.0,104.18.40.25,443.0,OUT.bound,close,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53905.0,20.190.148.163,443.0,OUT.bound,established,,,KR,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
-2023-11-21_09-23-52,tcp,203.123.56.246,50728.0,162.254.207.53,443.0,OUT.bound,established,,,US,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,56992.0,115.238.23.23,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54791.0,208.95.112.1,80.0,OUT.bound,close,,,US,AS53334 total uptime technologies  llc,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,203.123.56.246,54790.0,104.18.34.210,443.0,OUT.bound,close,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,203.123.56.246,35871.0,157.240.208.16,443.0,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52339.0,40.126.16.167,443.0,OUT.bound,time-wait,,,KR,AS8075 microsoft corporation,,,
-2023-11-21_09-23-52,udp,146.196.110.84,37920.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,137.0,26.23.74.27,137.0,OUT.bound,,,,US,,,,
-2023-11-21_09-23-52,udp,146.196.110.84,55488.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52611.0,213.81.216.173,443.0,OUT.bound,close,,,SK,AS6855 slovak telecom  a. s.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52945.0,20.190.163.18,443.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,AppleAutoUpdate,,2022-04-14T00:01:40.805000
-2023-11-21_09-23-52,udp,146.196.110.84,32861.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49806.0,173.82.165.202,110.0,OUT.bound,close,,,US,AS35916 multacom corporation,IOCs - 2022111345 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2022-01-31T21:02:01.450000
-2023-11-21_09-23-52,tcp,203.123.56.246,49805.0,173.82.165.202,110.0,OUT.bound,close,,,US,AS35916 multacom corporation,IOCs - 2022111345 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2022-01-31T21:02:01.450000
-2023-11-21_09-23-52,tcp,203.123.56.246,52946.0,134.119.183.61,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,57022.0,115.238.23.23,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,49920.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55712.0,2.59.169.85,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,udp,146.196.110.84,54130.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53670.0,104.68.59.223,443.0,OUT.bound,time-wait,,,ID,AS18004 pt wireless indonesia win,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54794.0,163.70.153.63,443.0,OUT.bound,time-wait,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51554.0,2.59.169.85,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52612.0,185.82.216.111,443.0,OUT.bound,close,,,BG,AS59729 itl llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54796.0,195.54.174.27,80.0,OUT.bound,close,,,RU,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54795.0,185.87.150.22,80.0,OUT.bound,close,,,FR,AS9009 m247 ltd,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55713.0,163.70.153.63,443.0,OUT.bound,time-wait,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52947.0,172.64.154.35,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,146.196.110.84,45067.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,41105.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,203.123.56.246,37397.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,37713.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,35813.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,58822.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51472.0,74.125.68.95,443.0,OUT.bound,time-wait,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51555.0,104.21.60.188,80.0,OUT.bound,established,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,146.196.110.91,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52613.0,40.126.35.145,443.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
-2023-11-21_09-23-52,tcp,203.123.56.246,52340.0,104.16.70.20,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54797.0,104.244.42.1,443.0,OUT.bound,close,,,US,AS13414 twitter inc.,PuffStealer,,2023-11-18T01:24:48.887000
-2023-11-21_09-23-52,tcp,203.123.56.246,54798.0,104.244.42.1,443.0,OUT.bound,close,,,US,AS13414 twitter inc.,PuffStealer,,2023-11-18T01:24:48.887000
-2023-11-21_09-23-52,tcp,203.123.56.246,53909.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,udp,146.196.110.84,34553.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52948.0,20.190.163.18,443.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,AppleAutoUpdate,,2022-04-14T00:01:40.805000
-2023-11-21_09-23-52,udp,146.196.110.84,45120.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,35440.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,41368.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53908.0,104.26.8.59,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,Phishing  Link,,2023-09-27T16:02:05.684000
-2023-11-21_09-23-52,tcp,203.123.56.246,54799.0,74.125.24.103,443.0,OUT.bound,close,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,45347.0,142.251.12.138,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,43673.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,40431.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,41494.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52615.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52614.0,213.81.216.173,443.0,OUT.bound,time-wait,,,SK,AS6855 slovak telecom  a. s.,,,
-2023-11-21_09-23-52,udp,146.196.110.84,54053.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54807.0,151.101.108.159,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,udp,146.196.110.84,59560.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53910.0,157.240.208.35,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,45831.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54801.0,104.244.42.130,443.0,OUT.bound,close,,,US,AS13414 twitter inc.,Speechless   Critical,,2023-10-30T03:23:08.790000
-2023-11-21_09-23-52,udp,203.123.56.246,48623.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50727.0,23.215.35.80,80.0,OUT.bound,established,,,FR,AS20940 akamai international b.v.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,45242.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54803.0,104.244.42.133,443.0,OUT.bound,close,,,US,AS13414 twitter inc.,Unsupported IE 404 account running BotNet Command & Control,,2023-10-30T03:17:17.770000
-2023-11-21_09-23-52,tcp,203.123.56.246,54802.0,151.101.108.159,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54811.0,104.17.188.32,443.0,OUT.bound,close,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54810.0,151.101.108.157,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52949.0,172.64.154.35,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55484.0,157.240.208.35,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54800.0,117.18.232.102,443.0,OUT.bound,close,,,AU,AS15133 verizon,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54808.0,151.101.108.159,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54806.0,151.101.108.159,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52341.0,40.126.35.81,443.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
-2023-11-21_09-23-52,udp,203.123.56.246,33894.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52242.0,2.59.169.42,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54805.0,151.101.108.159,443.0,OUT.bound,close,,,JP,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54804.0,151.101.40.159,443.0,OUT.bound,close,,,US,AS54113 fastly,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55485.0,134.119.183.60,80.0,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52373.0,185.82.216.111,443.0,OUT.bound,close,,,BG,AS59729 itl llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,54809.0,64.185.227.156,80.0,OUT.bound,close,,,US,AS18450 webnx  inc.,Campaña Phishing LATAM (by ci82),Campaña de phishing que roba información y la comparte mediante Telegram nhttps://www.virustotal.com,2023-10-25T03:00:51.071000
-2023-11-21_09-23-52,udp,146.196.110.84,53571.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55716.0,162.159.140.11,443.0,OUT.bound,time-wait,,,,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,146.196.110.84,46904.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,203.123.56.246,51762.0,8.8.4.4,53.0,OUT.bound,,,,,,,,
-2023-11-21_09-23-52,udp,10.180.80.99,34445.0,255.255.255.255,10002.0,broadcast,,,,,,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50730.0,74.125.24.147,80.0,OUT.bound,time-wait,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52342.0,2.59.169.86,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55717.0,52.98.90.2,993.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,,,
-2023-11-21_09-23-52,udp,146.196.110.84,40990.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,51763.0,8.8.4.4,53.0,OUT.bound,,,,,,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52616.0,213.81.216.173,443.0,OUT.bound,time-wait,,,SK,AS6855 slovak telecom  a. s.,,,
-2023-11-21_09-23-52,udp,192.241.200.70,60401.0,203.123.56.247,5632.0,IN.bound,,,,US,AS14061 digitalocean  llc,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-21T02:15:16.486000
-2023-11-21_09-23-52,tcp,203.123.56.246,53671.0,2.59.169.86,80.0,OUT.bound,established,,,MD,ASNone ,,,
-2023-11-21_09-23-52,udp,203.123.56.246,55522.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52617.0,157.240.208.35,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52950.0,104.18.32.167,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53675.0,142.251.12.91,443.0,OUT.bound,time-wait,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53673.0,142.251.12.91,443.0,OUT.bound,time-wait,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52343.0,40.126.35.81,443.0,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
-2023-11-21_09-23-52,udp,146.196.110.84,59334.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,36256.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53672.0,104.68.59.223,443.0,OUT.bound,established,,,ID,AS18004 pt wireless indonesia win,,,
-2023-11-21_09-23-52,udp,203.123.56.246,56598.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53674.0,142.251.12.91,443.0,OUT.bound,time-wait,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49820,185.82.216.62,443,OUT.bound,established,,,BG,AS59729 itl llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55476,40.126.35.20,443,OUT.bound,established,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
+2023-11-21_09-23-52,tcp,203.123.56.246,55696,199.232.45.16,443,OUT.bound,established,,,SG,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49958,115.238.23.30,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54776,157.240.208.35,443,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50726,203.161.21.9,80,OUT.bound,established,,,ID,AS133840 pt jala lintas media,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,56916,115.238.23.23,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53903,40.126.35.18,443,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,Spyware: http://browser.events.data.microsoftstart.cn,,2023-11-20T05:49:10.586000
+2023-11-21_09-23-52,udp,203.123.56.246,62832,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54783,104.16.120.50,443,OUT.bound,close,,,US,AS13335 cloudflare,Quasar - Dark Web Instagram Account   Link found   Remote Access Trojan (RAT),Link: apple.instagram.com  nQuasar is a lightweight  publicly available open-source Remote Access Tr,2023-10-19T14:04:37.381000
+2023-11-21_09-23-52,tcp,203.123.56.246,56939,115.238.23.23,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55703,157.240.208.35,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54784,151.101.108.159,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53904,40.100.29.242,993,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55704,52.218.252.83,443,OUT.bound,time-wait,,,US,AS16509 amazon.com inc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55706,212.55.154.47,143,OUT.bound,close,,,PT,AS3243 meo servicos de comunicacoes e multimedia sa,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54788,2.59.169.43,80,OUT.bound,close,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50046,115.238.23.30,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51553,104.21.60.188,80,OUT.bound,established,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,146.196.110.84,46677,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54786,104.16.198.132,443,OUT.bound,close,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54787,190.223.55.10,143,OUT.bound,close,,,PE,AS12252 america movil peru s.a.c.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53668,20.190.144.166,443,OUT.bound,established,,,KR,AS8075 microsoft corporation,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60800,157.240.208.60,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54789,104.18.40.25,443,OUT.bound,close,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53905,20.190.148.163,443,OUT.bound,established,,,KR,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
+2023-11-21_09-23-52,tcp,203.123.56.246,50728,162.254.207.53,443,OUT.bound,established,,,US,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,56992,115.238.23.23,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54791,208.95.112.1,80,OUT.bound,close,,,US,AS53334 total uptime technologies  llc,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,203.123.56.246,54790,104.18.34.210,443,OUT.bound,close,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,203.123.56.246,35871,157.240.208.16,443,OUT.bound,,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52339,40.126.16.167,443,OUT.bound,time-wait,,,KR,AS8075 microsoft corporation,,,
+2023-11-21_09-23-52,udp,146.196.110.84,37920,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,137,26.23.74.27,137,OUT.bound,,,,US,,,,
+2023-11-21_09-23-52,udp,146.196.110.84,55488,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52611,213.81.216.173,443,OUT.bound,close,,,SK,AS6855 slovak telecom  a. s.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52945,20.190.163.18,443,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,AppleAutoUpdate,,2022-04-14T00:01:40.805000
+2023-11-21_09-23-52,udp,146.196.110.84,32861,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49806,173.82.165.202,110,OUT.bound,close,,,US,AS35916 multacom corporation,IOCs - 2022111345 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2022-01-31T21:02:01.450000
+2023-11-21_09-23-52,tcp,203.123.56.246,49805,173.82.165.202,110,OUT.bound,close,,,US,AS35916 multacom corporation,IOCs - 2022111345 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2022-01-31T21:02:01.450000
+2023-11-21_09-23-52,tcp,203.123.56.246,52946,134.119.183.61,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,57022,115.238.23.23,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,49920,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55712,2.59.169.85,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,udp,146.196.110.84,54130,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53670,104.68.59.223,443,OUT.bound,time-wait,,,ID,AS18004 pt wireless indonesia win,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54794,163.70.153.63,443,OUT.bound,time-wait,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51554,2.59.169.85,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52612,185.82.216.111,443,OUT.bound,close,,,BG,AS59729 itl llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54796,195.54.174.27,80,OUT.bound,close,,,RU,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54795,185.87.150.22,80,OUT.bound,close,,,FR,AS9009 m247 ltd,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55713,163.70.153.63,443,OUT.bound,time-wait,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52947,172.64.154.35,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,146.196.110.84,45067,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,41105,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,203.123.56.246,37397,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,37713,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,35813,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,58822,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51472,74.125.68.95,443,OUT.bound,time-wait,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51555,104.21.60.188,80,OUT.bound,established,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,146.196.110.91,5678,255.255.255.255,5678,broadcast,,,,,,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52613,40.126.35.145,443,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
+2023-11-21_09-23-52,tcp,203.123.56.246,52340,104.16.70.20,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54797,104.244.42.1,443,OUT.bound,close,,,US,AS13414 twitter inc.,PuffStealer,,2023-11-18T01:24:48.887000
+2023-11-21_09-23-52,tcp,203.123.56.246,54798,104.244.42.1,443,OUT.bound,close,,,US,AS13414 twitter inc.,PuffStealer,,2023-11-18T01:24:48.887000
+2023-11-21_09-23-52,tcp,203.123.56.246,53909,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,udp,146.196.110.84,34553,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52948,20.190.163.18,443,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,AppleAutoUpdate,,2022-04-14T00:01:40.805000
+2023-11-21_09-23-52,udp,146.196.110.84,45120,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,35440,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,41368,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53908,104.26.8.59,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,Phishing  Link,,2023-09-27T16:02:05.684000
+2023-11-21_09-23-52,tcp,203.123.56.246,54799,74.125.24.103,443,OUT.bound,close,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,45347,142.251.12.138,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,43673,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,40431,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,41494,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52615,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52614,213.81.216.173,443,OUT.bound,time-wait,,,SK,AS6855 slovak telecom  a. s.,,,
+2023-11-21_09-23-52,udp,146.196.110.84,54053,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54807,151.101.108.159,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,udp,146.196.110.84,59560,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53910,157.240.208.35,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,45831,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54801,104.244.42.130,443,OUT.bound,close,,,US,AS13414 twitter inc.,Speechless   Critical,,2023-10-30T03:23:08.790000
+2023-11-21_09-23-52,udp,203.123.56.246,48623,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50727,23.215.35.80,80,OUT.bound,established,,,FR,AS20940 akamai international b.v.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,45242,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54803,104.244.42.133,443,OUT.bound,close,,,US,AS13414 twitter inc.,Unsupported IE 404 account running BotNet Command & Control,,2023-10-30T03:17:17.770000
+2023-11-21_09-23-52,tcp,203.123.56.246,54802,151.101.108.159,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54811,104.17.188.32,443,OUT.bound,close,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54810,151.101.108.157,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52949,172.64.154.35,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55484,157.240.208.35,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54800,117.18.232.102,443,OUT.bound,close,,,AU,AS15133 verizon,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54808,151.101.108.159,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54806,151.101.108.159,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52341,40.126.35.81,443,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
+2023-11-21_09-23-52,udp,203.123.56.246,33894,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52242,2.59.169.42,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54805,151.101.108.159,443,OUT.bound,close,,,JP,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54804,151.101.40.159,443,OUT.bound,close,,,US,AS54113 fastly,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55485,134.119.183.60,80,OUT.bound,established,,,FR,AS29066 host europe gmbh,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52373,185.82.216.111,443,OUT.bound,close,,,BG,AS59729 itl llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,54809,64.185.227.156,80,OUT.bound,close,,,US,AS18450 webnx  inc.,Campaña Phishing LATAM (by ci82),Campaña de phishing que roba información y la comparte mediante Telegram nhttps://www.virustotal.com,2023-10-25T03:00:51.071000
+2023-11-21_09-23-52,udp,146.196.110.84,53571,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55716,162.159.140.11,443,OUT.bound,time-wait,,,,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,146.196.110.84,46904,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,203.123.56.246,51762,8.8.4.4,53,OUT.bound,,,,,,,,
+2023-11-21_09-23-52,udp,10.180.80.99,34445,255.255.255.255,10002,broadcast,,,,,,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50730,74.125.24.147,80,OUT.bound,time-wait,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52342,2.59.169.86,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55717,52.98.90.2,993,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,,,
+2023-11-21_09-23-52,udp,146.196.110.84,40990,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,51763,8.8.4.4,53,OUT.bound,,,,,,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52616,213.81.216.173,443,OUT.bound,time-wait,,,SK,AS6855 slovak telecom  a. s.,,,
+2023-11-21_09-23-52,udp,192.241.200.70,60401,203.123.56.247,5632,IN.bound,,,,US,AS14061 digitalocean  llc,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-21T02:15:16.486000
+2023-11-21_09-23-52,tcp,203.123.56.246,53671,2.59.169.86,80,OUT.bound,established,,,MD,ASNone ,,,
+2023-11-21_09-23-52,udp,203.123.56.246,55522,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52617,157.240.208.35,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52950,104.18.32.167,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53675,142.251.12.91,443,OUT.bound,time-wait,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53673,142.251.12.91,443,OUT.bound,time-wait,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52343,40.126.35.81,443,OUT.bound,time-wait,,,SG,AS8075 microsoft corporation,TrojanSpy,,2023-11-04T01:46:05.174000
+2023-11-21_09-23-52,udp,146.196.110.84,59334,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,36256,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53672,104.68.59.223,443,OUT.bound,established,,,ID,AS18004 pt wireless indonesia win,,,
+2023-11-21_09-23-52,udp,203.123.56.246,56598,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53674,142.251.12.91,443,OUT.bound,time-wait,,,US,AS15169 google llc,,,
 2023-11-21_09-23-52,icmp,203.123.56.246,,119.8.170.213,,OUT.bound,,,,SG,AS136907 huawei clouds,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52618.0,104.22.14.57,443.0,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52619.0,213.81.216.173,443.0,OUT.bound,close,,,SK,AS6855 slovak telecom  a. s.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52622.0,157.240.208.35,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,146.196.110.84,52637.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,43519.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,50175.0,115.238.23.30,80.0,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,44363.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,55667.0,172.253.56.127,19302.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,48691.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53911.0,13.107.42.22,443.0,OUT.bound,established,,,US,AS8068 microsoft corporation,,,
-2023-11-21_09-23-52,udp,203.123.56.246,35072.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,203.123.56.246,48478.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,203.123.56.246,60865.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,38570.0,157.240.208.61,80.0,OUT.bound,time-wait,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49450.0,212.32.237.101,8000.0,OUT.bound,syn-sent,,,NL,AS60781 leaseweb netherlands b.v.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
-2023-11-21_09-23-52,tcp,89.248.168.42,44656.0,203.123.56.244,10007.0,IN.bound,syn-sent,,,NL,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:44.769000
-2023-11-21_09-23-52,udp,203.123.56.246,43770.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,203.123.56.246,49265.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55710.0,5.9.146.50,143.0,OUT.bound,syn-sent,,,DE,AS24940 hetzner online gmbh,,,
-2023-11-21_09-23-52,tcp,175.103.43.90,51251.0,146.196.110.84,8278.0,IN.bound,time-wait,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,51556.0,157.240.208.35,443.0,OUT.bound,time-wait,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,203.123.56.246,36143.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,60669.0,35.186.224.25,443.0,OUT.bound,established,,,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
-2023-11-21_09-23-52,udp,203.123.56.246,46290.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,43094.0,157.240.208.16,443.0,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,57105.0,115.238.23.23,80.0,OUT.bound,syn-sent,,,CN,AS58461 ct-hangzhou-idc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,44529.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,34412.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,51927.0,10.79.16.9,1812.0,local,,,,,,,,
-2023-11-21_09-23-52,udp,203.123.56.246,47110.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52951.0,163.70.153.63,443.0,OUT.bound,time-wait,,,FR,ASNone ,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52952.0,172.64.154.35,443.0,OUT.bound,established,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,146.196.110.84,48502.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,50222.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,33206.0,157.240.208.61,443.0,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,146.196.110.84,37790.0,8.8.8.8,53.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,43.155.129.115,15270.0,203.123.56.247,5556.0,IN.bound,syn-sent,,,CN,AS132203 tencent building  kejizhongyi avenue,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,tcp,203.123.56.246,52618,104.22.14.57,443,OUT.bound,time-wait,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52619,213.81.216.173,443,OUT.bound,close,,,SK,AS6855 slovak telecom  a. s.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52622,157.240.208.35,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,146.196.110.84,52637,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,43519,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,50175,115.238.23.30,80,OUT.bound,last-ack,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,44363,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,55667,172.253.56.127,19302,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,48691,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53911,13.107.42.22,443,OUT.bound,established,,,US,AS8068 microsoft corporation,,,
+2023-11-21_09-23-52,udp,203.123.56.246,35072,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,203.123.56.246,48478,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,203.123.56.246,60865,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,38570,157.240.208.61,80,OUT.bound,time-wait,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49450,212.32.237.101,8000,OUT.bound,syn-sent,,,NL,AS60781 leaseweb netherlands b.v.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-23-52,tcp,89.248.168.42,44656,203.123.56.244,10007,IN.bound,syn-sent,,,NL,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T02:18:44.769000
+2023-11-21_09-23-52,udp,203.123.56.246,43770,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,203.123.56.246,49265,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55710,5.9.146.50,143,OUT.bound,syn-sent,,,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-23-52,tcp,175.103.43.90,51251,146.196.110.84,8278,IN.bound,time-wait,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,51556,157.240.208.35,443,OUT.bound,time-wait,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,203.123.56.246,36143,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,60669,35.186.224.25,443,OUT.bound,established,,,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
+2023-11-21_09-23-52,udp,203.123.56.246,46290,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,43094,157.240.208.16,443,OUT.bound,close,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,57105,115.238.23.23,80,OUT.bound,syn-sent,,,CN,AS58461 ct-hangzhou-idc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,44529,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,34412,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,146.196.110.84,51927,10.79.16.9,1812,local,,,,,,,,
+2023-11-21_09-23-52,udp,203.123.56.246,47110,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52951,163.70.153.63,443,OUT.bound,time-wait,,,FR,ASNone ,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52952,172.64.154.35,443,OUT.bound,established,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,146.196.110.84,48502,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,50222,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,33206,157.240.208.61,443,OUT.bound,established,,,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,146.196.110.84,37790,8.8.8.8,53,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,43.155.129.115,15270,203.123.56.247,5556,IN.bound,syn-sent,,,CN,AS132203 tencent building  kejizhongyi avenue,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20T23:00:11.182000
 2023-11-21_09-23-52,icmp,128.1.178.132,,146.196.110.84,,IN.bound,,,,US,AS21859 zenlayer inc,,,
-2023-11-21_09-23-52,udp,146.196.110.84,60811.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,34515.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,56940.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,58527.0,122.144.1.1,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,169.254.133.209,59255.0,255.255.255.255,10002.0,broadcast,,,,,,,,
-2023-11-21_09-23-52,udp,10.180.80.90,53569.0,255.255.255.255,10002.0,broadcast,,,,,,,,
-2023-11-21_09-23-52,udp,203.123.56.246,56973.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,38600.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,203.123.56.246,36002.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,34659.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52243.0,64.233.170.94,443.0,OUT.bound,established,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,49823.0,185.82.216.65,443.0,OUT.bound,syn-sent,,,BG,AS59729 itl llc,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52344.0,109.206.175.73,443.0,OUT.bound,established,,,NL,AS50245 serverel inc.,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,60670.0,20.24.121.134,443.0,OUT.bound,established,,,US,AS8075 microsoft corporation,,,
-2023-11-21_09-23-52,udp,146.196.110.92,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,60671.0,204.79.197.203,443.0,OUT.bound,established,,,US,AS8068 microsoft corporation,Spyware: http://browser.events.data.microsoftstart.cn,,2023-11-20T05:49:10.586000
-2023-11-21_09-23-52,tcp,175.103.43.90,51254.0,146.196.110.84,8278.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,53912.0,172.65.209.49,443.0,OUT.bound,established,,,US,AS13335 cloudflare,,,
-2023-11-21_09-23-52,udp,10.20.212.1,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
-2023-11-21_09-23-52,udp,146.196.110.84,38276.0,10.79.16.9,1813.0,local,,,,,,,,
-2023-11-21_09-23-52,udp,203.123.56.246,53825.0,142.250.21.127,19302.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,59270.0,172.217.194.95,443.0,OUT.bound,,,,US,AS15169 google llc,,,
-2023-11-21_09-23-52,udp,203.123.56.246,50587.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.88,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,55487.0,31.13.72.174,443.0,OUT.bound,established,,,SE,AS32934 facebook  inc.,,,
-2023-11-21_09-23-52,udp,146.196.110.84,51295.0,10.79.16.9,1812.0,local,,,,,,,,
-2023-11-21_09-23-52,udp,203.123.56.246,37131.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,50206.0,122.144.3.6,514.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,udp,146.196.110.84,44228.0,10.79.16.9,1813.0,local,,,,,,,,
-2023-11-21_09-23-52,udp,203.123.56.246,52555.0,122.144.2.2,53.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
-2023-11-21_09-23-52,tcp,203.123.56.246,52345.0,151.101.66.137,443.0,OUT.bound,established,,,US,AS54113 fastly,PuffStealer,,2023-11-18T01:24:48.887000
+2023-11-21_09-23-52,udp,146.196.110.84,60811,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,34515,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,56940,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,58527,122.144.1.1,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,169.254.133.209,59255,255.255.255.255,10002,broadcast,,,,,,,,
+2023-11-21_09-23-52,udp,10.180.80.90,53569,255.255.255.255,10002,broadcast,,,,,,,,
+2023-11-21_09-23-52,udp,203.123.56.246,56973,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,38600,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,203.123.56.246,36002,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,34659,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52243,64.233.170.94,443,OUT.bound,established,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,49823,185.82.216.65,443,OUT.bound,syn-sent,,,BG,AS59729 itl llc,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52344,109.206.175.73,443,OUT.bound,established,,,NL,AS50245 serverel inc.,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,60670,20.24.121.134,443,OUT.bound,established,,,US,AS8075 microsoft corporation,,,
+2023-11-21_09-23-52,udp,146.196.110.92,5678,255.255.255.255,5678,broadcast,,,,,,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,60671,204.79.197.203,443,OUT.bound,established,,,US,AS8068 microsoft corporation,Spyware: http://browser.events.data.microsoftstart.cn,,2023-11-20T05:49:10.586000
+2023-11-21_09-23-52,tcp,175.103.43.90,51254,146.196.110.84,8278,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,53912,172.65.209.49,443,OUT.bound,established,,,US,AS13335 cloudflare,,,
+2023-11-21_09-23-52,udp,10.20.212.1,5678,255.255.255.255,5678,broadcast,,,,,,,,
+2023-11-21_09-23-52,udp,146.196.110.84,38276,10.79.16.9,1813,local,,,,,,,,
+2023-11-21_09-23-52,udp,203.123.56.246,53825,142.250.21.127,19302,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,59270,172.217.194.95,443,OUT.bound,,,,US,AS15169 google llc,,,
+2023-11-21_09-23-52,udp,203.123.56.246,50587,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.88,5678,255.255.255.255,5678,broadcast,,,,,,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,55487,31.13.72.174,443,OUT.bound,established,,,SE,AS32934 facebook  inc.,,,
+2023-11-21_09-23-52,udp,146.196.110.84,51295,10.79.16.9,1812,local,,,,,,,,
+2023-11-21_09-23-52,udp,203.123.56.246,37131,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,50206,122.144.3.6,514,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,udp,146.196.110.84,44228,10.79.16.9,1813,local,,,,,,,,
+2023-11-21_09-23-52,udp,203.123.56.246,52555,122.144.2.2,53,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-23-52,tcp,203.123.56.246,52345,151.101.66.137,443,OUT.bound,established,,,US,AS54113 fastly,PuffStealer,,2023-11-18T01:24:48.887000
