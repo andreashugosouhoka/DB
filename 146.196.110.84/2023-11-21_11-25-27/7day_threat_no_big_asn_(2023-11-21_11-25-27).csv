@@ -1,0 +1,8 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-21_11-25-27,udp,149.12.246.2,55137,203.123.56.244,5060,IN.bound,,,,US,AS174 cogent communications,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_11-25-27,tcp,183.99.102.83,51563,203.123.56.244,23,IN.bound,syn-sent,,,KR,AS4766 korea telecom,ETIC Cybersecurity 2023-11-17 Port Scan,,2023-11-17 15:28:36.452
+2023-11-21_11-25-27,tcp,123.56.178.100,38445,203.123.56.247,6379,IN.bound,syn-sent,,,CN,AS37963 hangzhou alibaba advertising co. ltd.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_11-25-27,udp,51.254.229.161,1434,203.123.56.245,5060,IN.bound,,,,FR,AS16276 ovh sas,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 04:19:18.296
+2023-11-21_11-25-27,udp,103.178.153.233,3502,203.123.56.245,5060,IN.bound,,,,,AS140443 pt herza digital indonesia,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_11-25-27,tcp,123.56.178.100,38670,203.123.56.244,6379,IN.bound,syn-sent,,,CN,AS37963 hangzhou alibaba advertising co. ltd.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_11-25-27,udp,158.160.54.41,25088,203.123.56.244,5060,IN.bound,,,,VE,AS200350 yandex.cloud llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
