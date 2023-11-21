@@ -1,4 +1,220 @@
 
+Saved Logging on: 2023-11-21 13:41:17
+.......................................
+NG-Connection on: 2023-11-21 13:38:17
+
+Fetched IP Firewall Connections with 393 entries
+Fetched IP DNS Cache with 18 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+      .id   protocol      src-address           dst-address        reply-src-address     reply-dst-address    tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+152  *11720    tcp    203.123.56.246:38104    216.239.38.120:443    216.239.38.120:443  203.123.56.246:38104  established                  23h59m47s       15          2432          16          7126         0           0       True   2023-11-21 13:38:17 WIB
+291  *117C9    udp    146.196.110.84:59593        122.144.1.1:53        122.144.1.1:53  146.196.110.84:59593                                      3s        1            65           1            65         0           0      False   2023-11-21 13:38:17 WIB
+215  *1177D    tcp    203.123.56.246:50316     134.119.183.59:80     134.119.183.59:80  203.123.56.246:50316  established                    1d2m36s        1            40           0             0         0           0      False   2023-11-21 13:38:17 WIB
+55   *11667    tcp      88.99.248.158:9001  203.123.56.246:52458  203.123.56.246:52458    88.99.248.158:9001  established                      4m59s        5          1808           6          1848         0         320       True   2023-11-21 13:38:17 WIB
+315  *117E1    tcp    203.123.56.246:50109        2.59.169.43:80        2.59.169.43:80  203.123.56.246:50109  established                  23h59m55s        4           280           3           275         0           0       True   2023-11-21 13:38:17 WIB
+
+[Connections]
+    protocol   src-address   src-port   dst-address   dst-port  tcp-state   connection-mark
+171    tcp    203.123.56.246   60785   202.78.195.146    443    established                
+347    udp    203.123.56.246   38782     71.18.36.225    443                               
+116    udp    203.123.56.246   58870    122.144.2.204    443                               
+
+[DNS]
+           name              data      
+1        www.kurnia.id    202.148.6.185
+17       wchampmuse.pw   199.59.243.225
+2         mobigifs.xyz  139.162.212.131
+0            kurnia.id    202.148.6.185
+16  a.root-servers.net       198.41.0.4
+No Resolved Entries
+
+IP PUBLIC LAN : 146.196.110.84/32 || 203.123.56.244/30
+
+Public Address with 168 entries
+
+Count of each flow:
+OUT.bound      : 308
+IN.bound       : 77
+broadcast      : 6
+local          : 2
+
+OTX result has been Fetched for 2 minutes and 42 seconds
+
+[OTX]
+       indicator                  asn                country_code2 name description modified created
+13    134.119.189.9         AS29066 host europe gmbh       FR                                       
+104     122.144.1.1  AS38320 pt maxindo mitra solusi       ID                                       
+99   74.125.200.119               AS15169 google llc       US                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 55% ||||||||            udp            : 41% ||||||||            icmp           : 3% ||||||||            gre            : 1% ||||||||     others     : 1%
+flow              ==         OUT.bound         : 78% ||||||||          IN.bound         : 20% ||||||||         broadcast         : 2% ||||||||           local           : 1% ||||||||     others     : 1%
+dst-port          ==             53            : 30% ||||||||            443            : 30% ||||||||             80            : 11% ||||||||     others     : 29%
+dst-address       ==       203.123.56.246      : 17% ||||||||        122.144.1.1        : 17% ||||||||        122.144.2.2        : 7% ||||||||          8.8.8.8          : 6% ||||||||     others     : 60%
+src-address       ==       203.123.56.246      : 56% ||||||||       146.196.110.84      : 23% ||||||||       190.2.153.202       : 1% ||||||||       134.119.183.61      : 1% ||||||||     others     : 20%
+src-port          ==            443            : 5% ||||||||             80            : 4% ||||||||           40001           : 4% ||||||||     others     : 88%
+cc                ==             ID            : 31% ||||||||             US            : 23% ||||||||             FR            : 7% ||||||||             MD            : 7% ||||||||     others     : 39%
+asn               == AS38320 pt maxindo mitra solusi : 25% ||||||||     AS15169 google llc    : 13% ||||||||          ASNone           : 12% |||||||| AS8075 microsoft corporation : 6% ||||||||     others     : 50%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+    protocol   src-address    src-port   dst-address   dst-port    flow     tcp-state   resolved mark  cc               asn                                                   threat                                                                                 description                                                        modified         
+277    udp     203.123.56.246   49350          8.8.8.8      53   OUT.bound                             US               AS15169 google llc                                                                                                                                                                                                               
+237    udp     203.123.56.246   56737      122.144.2.2      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+248    udp     146.196.110.84   51749      122.144.2.2      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+282    udp     146.196.110.84   42020      122.144.1.1      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+221    tcp     203.123.56.246   64199   188.114.98.224     443   OUT.bound    time-wait                CO               AS13335 cloudflare                                    Qakbot   Info Stealer   Sourced:  Part-RU                         Info Stealer nET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 789  2023-10-31T16:03:29.760000
+361    tcp     203.123.56.246   50113     40.99.33.146     993   OUT.bound  established                US     AS8075 microsoft corporation                                                                                                                                                                                                               
+146    tcp     203.123.56.246   54832       3.1.172.87     443   OUT.bound  established                SG           AS16509 amazon.com inc                                                                                                                                                                                                               
+80     tcp     203.123.56.246   51148     20.192.15.87     443   OUT.bound  established                IN     AS8075 microsoft corporation                                                                                                                                                                                                               
+345    udp     146.196.110.84   38616      122.144.1.1      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+264    tcp     203.123.56.246   63714   87.250.250.119     443   OUT.bound        close                RU               AS208722 yandex oy  Apple iTunes  Malicious site   Anonyization   Siphoning   Trojan Downloader  IC3 attached to links  apple   messaging  Skype. nIC3 CN? nChina? Unclear. Possibly intercepting  IC  2023-11-12T17:01:15.222000
+179    udp     146.196.110.84   50026      122.144.2.2      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+261    udp     146.196.110.84   46732      122.144.2.2      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+306    udp     146.196.110.84   40637      122.144.1.1      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+57     udp    134.119.190.185   37150   203.123.56.246   53580    IN.bound                             FR         AS29066 host europe gmbh                                                                                                                                                                                                               
+205   icmp       15.152.16.73           203.123.56.245            IN.bound                             JP           AS16509 amazon.com inc                                                                                                                                                                                                               
+77     tcp     203.123.56.246   51510    115.238.23.23      80   OUT.bound     last-ack                CN          AS58461 ct-hangzhou-idc                                                                                                                                                                                                               
+389    tcp     203.123.56.246   52708   64.185.227.156     443   OUT.bound  established                US              AS18450 webnx  inc.                                             Campaña Phishing LATAM (by ci82)  Campaña de phishing que roba información y la comparte mediante Telegram nhttps://www.virustotal.com  2023-10-25T03:00:51.071000
+366    udp     146.196.110.84   34108          8.8.8.8      53   OUT.bound                             US               AS15169 google llc                                                                                                                                                                                                               
+97     tcp      74.125.130.95     443   203.123.56.246    4533    IN.bound  established                US               AS15169 google llc                                                                                                                                                                                                               
+280    udp     146.196.110.84   38585      122.144.1.1      53   OUT.bound                             ID  AS38320 pt maxindo mitra solusi                                                                                                                                                                                                               
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol  src-address   src-port  dst-address   dst-port    flow    tcp-state  resolved mark cc        asn                                  threat                          description         modified       
+  tcp    203.123.56.246  63711   87.250.251.119   443    OUT.bound established               RU AS208722 yandex oy Python Initiated Connection   Spyware   Remote Attacks               2023-11-20 05:32:58.400
+
+Added address 87.250.251.119 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+
+
+
+Saved Logging on: 2023-11-21 13:38:04
+.......................................
+NG-Connection on: 2023-11-21 13:35:04
+
+Fetched IP Firewall Connections with 601 entries
+Fetched IP DNS Cache with 93 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+      .id   protocol      src-address         dst-address     reply-src-address    reply-dst-address    tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+257  *10595    tcp    203.123.56.246:40050  74.125.130.95:443  74.125.130.95:443  203.123.56.246:40050  established                  23h57m56s       11          3195          10          6464         0          0       True    2023-11-21 13:35:04 WIB
+252  *10545    udp    203.123.56.246:52382   142.250.4.95:443   142.250.4.95:443  203.123.56.246:52382                                     51s       16          3784          15          7087         0          0       True    2023-11-21 13:35:04 WIB
+224  *10184    tcp    203.123.56.246:51450    104.21.33.59:80    104.21.33.59:80  203.123.56.246:51450  established                  23h56m35s        4           268           5          1036         0          0       True    2023-11-21 13:35:04 WIB
+241  *103F2    tcp    203.123.56.246:49510  163.70.153.60:443  163.70.153.60:443  203.123.56.246:49510  established                  23h59m21s       16          4220          18          2162         0          0       True    2023-11-21 13:35:04 WIB
+598  *10D29    tcp    203.123.56.246:55069  163.70.153.60:443  163.70.153.60:443  203.123.56.246:55069  established                  23h59m59s       13          3610          13          1783         0          0       True    2023-11-21 13:35:04 WIB
+
+[Connections]
+    protocol   src-address   src-port   dst-address   dst-port tcp-state  connection-mark
+484    tcp    203.123.56.246   40027   156.59.150.135   34914   time-wait                
+426    tcp    203.123.56.246   63387   156.59.150.134    6011   time-wait                
+246    udp    203.123.56.246   47399   142.251.175.95     443                            
+
+[DNS]
+        name           data     
+17   carsero.com    23.227.38.72
+81   4shared.com  204.155.149.42
+23  myphotos.xyz     3.64.163.50
+0      kurnia.id   202.148.6.185
+52  afrizion.com   172.67.183.77
+No Resolved Entries
+
+IP PUBLIC LAN : 146.196.110.84/32 || 203.123.56.244/30
+
+Public Address with 250 entries
+
+Count of each flow:
+OUT.bound      : 542
+IN.bound       : 48
+local          : 6
+broadcast      : 3
+
+OTX result has been Fetched for 2 minutes and 39 seconds
+
+[OTX]
+       indicator              asn           country_code2 name description modified created
+193     31.13.82.48  AS32934 facebook  inc.       JP                                       
+229  217.69.142.140     AS47764 mail.ru llc       RU                                       
+83   142.251.12.138      AS15169 google llc       US                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 68% ||||||||            udp            : 31% ||||||||            gre            : 1% ||||||||            icmp           : 0% ||||||||     others     : 0%
+flow              ==         OUT.bound         : 90% ||||||||          IN.bound         : 8% ||||||||           local           : 1% ||||||||         broadcast         : 1% ||||||||     others     : 1%
+dst-port          ==            443            : 41% ||||||||             53            : 14% ||||||||             80            : 13% ||||||||           10554           : 3% ||||||||     others     : 32%
+dst-address       ==       203.123.56.246      : 7% ||||||||        122.144.2.2        : 6% ||||||||          8.8.8.8          : 6% ||||||||       156.59.150.142      : 3% ||||||||     others     : 81%
+src-address       ==       203.123.56.246      : 83% ||||||||       146.196.110.84      : 8% ||||||||       190.2.153.202       : 1% ||||||||       190.2.153.231       : 1% ||||||||     others     : 8%
+src-port          ==           40001           : 3% ||||||||            443            : 2% ||||||||            5228           : 1% ||||||||           37607           : 1% ||||||||     others     : 94%
+cc                ==             US            : 35% ||||||||             SG            : 19% ||||||||             ID            : 17% ||||||||             FR            : 9% ||||||||     others     : 29%
+asn               ==     AS15169 google llc    : 23% ||||||||          ASNone           : 12% |||||||| AS38320 pt maxindo mitra solusi : 10% ||||||||    AS21859 zenlayer inc   : 10% ||||||||     others     : 55%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+    protocol   src-address   src-port   dst-address   dst-port    flow     tcp-state   resolved mark  cc                     asn                            threat       description           modified         
+114    udp    203.123.56.246   54439    178.132.3.202   54942   OUT.bound                             NL                    AS49981 worldstream b.v.                                                            
+229    tcp    203.123.56.246   60676     18.161.97.15     443   OUT.bound  established                US                      AS16509 amazon.com inc                                                            
+105    tcp    203.123.56.246   63025   134.119.183.60      80   OUT.bound  established                FR                    AS29066 host europe gmbh                                                            
+138    tcp     190.2.153.205   40001   203.123.56.246   55649    IN.bound  established                NL                    AS49981 worldstream b.v.                                                            
+85     tcp    203.123.56.246   59786      2.59.169.42      80   OUT.bound  established                MD                                     ASNone                                                             
+340    udp    203.123.56.246   37607   157.240.218.62    3478   OUT.bound                             SG                      AS32934 facebook  inc.                                                            
+571    tcp    203.123.56.246   51657   156.59.150.134   33680   OUT.bound  established                SG                        AS21859 zenlayer inc                                                            
+563    tcp    203.123.56.246   49980   20.190.190.130     443   OUT.bound  established                US                AS8075 microsoft corporation           TrojanSpy              2023-11-04T01:46:05.174000
+291    udp    203.123.56.246   43748   148.153.112.21    6104   OUT.bound                             US  AS63199 capitalonline data service co. ltd                                                            
+102    udp    203.123.56.246   52266    47.241.107.12    6000   OUT.bound                             SG   AS45102 alibaba (us) technology co.  ltd.                                                            
+458    udp    203.123.56.246   50130      122.144.2.2      53   OUT.bound                             ID             AS38320 pt maxindo mitra solusi                                                            
+279    udp    203.123.56.246   47917   172.217.194.95     443   OUT.bound                             US                          AS15169 google llc                                                            
+593    tcp    203.123.56.246   50175    115.238.23.23      80   OUT.bound     syn-sent                CN                     AS58461 ct-hangzhou-idc                                                            
+392    tcp    203.123.56.246   63379   156.59.150.132    6004   OUT.bound    time-wait                SG                        AS21859 zenlayer inc                                                            
+236    udp    203.123.56.246   58059    134.119.189.9   54329   OUT.bound                             FR                    AS29066 host europe gmbh                                                            
+489    udp    203.123.56.246   55828      122.144.2.2      53   OUT.bound                             ID             AS38320 pt maxindo mitra solusi                                                            
+408    udp    203.123.56.246   56143    34.149.173.23     443   OUT.bound                             US                          AS15169 google llc                                                            
+172    tcp    74.125.130.188    5228   203.123.56.246   53134    IN.bound  established                US                          AS15169 google llc                                                            
+363    tcp    203.123.56.246   46128   157.240.208.61     443   OUT.bound  established                ID                      AS32934 facebook  inc.                                                            
+78     tcp    203.123.56.246   42906   130.44.212.236     443   OUT.bound  established                US                     AS396986 bytedance inc.  LCIA:HoneyNet:2023              2023-06-24T12:00:07.021000
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol  src-address   src-port  dst-address   dst-port    flow    tcp-state  resolved mark cc                    asn                                     threat                                                description                                         modified       
+  udp     8.218.162.255  39129   203.123.56.244   5060    IN.bound                           SG AS45102 alibaba (us) technology co.  ltd. ETIC Cybersecurity 2023-11-21 Port Scan                                                                            2023-11-21 06:34:56.993
+  udp     146.88.241.65   5060   203.123.56.246   5060    IN.bound                           US                                   ASNone  ETIC Cybersecurity 2023-11-20 Port Scan                                                                            2023-11-20 23:00:11.182
+  udp    45.128.232.252   8000   203.123.56.244   5060    IN.bound                           BG                                   ASNone  ETIC Cybersecurity 2023-11-20 Port Scan                                                                            2023-11-20 23:00:11.182
+  udp    80.120.241.118   8080   203.123.56.246   5060    IN.bound                           AT              AS8447 a1 telekom austria ag ETIC Cybersecurity 2023-11-21 Port Scan                                                                            2023-11-21 06:35:16.307
+  tcp    203.123.56.246  59779      192.0.78.13    443   OUT.bound established               US                                   ASNone                                    Raven Source: WITHU4EVER.com  nDeepScan   browser modifier  password cracker  C2 2023-11-20 22:08:15.066
+  udp    146.88.241.175   5060   146.196.110.84   5060    IN.bound                           US                                   ASNone  ETIC Cybersecurity 2023-11-21 Port Scan                                                                            2023-11-21 06:35:16.307
+
+Added address 192.0.78.13 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 8.218.162.255 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 80.120.241.118 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 146.88.241.175 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 146.88.241.65 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 45.128.232.252 to address list 'threat_inbound_addresses' (IN.bound Threat).
+raw rule added successfully for IN.bound Threat.
+raw rule added successfully for OUT.bound Threat.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+
+
+
 Saved Logging on: 2023-11-21 11:25:27
 .......................................
 NG-Connection on: 2023-11-21 11:19:06
