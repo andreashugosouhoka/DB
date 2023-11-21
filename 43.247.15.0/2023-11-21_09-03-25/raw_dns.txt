@@ -1,0 +1,16 @@
+{'.id': '*6', 'type': 'A', 'data': '216.239.38.120', 'name': 'forcesafesearch.google.com', 'ttl': '10m51s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EA3', 'type': 'NS', 'data': 'ns1.google.com', 'name': 'google.com', 'ttl': '7m7s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EA4', 'type': 'NS', 'data': 'ns4.google.com', 'name': 'google.com', 'ttl': '7m7s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EA5', 'type': 'NS', 'data': 'ns3.google.com', 'name': 'google.com', 'ttl': '7m7s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EA6', 'type': 'NS', 'data': 'ns2.google.com', 'name': 'google.com', 'ttl': '7m7s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EA7', 'type': 'A', 'data': '216.239.32.10', 'name': 'ns1.google.com', 'ttl': '10m51s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EA8', 'type': 'A', 'data': '216.239.38.10', 'name': 'ns4.google.com', 'ttl': '10m51s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EA9', 'type': 'A', 'data': '216.239.36.10', 'name': 'ns3.google.com', 'ttl': '10m51s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*5EAA', 'type': 'A', 'data': '216.239.34.10', 'name': 'ns2.google.com', 'ttl': '10m51s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*6308', 'type': 'A', 'data': '204.155.149.42', 'name': '4shared.com', 'ttl': '4m44s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*6309', 'type': 'A', 'data': '204.155.149.43', 'name': '4shared.com', 'ttl': '4m44s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*630A', 'type': 'A', 'data': '204.155.149.41', 'name': '4shared.com', 'ttl': '4m44s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*630B', 'type': 'A', 'data': '204.155.146.95', 'name': '4shared.com', 'ttl': '4m44s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*630D', 'type': 'A', 'data': '103.49.221.211', 'name': 'detik.com', 'ttl': '13s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*630E', 'type': 'A', 'data': '203.190.242.211', 'name': 'detik.com', 'ttl': '13s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
+{'.id': '*6310', 'type': 'A', 'data': '10.79.20.104', 'name': 'uvyz.norak.us', 'ttl': '2m3s', 'static': False, 'timestamp': '2023-11-21 08:58:45 WIB'}
