@@ -1,0 +1,17 @@
+name,data,.id,type,static,ttl,timestamp
+forcesafesearch.google.com,216.239.38.120,*6,A,False,10m51s,2023-11-21 08:58:45 WIB
+google.com,ns1.google.com,*5EA3,NS,False,7m7s,2023-11-21 08:58:45 WIB
+google.com,ns4.google.com,*5EA4,NS,False,7m7s,2023-11-21 08:58:45 WIB
+google.com,ns3.google.com,*5EA5,NS,False,7m7s,2023-11-21 08:58:45 WIB
+google.com,ns2.google.com,*5EA6,NS,False,7m7s,2023-11-21 08:58:45 WIB
+ns1.google.com,216.239.32.10,*5EA7,A,False,10m51s,2023-11-21 08:58:45 WIB
+ns4.google.com,216.239.38.10,*5EA8,A,False,10m51s,2023-11-21 08:58:45 WIB
+ns3.google.com,216.239.36.10,*5EA9,A,False,10m51s,2023-11-21 08:58:45 WIB
+ns2.google.com,216.239.34.10,*5EAA,A,False,10m51s,2023-11-21 08:58:45 WIB
+4shared.com,204.155.149.42,*6308,A,False,4m44s,2023-11-21 08:58:45 WIB
+4shared.com,204.155.149.43,*6309,A,False,4m44s,2023-11-21 08:58:45 WIB
+4shared.com,204.155.149.41,*630A,A,False,4m44s,2023-11-21 08:58:45 WIB
+4shared.com,204.155.146.95,*630B,A,False,4m44s,2023-11-21 08:58:45 WIB
+detik.com,103.49.221.211,*630D,A,False,13s,2023-11-21 08:58:45 WIB
+detik.com,203.190.242.211,*630E,A,False,13s,2023-11-21 08:58:45 WIB
+uvyz.norak.us,10.79.20.104,*6310,A,False,2m3s,2023-11-21 08:58:45 WIB
