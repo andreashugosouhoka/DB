@@ -1,0 +1,4 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,162.142.125.81,14583,43.247.15.4,5061,IN.bound,,,,US,AS398324 censys  inc.,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 01:58:43.130
+tcp,192.168.1.15,44092,31.13.95.34,443,OUT.bound,last-ack,,LOKAL.c,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,192.168.1.15,52248,152.195.38.76,80,OUT.bound,established,,INTL.c,US,AS15133 verizon,quick look at 79.12.165.51,,2023-11-20 00:05:28.436
