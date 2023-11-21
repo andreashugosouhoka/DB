@@ -1,0 +1,288 @@
+
+Saved Logging on: 2023-11-21 09:05:31
+.......................................
+NG-Connection on: 2023-11-21 09:04:09
+
+Fetched IP Firewall Connections with 53 entries
+Fetched IP DNS Cache with 0 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+    .id   protocol     src-address          dst-address         reply-src-address     reply-dst-address   tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+31  *3D7C    udp    103.235.32.97:5678   255.255.255.255:5678   255.255.255.255:5678  103.235.32.97:5678                                      3s        1           154           0             0         0          0       False   2023-11-21 09:04:09 WIB
+16  *3D6D    tcp    192.168.1.15:50808      34.141.79.142:443      34.141.79.142:443   43.247.15.4:50808  established      LOKAL.c     23h59m50s        1            41           1            40         0          0       False   2023-11-21 09:04:09 WIB
+27  *3D78    tcp    192.168.1.15:52150      92.223.85.121:443      92.223.85.121:443   43.247.15.4:52150  established       INTL.c     23h59m52s        1            41           1            52         0          0       False   2023-11-21 09:04:09 WIB
+28  *3D79    tcp    192.168.1.15:43644      23.215.35.102:443      23.215.35.102:443   43.247.15.4:43644        close      LOKAL.c            2s        3           168           4           232         0          0       False   2023-11-21 09:04:09 WIB
+23  *3D74    udp    10.172.41.58:45854  255.255.255.255:10002  255.255.255.255:10002  10.172.41.58:45854                                      1s        1           192           0             0         0          0       False   2023-11-21 09:04:09 WIB
+
+[Connections]
+   protocol  src-address   src-port   dst-address   dst-port  tcp-state   connection-mark
+42    tcp     192.168.1.15   49142    92.223.85.164     443   established      INTL.c    
+7     tcp    175.103.43.90   50088      43.247.15.4     899   established                
+25    tcp     192.168.1.15   36427   47.241.191.117   31006   established      INTL.c    
+
+[DNS]
+No type A Cached DNS
+No Resolved Entries
+
+IP PUBLIC LAN : 43.247.15.0/28
+
+Public Address with 30 entries
+
+Count of each flow:
+OUT.bound      : 30
+broadcast      : 15
+IN.bound       : 6
+local          : 1
+
+OTX result has been Fetched for 1 minute and 19 seconds
+
+[OTX]
+      indicator                    asn                 country_code2         name        description           modified                    created          
+18    143.244.33.73           AS60068 datacamp limited       SG       LCIA:HoneyNet:2023              2023-06-24T12:00:07.021000  2023-01-01T00:00:05.491000
+13    34.141.79.142                    AS396982 google       DE                                                                                             
+26  216.128.135.246  AS20473 the constant company  llc       US                                                                                             
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 58% ||||||||            tcp            : 40% ||||||||            icmp           : 2%
+flow              ==         OUT.bound         : 58% ||||||||         broadcast         : 29% ||||||||          IN.bound         : 12% ||||||||           local           : 2% ||||||||     others     : 2%
+dst-port          ==            443            : 25% ||||||||           10002           : 13% ||||||||            5678           : 13% ||||||||            6000           : 8% ||||||||     others     : 48%
+dst-address       ==      255.255.255.255      : 29% ||||||||        43.247.15.4        : 12% ||||||||        122.144.1.1        : 6% ||||||||       47.245.119.50       : 4% ||||||||     others     : 54%
+src-address       ==        192.168.1.15       : 58% ||||||||       175.103.43.90       : 10% ||||||||          0.0.0.0          : 4% ||||||||        10.172.40.76       : 2% ||||||||     others     : 29%
+src-port          ==            5678           : 13% ||||||||            4500           : 4% ||||||||           39987           : 4% ||||||||           33903           : 4% ||||||||     others     : 79%
+cc                ==             ID            : 25% ||||||||             SG            : 25% ||||||||             US            : 10% ||||||||     others     : 17%
+asn               == AS38320 pt maxindo mitra solusi : 19% |||||||| AS45102 alibaba (us) technology co.  ltd. : 12% ||||||||      AS396982 google      : 6% ||||||||     others     : 37%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+   protocol   src-address    src-port   dst-address    dst-port    flow     tcp-state   resolved   mark    cc                    asn                     threat description modified
+39    udp       192.168.1.15   41726       122.144.1.1      53   OUT.bound                        LOKAL.c  ID            AS38320 pt maxindo mitra solusi                            
+27    tcp       192.168.1.15   43644     23.215.35.102     443   OUT.bound        close           LOKAL.c  FR          AS20940 akamai international b.v.                            
+51    udp        43.247.15.4   56677       10.79.21.14    1812       local                                                                                                          
+12    tcp       192.168.1.15   47320     47.245.119.50     443   OUT.bound     fin-wait            INTL.c  SG  AS45102 alibaba (us) technology co.  ltd.                            
+8     tcp      175.103.43.90   55820       43.247.15.4     899    IN.bound  established                    ID            AS38320 pt maxindo mitra solusi                            
+16    udp       10.172.41.51   40171   255.255.255.255   10002   broadcast                                                                                                          
+11    tcp       192.168.1.15   56720     122.144.2.205     443   OUT.bound  established           LOKAL.c  ID            AS38320 pt maxindo mitra solusi                            
+49    tcp      175.103.43.90   50752       43.247.15.4    8278    IN.bound  established                    ID            AS38320 pt maxindo mitra solusi                            
+18    udp        10.172.40.2    5678   255.255.255.255    5678   broadcast                                                                                                          
+28    udp       10.172.41.50   47414   255.255.255.255   10002   broadcast                                                                                                          
+29    udp    103.234.253.216    5678   255.255.255.255    5678   broadcast                                                                                                          
+6     udp       192.168.1.15   38703     167.179.67.29   21116   OUT.bound                         INTL.c  JP          AS20473 the constant company  llc                            
+48    udp       10.172.41.35   55166   255.255.255.255   10002   broadcast                                                                                                          
+33    udp        43.247.15.9    5678   255.255.255.255    5678   broadcast                                                                                                          
+30    udp      103.235.32.97    5678   255.255.255.255    5678   broadcast                                                                                                          
+46    udp       10.172.40.90   48019   255.255.255.255   10002   broadcast                                                                                                          
+34    udp            0.0.0.0    5678   255.255.255.255    5678   broadcast                                                                                                          
+3     udp       192.168.1.15   47280     122.144.2.204     443   OUT.bound                        LOKAL.c  ID            AS38320 pt maxindo mitra solusi                            
+44    tcp       192.168.1.15   43482    47.245.116.221    8820   OUT.bound  established            INTL.c  SG  AS45102 alibaba (us) technology co.  ltd.                            
+23    tcp       192.168.1.15   50526      142.250.4.93     443   OUT.bound  established           LOKAL.c  US                         AS15169 google llc                            
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+No Last 7 days Potential Threat Entries !Big ASN.
+
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+
+
+
+Saved Logging on: 2023-11-21 09:03:58
+.......................................
+NG-Connection on: 2023-11-21 09:03:37
+
+Fetched IP Firewall Connections with 47 entries
+Fetched IP DNS Cache with 0 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+    .id   protocol     src-address           dst-address         reply-src-address     reply-dst-address    tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+30  *3D13    tcp     192.168.1.15:41436     74.125.24.188:5228     74.125.24.188:5228    43.247.15.4:41436  established      LOKAL.c     23h59m55s         2           166           3           182         0           0      True   2023-11-21 09:03:37 WIB
+34  *3D17    tcp     192.168.1.15:56748         34.87.93.12:80         34.87.93.12:80    43.247.15.4:56748    time-wait      LOKAL.c            7s         6          1420           4           356         0           0      True   2023-11-21 09:03:37 WIB
+2   *2936    tcp    175.103.43.90:50088        43.247.15.4:899        43.247.15.4:899  175.103.43.90:50088  established                      4m59s       324         28880         424        495658      9088      128592      True   2023-11-21 09:03:37 WIB
+25  *3D0E    udp     10.172.41.58:42751  255.255.255.255:10002  255.255.255.255:10002   10.172.41.58:42751                                      3s         1           192           0             0         0           0     False   2023-11-21 09:03:37 WIB
+41  *3D1E    tcp    175.103.43.90:50705       43.247.15.4:8278       43.247.15.4:8278  175.103.43.90:50705  established                  23h59m59s         3           173           2            92         0           0      True   2023-11-21 09:03:37 WIB
+
+[Connections]
+   protocol   src-address    src-port   dst-address    dst-port  tcp-state   connection-mark
+2     tcp      175.103.43.90   50088       43.247.15.4    899    established                
+24    udp    103.234.253.210    5678   255.255.255.255   5678                               
+5     tcp      175.103.43.90   55820       43.247.15.4    899    established                
+
+[DNS]
+No type A Cached DNS
+No Resolved Entries
+
+IP PUBLIC LAN : 43.247.15.0/28
+
+Public Address with 24 entries
+
+Count of each flow:
+OUT.bound      : 24
+broadcast      : 12
+IN.bound       : 6
+local          : 4
+
+OTX result has been Fetched for 15 seconds
+
+[OTX]
+     indicator                       asn                     country_code2 name description modified created
+1                                                                                                           
+21  35.247.161.22                            AS396982 google       SG                                       
+20  47.245.119.50  AS45102 alibaba (us) technology co.  ltd.       SG                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 57% ||||||||            tcp            : 41% ||||||||            icmp           : 2%
+flow              ==         OUT.bound         : 52% ||||||||         broadcast         : 26% ||||||||          IN.bound         : 13% ||||||||           local           : 9% ||||||||     others     : 9%
+dst-port          ==            443            : 17% ||||||||           10002           : 15% ||||||||            5678           : 9% ||||||||            3478           : 4% ||||||||     others     : 59%
+dst-address       ==      255.255.255.255      : 26% ||||||||        43.247.15.4        : 13% ||||||||        10.79.21.14        : 9% ||||||||        34.87.93.12        : 4% ||||||||     others     : 52%
+src-address       ==        192.168.1.15       : 50% ||||||||       175.103.43.90       : 13% ||||||||        43.247.15.4        : 11% ||||||||          0.0.0.0          : 2% ||||||||     others     : 26%
+src-port          ==            5678           : 9% ||||||||           56748           : 2% ||||||||           42751           : 2% ||||||||           35434           : 2% ||||||||     others     : 87%
+cc                ==             SG            : 28% ||||||||             ID            : 26% ||||||||             US            : 7% ||||||||     others     : 11%
+asn               == AS38320 pt maxindo mitra solusi : 24% ||||||||      AS396982 google      : 13% |||||||| AS45102 alibaba (us) technology co.  ltd. : 9% ||||||||     others     : 28%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+   protocol   src-address    src-port   dst-address    dst-port    flow     tcp-state   resolved   mark    cc                    asn                            threat       description           modified         
+1     udp       192.168.1.15   38703     167.179.67.29   21116   OUT.bound                         INTL.c  JP          AS20473 the constant company  llc                                                            
+36    udp      10.172.40.148    5678   255.255.255.255    5678   broadcast                                                                                                                                          
+21    udp       192.168.1.15   18924     34.126.80.150    3478   OUT.bound                        LOKAL.c  SG                            AS396982 google                                                            
+8     tcp       192.168.1.15   36427    47.241.191.117   31006   OUT.bound  established            INTL.c  SG  AS45102 alibaba (us) technology co.  ltd.                                                            
+9     tcp       192.168.1.15   43482    47.245.116.221    8820   OUT.bound  established            INTL.c  SG  AS45102 alibaba (us) technology co.  ltd.                                                            
+0     tcp      175.103.43.90   50164       43.247.15.4    8081    IN.bound  established           LOKAL.c  ID            AS38320 pt maxindo mitra solusi                                                            
+35    tcp       192.168.1.15   53411       34.87.93.12      80   OUT.bound    time-wait           LOKAL.c  SG                            AS396982 google                                                            
+12    tcp       192.168.1.15   50762     143.244.33.73     443   OUT.bound  established            INTL.c  SG                   AS60068 datacamp limited  LCIA:HoneyNet:2023              2023-06-24T12:00:07.021000
+24    udp       10.172.41.58   42751   255.255.255.255   10002   broadcast                                                                                                                                          
+17    udp       192.168.1.15   47280     122.144.2.204     443   OUT.bound                        LOKAL.c  ID            AS38320 pt maxindo mitra solusi                                                            
+13    tcp       192.168.1.15   52150     92.223.85.121     443   OUT.bound  established            INTL.c  SG                  AS199524 g-core labs s.a.                                                            
+23    udp    103.234.253.210    5678   255.255.255.255    5678   broadcast                                                                                                                                          
+42    udp        43.247.15.4   54271       122.144.3.6     514   OUT.bound                                 ID            AS38320 pt maxindo mitra solusi                                                            
+26    udp       10.172.41.51   35434   255.255.255.255   10002   broadcast                                                                                                                                          
+28    udp       10.172.41.50   54016   255.255.255.255   10002   broadcast                                                                                                                                          
+44    tcp      175.103.43.90   50704       43.247.15.4    8278    IN.bound    time-wait                    ID            AS38320 pt maxindo mitra solusi                                                            
+7     udp            0.0.0.0   20561   255.255.255.255   20561   broadcast                                                                                                                                          
+16    tcp       192.168.1.15   56720     122.144.2.205     443   OUT.bound  established           LOKAL.c  ID            AS38320 pt maxindo mitra solusi                                                            
+10    udp       192.168.1.15    4500    103.146.63.122    4500   OUT.bound                        LOKAL.c  ID           AS139457 pt semut data indonesia                                                            
+27    udp       192.168.1.15   46232       122.144.1.1      53   OUT.bound                        LOKAL.c  ID            AS38320 pt maxindo mitra solusi                                                            
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+No Last 7 days Potential Threat Entries !Big ASN.
+
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+
+Saved Logging on: 2023-11-21 09:03:25
+.......................................
+NG-Connection on: 2023-11-21 08:58:45
+
+Fetched IP Firewall Connections with 521 entries
+Fetched IP DNS Cache with 16 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+     .id   protocol     src-address          dst-address         reply-src-address    reply-dst-address   tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+425  *38DE    tcp    192.168.1.15:37970    172.253.118.132:443    172.253.118.132:443  43.247.15.4:37970  established      LOKAL.c     23h59m52s       23          3044          30          19291        0          0        True   2023-11-21 08:58:45 WIB
+439  *391E    tcp    192.168.1.15:51762      64.233.170.95:443      64.233.170.95:443  43.247.15.4:51762  established      LOKAL.c     23h58m44s       17          3660          15           8228        0          0        True   2023-11-21 08:58:45 WIB
+246  *2B25    tcp    192.168.1.15:55600    64.233.170.188:5228    64.233.170.188:5228  43.247.15.4:55600  established      LOKAL.c     23h22m52s       10          1552          10           1408        0          0        True   2023-11-21 08:58:45 WIB
+510  *3A1C    tcp    192.168.1.15:51827         34.87.93.12:80         34.87.93.12:80  43.247.15.4:51827    time-wait      LOKAL.c            7s        7          1454           5            408        0          0        True   2023-11-21 08:58:45 WIB
+512  *3A1E    udp    192.168.1.15:40008  216.128.135.246:21116  216.128.135.246:21116  43.247.15.4:40008                    INTL.c           10s        1            44           0              0        0          0       False   2023-11-21 08:58:45 WIB
+
+[Connections]
+    protocol  src-address  src-port   dst-address    dst-port  tcp-state   connection-mark
+404    udp    192.168.1.15   60543    208.67.222.222      53                    INTL.c    
+330    tcp    192.168.1.15   45674   193.203.230.149     443   established      INTL.c    
+68     udp         0.0.0.0   20561   255.255.255.255   20561                              
+
+[DNS]
+               name                  data      
+14                   detik.com  203.190.242.211
+13                   detik.com   103.49.221.211
+0   forcesafesearch.google.com   216.239.38.120
+12                 4shared.com   204.155.146.95
+9                  4shared.com   204.155.149.42
+No Resolved Entries
+
+IP PUBLIC LAN : 43.247.15.0/28
+
+Public Address with 183 entries
+
+Count of each flow:
+OUT.bound      : 476
+IN.bound       : 22
+broadcast      : 17
+local          : 5
+
+OTX result has been Fetched for 4 minutes and 20 seconds
+
+[OTX]
+       indicator                       asn                     country_code2 name description modified created
+113  209.58.183.231    AS59253 leaseweb asia pacific pte. ltd.       SG                                       
+72   47.245.116.221  AS45102 alibaba (us) technology co.  ltd.       SG                                       
+138   163.70.153.63                                    ASNone        FR                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 85% ||||||||            udp            : 15% ||||||||            icmp           : 0%
+flow              ==         OUT.bound         : 92% ||||||||          IN.bound         : 4% ||||||||         broadcast         : 3% ||||||||           local           : 1% ||||||||     others     : 1%
+dst-port          ==            443            : 79% ||||||||           57414           : 3% ||||||||            5228           : 3% ||||||||             53            : 2% ||||||||     others     : 15%
+dst-address       ==      193.203.230.149      : 18% ||||||||       205.220.231.24      : 17% ||||||||        43.247.15.4        : 4% ||||||||       41.139.210.10       : 4% ||||||||     others     : 61%
+src-address       ==        192.168.1.15       : 91% ||||||||       175.103.43.90       : 1% ||||||||        43.247.15.4        : 1% ||||||||       95.217.220.239      : 1% ||||||||     others     : 6%
+src-port          ==            5678           : 2% ||||||||           45312           : 1% ||||||||           45897           : 0% ||||||||           53349           : 0% ||||||||     others     : 97%
+cc                ==             US            : 48% ||||||||             IT            : 18% ||||||||             SG            : 8% ||||||||             ID            : 6% ||||||||     others     : 27%
+asn               ==     AS12954 sia s.p.a.    : 18% |||||||| AS396998 path network  inc. : 17% ||||||||     AS15169 google llc    : 17% ||||||||     AS13335 cloudflare    : 9% ||||||||     others     : 48%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+    protocol   src-address   src-port   dst-address    dst-port    flow     tcp-state   resolved   mark    cc              asn                     threat                                                    description                                                        modified         
+149    tcp      192.168.1.15   46584   193.203.230.149     443   OUT.bound  established            INTL.c  IT            AS12954 sia s.p.a.  LCIA:HoneyNet:2023                                                                                                        2023-06-24T12:00:07.021000
+113    tcp      192.168.1.15   45924   193.203.230.149     443   OUT.bound  established            INTL.c  IT            AS12954 sia s.p.a.  LCIA:HoneyNet:2023                                                                                                        2023-06-24T12:00:07.021000
+146    tcp      192.168.1.15   45789   193.203.230.149     443   OUT.bound  established            INTL.c  IT            AS12954 sia s.p.a.  LCIA:HoneyNet:2023                                                                                                        2023-06-24T12:00:07.021000
+374    tcp      192.168.1.15   39516    172.217.194.94      80   OUT.bound  established           LOKAL.c  US            AS15169 google llc                                                                                                                                                      
+256    tcp      192.168.1.15   60407    205.220.231.24     443   OUT.bound  established            INTL.c  US   AS396998 path network  inc.                                                                                                                                                      
+365    tcp    95.217.220.239   54264       43.247.15.4   57414    IN.bound  established            INTL.c  FI   AS24940 hetzner online gmbh                                                                                                                                                      
+367    tcp    65.108.220.156   41794       43.247.15.4   57414    IN.bound  established            INTL.c  DE   AS24940 hetzner online gmbh                                                                                                                                                      
+279    tcp      192.168.1.15   55723    205.220.231.24     443   OUT.bound  established            INTL.c  US   AS396998 path network  inc.                                                                                                                                                      
+276    tcp      192.168.1.15   51570       104.26.8.44     443   OUT.bound  established            INTL.c  US            AS13335 cloudflare  IOCs - 20225201339                                            For complete list please visit https://apd.altervista.org/  2022-06-19T20:03:12.081000
+139    tcp      192.168.1.15   35304     15.204.18.202     443   OUT.bound  established            INTL.c  US               AS16276 ovh sas  LCIA:HoneyNet:2022  Scans hitting the server at TCP port 8080 HTTP and PROXY. Same IP should not appear more than once i  2023-01-30T23:00:04.143000
+102    tcp      192.168.1.15   38674    205.220.231.24     443   OUT.bound  established            INTL.c  US   AS396998 path network  inc.                                                                                                                                                      
+414    tcp      192.168.1.15   52716    64.233.170.119     443   OUT.bound  established           LOKAL.c  US            AS15169 google llc                                                                                                                                                      
+255    tcp      192.168.1.15   48017   193.203.230.149     443   OUT.bound  established            INTL.c  IT            AS12954 sia s.p.a.  LCIA:HoneyNet:2023                                                                                                        2023-06-24T12:00:07.021000
+482    tcp      192.168.1.15   59923       13.89.179.9     443   OUT.bound  established            INTL.c  US  AS8075 microsoft corporation                                                                                                                                                      
+389    udp      192.168.1.15   43817           8.8.8.8     443   OUT.bound                        LOKAL.c  US            AS15169 google llc                                                                                                                                                      
+118    tcp      192.168.1.15   58916      104.26.10.74     443   OUT.bound  established            INTL.c  US            AS13335 cloudflare  LCIA:HoneyNet:2022                                                                                                        2023-01-30T23:00:04.143000
+26     tcp      192.168.1.15   60449    205.220.231.24     443   OUT.bound  established            INTL.c  US   AS396998 path network  inc.                                                                                                                                                      
+85     tcp      192.168.1.15   51886       104.26.8.44     443   OUT.bound  established            INTL.c  US            AS13335 cloudflare  IOCs - 20225201339                                            For complete list please visit https://apd.altervista.org/  2022-06-19T20:03:12.081000
+220    tcp      192.168.1.15   46369   193.203.230.149     443   OUT.bound  established            INTL.c  IT            AS12954 sia s.p.a.  LCIA:HoneyNet:2023                                                                                                        2023-06-24T12:00:07.021000
+354    tcp      192.168.1.15   47724   193.203.230.149     443   OUT.bound  established            INTL.c  IT            AS12954 sia s.p.a.  LCIA:HoneyNet:2023                                                                                                        2023-06-24T12:00:07.021000
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol  src-address   src-port dst-address dst-port   flow   tcp-state resolved mark cc          asn                           threat                 description         modified       
+  udp    162.142.125.81  14583   43.247.15.4   5061   IN.bound                         US AS398324 censys  inc. ETIC Cybersecurity 2023-11-21 Port Scan             2023-11-21 01:58:43.130
+Added address 162.142.125.81 to address list 'threat_inbound_addresses' (IN.bound Threat).
+raw rule added successfully for IN.bound Threat.
+raw rule added successfully for OUT.bound Threat.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
+POWERED BY NG-Connection [AUTO] Threat Verdict
+PROCESSING........
