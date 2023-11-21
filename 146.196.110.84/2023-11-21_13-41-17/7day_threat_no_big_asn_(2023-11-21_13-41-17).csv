@@ -1,0 +1,2 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-21_13-41-17,tcp,203.123.56.246,63711,87.250.251.119,443,OUT.bound,established,,,RU,AS208722 yandex oy,Python Initiated Connection   Spyware   Remote Attacks  ,,2023-11-20 05:32:58.400
