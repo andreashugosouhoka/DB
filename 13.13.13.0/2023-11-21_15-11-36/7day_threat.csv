@@ -1,0 +1,19 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,13.13.13.2,62127,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,64550,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,60132,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,65062,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,54992,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,62673,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,49748,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,55187,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,58062,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,65101,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,52497,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,125.228.82.251,43361,175.103.46.95,5060,IN.bound,,,in-utama.c,TW,AS3462 data communication business group,ETIC Cybersecurity 2023-11-21 Port Scan,nan,2023-11-21 07:36:40.202
+udp,13.13.13.2,50835,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,61296,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+udp,13.13.13.2,57254,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,nan,2023-11-20 23:00:11.182
+tcp,13.13.13.2,61419,34.98.99.30,1188,OUT.bound,syn-sent,,INTL.c,US,AS15169 google llc,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21 01:02:17.904
+tcp,13.13.13.2,56600,34.98.99.30,1188,OUT.bound,syn-sent,,INTL.c,US,AS15169 google llc,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21 01:02:17.904
+tcp,13.13.13.2,56818,34.98.99.30,1166,OUT.bound,syn-sent,,INTL.c,US,AS15169 google llc,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21 01:02:17.904
