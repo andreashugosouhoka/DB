@@ -1,27 +1,27 @@
 
-Saved Logging on: 2023-11-21 15:11:36
+Saved Logging on: 2023-11-21 17:16:48
 .......................................
-NG-Connection on: 2023-11-21 14:36:35
+NG-Connection on: 2023-11-21 16:48:17
 
-Fetched IP Firewall Connections with 3706 entries
+Fetched IP Firewall Connections with 3090 entries
 Fetched IP DNS Cache with 62 entries
 
 Raw Connection data is Extracted
 Raw DNS data is Extracted
 
 [Pre-process Connections]
-       .id   protocol      src-address          dst-address       reply-src-address     reply-dst-address    tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
-2116  *1F0C8    tcp        13.13.13.2:52976   103.108.4.194:6881   103.108.4.194:6881   175.103.46.95:52976  established        INTL.c    23h59m54s        3           200           2             92        0          0        True   2023-11-21 14:36:35 WIB
-2905  *1F435    udp    170.84.112.196:26336     175.103.46.95:53     175.103.46.95:53  170.84.112.196:26336                 in-utama.c           7s        1            66           1           1827        0          0       False   2023-11-21 14:36:35 WIB
-557   *19E14    tcp        13.13.13.2:49947  64.233.170.188:5228  64.233.170.188:5228   175.103.46.95:49947  established       LOKAL.c    23h59m31s        2            82           2            104        0          0        True   2023-11-21 14:36:35 WIB
-344   *187CC    tcp        13.13.13.2:53186    23.108.101.66:443    23.108.101.66:443   175.103.46.95:53186  established        INTL.c    23h59m56s       12           490          12            600        0          0        True   2023-11-21 14:36:35 WIB
-371   *18A43    tcp        13.13.13.2:49381    23.106.249.39:431    23.106.249.39:431   175.103.46.95:49381  established        INTL.c        4m47s       22          2045          25          14970        0          0        True   2023-11-21 14:36:35 WIB
+       .id   protocol      src-address          dst-address      reply-src-address    reply-dst-address   tcp-state connection-mark timeout  orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+1496  *85B68    udp    128.201.140.81:32987    175.103.46.95:53    175.103.46.95:53  128.201.140.81:32987              in-utama.c        3s        1            66           1          1644         0          0       False   2023-11-21 16:48:17 WIB
+847   *856E5    udp    128.201.140.80:37543    175.103.46.95:53    175.103.46.95:53  128.201.140.80:37543              in-utama.c        0s        1            66           1          1827         0          0       False   2023-11-21 16:48:17 WIB
+1087  *858DA    udp    128.201.142.22:45280    175.103.46.95:53    175.103.46.95:53  128.201.142.22:45280              in-utama.c        1s        1            66           1          1663         0          0       False   2023-11-21 16:48:17 WIB
+368   *806BC    udp        13.13.13.2:63848  108.177.122.94:443  108.177.122.94:443   175.103.46.95:63848                 LOKAL.c     1m28s        9          2388          12          7416         0          0        True   2023-11-21 16:48:17 WIB
+728   *83259    udp        13.13.13.2:54613   74.125.130.94:443   74.125.130.94:443   175.103.46.95:54613                 LOKAL.c     2m13s       14          4055          15          3915         0          0        True   2023-11-21 16:48:17 WIB
 
 [Connections]
-     protocol   src-address    src-port   dst-address   dst-port tcp-state connection-mark
-1507    tcp         13.13.13.2   57409    94.50.151.140   29025     close         INTL.c  
-2189    udp    103.114.163.212   49972    175.103.46.95      53               in-utama.c  
-1121    udp         13.13.13.2   59489   216.239.38.120     443                  LOKAL.c  
+     protocol   src-address    src-port  dst-address   dst-port tcp-state connection-mark
+2791    udp    128.201.141.109   17032   175.103.46.95    53                 in-utama.c  
+1744    udp     128.201.143.96   23557   175.103.46.95    53                 in-utama.c  
+2099    udp    128.201.142.255   26965   175.103.46.95    53                 in-utama.c  
 
 [DNS]
            name              data    
@@ -30,56 +30,56 @@ No Resolved Entries
 
 IP PUBLIC LAN : 13.13.13.0/30 || 23.23.23.0/30 || 175.103.46.95/32 || 46.196.109.192/28 || 146.196.111.48/28 || 203.173.88.16/28
 
-Public Address with 2249 entries
+Public Address with 1512 entries
 
 Count of each flow:
-OUT.bound      : 2257
-IN.bound       : 1373
-Other          : 53
-local          : 20
-broadcast      : 3
+OUT.bound      : 1391
+IN.bound       : 1387
+local          : 247
+Other          : 60
+broadcast      : 5
 
-OTX result has been Fetched for 33 minutes and 23 seconds
+OTX result has been Fetched for 27 minutes and 23 seconds
 
 [OTX]
-        indicator                   asn               country_code2 name description modified created
-348    176.212.243.75  AS39028 jsc er-telecom holding       RU                                       
-543   189.126.173.236         AS28349 tvc tupa eireli       BR                                       
-1087    64.233.170.94              AS15169 google llc       US                                       
+        indicator                    asn                 country_code2 name description modified created
+1092    74.125.24.93                  AS15169 google llc       US                                       
+929   64.233.170.101                  AS15169 google llc       US                                       
+1226   203.99.131.29  AS45287 varnion technology semesta       ID                                       
 
 ::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 60% ||||||||            tcp            : 40% ||||||||            icmp           : 0% ||||||||            gre            : 0% ||||||||     others     : 0%
-flow              ==         OUT.bound         : 61% ||||||||          IN.bound         : 37% ||||||||           Other           : 1% ||||||||           local           : 1% ||||||||     others     : 1%
-dst-port          ==             53            : 39% ||||||||            443            : 27% ||||||||            1433           : 12% ||||||||            3306           : 8% ||||||||     others     : 23%
-dst-address       ==       175.103.46.95       : 37% ||||||||        122.144.1.1        : 2% ||||||||          8.8.8.8          : 2% ||||||||        31.13.95.60        : 1% ||||||||     others     : 60%
-src-address       ==         13.13.13.2        : 61% ||||||||       203.173.88.27       : 0% ||||||||      103.114.163.212      : 0% ||||||||       203.192.108.63      : 0% ||||||||     others     : 38%
-src-port          ==           25409           : 6% ||||||||           46015           : 1% ||||||||           49155           : 0% ||||||||     others     : 93%
-cc                ==             BR            : 35% ||||||||             ID            : 26% ||||||||             US            : 20% ||||||||             SG            : 4% ||||||||     others     : 20%
-asn               ==  AS28349 tvc tupa eireli  : 21% ||||||||     AS15169 google llc    : 15% |||||||| AS263049 nippontec telecomunicaes : 13% ||||||||       AS9905 linknet      : 12% ||||||||     others     : 50%
+protocol          ==            udp            : 60% ||||||||            tcp            : 39% ||||||||            icmp           : 1% ||||||||            gre            : 0% ||||||||     others     : 0%
+flow              ==         OUT.bound         : 45% ||||||||          IN.bound         : 45% ||||||||           local           : 8% ||||||||           Other           : 2% ||||||||     others     : 2%
+dst-port          ==             53            : 47% ||||||||            443            : 21% ||||||||            1433           : 16% ||||||||            3306           : 7% ||||||||     others     : 16%
+dst-address       ==       175.103.46.95       : 45% ||||||||        122.144.1.1        : 3% ||||||||          8.8.8.8          : 2% ||||||||       202.180.25.193      : 2% ||||||||     others     : 50%
+src-address       ==         13.13.13.2        : 52% ||||||||       203.173.88.27       : 1% ||||||||       113.186.114.73      : 0% ||||||||       128.201.143.74      : 0% ||||||||     others     : 47%
+src-port          ==            8238           : 0% ||||||||            8191           : 0% ||||||||           49155           : 0% ||||||||     others     : 99%
+cc                ==             BR            : 43% ||||||||             ID            : 23% ||||||||             US            : 15% ||||||||     others     : 19%
+asn               == AS266631 enoki & ruiz ltda - me : 43% ||||||||     AS15169 google llc    : 13% |||||||| AS45287 varnion technology semesta : 10% ||||||||     others     : 33%
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 [NG-Connection]
-     protocol   src-address    src-port   dst-address    dst-port    flow     tcp-state   resolved     mark     cc                asn                                       threat                                                                    description                                                        modified         
-967     tcp         13.13.13.2   57697     34.117.121.53    443    OUT.bound  established               INTL.c  US                    AS396982 google                                 Browser Extensions                                                                                                        2023-09-24T12:05:42.354000
-275     tcp         13.13.13.2   52650    180.222.114.12    443    OUT.bound  established               INTL.c  SG         AS10310 oath holdings inc.                                                                                                                                                                                     
-2242    udp    189.126.174.227   38417     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
-869     tcp         13.13.13.2   55107     40.126.35.153    443    OUT.bound  established              LOKAL.c  SG       AS8075 microsoft corporation                                                                                                                                                                                     
-564     udp         13.13.13.2   65088    74.125.200.157    443    OUT.bound                           LOKAL.c  US                 AS15169 google llc                                                                                                                                                                                     
-550     tcp       125.164.4.23   49623     175.103.46.89    443        Other  established              LOKAL.c                                                                                                                                                                                                                            
-3642    tcp         13.13.13.2   51469     20.114.189.70    443    OUT.bound     syn-sent               INTL.c  US       AS8075 microsoft corporation                                                                                                                                                                                     
-1792    udp     189.126.173.20   15594     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
-2182    udp    189.126.175.229   13923     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
-3240    udp     170.84.112.167   39468     175.103.46.95     53     IN.bound                        in-utama.c  BR  AS263049 nippontec telecomunicaes                                                                                                                                                                                     
-452     udp         13.13.13.2   65173    142.251.12.148    443    OUT.bound                           LOKAL.c  US                 AS15169 google llc                                                                                                                                                                                     
-1177    tcp         13.13.13.2   54316    142.251.12.188   5228    OUT.bound  established              LOKAL.c  US                 AS15169 google llc                                 wifi logs to check  Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its  2022-11-26T03:02:13.742000
-103     tcp         13.13.13.2   65460       31.13.95.60    443    OUT.bound  established              LOKAL.c  ID             AS32934 facebook  inc.                                                                                                                                                                                     
-1261    tcp         13.13.13.2   51464   163.181.100.215    443    OUT.bound        close              LOKAL.c  US                            ASNone                                                                                                                                                                                      
-923     udp         13.13.13.2   61671    192.178.49.195    443    OUT.bound                            INTL.c  US                 AS15169 google llc  Aero-Craft Hydraulics - ACH Payment Advice TROJAN                                                                                                        2023-10-19T00:01:01.246000
-1494    udp    189.126.172.197   31751     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
-1354    udp    189.126.173.101   31297     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
-2582    udp    189.126.172.247   33212     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
-2749    tcp         13.13.13.2   56465    103.38.101.242   3306    OUT.bound     syn-sent              LOKAL.c  ID                AS38524 laxo global                                                                                                                                                                                     
-1464    udp    189.126.172.228   42125     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+     protocol   src-address    src-port   dst-address    dst-port    flow     tcp-state   resolved     mark     cc                 asn                        threat       description           modified         
+1326    udp         13.13.13.2   60950       122.144.1.1      53   OUT.bound                           LOKAL.c  ID     AS38320 pt maxindo mitra solusi                                                            
+2052    udp       89.35.253.40   62858     175.103.46.95    1079    IN.bound                        in-utama.c  KZ                AS206026 kar-tel llc                                                            
+2026    tcp         13.13.13.2   50824   192.168.204.156    3306       local     syn-sent               INTL.c                                                                                                    
+262     tcp         13.13.13.2   49496    103.107.198.66     443   OUT.bound  established               INTL.c  SG       AS137409 gsl networks pty ltd                                                            
+1666    udp     128.201.142.37   46626     175.103.46.95      53    IN.bound                        in-utama.c  BR     AS266631 enoki & ruiz ltda - me  LCIA:HoneyNet:2023              2023-06-24T12:00:07.021000
+695     udp         13.13.13.2   62124     74.125.200.95     443   OUT.bound                           LOKAL.c  US                  AS15169 google llc                                                            
+2964    tcp         13.13.13.2   52180     103.31.232.82    1433   OUT.bound     syn-sent              LOKAL.c  ID           AS55701 usaha adisanggoro                                                            
+2848    udp    128.201.143.247   42975     175.103.46.95      53    IN.bound                        in-utama.c  BR     AS266631 enoki & ruiz ltda - me                                                            
+554     tcp         13.13.13.2   49505        4.1.82.141     443   OUT.bound  established               INTL.c  US          AS3356 level 3 parent  llc                                                            
+1229    udp    128.201.142.172   29498     175.103.46.95      53    IN.bound                        in-utama.c  BR     AS266631 enoki & ruiz ltda - me                                                            
+45      tcp         13.13.13.2   50595      93.189.62.83     443   OUT.bound  established               INTL.c  DE              AS56630 melbikomas uab                                                            
+294     udp         13.13.13.2   52652    142.251.10.100     443   OUT.bound                           LOKAL.c  US                  AS15169 google llc                                                            
+2317    tcp         13.13.13.2   50997     203.99.131.92    1433   OUT.bound     syn-sent               INTL.c  ID  AS45287 varnion technology semesta                                                            
+3042    tcp         13.13.13.2   52002     103.31.232.15    1433   OUT.bound     syn-sent              LOKAL.c  ID           AS55701 usaha adisanggoro                                                            
+615     udp         13.13.13.2   58660           8.8.4.4     443   OUT.bound                           LOKAL.c                                                                                                    
+1933    udp     128.201.140.87   42381     175.103.46.95      53    IN.bound                        in-utama.c  BR     AS266631 enoki & ruiz ltda - me  LCIA:HoneyNet:2022              2023-01-30T23:00:04.143000
+3059    tcp         13.13.13.2   52177     103.31.232.80    1433   OUT.bound     syn-sent              LOKAL.c  ID           AS55701 usaha adisanggoro                                                            
+721     udp         13.13.13.2   50522     74.125.24.127   19302   OUT.bound                           LOKAL.c  US                  AS15169 google llc                                                            
+3021    tcp         13.13.13.2   52143     103.31.232.72    1433   OUT.bound     syn-sent              LOKAL.c  ID           AS55701 usaha adisanggoro                                                            
+442     udp         13.13.13.2   49969    142.251.10.138     443   OUT.bound                           LOKAL.c  US                  AS15169 google llc                                                            
 
 
 
@@ -87,239 +87,39 @@ asn               ==  AS28349 tvc tupa eireli  : 21% ||||||||     AS15169 google
 
 All Last 7 days Potential Threat Entries !Big ASN:
 
-protocol  src-address   src-port  dst-address  dst-port   flow   tcp-state resolved    mark    cc                   asn                                     threat                 description         modified       
-  udp    125.228.82.251  43361   175.103.46.95   5060   IN.bound                    in-utama.c TW AS3462 data communication business group ETIC Cybersecurity 2023-11-21 Port Scan             2023-11-21 07:36:40.202
-Added address 125.228.82.251 to address list 'threat_inbound_addresses' (IN.bound Threat).
-raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
-
-Saved Logging on: 2023-11-21 14:36:23
-.......................................
-NG-Connection on: 2023-11-21 14:14:25
-
-Fetched IP Firewall Connections with 3848 entries
-Fetched IP DNS Cache with 62 entries
-
-Raw Connection data is Extracted
-Raw DNS data is Extracted
-
-[Pre-process Connections]
-       .id   protocol      src-address          dst-address       reply-src-address     reply-dst-address   tcp-state connection-mark timeout  orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
-1575   *DB30    udp        13.13.13.2:53548  172.217.194.100:443  172.217.194.100:443   175.103.46.95:53548                 LOKAL.c     2m1s        237         71757         421        366179        0          0        True   2023-11-21 14:14:25 WIB
-2800  *111A6    udp    189.51.103.238:26569     175.103.46.95:53     175.103.46.95:53  189.51.103.238:26569              in-utama.c       2s          1            70           1          2010        0          0       False   2023-11-21 14:14:25 WIB
-2403  *10FFE    udp    189.51.103.252:47713     175.103.46.95:53     175.103.46.95:53  189.51.103.252:47713              in-utama.c       0s          1            70           1          2010        0          0       False   2023-11-21 14:14:25 WIB
-2999  *1126D    udp      81.18.140.56:11796      175.103.46.95:1      175.103.46.95:1    81.18.140.56:11796              in-utama.c       3s          1            48           0             0        0          0       False   2023-11-21 14:14:25 WIB
-2267  *10F74    udp     173.249.19.73:23006  175.103.46.95:30994  175.103.46.95:30994   173.249.19.73:23006              in-utama.c       1s          1           125           0             0        0          0       False   2023-11-21 14:14:25 WIB
-
-[Connections]
-     protocol   src-address   src-port  dst-address   dst-port tcp-state connection-mark
-2180    udp        13.13.13.2   22217         8.8.8.8     53                   LOKAL.c  
-2586    udp    189.51.103.140   15444   175.103.46.95     53                in-utama.c  
-480     udp        13.13.13.2   25409   185.16.31.103   2229                    INTL.c  
-
-[DNS]
-           name              data    
-0  vpn.tarumanagara.com  202.6.211.33
-No Resolved Entries
-
-IP PUBLIC LAN : 13.13.13.0/30 || 23.23.23.0/30 || 175.103.46.95/32 || 46.196.109.192/28 || 146.196.111.48/28 || 203.173.88.16/28
-
-Public Address with 1583 entries
-
-Count of each flow:
-OUT.bound      : 2323
-IN.bound       : 1352
-Other          : 133
-local          : 37
-broadcast      : 2
-
-OTX result has been Fetched for 19 minutes and 34 seconds
-
-[OTX]
-       indicator                    asn                  country_code2 name description modified created
-326   93.170.44.112  AS57197 shaporenko yuri nikolaevich       CZ                                       
-112  189.51.103.209           AS262750 byal telecom ltda       BR                                       
-111  189.51.103.245           AS262750 byal telecom ltda       BR                                       
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 67% ||||||||            tcp            : 32% ||||||||            icmp           : 0% ||||||||            gre            : 0% ||||||||     others     : 0%
-flow              ==         OUT.bound         : 60% ||||||||          IN.bound         : 35% ||||||||           Other           : 3% ||||||||           local           : 1% ||||||||     others     : 1%
-dst-port          ==             53            : 38% ||||||||            443            : 33% ||||||||            5228           : 4% ||||||||             80            : 3% ||||||||     others     : 26%
-dst-address       ==       175.103.46.95       : 35% ||||||||          8.8.8.8          : 4% ||||||||        122.144.1.1        : 3% ||||||||        31.13.95.60        : 2% ||||||||     others     : 58%
-src-address       ==         13.13.13.2        : 60% ||||||||      185.224.128.184      : 2% ||||||||       45.155.91.237       : 0% ||||||||        192.168.50.6       : 0% ||||||||     others     : 38%
-src-port          ==           25409           : 9% ||||||||           46015           : 2% ||||||||             80            : 0% ||||||||     others     : 88%
-cc                ==             BR            : 32% ||||||||             US            : 27% ||||||||             ID            : 11% ||||||||     others     : 30%
-asn               == AS262750 byal telecom ltda : 22% ||||||||     AS15169 google llc    : 21% |||||||| AS263026 ibl banda larga internet informatica ltda : 10% ||||||||     others     : 47%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[NG-Connection]
-     protocol   src-address    src-port   dst-address   dst-port    flow     tcp-state   resolved     mark     cc                         asn                                threat                                                    description                                                        modified         
-673     tcp         13.13.13.2   65345       4.1.82.141    443    OUT.bound  established               INTL.c  US                          AS3356 level 3 parent  llc                                                                                                                                                      
-2934    udp      189.51.103.43   17606    175.103.46.95     53     IN.bound                        in-utama.c  BR                          AS262750 byal telecom ltda                                                                                                                                                      
-3258    udp    186.249.215.116   23126    175.103.46.95     53     IN.bound                        in-utama.c  BR  AS263026 ibl banda larga internet informatica ltda                                                                                                                                                      
-364     tcp         13.13.13.2   57964   142.251.10.188   5228    OUT.bound  established              LOKAL.c  US                                  AS15169 google llc      firewall conns  Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin  2022-10-03T00:03:36.708000
-2866    tcp      36.85.109.186   15991    175.103.46.94   3306        Other    time-wait              LOKAL.c                                                                                                                                                                                                              
-424     tcp         13.13.13.2   61157    103.30.244.38   1433    OUT.bound  established              LOKAL.c  ID                 AS131745 pt. cybertechtonic pratama                                                                                                                                                      
-3555    udp    186.249.215.159   48880    175.103.46.95     53     IN.bound                        in-utama.c  BR  AS263026 ibl banda larga internet informatica ltda                                                                                                                                                      
-2734    udp     189.51.103.218   19161    175.103.46.95     53     IN.bound                        in-utama.c  BR                          AS262750 byal telecom ltda                                                                                                                                                      
-3231    udp         13.13.13.2   60293      122.144.1.1     53    OUT.bound                           LOKAL.c  ID                     AS38320 pt maxindo mitra solusi                                                                                                                                                      
-1226    udp         13.13.13.2   33599          8.8.8.8     53    OUT.bound                           LOKAL.c  US                                  AS15169 google llc                                                                                                                                                      
-3729    udp    186.249.215.171   24982    175.103.46.95     53     IN.bound                        in-utama.c  BR  AS263026 ibl banda larga internet informatica ltda                                                                                                                                                      
-2988    udp     189.51.103.124   20538    175.103.46.95     53     IN.bound                        in-utama.c  BR                          AS262750 byal telecom ltda                                                                                                                                                      
-492     udp     146.196.111.60    1701    175.103.46.94   1701    OUT.bound                           LOKAL.c  ID                    AS139460 pt maxindo mitra solusi                                                                                                                                                      
-2186    udp         13.13.13.2   46015    202.61.240.22   6881    OUT.bound                            INTL.c  AT                                AS197540 netcup gmbh                                                                                                                                                      
-224     tcp    185.224.128.184   10837    175.103.46.88     80        Other  established                                                                                                                                                                                                                                   
-484    icmp         13.13.13.2               13.13.13.1               local                                                                                                                                                                                                                                                
-848     tcp         13.13.13.2   64311    74.125.68.113    443    OUT.bound  established              LOKAL.c  US                                  AS15169 google llc                                                                                                                                                      
-2196    udp     189.51.103.169   13967    175.103.46.95     53     IN.bound                        in-utama.c  BR                          AS262750 byal telecom ltda  LCIA:HoneyNet:2023                                                                                                        2023-07-23T12:04:51.473000
-3588    udp    186.249.215.204   37011    175.103.46.95     53     IN.bound                        in-utama.c  BR  AS263026 ibl banda larga internet informatica ltda                                                                                                                                                      
-1854    udp         13.13.13.2   52453    142.251.12.95    443    OUT.bound                           LOKAL.c  US                                  AS15169 google llc                                                                                                                                                      
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-All Last 7 days Potential Threat Entries !Big ASN:
-
-protocol   src-address   src-port  dst-address   dst-port    flow    tcp-state  resolved     mark    cc                        asn                                            threat                                                               description                                                      modified       
-  tcp    185.224.128.184  15819   146.196.111.51     80    IN.bound established          in-backup.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  16459    203.173.88.27     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  udp      45.155.91.237   5061    175.103.46.95   5060    IN.bound                       in-utama.c PH AS133334 dctv cable network broadband services inc     ETIC Cybersecurity 2023-11-20 Port Scan                                                                                                      2023-11-20 23:00:11.182
-  udp      45.155.91.237   5118    203.173.88.27   5060    IN.bound                       in-utama.c PH AS133334 dctv cable network broadband services inc     ETIC Cybersecurity 2023-11-20 Port Scan                                                                                                      2023-11-20 23:00:11.182
-  tcp    185.224.128.184   2707    203.173.88.27     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp         13.13.13.2  59682     151.101.2.49    443   OUT.bound established               INTL.c US                                     AS54113 fastly                              CVE-2022-36537 A security flaw in the Zk Framework that allows attackers to access sensitive data has been identifi 2023-11-20 04:03:14.293
-  udp      45.155.91.237   5113    175.103.46.95   5060    IN.bound                       in-utama.c PH AS133334 dctv cable network broadband services inc     ETIC Cybersecurity 2023-11-20 Port Scan                                                                                                      2023-11-20 23:00:11.182
-  tcp         13.13.13.2   8090     71.6.134.234  39440   OUT.bound established               INTL.c US                              AS10439 carinet  inc.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:25:00.463
-  udp      45.155.91.237   5076    203.173.88.27   5060    IN.bound                       in-utama.c PH AS133334 dctv cable network broadband services inc     ETIC Cybersecurity 2023-11-20 Port Scan                                                                                                      2023-11-20 23:00:11.182
-  tcp    185.224.128.184  29305    175.103.46.95     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184     67   146.196.111.51     80    IN.bound established          in-backup.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  27465   146.196.111.51     80    IN.bound established          in-backup.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184   1367   146.196.111.51     80    IN.bound established          in-backup.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  27399    203.173.88.27     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  20061   146.196.111.51     80    IN.bound established          in-backup.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184   3671    203.173.88.27     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  24925    175.103.46.95     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  udp      45.155.91.237   5096   146.196.111.51   5060    IN.bound                      in-backup.c PH AS133334 dctv cable network broadband services inc     ETIC Cybersecurity 2023-11-20 Port Scan                                                                                                      2023-11-20 23:00:11.182
-  tcp    185.224.128.184  11055   146.196.111.51     80    IN.bound established          in-backup.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp         13.13.13.2    443    36.99.136.129  16548   OUT.bound established               INTL.c CN       AS137687 luoyang  henan province  p.r.china. IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:24:25.725
-  tcp    185.224.128.184  21977    203.173.88.27     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  19003    203.173.88.27     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  28543    175.103.46.95     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  11499    175.103.46.95     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  10493    175.103.46.95     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  tcp    185.224.128.184  14473    175.103.46.95     80    IN.bound established           in-utama.c NL                             AS62068 spectraip b.v.     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  udp      104.253.91.98     80    175.103.46.95     53    IN.bound                       in-utama.c US                                 AS18779 egihosting     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:14:22.994
-  udp         13.13.13.2  25409    49.205.228.86  35413   OUT.bound                           INTL.c IN     AS55577 atria convergence technologies pvt ltd                     Scan port 445 SMB (S3#) Scans hitting the server at TCP port 445 SMB. Same IP should not appear more than once in 96 hours i 2023-11-17 10:17:28.190
-  tcp         13.13.13.2  55575   139.45.197.244    443   OUT.bound   time-wait               INTL.c GB                                AS9002 retn limited       Sinkhole alert - Malcious IP with DGA                                                      This ip has created malicious domains using DGA 2023-11-16 14:30:15.996
-  tcp         13.13.13.2  55576   139.45.197.244    443   OUT.bound   time-wait               INTL.c GB                                AS9002 retn limited       Sinkhole alert - Malcious IP with DGA                                                      This ip has created malicious domains using DGA 2023-11-16 14:30:15.996
-  tcp         13.13.13.2  52216    151.101.2.133    443   OUT.bound       close               INTL.c US                                     AS54113 fastly                           CVE:CVE-1999-0095 An attack on the Sendmail server is being investigated by researchers at the University of Californi 2023-11-21 01:02:17.904
-  udp         65.49.1.86  44630    175.103.46.95  11211    IN.bound                       in-utama.c US              AS36791 portland internet hosting llc     ETIC Cybersecurity 2023-11-21 Port Scan                                                                                                      2023-11-21 07:15:23.981
-  udp     189.51.103.140  10977    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp     189.51.103.140  23632    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  tcp         13.13.13.2  52215   151.101.66.133    443   OUT.bound established               INTL.c US                                     AS54113 fastly     ETIC Cybersecurity 2023-11-20 Port Scan                                                                                                      2023-11-20 23:00:11.182
-  udp     189.51.103.140  14390    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp      189.51.103.77  18495    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda          IOC Records Provided by @NextRayAI                        Logs of IP trying to hack into my Particle Photon and Cloud Honeypot instance 2023-11-21 07:00:17.692
-  tcp         13.13.13.2  52224    151.101.2.133    443   OUT.bound established               INTL.c US                                     AS54113 fastly                           CVE:CVE-1999-0095 An attack on the Sendmail server is being investigated by researchers at the University of Californi 2023-11-21 01:02:17.904
-  tcp         13.13.13.2  52222    151.101.2.133    443   OUT.bound established               INTL.c US                                     AS54113 fastly                           CVE:CVE-1999-0095 An attack on the Sendmail server is being investigated by researchers at the University of Californi 2023-11-21 01:02:17.904
-  udp      189.51.103.58  14662    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp      189.51.103.58  47512    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp     189.51.103.140  15444    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp      189.51.103.80  21489    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda                          LCIA:HoneyNet:2023                        Logs of IP trying to hack into my Particle Photon and Cloud Honeypot instance 2023-11-21 07:00:17.692
-  udp      189.51.103.58  29519    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp      189.51.103.80  20279    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda                          LCIA:HoneyNet:2023                        Logs of IP trying to hack into my Particle Photon and Cloud Honeypot instance 2023-11-21 07:00:17.692
-  udp      189.51.103.58  46984    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp     189.51.103.140  12885    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda IP Addresses Logged by the Rosethorn PotNet Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp 2023-11-21 07:14:08.603
-  udp      189.51.103.80  34207    175.103.46.95     53    IN.bound                       in-utama.c BR                         AS262750 byal telecom ltda                          LCIA:HoneyNet:2023                        Logs of IP trying to hack into my Particle Photon and Cloud Honeypot instance 2023-11-21 07:00:17.692
-
-Added address 36.99.136.129 to address list 'threat_outbound_addresses' (OUT.bound Threat).
-
-Added address 151.101.2.133 to address list 'threat_outbound_addresses' (OUT.bound Threat).
-
-Added address 151.101.66.133 to address list 'threat_outbound_addresses' (OUT.bound Threat).
-
-Added address 71.6.134.234 to address list 'threat_outbound_addresses' (OUT.bound Threat).
-
-Added address 49.205.228.86 to address list 'threat_outbound_addresses' (OUT.bound Threat).
-
-Added address 151.101.2.49 to address list 'threat_outbound_addresses' (OUT.bound Threat).
-
-Added address 139.45.197.244 to address list 'threat_outbound_addresses' (OUT.bound Threat).
-Added address 189.51.103.140 to address list 'threat_inbound_addresses' (IN.bound Threat).
-Added address 189.51.103.77 to address list 'threat_inbound_addresses' (IN.bound Threat).
-Added address 104.253.91.98 to address list 'threat_inbound_addresses' (IN.bound Threat).
-Added address 189.51.103.58 to address list 'threat_inbound_addresses' (IN.bound Threat).
-Added address 45.155.91.237 to address list 'threat_inbound_addresses' (IN.bound Threat).
-Added address 65.49.1.86 to address list 'threat_inbound_addresses' (IN.bound Threat).
-Added address 189.51.103.80 to address list 'threat_inbound_addresses' (IN.bound Threat).
-Added address 185.224.128.184 to address list 'threat_inbound_addresses' (IN.bound Threat).
+protocol   src-address   src-port  dst-address   dst-port    flow    tcp-state  resolved     mark    cc                    asn                                      threat                                                    description                                             modified       
+  udp       109.248.6.78  47601   146.196.111.51   5060    IN.bound                      in-backup.c RU                AS213220 alexander m. belov ETIC Cybersecurity 2023-11-21 Port Scan                                                                                    2023-11-21 09:48:13.057
+  udp     72.251.232.180   5217    203.173.88.27   5060    IN.bound                       in-utama.c US               AS29791 internap holding llc ETIC Cybersecurity 2023-11-21 Port Scan                                                                                    2023-11-21 09:48:38.737
+  udp     185.233.19.253  58914    203.173.88.27   5060    IN.bound                       in-utama.c PK       AS7029 windstream communications llc ETIC Cybersecurity 2023-11-21 Port Scan                                                                                    2023-11-21 09:48:25.130
+  udp       5.253.86.208  39861    175.103.46.95   5060    IN.bound                       in-utama.c US                AS208046 maximilian kutzner ETIC Cybersecurity 2023-11-21 Port Scan                                                                                    2023-11-21 09:48:51.241
+  udp      8.209.218.140  43653    203.173.88.27   5060    IN.bound                       in-utama.c JP  AS45102 alibaba (us) technology co.  ltd.      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  udp     192.241.195.83  50957   146.196.111.51   5060    IN.bound                      in-backup.c US                  AS14061 digitalocean  llc ETIC Cybersecurity 2023-11-21 Port Scan                                                                                    2023-11-21 09:49:20.956
+  tcp         13.13.13.2  61958     156.0.214.11   6881   OUT.bound established               INTL.c BJ AS37136 african network information center      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  udp    128.201.143.246  38134    175.103.46.95     53    IN.bound                       in-utama.c BR            AS266631 enoki & ruiz ltda - me      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  udp      175.176.23.20  42330    175.103.46.95   1080    IN.bound                       in-utama.c PH              AS10139 smart broadband  inc.      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  udp    128.201.143.246  38642    175.103.46.95     53    IN.bound                       in-utama.c BR            AS266631 enoki & ruiz ltda - me      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  tcp         13.13.13.2  51829   203.99.131.203   1433   OUT.bound  close-wait               INTL.c ID         AS45287 varnion technology semesta      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  tcp         13.13.13.2  51830   203.99.131.204   1433   OUT.bound    syn-sent               INTL.c ID         AS45287 varnion technology semesta      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  tcp         13.13.13.2  51832   203.99.131.203   1433   OUT.bound   time-wait               INTL.c ID         AS45287 varnion technology semesta      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  tcp         13.13.13.2  52017   203.124.11.111     25   OUT.bound    syn-sent               INTL.c HK      AS38277 communilink internet limited.      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  tcp         13.13.13.2  52083   203.99.131.203   1433   OUT.bound   time-wait               INTL.c ID         AS45287 varnion technology semesta      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+  tcp         13.13.13.2  52224   203.99.131.203   1433   OUT.bound established               INTL.c ID         AS45287 varnion technology semesta      IOC Records Provided by @NextRayAI This IOC report provided and daily updated by NextRay AI Detection & Response Inc. 2023-11-20 20:30:48.610
+Added address 156.0.214.11 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 203.99.131.203 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 203.99.131.204 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 203.124.11.111 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 128.201.143.246 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 109.248.6.78 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 185.233.19.253 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 5.253.86.208 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 175.176.23.20 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 8.209.218.140 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 192.241.195.83 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 72.251.232.180 to address list 'threat_inbound_addresses' (IN.bound Threat).
 raw rule added successfully for IN.bound Threat.
 raw rule added successfully for OUT.bound Threat.
 
 ####################################################################################################################################################################################################
 ####################################################################################################################################################################################################
-
-
-
-Saved Logging on: 2023-11-21 14:13:55
-Error executing the script. Error: Traceback (most recent call last):
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 418, in <module>
-    lan_networks = [ipaddress.IPv4Network(network, strict=False) for network in lan_networks]
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\ipaddress.py", line 1512, in __init__
-    self.network_address = IPv4Address(addr)
-                           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\ipaddress.py", line 1315, in __init__
-    self._ip = self._ip_int_from_string(addr_str)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\ipaddress.py", line 1207, in _ip_int_from_string
-    raise AddressValueError("%s in %r" % (exc, ip_str)) from None
-ipaddress.AddressValueError: At most 3 characters permitted in '1175' in '1175.103.46.95'
-
-
-
-Saved Logging on: 2023-11-21 14:12:41
-Error executing the script. Error: Traceback (most recent call last):
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 418, in <module>
-    lan_networks = [ipaddress.IPv4Network(network, strict=False) for network in lan_networks]
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\ipaddress.py", line 1512, in __init__
-    self.network_address = IPv4Address(addr)
-                           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\ipaddress.py", line 1315, in __init__
-    self._ip = self._ip_int_from_string(addr_str)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\ipaddress.py", line 1207, in _ip_int_from_string
-    raise AddressValueError("%s in %r" % (exc, ip_str)) from None
-ipaddress.AddressValueError: At most 3 characters permitted in '1175' in '1175.103.46.95'
-
-Saved Logging on: 2023-11-21 14:12:37
-Error executing the script. Error: Traceback (most recent call last):
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 46, in <module>
-    fetch_router_data(router_ip, router_port, username, password, lan_networks)
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 25, in fetch_router_data
-    connection.close()
-    ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'connection' where it is not associated with a value
-
-Saved Logging on: 2023-11-21 14:12:16
-Error executing the script. Error: Traceback (most recent call last):
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 46, in <module>
-    fetch_router_data(router_ip, router_port, username, password, lan_networks)
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 25, in fetch_router_data
-    connection.close()
-    ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'connection' where it is not associated with a value
-
-Saved Logging on: 2023-11-21 14:11:55
-Error executing the script. Error: Traceback (most recent call last):
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 46, in <module>
-    fetch_router_data(router_ip, router_port, username, password, lan_networks)
-  File "F:\PYT\FLASK 2 auto\TAKE 50 with no spec char unicode\analyzer.py", line 25, in fetch_router_data
-    connection.close()
-    ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'connection' where it is not associated with a value
 POWERED BY NG-Connection [AUTO] Threat Verdict
 PROCESSING........
