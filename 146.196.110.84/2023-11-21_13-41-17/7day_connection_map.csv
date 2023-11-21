@@ -1,0 +1,22 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,203.123.56.246,49309,51.81.93.145,9001,OUT.bound,established,,,US,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,78.46.123.26,8443,203.123.56.246,50426,IN.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,135.148.150.100,443,203.123.56.246,51355,IN.bound,established,,,US,AS16276 ovh sas,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,163.172.53.201,443,203.123.56.246,49222,IN.bound,established,,,FR,AS12876 online s.a.s.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,88.99.248.158,9001,203.123.56.246,52458,IN.bound,established,,,DE,AS24940 hetzner online gmbh,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,203.123.56.246,49177,162.159.134.233,443,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,,2023-11-14 17:01:45.019
+tcp,203.123.56.246,50424,45.92.33.62,443,OUT.bound,established,,,GR,AS9009 m247 ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,203.123.56.246,49215,217.160.192.232,443,OUT.bound,established,,,DE,AS8560 1&1 ionos se,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,203.123.56.246,49175,81.169.159.28,29001,OUT.bound,established,,,DE,AS6724 strato ag,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,203.123.56.246,49181,80.66.135.123,9001,OUT.bound,established,,,BE,AS1239 sprint,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,81.6.47.149,9001,203.123.56.246,50360,IN.bound,established,,,CH,AS13030 init7 switzerland  ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,203.123.56.246,55123,34.67.9.172,443,OUT.bound,established,,,US,AS396982 google,Fraud Services,http://kramtechnology.com/  fraud services  network  rat  trojan  phishing  malvertizing  malware ho,2023-11-18 14:04:48.923
+tcp,69.30.239.126,443,203.123.56.246,49166,IN.bound,established,,,US,AS32097 wholesale internet  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,185.241.208.101,143,203.123.56.246,49184,IN.bound,established,,,NL,ASNone ,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,203.123.56.246,63711,87.250.251.119,443,OUT.bound,established,,,RU,AS208722 yandex oy,Python Initiated Connection   Spyware   Remote Attacks  ,,2023-11-20 05:32:58.400
+tcp,203.123.56.246,49268,162.159.135.233,443,OUT.bound,established,,,,AS13335 cloudflare,Remote Access attack   Agent Tesla   C2   BatLoader   C2   Dridex,,2023-11-14 17:01:45.019
+tcp,203.123.56.246,50697,172.67.212.188,443,OUT.bound,established,,,US,AS13335 cloudflare,Japanese phishing site.,phishing-site list generated from scattered spam emails. n nOTX(2021): https://otx.alienvault.com/pu,2023-11-21 04:16:27.788
+tcp,203.123.56.246,49164,162.159.133.233,443,OUT.bound,established,,,,AS13335 cloudflare,PuffStealer,,2023-11-18 01:24:48.887
+tcp,203.123.56.246,62953,35.186.224.25,443,OUT.bound,time-wait,,,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,203.123.56.246,62954,20.190.144.136,443,OUT.bound,time-wait,,,KR,AS8075 microsoft corporation,Spyware: http://browser.events.data.microsoftstart.cn,,2023-11-20 05:49:10.586
+tcp,203.123.56.246,60787,20.190.144.136,443,OUT.bound,time-wait,,,KR,AS8075 microsoft corporation,Spyware: http://browser.events.data.microsoftstart.cn,,2023-11-20 05:49:10.586
