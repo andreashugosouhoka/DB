@@ -1,0 +1,619 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-21_09-03-25,tcp,192.168.1.15,46791.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,udp,192.168.1.15,49767.0,40.81.120.44,3544.0,OUT.bound,,,INTL.c,GB,AS8075 microsoft corporation,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54380.0,17.57.145.136,5223.0,OUT.bound,established,,INTL.c,US,AS714 apple inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46100.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,45573.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,icmp,175.103.43.90,,43.247.15.4,,IN.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53488.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47334.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,35631.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47754.0,35.186.203.63,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46053.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60706.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47966.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60886.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36427.0,47.241.191.117,31006.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60343.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,175.103.43.90,50164.0,43.247.15.4,8081.0,IN.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46817.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60103.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46757.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,41438.0,87.251.74.5,443.0,OUT.bound,established,,INTL.c,UA,AS41205 kolibri llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,18924.0,34.126.80.150,3478.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40249.0,172.98.59.142,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46724.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,50760.0,34.101.50.130,5938.0,OUT.bound,established,,LOKAL.c,US,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46060.0,34.149.173.23,443.0,OUT.bound,established,,INTL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60449.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46393.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46003.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,45808.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60366.0,34.102.147.19,443.0,OUT.bound,established,,INTL.c,US,AS396982 google,,,
+2023-11-21_09-03-25,tcp,95.217.220.239,51758.0,43.247.15.4,57414.0,IN.bound,last-ack,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46074.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,udp,192.168.1.15,38703.0,167.179.67.29,21116.0,OUT.bound,,,INTL.c,JP,AS20473 the constant company  llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56969.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54013.0,172.67.134.168,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 2023651318 - ANIA Threat Feeds - IP Segment 9,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-07-05T20:01:39.023000
+2023-11-21_09-03-25,tcp,192.168.1.15,47983.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,40699.0,188.40.84.138,80.0,OUT.bound,established,,INTL.c,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,44524.0,172.67.69.226,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20223111352,For complete list please visit https://apd.altervista.org/,2022-04-10T21:01:45.505000
+2023-11-21_09-03-25,tcp,192.168.1.15,54524.0,74.125.24.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,34416.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60710.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59790.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46167.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46728.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46826.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46277.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,57302.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45180.0,103.167.26.39,80.0,OUT.bound,established,,INTL.c,SG,AS142160 joyo technology pte. ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53918.0,172.67.189.165,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46222.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47176.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,56696.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59274.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45892.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60617.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46091.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60240.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45572.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,50406.0,74.125.130.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,58605.0,172.98.59.141,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60440.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46110.0,47.241.102.53,31006.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60897.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54180.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60458.0,172.98.59.139,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,44972.0,45.121.219.250,443.0,OUT.bound,established,,INTL.c,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-03-25,udp,192.168.1.15,21558.0,34.126.80.150,3478.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,udp,0.0.0.0,20561.0,255.255.255.255,20561.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60289.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,58642.0,104.26.10.69,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,175.103.43.90,50088.0,43.247.15.4,899.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,34631.0,172.98.59.134,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59589.0,104.26.10.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,35806.0,104.21.73.103,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38179.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46497.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46027.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47935.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46748.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,43690.0,142.251.175.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36169.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,33225.0,216.83.56.191,443.0,OUT.bound,established,,INTL.c,HK,AS64050 bgpnet global asn,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46615.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47931.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,51886.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,45202.0,34.117.147.68,443.0,OUT.bound,established,,INTL.c,US,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47873.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,45557.0,104.21.91.131,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40227.0,85.111.49.176,443.0,OUT.bound,established,,INTL.c,TR,AS9121 turk telekomunikasyon anonim sirketi,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,41506.0,87.251.74.5,443.0,OUT.bound,established,,INTL.c,UA,AS41205 kolibri llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59989.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55018.0,38.6.173.97,443.0,OUT.bound,established,,INTL.c,US,AS174 cogent communications,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39222.0,198.251.84.200,443.0,OUT.bound,established,,INTL.c,LU,AS53667 frantech solutions,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39475.0,104.26.9.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,33979.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45312.0,5.161.145.176,34848.0,OUT.bound,established,,INTL.c,DE,AS213230 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46634.0,142.251.12.91,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53352.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55810.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59129.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45925.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,38674.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59706.0,74.125.130.94,80.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,39518.0,122.144.2.205,443.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47477.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,52157.0,20.198.118.190,443.0,OUT.bound,established,,INTL.c,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,60257.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,48032.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,38633.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,175.103.43.90,55820.0,43.247.15.4,899.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,35547.0,134.122.132.83,443.0,OUT.bound,established,,INTL.c,SG,AS64050 bgpnet global asn,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,57246.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45924.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,52929.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,udp,192.168.1.15,33903.0,8.222.222.85,6000.0,OUT.bound,,,INTL.c,SG,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47524.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,57115.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,58916.0,104.26.10.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,45620.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,36325.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39777.0,104.21.19.21,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59645.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36339.0,14.198.252.96,443.0,OUT.bound,established,,INTL.c,HK,AS132252 12/f trans asia centre  18 kin hong street,,,
+2023-11-21_09-03-25,udp,192.168.1.15,39987.0,47.241.116.15,6000.0,OUT.bound,,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54672.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46352.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,59814.0,104.26.10.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,47949.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60990.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51089.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,54154.0,172.67.189.165,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36359.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46900.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,42052.0,156.59.239.25,8888.0,OUT.bound,established,,INTL.c,SG,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38197.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47229.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,54687.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46058.0,34.149.173.23,443.0,OUT.bound,established,,INTL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,35304.0,15.204.18.202,443.0,OUT.bound,established,,INTL.c,US,AS16276 ovh sas,LCIA:HoneyNet:2022,Scans hitting the server at TCP port 8080 HTTP and PROXY. Same IP should not appear more than once i,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,46189.0,57.129.23.205,443.0,OUT.bound,established,,INTL.c,BE,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36170.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,udp,192.168.1.15,45897.0,47.241.58.2,6000.0,OUT.bound,,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,44948.0,45.121.219.250,443.0,OUT.bound,established,,INTL.c,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46217.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51067.0,172.67.74.158,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45789.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47041.0,172.98.59.141,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46372.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46584.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,53913.0,172.67.189.165,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56925.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45890.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,54452.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55368.0,35.213.190.132,443.0,OUT.bound,established,,LOKAL.c,SG,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36970.0,23.53.15.17,443.0,OUT.bound,established,,LOKAL.c,SE,AS20940 akamai international b.v.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59553.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,50808.0,34.141.79.142,443.0,OUT.bound,established,,LOKAL.c,DE,AS396982 google,,,
+2023-11-21_09-03-25,udp,192.168.1.15,56832.0,35.247.161.22,5683.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54330.0,52.84.251.17,443.0,OUT.bound,established,,INTL.c,US,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45575.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,udp,192.168.1.15,43253.0,124.70.190.43,21116.0,OUT.bound,,,INTL.c,CN,AS55990 huawei cloud service data center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51699.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51527.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,59206.0,104.26.10.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,49.13.66.134,29770.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,43482.0,47.245.116.221,8820.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55449.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,43255.0,104.21.54.242,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46100.0,172.98.59.141,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,33903.0,47.236.14.98,6000.0,OUT.bound,,,INTL.c,US,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38192.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60234.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56095.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47465.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46487.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60252.0,34.102.147.19,443.0,OUT.bound,established,,INTL.c,US,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,34631.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47454.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,33856.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60246.0,34.102.147.19,443.0,OUT.bound,established,,INTL.c,US,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46047.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,59572.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,35463.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45312.0,5.78.72.163,48906.0,OUT.bound,established,,INTL.c,IR,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,57290.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36580.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,36772.0,172.98.59.142,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,35031.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,95.217.15.48,34422.0,43.247.15.4,57414.0,IN.bound,last-ack,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46518.0,172.98.59.134,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,41967.0,87.251.74.5,443.0,OUT.bound,established,,INTL.c,UA,AS41205 kolibri llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,49152.0,35.80.235.91,443.0,OUT.bound,established,,INTL.c,US,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46756.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47640.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,40452.0,117.161.2.39,443.0,OUT.bound,established,,INTL.c,CN,AS9808 china mobile communications group co.  ltd.,,,
+2023-11-21_09-03-25,udp,192.168.1.15,45897.0,47.74.211.223,6000.0,OUT.bound,,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,32976.0,34.111.101.25,443.0,OUT.bound,established,,INTL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,50762.0,143.244.33.73,443.0,OUT.bound,established,,INTL.c,SG,AS60068 datacamp limited,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,52150.0,92.223.85.121,443.0,OUT.bound,established,,INTL.c,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,42013.0,87.251.74.5,443.0,OUT.bound,established,,INTL.c,UA,AS41205 kolibri llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45889.0,3.121.45.217,443.0,OUT.bound,established,,INTL.c,DE,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53150.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46634.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,36160.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,58489.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59285.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40696.0,172.67.69.226,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20223111352,For complete list please visit https://apd.altervista.org/,2022-04-10T21:01:45.505000
+2023-11-21_09-03-25,tcp,192.168.1.15,59500.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,33016.0,92.223.85.164,443.0,OUT.bound,established,,INTL.c,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47490.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47588.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,35476.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59468.0,142.250.152.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,34536.0,34.117.97.41,443.0,OUT.bound,established,,INTL.c,US,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46205.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,59138.0,104.26.9.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,60391.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47720.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60806.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46369.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,36367.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59979.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56686.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59435.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47391.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,35408.0,172.98.59.138,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60397.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46394.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46178.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,53349.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59270.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,58868.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59388.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59366.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,34867.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51544.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53909.0,128.199.205.12,80.0,OUT.bound,established,,INTL.c,SG,AS14061 digitalocean  llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52768.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46936.0,104.26.9.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,55406.0,172.253.113.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,162.142.125.81,14583.0,43.247.15.4,5061.0,IN.bound,,,,US,AS398324 censys  inc.,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21T01:58:43.130000
+2023-11-21_09-03-25,tcp,192.168.1.15,45900.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,35305.0,15.204.18.202,443.0,OUT.bound,established,,INTL.c,US,AS16276 ovh sas,LCIA:HoneyNet:2022,Scans hitting the server at TCP port 8080 HTTP and PROXY. Same IP should not appear more than once i,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,55586.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55600.0,64.233.170.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,44092.0,31.13.95.34,443.0,OUT.bound,last-ack,,LOKAL.c,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20T20:30:48.610000
+2023-11-21_09-03-25,tcp,192.168.1.15,56918.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46637.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,59179.0,178.248.236.87,443.0,OUT.bound,established,,INTL.c,RU,AS197068 hll llc,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46609.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,56088.0,142.251.12.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
+2023-11-21_09-03-25,tcp,192.168.1.15,39239.0,172.98.59.133,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47715.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46781.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,48017.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60407.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59411.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47470.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,45312.0,5.78.72.163,34206.0,OUT.bound,established,,INTL.c,IR,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46708.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,33383.0,104.26.9.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,47316.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,48015.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,37253.0,52.84.251.86,443.0,OUT.bound,established,,INTL.c,US,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53025.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52661.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45403.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47498.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,59590.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,49379.0,139.144.120.48,443.0,OUT.bound,established,,INTL.c,US,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38771.0,104.26.9.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,58575.0,172.98.59.141,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,4500.0,103.146.63.122,4500.0,OUT.bound,,,LOKAL.c,ID,AS139457 pt semut data indonesia,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55588.0,45.121.219.185,443.0,OUT.bound,established,,INTL.c,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47887.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,51570.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,54720.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59909.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55723.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53050.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,41526.0,74.125.24.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,47277.0,172.98.59.135,443.0,OUT.bound,established,,INTL.c,CA,AS399647 rumble inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59443.0,104.26.10.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,59605.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55332.0,35.213.190.132,443.0,OUT.bound,established,,LOKAL.c,SG,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,39987.0,47.241.61.177,6000.0,OUT.bound,,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,50813.0,172.67.74.158,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55352.0,172.67.69.226,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20223111352,For complete list please visit https://apd.altervista.org/,2022-04-10T21:01:45.505000
+2023-11-21_09-03-25,tcp,192.168.1.15,46854.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,41436.0,74.125.24.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,40701.0,27.50.59.27,443.0,OUT.bound,established,,INTL.c,HK,AS64050 bgpnet global asn,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47157.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,33922.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,63119.0,20.198.119.143,443.0,OUT.bound,established,,INTL.c,IN,AS8075 microsoft corporation,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46720.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47987.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47752.0,35.186.203.63,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47974.0,142.251.12.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000
+2023-11-21_09-03-25,tcp,192.168.1.15,39414.0,104.26.9.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,33284.0,5.252.35.29,443.0,OUT.bound,established,,INTL.c,SK,AS59796 stormwall s.r.o.,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,45251.0,135.125.189.126,30000.0,OUT.bound,established,,INTL.c,FR,AS16276 ovh sas,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36152.0,104.26.11.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45931.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46551.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46839.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,34371.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,41428.0,87.251.74.5,443.0,OUT.bound,established,,INTL.c,UA,AS41205 kolibri llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53864.0,172.67.134.168,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 2023651318 - ANIA Threat Feeds - IP Segment 9,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-07-05T20:01:39.023000
+2023-11-21_09-03-25,tcp,192.168.1.15,52722.0,74.125.200.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000
+2023-11-21_09-03-25,tcp,192.168.1.15,45898.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,56697.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45542.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47215.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,58070.0,47.241.106.64,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47483.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,39586.0,172.233.155.30,443.0,OUT.bound,established,,INTL.c,US,AS20940 akamai international b.v.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54520.0,74.125.24.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-03-25,udp,192.168.1.15,28561.0,34.126.80.150,3478.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36151.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59269.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,60295.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46529.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,34538.0,34.117.97.41,443.0,OUT.bound,established,,INTL.c,US,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,37352.0,172.83.153.171,443.0,OUT.bound,established,,INTL.c,US,AS201106 spartan host ltd,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36516.0,34.110.179.88,443.0,OUT.bound,established,,INTL.c,US,AS15169 google llc,njRAT  BazarLoader    WebToolbar   Qbot,,2023-11-07T01:10:46.934000
+2023-11-21_09-03-25,tcp,192.168.1.15,58546.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,36156.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45568.0,104.21.91.131,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45674.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,34538.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46008.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,47139.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,35455.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54737.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45628.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,52332.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,59316.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,43227.0,104.26.8.44,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 20225201339,For complete list please visit https://apd.altervista.org/,2022-06-19T20:03:12.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,38209.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52717.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47319.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,41268.0,157.240.208.34,443.0,OUT.bound,last-ack,,LOKAL.c,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47639.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,35858.0,110.239.64.131,443.0,OUT.bound,established,,LOKAL.c,AU,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38444.0,45.121.219.241,443.0,OUT.bound,established,,INTL.c,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46471.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,55115.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45978.0,41.139.210.10,443.0,OUT.bound,established,,INTL.c,KE,AS37061 african network information center,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,63111.0,209.58.183.231,443.0,OUT.bound,established,,INTL.c,SG,AS59253 leaseweb asia pacific pte. ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47952.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,60218.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,58965.0,104.26.10.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000
+2023-11-21_09-03-25,tcp,192.168.1.15,57822.0,34.149.219.180,443.0,OUT.bound,established,,INTL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47724.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,53904.0,172.67.134.168,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,IOCs - 2023651318 - ANIA Threat Feeds - IP Segment 9,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-07-05T20:01:39.023000
+2023-11-21_09-03-25,tcp,192.168.1.15,47457.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,46174.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,45923.0,193.203.230.149,443.0,OUT.bound,established,,INTL.c,IT,AS12954 sia s.p.a.,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,35481.0,205.220.231.24,443.0,OUT.bound,established,,INTL.c,US,AS396998 path network  inc.,,,
+2023-11-21_09-03-25,tcp,95.217.220.239,53340.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40342.0,128.1.33.28,5112.0,OUT.bound,established,,INTL.c,SG,AS21859 zenlayer inc,,,
+2023-11-21_09-03-25,tcp,95.216.220.149,42806.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54867.0,104.21.86.191,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,95.216.143.219,54814.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,95.217.220.239,54264.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38178.0,172.67.197.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,65.108.220.156,41794.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,65.108.220.156,41810.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38181.0,172.67.197.74,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,95.217.220.239,40632.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39864.0,157.240.15.34,443.0,OUT.bound,established,,LOKAL.c,SG,AS32934 facebook  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46138.0,142.251.10.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000
+2023-11-21_09-03-25,tcp,192.168.1.15,38220.0,74.125.130.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39516.0,172.217.194.94,80.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,95.217.220.239,49322.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,95.216.206.78,45424.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,65.21.244.78,53300.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,95.217.15.48,52546.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,FI,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46778.0,52.76.28.127,443.0,OUT.bound,established,,LOKAL.c,SG,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,65.108.220.156,44986.0,43.247.15.4,57414.0,IN.bound,established,,INTL.c,DE,AS24940 hetzner online gmbh,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45035.0,104.21.44.75,443.0,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39784.0,142.251.12.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46562.0,157.240.208.16,443.0,OUT.bound,established,,LOKAL.c,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46560.0,157.240.208.16,443.0,OUT.bound,established,,LOKAL.c,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46138.0,74.125.130.102,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40296.0,172.253.118.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46826.0,35.190.88.7,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46658.0,64.233.170.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,43817.0,8.8.8.8,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46166.0,157.240.208.34,443.0,OUT.bound,established,,LOKAL.c,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,41652.0,157.240.208.61,5222.0,OUT.bound,established,,LOKAL.c,ID,AS32934 facebook  inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,41994.0,172.217.194.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-03-25,tcp,192.168.1.15,41460.0,74.125.68.94,80.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38346.0,74.125.130.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45228.0,142.251.10.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000
+2023-11-21_09-03-25,tcp,192.168.1.15,39306.0,142.251.175.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39308.0,142.251.175.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,46887.0,64.233.170.102,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,56832.0,35.240.167.168,6683.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,46318.0,74.125.130.102,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,46708.0,163.70.153.63,443.0,OUT.bound,,,LOKAL.c,FR,ASNone ,,,
+2023-11-21_09-03-25,udp,192.168.1.15,51764.0,208.67.222.222,53.0,OUT.bound,,,INTL.c,,,,,
+2023-11-21_09-03-25,udp,192.168.1.15,60543.0,208.67.222.222,53.0,OUT.bound,,,INTL.c,,,,,
+2023-11-21_09-03-25,udp,192.168.1.15,55526.0,208.67.222.222,53.0,OUT.bound,,,INTL.c,,,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,49312.0,52.220.163.178,443.0,OUT.bound,established,,INTL.c,SG,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59922.0,202.152.1.200,443.0,OUT.bound,established,,LOKAL.c,ID,AS4800 aplikanusa lintasarta,,,
+2023-11-21_09-03-25,udp,192.168.1.15,21028.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,udp,192.168.1.15,48207.0,74.125.130.95,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39346.0,142.251.12.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,34693.0,64.233.170.95,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,59574.0,172.253.118.119,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,40708.0,172.217.194.147,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,60133.0,74.125.130.113,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52716.0,64.233.170.119,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55694.0,161.117.248.135,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47304.0,47.245.119.50,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40732.0,172.217.194.94,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47320.0,47.245.119.50,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45002.0,64.233.170.102,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,52867.0,64.233.170.102,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,49340.0,74.125.24.94,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,38930.0,13.33.88.6,443.0,OUT.bound,established,,INTL.c,US,ASNone ,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39404.0,142.251.12.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,37970.0,172.253.118.132,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,48130.0,172.253.118.119,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,37764.0,172.253.118.132,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,47352.0,47.245.119.50,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52398.0,23.53.15.25,443.0,OUT.bound,established,,LOKAL.c,SE,AS20940 akamai international b.v.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,49800.0,18.155.68.18,443.0,OUT.bound,established,,INTL.c,US,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54240.0,104.18.3.128,443.0,OUT.bound,established,,LOKAL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,udp,192.168.1.15,48522.0,104.18.3.128,443.0,OUT.bound,,,LOKAL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,42468.0,64.233.170.97,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51758.0,64.233.170.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,57876.0,74.125.200.154,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,41476.0,172.253.118.154,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,42942.0,74.125.200.154,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,40704.0,172.253.118.154,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51762.0,64.233.170.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,56270.0,74.125.200.154,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,42738.0,142.251.12.132,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59648.0,64.233.170.104,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,54270.0,104.18.3.128,443.0,OUT.bound,established,,LOKAL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,udp,192.168.1.15,56576.0,104.18.3.128,443.0,OUT.bound,,,LOKAL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,udp,192.168.1.15,46938.0,142.251.12.132,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,44923.0,122.144.2.205,443.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,udp,192.168.1.15,37453.0,104.18.3.128,443.0,OUT.bound,,,LOKAL.c,US,AS13335 cloudflare,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,49430.0,74.125.24.94,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,47280.0,122.144.2.204,443.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,49092.0,54.192.150.37,443.0,OUT.bound,established,,INTL.c,US,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,51721.0,64.233.170.97,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52422.0,74.125.68.94,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,53349.0,74.125.68.94,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40998.0,74.125.24.132,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,40292.0,74.125.68.157,443.0,OUT.bound,established,,LOKAL.c,,,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39484.0,142.251.12.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,57684.0,172.253.118.95,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52510.0,172.253.118.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51444.0,74.125.130.138,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,53650.0,142.251.12.113,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,alt-YouTube.com,,2023-09-24T14:00:05.977000
+2023-11-21_09-03-25,tcp,192.168.1.15,45532.0,45.121.219.250,443.0,OUT.bound,established,,INTL.c,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-03-25,udp,192.168.1.15,42754.0,142.251.12.95,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,57346.0,74.125.200.94,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,50606.0,64.233.170.104,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,58408.0,142.251.175.190,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56662.0,122.144.2.205,443.0,OUT.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56660.0,122.144.2.205,443.0,OUT.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56664.0,122.144.2.205,443.0,OUT.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,56666.0,122.144.2.205,443.0,OUT.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55028.0,47.241.175.152,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,55842.0,161.117.248.135,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,34218.0,142.251.10.119,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59060.0,142.251.175.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,43580.0,142.251.10.119,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,udp,192.168.1.15,44326.0,142.251.175.95,443.0,OUT.bound,,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,43644.0,23.215.35.102,443.0,OUT.bound,established,,LOKAL.c,FR,AS20940 akamai international b.v.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,39550.0,142.251.12.95,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,41586.0,34.102.162.219,443.0,OUT.bound,established,,INTL.c,US,AS396982 google,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-25,tcp,192.168.1.15,55116.0,152.195.62.69,443.0,OUT.bound,established,,INTL.c,US,AS15133 verizon,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52258.0,180.222.114.12,443.0,OUT.bound,established,,INTL.c,SG,AS10310 oath holdings inc.,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,37612.0,74.125.68.101,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51310.0,3.13.237.111,443.0,OUT.bound,established,,INTL.c,US,AS16509 amazon.com inc,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,59923.0,13.89.179.9,443.0,OUT.bound,established,,INTL.c,US,AS8075 microsoft corporation,,,
+2023-11-21_09-03-25,udp,192.168.1.15,55182.0,208.67.222.222,53.0,OUT.bound,,,INTL.c,,,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52248.0,152.195.38.76,80.0,OUT.bound,established,,INTL.c,US,AS15133 verizon,quick look at 79.12.165.51,,2023-11-20T00:05:28.436000
+2023-11-21_09-03-25,udp,192.168.1.15,60227.0,208.67.222.222,53.0,OUT.bound,,,INTL.c,,,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,52250.0,52.191.219.104,443.0,OUT.bound,time-wait,,INTL.c,US,AS8075 microsoft corporation,Support &amp; Help Centre   TELUS,,2023-10-31T07:47:30.106000
+2023-11-21_09-03-25,udp,192.168.1.15,63874.0,208.67.222.222,53.0,OUT.bound,,,INTL.c,,,,,
+2023-11-21_09-03-25,udp,10.172.40.91,46711.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.40.90,43418.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,50191.0,35.197.136.171,80.0,OUT.bound,time-wait,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,udp,192.168.1.15,55595.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,udp,192.168.1.15,54023.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,udp,192.168.1.15,59024.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,udp,103.234.253.146,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.41.35,48633.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,103.234.253.215,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.41.36,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,43.247.15.8,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.40.58,47723.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.40.196,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,192.168.1.15,26146.0,34.126.80.150,3478.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,45273.0,34.87.93.12,80.0,OUT.bound,time-wait,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,udp,10.172.41.34,35032.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.41.68,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.40.9,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.40.131,35567.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.40.49,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,10.172.41.59,52614.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,tcp,192.168.1.15,51827.0,34.87.93.12,80.0,OUT.bound,time-wait,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-25,udp,10.172.40.34,50637.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-25,udp,192.168.1.15,40008.0,216.128.135.246,21116.0,OUT.bound,,,INTL.c,US,AS20473 the constant company  llc,,,
+2023-11-21_09-03-25,udp,43.247.15.4,36176.0,10.79.21.14,1813.0,local,,,,,,,,
+2023-11-21_09-03-25,udp,43.247.15.4,51252.0,10.79.21.14,1813.0,local,,,,,,,,
+2023-11-21_09-03-25,udp,43.247.15.4,58155.0,10.79.21.14,1812.0,local,,,,,,,,
+2023-11-21_09-03-25,udp,43.247.15.4,54271.0,122.144.3.6,514.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,udp,43.247.15.4,45312.0,10.79.21.14,1812.0,local,,,,,,,,
+2023-11-21_09-03-25,tcp,175.103.43.90,50252.0,43.247.15.4,8278.0,IN.bound,time-wait,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-25,udp,43.247.15.4,50569.0,10.79.21.14,1813.0,local,,,,,,,,
+2023-11-21_09-03-25,tcp,175.103.43.90,50253.0,43.247.15.4,8278.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,tcp,175.103.43.90,50164.0,43.247.15.4,8081.0,IN.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,192.168.1.15,38703.0,167.179.67.29,21116.0,OUT.bound,,,INTL.c,JP,AS20473 the constant company  llc,,,
+2023-11-21_09-03-58,tcp,175.103.43.90,50088.0,43.247.15.4,899.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,192.168.1.15,43253.0,124.70.190.43,21116.0,OUT.bound,,,INTL.c,CN,AS55990 huawei cloud service data center,,,
+2023-11-21_09-03-58,icmp,175.103.43.90,,43.247.15.4,,IN.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,tcp,175.103.43.90,55820.0,43.247.15.4,899.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,46110.0,47.241.102.53,31006.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-58,udp,0.0.0.0,20561.0,255.255.255.255,20561.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,36427.0,47.241.191.117,31006.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,43482.0,47.245.116.221,8820.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-58,udp,192.168.1.15,4500.0,103.146.63.122,4500.0,OUT.bound,,,LOKAL.c,ID,AS139457 pt semut data indonesia,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,46634.0,142.251.12.91,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,50762.0,143.244.33.73,443.0,OUT.bound,established,,INTL.c,SG,AS60068 datacamp limited,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-03-58,tcp,192.168.1.15,52150.0,92.223.85.121,443.0,OUT.bound,established,,INTL.c,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,56374.0,92.223.85.164,443.0,OUT.bound,established,,INTL.c,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,63111.0,209.58.183.231,443.0,OUT.bound,established,,INTL.c,SG,AS59253 leaseweb asia pacific pte. ltd.,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,56720.0,122.144.2.205,443.0,OUT.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,192.168.1.15,47280.0,122.144.2.204,443.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,10.172.40.35,58791.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,192.168.1.15,21558.0,34.126.80.150,3478.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-58,udp,10.172.41.90,49937.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,192.168.1.15,18924.0,34.126.80.150,3478.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,50760.0,34.101.50.130,5938.0,OUT.bound,established,,LOKAL.c,US,AS396982 google,,,
+2023-11-21_09-03-58,udp,103.234.253.210,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,10.172.41.58,42751.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,10.172.40.3,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,10.172.41.51,35434.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,192.168.1.15,46232.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,10.172.41.50,54016.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,41436.0,74.125.24.188,5228.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000
+2023-11-21_09-03-58,tcp,192.168.1.15,47320.0,47.245.119.50,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-03-58,udp,10.172.40.59,51686.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,192.168.1.15,56832.0,35.247.161.22,5683.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,56748.0,34.87.93.12,80.0,OUT.bound,time-wait,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-58,udp,192.168.1.15,43013.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,tcp,192.168.1.15,53411.0,34.87.93.12,80.0,OUT.bound,time-wait,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-03-58,udp,10.172.40.148,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,10.172.40.156,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-03-58,udp,43.247.15.4,36833.0,10.79.21.14,1812.0,local,,,,,,,,
+2023-11-21_09-03-58,udp,43.247.15.4,58452.0,10.79.21.14,1812.0,local,,,,,,,,
+2023-11-21_09-03-58,tcp,175.103.43.90,50705.0,43.247.15.4,8278.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,43.247.15.4,52428.0,10.79.21.14,1813.0,local,,,,,,,,
+2023-11-21_09-03-58,udp,43.247.15.4,54271.0,122.144.3.6,514.0,OUT.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,43.247.15.4,55818.0,10.79.21.14,1813.0,local,,,,,,,,
+2023-11-21_09-03-58,tcp,175.103.43.90,50704.0,43.247.15.4,8278.0,IN.bound,time-wait,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-03-58,udp,10.172.40.91,59253.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,0.0.0.0,20561.0,255.255.255.255,20561.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,192.168.1.15,4500.0,103.146.63.122,4500.0,OUT.bound,,,LOKAL.c,ID,AS139457 pt semut data indonesia,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,63111.0,209.58.183.231,443.0,OUT.bound,established,,INTL.c,SG,AS59253 leaseweb asia pacific pte. ltd.,,,
+2023-11-21_09-05-31,udp,192.168.1.15,47280.0,122.144.2.204,443.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,icmp,175.103.43.90,,43.247.15.4,,IN.bound,,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,tcp,175.103.43.90,50164.0,43.247.15.4,8081.0,IN.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,udp,192.168.1.15,38703.0,167.179.67.29,21116.0,OUT.bound,,,INTL.c,JP,AS20473 the constant company  llc,,,
+2023-11-21_09-05-31,tcp,175.103.43.90,50088.0,43.247.15.4,899.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,tcp,175.103.43.90,55820.0,43.247.15.4,899.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,udp,192.168.1.15,43253.0,124.70.190.43,21116.0,OUT.bound,,,INTL.c,CN,AS55990 huawei cloud service data center,,,
+2023-11-21_09-05-31,udp,103.146.63.122,4500.0,43.247.15.4,4500.0,IN.bound,,,,ID,AS139457 pt semut data indonesia,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,56720.0,122.144.2.205,443.0,OUT.bound,established,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,47320.0,47.245.119.50,443.0,OUT.bound,fin-wait,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,56964.0,34.87.93.12,80.0,OUT.bound,time-wait,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-05-31,udp,192.168.1.15,42151.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,50808.0,34.141.79.142,443.0,OUT.bound,established,,LOKAL.c,DE,AS396982 google,,,
+2023-11-21_09-05-31,udp,10.172.41.51,40171.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,192.168.1.15,53925.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,udp,10.172.40.2,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,59706.0,74.125.130.94,80.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,50524.0,142.250.4.93,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,51440.0,208.67.222.222,853.0,OUT.bound,established,,INTL.c,,,,,
+2023-11-21_09-05-31,udp,10.172.41.58,45854.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,50526.0,142.250.4.93,443.0,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,36427.0,47.241.191.117,31006.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,50762.0,143.244.33.73,443.0,OUT.bound,established,,INTL.c,SG,AS60068 datacamp limited,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000
+2023-11-21_09-05-31,tcp,192.168.1.15,52150.0,92.223.85.121,443.0,OUT.bound,established,,INTL.c,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,43644.0,23.215.35.102,443.0,OUT.bound,close,,LOKAL.c,FR,AS20940 akamai international b.v.,,,
+2023-11-21_09-05-31,udp,10.172.41.50,47414.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,103.234.253.216,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,103.235.32.97,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,10.172.40.76,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,45532.0,45.121.219.250,443.0,OUT.bound,close,,INTL.c,ID,AS131702 moratelindo internet exchange,,,
+2023-11-21_09-05-31,udp,43.247.15.9,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,0.0.0.0,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,192.168.1.15,33903.0,8.222.222.85,6000.0,OUT.bound,,,INTL.c,SG,ASNone ,,,
+2023-11-21_09-05-31,udp,192.168.1.15,56832.0,35.247.161.22,5683.0,OUT.bound,,,LOKAL.c,SG,AS396982 google,,,
+2023-11-21_09-05-31,udp,192.168.1.15,33903.0,47.236.14.98,6000.0,OUT.bound,,,INTL.c,US,ASNone ,,,
+2023-11-21_09-05-31,udp,10.172.40.59,48131.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,192.168.1.15,41726.0,122.144.1.1,53.0,OUT.bound,,,LOKAL.c,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,udp,10.10.10.2,5678.0,255.255.255.255,5678.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,49142.0,92.223.85.164,443.0,OUT.bound,established,,INTL.c,SG,AS199524 g-core labs s.a.,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,47512.0,47.245.119.50,443.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-05-31,udp,192.168.1.15,40008.0,216.128.135.246,21116.0,OUT.bound,,,INTL.c,US,AS20473 the constant company  llc,,,
+2023-11-21_09-05-31,tcp,192.168.1.15,43482.0,47.245.116.221,8820.0,OUT.bound,established,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-05-31,udp,10.172.40.91,36345.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,10.172.40.90,48019.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,udp,192.168.1.15,39987.0,47.241.116.15,6000.0,OUT.bound,,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-05-31,udp,10.172.41.35,55166.0,255.255.255.255,10002.0,broadcast,,,,,,,,
+2023-11-21_09-05-31,tcp,175.103.43.90,50752.0,43.247.15.4,8278.0,IN.bound,established,,,ID,AS38320 pt maxindo mitra solusi,,,
+2023-11-21_09-05-31,udp,192.168.1.15,39987.0,47.241.61.177,6000.0,OUT.bound,,,INTL.c,SG,AS45102 alibaba (us) technology co.  ltd.,,,
+2023-11-21_09-05-31,udp,43.247.15.4,56677.0,10.79.21.14,1812.0,local,,,,,,,,
