@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,8.218.162.255,39129,203.123.56.244,5060,IN.bound,,,,SG,AS45102 alibaba (us) technology co.  ltd.,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 06:34:56.993
+udp,146.88.241.65,5060,203.123.56.246,5060,IN.bound,,,,US,ASNone ,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,45.128.232.252,8000,203.123.56.244,5060,IN.bound,,,,BG,ASNone ,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,80.120.241.118,8080,203.123.56.246,5060,IN.bound,,,,AT,AS8447 a1 telekom austria ag,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 06:35:16.307
+udp,146.88.241.175,5060,146.196.110.84,5060,IN.bound,,,,US,ASNone ,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 06:35:16.307
