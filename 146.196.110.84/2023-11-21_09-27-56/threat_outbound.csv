@@ -1,0 +1,3 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,203.123.56.246,56267,17.111.105.242,443,OUT.bound,time-wait,,,US,AS714 apple inc.,Japanese phishing site.,phishing-site list generated from scattered spam emails. n nOTX(2021): https://otx.alienvault.com/pu,2023-11-21 01:15:11.912
+tcp,203.123.56.246,56274,17.111.105.242,443,OUT.bound,syn-sent,,,US,AS714 apple inc.,Japanese phishing site.,phishing-site list generated from scattered spam emails. n nOTX(2021): https://otx.alienvault.com/pu,2023-11-21 01:15:11.912
