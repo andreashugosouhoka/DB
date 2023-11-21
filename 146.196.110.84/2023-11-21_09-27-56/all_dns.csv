@@ -1,0 +1,18 @@
+name,data,.id,type,static,ttl,timestamp
+kurnia.id,202.148.6.185,*1,A,True,1d,2023-11-21 09:24:06 WIB
+www.kurnia.id,202.148.6.185,*3,A,True,1d,2023-11-21 09:24:06 WIB
+phonemus.net,127.0.0.1,*EC6EC,A,False,4m40s,2023-11-21 09:24:06 WIB
+,e.root-servers.net,*EC6ED,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,m.root-servers.net,*EC6EE,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,k.root-servers.net,*EC6EF,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,i.root-servers.net,*EC6F0,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,a.root-servers.net,*EC6F1,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,l.root-servers.net,*EC6F2,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,g.root-servers.net,*EC6F3,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,j.root-servers.net,*EC6F4,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,f.root-servers.net,*EC6F5,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,b.root-servers.net,*EC6F6,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,d.root-servers.net,*EC6F7,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,h.root-servers.net,*EC6F8,NS,False,14m55s,2023-11-21 09:24:06 WIB
+,c.root-servers.net,*EC6F9,NS,False,14m55s,2023-11-21 09:24:06 WIB
+a.root-servers.net,198.41.0.4,*EC6FA,A,False,14m55s,2023-11-21 09:24:06 WIB
