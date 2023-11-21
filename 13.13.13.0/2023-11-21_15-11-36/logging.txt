@@ -1,0 +1,95 @@
+.......................................
+NG-Connection on: 2023-11-21 14:36:35
+
+Fetched IP Firewall Connections with 3706 entries
+Fetched IP DNS Cache with 62 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+       .id   protocol      src-address          dst-address       reply-src-address     reply-dst-address    tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+2116  *1F0C8    tcp        13.13.13.2:52976   103.108.4.194:6881   103.108.4.194:6881   175.103.46.95:52976  established        INTL.c    23h59m54s        3           200           2             92        0          0        True   2023-11-21 14:36:35 WIB
+2905  *1F435    udp    170.84.112.196:26336     175.103.46.95:53     175.103.46.95:53  170.84.112.196:26336                 in-utama.c           7s        1            66           1           1827        0          0       False   2023-11-21 14:36:35 WIB
+557   *19E14    tcp        13.13.13.2:49947  64.233.170.188:5228  64.233.170.188:5228   175.103.46.95:49947  established       LOKAL.c    23h59m31s        2            82           2            104        0          0        True   2023-11-21 14:36:35 WIB
+344   *187CC    tcp        13.13.13.2:53186    23.108.101.66:443    23.108.101.66:443   175.103.46.95:53186  established        INTL.c    23h59m56s       12           490          12            600        0          0        True   2023-11-21 14:36:35 WIB
+371   *18A43    tcp        13.13.13.2:49381    23.106.249.39:431    23.106.249.39:431   175.103.46.95:49381  established        INTL.c        4m47s       22          2045          25          14970        0          0        True   2023-11-21 14:36:35 WIB
+
+[Connections]
+     protocol   src-address    src-port   dst-address   dst-port tcp-state connection-mark
+1507    tcp         13.13.13.2   57409    94.50.151.140   29025     close         INTL.c  
+2189    udp    103.114.163.212   49972    175.103.46.95      53               in-utama.c  
+1121    udp         13.13.13.2   59489   216.239.38.120     443                  LOKAL.c  
+
+[DNS]
+           name              data    
+0  vpn.tarumanagara.com  202.6.211.33
+No Resolved Entries
+
+IP PUBLIC LAN : 13.13.13.0/30 || 23.23.23.0/30 || 175.103.46.95/32 || 46.196.109.192/28 || 146.196.111.48/28 || 203.173.88.16/28
+
+Public Address with 2249 entries
+
+Count of each flow:
+OUT.bound      : 2257
+IN.bound       : 1373
+Other          : 53
+local          : 20
+broadcast      : 3
+
+OTX result has been Fetched for 33 minutes and 23 seconds
+
+[OTX]
+        indicator                   asn               country_code2 name description modified created
+348    176.212.243.75  AS39028 jsc er-telecom holding       RU                                       
+543   189.126.173.236         AS28349 tvc tupa eireli       BR                                       
+1087    64.233.170.94              AS15169 google llc       US                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            udp            : 60% ||||||||            tcp            : 40% ||||||||            icmp           : 0% ||||||||            gre            : 0% ||||||||     others     : 0%
+flow              ==         OUT.bound         : 61% ||||||||          IN.bound         : 37% ||||||||           Other           : 1% ||||||||           local           : 1% ||||||||     others     : 1%
+dst-port          ==             53            : 39% ||||||||            443            : 27% ||||||||            1433           : 12% ||||||||            3306           : 8% ||||||||     others     : 23%
+dst-address       ==       175.103.46.95       : 37% ||||||||        122.144.1.1        : 2% ||||||||          8.8.8.8          : 2% ||||||||        31.13.95.60        : 1% ||||||||     others     : 60%
+src-address       ==         13.13.13.2        : 61% ||||||||       203.173.88.27       : 0% ||||||||      103.114.163.212      : 0% ||||||||       203.192.108.63      : 0% ||||||||     others     : 38%
+src-port          ==           25409           : 6% ||||||||           46015           : 1% ||||||||           49155           : 0% ||||||||     others     : 93%
+cc                ==             BR            : 35% ||||||||             ID            : 26% ||||||||             US            : 20% ||||||||             SG            : 4% ||||||||     others     : 20%
+asn               ==  AS28349 tvc tupa eireli  : 21% ||||||||     AS15169 google llc    : 15% |||||||| AS263049 nippontec telecomunicaes : 13% ||||||||       AS9905 linknet      : 12% ||||||||     others     : 50%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+     protocol   src-address    src-port   dst-address    dst-port    flow     tcp-state   resolved     mark     cc                asn                                       threat                                                                    description                                                        modified         
+967     tcp         13.13.13.2   57697     34.117.121.53    443    OUT.bound  established               INTL.c  US                    AS396982 google                                 Browser Extensions                                                                                                        2023-09-24T12:05:42.354000
+275     tcp         13.13.13.2   52650    180.222.114.12    443    OUT.bound  established               INTL.c  SG         AS10310 oath holdings inc.                                                                                                                                                                                     
+2242    udp    189.126.174.227   38417     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+869     tcp         13.13.13.2   55107     40.126.35.153    443    OUT.bound  established              LOKAL.c  SG       AS8075 microsoft corporation                                                                                                                                                                                     
+564     udp         13.13.13.2   65088    74.125.200.157    443    OUT.bound                           LOKAL.c  US                 AS15169 google llc                                                                                                                                                                                     
+550     tcp       125.164.4.23   49623     175.103.46.89    443        Other  established              LOKAL.c                                                                                                                                                                                                                            
+3642    tcp         13.13.13.2   51469     20.114.189.70    443    OUT.bound     syn-sent               INTL.c  US       AS8075 microsoft corporation                                                                                                                                                                                     
+1792    udp     189.126.173.20   15594     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+2182    udp    189.126.175.229   13923     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+3240    udp     170.84.112.167   39468     175.103.46.95     53     IN.bound                        in-utama.c  BR  AS263049 nippontec telecomunicaes                                                                                                                                                                                     
+452     udp         13.13.13.2   65173    142.251.12.148    443    OUT.bound                           LOKAL.c  US                 AS15169 google llc                                                                                                                                                                                     
+1177    tcp         13.13.13.2   54316    142.251.12.188   5228    OUT.bound  established              LOKAL.c  US                 AS15169 google llc                                 wifi logs to check  Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its  2022-11-26T03:02:13.742000
+103     tcp         13.13.13.2   65460       31.13.95.60    443    OUT.bound  established              LOKAL.c  ID             AS32934 facebook  inc.                                                                                                                                                                                     
+1261    tcp         13.13.13.2   51464   163.181.100.215    443    OUT.bound        close              LOKAL.c  US                            ASNone                                                                                                                                                                                      
+923     udp         13.13.13.2   61671    192.178.49.195    443    OUT.bound                            INTL.c  US                 AS15169 google llc  Aero-Craft Hydraulics - ACH Payment Advice TROJAN                                                                                                        2023-10-19T00:01:01.246000
+1494    udp    189.126.172.197   31751     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+1354    udp    189.126.173.101   31297     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+2582    udp    189.126.172.247   33212     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+2749    tcp         13.13.13.2   56465    103.38.101.242   3306    OUT.bound     syn-sent              LOKAL.c  ID                AS38524 laxo global                                                                                                                                                                                     
+1464    udp    189.126.172.228   42125     175.103.46.95     53     IN.bound                        in-utama.c  BR            AS28349 tvc tupa eireli                                                                                                                                                                                     
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol  src-address   src-port  dst-address  dst-port   flow   tcp-state resolved    mark    cc                   asn                                     threat                 description         modified       
+  udp    125.228.82.251  43361   175.103.46.95   5060   IN.bound                    in-utama.c TW AS3462 data communication business group ETIC Cybersecurity 2023-11-21 Port Scan             2023-11-21 07:36:40.202
+Added address 125.228.82.251 to address list 'threat_inbound_addresses' (IN.bound Threat).
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
