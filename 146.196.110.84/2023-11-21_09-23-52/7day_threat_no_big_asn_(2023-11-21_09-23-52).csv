@@ -1,0 +1,46 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-21_09-23-52,tcp,185.224.128.184,11585,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,26115,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.247,51672,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:27.192
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,8161,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:27.192
+2023-11-21_09-23-52,tcp,185.224.128.184,19277,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,24757,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,30933,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,9959,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,5819,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,31765,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,74.82.47.19,33920,203.123.56.244,80,IN.bound,established,,,US,AS6939 hurricane electric llc,Georgs Honeypot,Honeypot,2023-11-21 02:01:29.502
+2023-11-21_09-23-52,tcp,185.224.128.184,21217,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,30185,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,31227,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,16539,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,7063,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,30449,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,6677,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,17595,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,25183,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.247,39297,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:27.192
+2023-11-21_09-23-52,tcp,185.224.128.184,27341,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,udp,144.91.109.70,37191,146.196.110.84,5060,IN.bound,,,,DE,AS51167 contabo gmbh,ETIC Cybersecurity 2023-11-19 Port Scan,,2023-11-19 22:59:43.803
+2023-11-21_09-23-52,tcp,203.123.56.246,52466,91.121.86.59,995,OUT.bound,established,,,FR,AS16276 ovh sas,TOR nodes,,2023-11-15 00:01:55.056
+2023-11-21_09-23-52,tcp,185.224.128.184,30021,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,29409,146.196.110.84,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,30131,203.123.56.245,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,45281,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:27.192
+2023-11-21_09-23-52,tcp,185.224.128.184,9607,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,195.85.201.201,30120,203.123.56.247,17989,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,4645,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,11245,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,20135,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,udp,184.105.247.228,64290,146.196.110.84,5060,IN.bound,,,,US,AS6939 hurricane electric llc,Georgs Honeypot,Honeypot,2023-11-21 02:01:29.502
+2023-11-21_09-23-52,tcp,185.224.128.184,3269,203.123.56.244,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,16289,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,31458,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:27.192
+2023-11-21_09-23-52,tcp,104.253.91.98,80,203.123.56.244,64574,IN.bound,established,,,US,AS18779 egihosting,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:27.192
+2023-11-21_09-23-52,udp,176.97.210.129,49108,203.123.56.247,5060,IN.bound,,,,,AS49581 bil-tim bilgisayar hizmetleri,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:44.769
+2023-11-21_09-23-52,tcp,185.224.128.184,31583,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,14337,203.123.56.247,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,tcp,185.224.128.184,14233,203.123.56.246,80,IN.bound,established,,,NL,AS62068 spectraip b.v.,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+2023-11-21_09-23-52,udp,192.241.200.70,60401,203.123.56.247,5632,IN.bound,,,,US,AS14061 digitalocean  llc,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-21 02:15:16.486
+2023-11-21_09-23-52,tcp,89.248.168.42,44656,203.123.56.244,10007,IN.bound,syn-sent,,,NL,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 02:18:44.769
+2023-11-21_09-23-52,tcp,43.155.129.115,15270,203.123.56.247,5556,IN.bound,syn-sent,,,CN,AS132203 tencent building  kejizhongyi avenue,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
