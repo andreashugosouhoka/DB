@@ -1,0 +1,42 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,13.13.13.2,50535,204.79.197.239,443,OUT.bound,close,,LOKAL.c,US,AS8068 microsoft corporation,SOC2023,,2023-11-19 05:02:32.144
+tcp,13.13.13.2,47750,31.13.95.34,443,OUT.bound,established,,LOKAL.c,ID,AS32934 facebook  inc.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+udp,13.13.13.2,62127,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,13.13.13.2,64550,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,13.13.13.2,62780,204.79.197.239,443,OUT.bound,established,,LOKAL.c,US,AS8068 microsoft corporation,SOC2023,,2023-11-19 05:02:32.144
+tcp,13.13.13.2,57037,34.120.208.123,443,OUT.bound,established,,INTL.c,US,AS396982 google,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,13.13.13.2,57046,34.107.221.82,80,OUT.bound,established,,INTL.c,US,AS15169 google llc,SOC2023,,2023-11-19 05:02:32.144
+tcp,13.13.13.2,57045,34.107.221.82,80,OUT.bound,established,,INTL.c,US,AS15169 google llc,SOC2023,,2023-11-19 05:02:32.144
+udp,13.13.13.2,60132,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,13.13.13.2,65062,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,13.13.13.2,50522,13.107.21.239,443,OUT.bound,established,,LOKAL.c,US,AS8068 microsoft corporation,SOC2023,,2023-11-19 05:02:32.144
+tcp,13.13.13.2,55103,13.107.21.239,443,OUT.bound,established,,LOKAL.c,US,AS8068 microsoft corporation,SOC2023,,2023-11-19 05:02:32.144
+tcp,13.13.13.2,55711,162.247.241.14,443,OUT.bound,established,,LOKAL.c,US,AS23467 new relic,Apple Private Data Collection Data.net Asp.net,,2023-11-18 01:02:38.770
+udp,13.13.13.2,54992,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,13.13.13.2,62673,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,13.13.13.2,52655,34.120.208.123,443,OUT.bound,established,,INTL.c,US,AS396982 google,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,13.13.13.2,52087,151.101.1.44,443,OUT.bound,established,,INTL.c,US,AS54113 fastly,SOC2023,,2023-11-19 05:02:32.144
+udp,13.13.13.2,62435,172.64.41.3,443,OUT.bound,,,LOKAL.c,US,AS13335 cloudflare,CVE-2021-27065,The full text of the Microsoft Exchange Server Remote Code Execution Vulnerability (RCV) in its late,2023-11-16 03:04:23.777
+udp,13.13.13.2,49748,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,13.13.13.2,52871,34.120.208.123,443,OUT.bound,established,,INTL.c,US,AS396982 google,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+udp,13.13.13.2,55187,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,13.13.13.2,58062,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,13.13.13.2,65101,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,13.13.13.2,52497,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+udp,125.228.82.251,43361,175.103.46.95,5060,IN.bound,,,in-utama.c,TW,AS3462 data communication business group,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 07:36:40.202
+tcp,13.13.13.2,52667,34.120.208.123,443,OUT.bound,established,,INTL.c,US,AS396982 google,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,13.13.13.2,53188,82.145.216.16,443,OUT.bound,established,,INTL.c,NO,AS39832 opera software as,https://myaccount.uscis.gov/,,2023-11-18 00:58:58.944
+tcp,13.13.13.2,52379,204.79.197.239,443,OUT.bound,established,,LOKAL.c,US,AS8068 microsoft corporation,SOC2023,,2023-11-19 05:02:32.144
+udp,13.13.13.2,50835,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,13.13.13.2,57685,34.120.208.123,443,OUT.bound,established,,INTL.c,US,AS396982 google,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,13.13.13.2,55713,152.195.38.76,80,OUT.bound,established,,INTL.c,US,AS15133 verizon,quick look at 79.12.165.51,,2023-11-20 00:05:28.436
+tcp,13.13.13.2,60527,152.195.38.76,80,OUT.bound,established,,INTL.c,US,AS15133 verizon,quick look at 79.12.165.51,,2023-11-20 00:05:28.436
+udp,13.13.13.2,61296,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,13.13.13.2,52391,13.107.21.239,443,OUT.bound,established,,LOKAL.c,US,AS8068 microsoft corporation,SOC2023,,2023-11-19 05:02:32.144
+tcp,13.13.13.2,58285,77.111.246.19,443,OUT.bound,established,,INTL.c,US,AS205016 hern labs ab,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+udp,13.13.13.2,57254,35.186.224.25,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
+tcp,13.13.13.2,52979,138.199.57.38,4223,OUT.bound,syn-sent,,INTL.c,CA,AS60068 datacamp limited,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
+tcp,13.13.13.2,61419,34.98.99.30,1188,OUT.bound,syn-sent,,INTL.c,US,AS15169 google llc,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21 01:02:17.904
+tcp,13.13.13.2,56600,34.98.99.30,1188,OUT.bound,syn-sent,,INTL.c,US,AS15169 google llc,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21 01:02:17.904
+tcp,13.13.13.2,56818,34.98.99.30,1166,OUT.bound,syn-sent,,INTL.c,US,AS15169 google llc,CVE:CVE-1999-0095,An attack on the Sendmail server is being investigated by researchers at the University of Californi,2023-11-21 01:02:17.904
+tcp,13.13.13.2,57425,103.135.47.193,15979,OUT.bound,syn-sent,,INTL.c,IN,AS134032 infonet comm enterprises,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-20 20:30:48.610
