@@ -1,0 +1,63 @@
+name,data,.id,type,static,ttl,timestamp
+vpn.tarumanagara.com,202.6.211.33,*771CE8,A,True,1h,2023-11-21 16:48:17 WIB
+apple.com,"""google-site-verification=zBSq1mG5ssu2If-C17UAz_MzSZDcx03MVxmeDwMNc5w""",*774732,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""v=spf1 include:_spf.apple.com include:_spf-txn.apple.com ~all""",*774733,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""miro-verification=2494d255c4c50b1e521650a0659cbf3fa08b0072""",*774734,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""Dynatrace-site-verification=7d881a7c-c13f-4146-9d27-2731459e2509__iqls0105tagglcsaul0m16ibrf""",*774735,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""cerner-client-id=ce3abf18-ee87-43b9-9927-9eb24b4bac4a""",*774736,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""google-site-verification=8M6XjQCzydT62jk8HY3VXPAG-nKDllTRV-JpA3-Ktyw""",*774737,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""webexdomainverification.8C462=b728ec3f-dfc9-42f9-92cb-9ba8853cbee8""",*774738,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""ValidationTokenValue=77a4a6de-da14-449c-83c4-85366e0f55f9""",*774739,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""cisco-ci-domain-verification=6f3bfb849796a518061f8e8c4356f687a138502d86db742791685059176547dd""",*77473A,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""77a4a6de-da14-449c-83c4-85366e0f55f9""",*77473B,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""google-site-verification=L5kkMdiFI8npvb6KlHui84fJaCw5G64DWhaDRIAT4_c""",*77473C,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""json:eyJ3aHkiOiJUaGlzIGlzIHRvIHRydW5jYXRlIFVEUCByZXNwb25zZXMgZm9yIFRYVCBxdWVyaWVzIHRvIGFwcGxlLmNvbSIsInBhZGRpbmciOiJpZW4wYWVHaGF0aG9oNmhhaHZpZWphaTNlYXkwYWh2YWhjaGFocXVhZWxlZTBZdWw0cGhpZXRoMHNvNXZpZXllZWNvaDRpZThzaGVlcGllVDNwYWVjaGVpVjZqb2h3aWVwaG82In0K""",*77473D,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""atlassian-domain-verification=mLabq99iaT8kquJechF6l31FAYoNUe3WB7tLpLFUiUYVJCse9SKq83hOJzFkwqrh""",*77473E,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""cerner-client-id=22dd1d8a-5e8b-4e1e-80ef-39bcdfd42798""",*77473F,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""adobe-idp-site-verification=6bd5e74c-a3a0-4781-b2e1-e95399b5e11c""",*774740,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""facebook-domain-verification=n6cqjfucq6plswmtfbwnbbeu1qiq3v""",*774741,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""json:eyJ3aHkiOiJUaGlzIGlzIHRvIHRydW5jYXRlIFVEUCByZXNwb25zZXMgZm9yIFRYVCBxdWVyaWVzIHRvIGFwcGxlLmNvbSIsInBhZGRpbmciOiJxdWFoMGVpamFhNGVlajh0aWVkYWlnaG9jZWljaGFlOGVUb3ppZTVmdTVhaFRoMldlaU00aWsyaHVxdThpZXBoaWVxdW9oc2hlaXBhZWdoOUthZWw3b2NoaWVuZ2llem9lc2g1In0K""",*774742,TXT,False,25s,2023-11-21 16:48:17 WIB
+apple.com,"""apple-domain-verification=X5Jt76bn3Dnmgzjj""",*774743,TXT,False,25s,2023-11-21 16:48:17 WIB
+sl,ns1.neoip.com,*774745,NS,False,25s,2023-11-21 16:48:17 WIB
+sl,ns2.neoip.com,*774748,NS,False,25s,2023-11-21 16:48:17 WIB
+sl,"""Generation Time: 1700561704""",*77AD6A,TXT,False,25s,2023-11-21 16:48:17 WIB
+atlassian.com,"""stripe-verification=df30411351944f1496e1672379f26a194bc00c7fb0fcbbab989d610f090bffd8""",*77AE13,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""pardot548382=251a035bf1d916039f96c33d2457506ec1936c8c8331956b270cb6f51e4a1a6a""",*77AE14,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""google-site-verification=r1_7nBuqdcWdM0QIiDWQusHa9jelyX5hJYgX3xWSeTM""",*77AE15,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""SFMC--FelJdVfs1qWNvc7OtWJs6MZcusOPOyWM_eCsysa""",*77AE16,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""v=spf1 ip4:54.85.255.245 ip4:54.241.191.3 include:_spf.google.com include:cust-spf.exacttarget.com include:spf-001d9801.pphosted.com "" ""include:spf1.atlassian.com include:spf3.atlassian.com ip4:54.71.147.74 ip4:54.71.63.106 ip4:54.70.13.32 ip4:23.21.109.197 ip4:23.21.109.212 ~all""",*77AE17,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""google-site-verification=961ryHZWzEAyKPpOY6xTPviMeUlp00RagzX7INHnRpk""",*77AE18,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""SFMC-VGtbZqMeaLnLX_ep8blmghawDtsZvdGp8ohWo4J5""",*77AE19,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""SFMC-wEuWumryKcoCTXQMJmxNyZH7NNNMnlDdhmqeETRC""",*77AE1A,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""atlassian-domain-verification=An/zNsIXav1loZKNgNsLVZCSVF2ZwxCmmRmHyazPNupCMhIIewVgxjLRX8vHnEH6""",*77AE1B,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""google-site-verification=fK0r-SyWnbxUuzdIbhScO9WjBIDBuEAh8ldTX3FDheU""",*77AE1C,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""stripe-verification=97aa50e11805a745fd972ed3c9cc3b4fb81d706adb8bf9693b347772e00478d5""",*77AE1D,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""stripe-verification=c3c46ec084306a30bcc1d0551fb9a508231831f38a2723e874e6446c29281d55""",*77AE1E,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""atlassian-domain-verification=ZRphniOpyvhHV76mRmxnLkHJVrKnbeOIxmhbxb8PF6AarX0FypthxYB/r5XpVC2E""",*77AE1F,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""google-site-verification=z98_8Laz1Jr_VZwpAMfx5IXbFy4PCx66ygZoqCeLyyc""",*77AE20,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""d25ka488dfqyj6.cloudfront.net""",*77AE21,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""anodot-domain-verification=23e696e0e0d3bd0801e872b07a3ae2e96fd14cda1e6e0da7bbaf2e4e095cb21a""",*77AE22,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""miro-verification=6bd145c8ff96aabe81ebbc9298522ad4c41e08f6""",*77AE23,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""google-site-verification=Ey-v6Be7J2lbOSMR7ID-gA6wGZXKxYMuTVkR4LFueow""",*77AE24,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""lastpass-verification-code=6kaWM#TIy^*%CfMRVDa&&j&$JrJ4mr%!b^*HRTs1X3V4pMsGgUnD02HI*9ij&SBYbfoB9UV9xjOgWuaoAjTu4RywpdWrw7c%w5F""",*77AE25,TXT,False,10s,2023-11-21 16:48:17 WIB
+atlassian.com,"""stripe-verification=27a7887beca7c109d6beeb7b154db1878cdb699d0d93e48a731ec08c694a6290""",*77AE26,TXT,False,10s,2023-11-21 16:48:17 WIB
+cisco.com,"""facebook-domain-verification=1zoxo8z7t013gpruxmhc8dkerq47vh""",*77AE4A,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""identrust_validate=ZMG4IyVxNwmt3vKpPoFmxSuWW+4fMc/M4kCCnBaPUMYv""",*77AE4B,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""duo_sso_verification=AxenLdoqIXzjl2RJzE1BlOfkawDbDFlnbyvjAt8vcjKHBkvYwEMySDRk5QmBd66v""",*77AE4C,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""sending_domain731003=25e34fadea88da7e64f0fab1e32d094f1f1e0fb2b97622deac2521f7a2c5b2bc""",*77AE4D,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""duo_sso_verification=pG21Oj5OPCxRPsWXsfbauWT9oua82cKtYUPAmsQvovKNq3xqWEcsEMEAhtXy8AFr""",*77AE4E,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""pendo-domain-verification=c9d2fba1-7d94-4cf9-a6fb-310883c8bb15""",*77AE4F,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""v=spf1 redirect=spfa._spf.cisco.com""",*77AE50,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""fastly-domain-delegation-w049tcm0w48ds-341317-20210209""",*77AE51,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""atlassian-domain-verification=UwP1ncfiphlFs+wRx8wIBSXDScwNL7Jrw7tq2rnYz3+9T5+Md9eTDRgNPCikxtOx""",*77AE52,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""amazonses:7LyiKZmpuGja4+KbA4xX3lN69yajYKLkHH4QJcWnuwo=""",*77AE53,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""docker-verification=4c56633a-274e-4858-88a2-2aeceffcfd66""",*77AE54,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""asv=ac90e11808e87cfbf8768e69819b1aca""",*77AE55,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""fastly-domain-delegation-e9a758d22183504af2d5ab4d9a9853da-20210127""",*77AE56,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""mixpanel-domain-verify=2c6cb1aa-a3fb-44b9-ad10-d6b744109963""",*77AE57,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""stripe-verification=8e54fae7680b23aad6d5e3417be73a043f7e45cd2767272dbe0c9c6eac903291""",*77AE58,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""wiz-domain-verification=af241e6396696eedf1b361891435f6b21bdebb5621941d99279298c076b5bf5f""",*77AE59,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""docusign=95052c5f-a421-4594-9227-02ad2d86dfbe""",*77AE5A,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""facebook-domain-verification=qr2nigspzrpa96j1nd9criovuuwino""",*77AE5B,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""adobe-idp-site-verification=c900335b8b825859b51473b9943a3880ae795df47426483b0a67630377a902f5""",*77AE5C,TXT,False,20s,2023-11-21 16:48:17 WIB
+cisco.com,"""google-site-verification=V3t2K3dvr9fcd1YWwwanSmebEOO_UNTP06HR2_gUO5M""",*77AE5D,TXT,False,20s,2023-11-21 16:48:17 WIB
