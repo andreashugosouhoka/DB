@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,162.142.125.81,14583,43.247.15.4,5061,IN.bound,,,,US,AS398324 censys  inc.,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 01:58:43.130
