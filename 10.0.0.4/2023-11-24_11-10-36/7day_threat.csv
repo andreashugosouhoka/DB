@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,146.88.240.17,56664,10.0.0.4,2123,IN.bound,,,,US,AS20052 arbor networks  inc.,ETIC Cybersecurity 2023-11-24 Port Scan,nan,2023-11-24 04:10:13.942
