@@ -1,0 +1,12 @@
+indicator,asn,country_code2,name,description,modified,created
+20.205.36.71,AS8075 microsoft corporation,HK,,,,
+172.105.21.17,AS63949 linode  llc,CA,,,,
+175.103.43.90,AS38320 pt maxindo mitra solusi,ID,,,,
+158.69.5.205,AS16276 ovh sas,CA,SSH Brute-Force Honeypot Live,every host is banned for 3 hours and receives an abuse report from me every 96 hours if it continues,2023-11-24T04:10:28.091000,2021-07-13T01:00:09.665000
+146.88.240.17,AS20052 arbor networks  inc.,US,ETIC Cybersecurity 2023-11-24 Port Scan,,2023-11-24T04:10:13.942000,2023-11-23T23:00:19.926000
+172.217.194.155,AS15169 google llc,US,,,,
+34.102.162.219,AS396982 google,US,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000,2023-01-01T00:00:05.491000
+34.110.181.92,AS15169 google llc,US,,,,
+34.149.87.163,AS15169 google llc,US,,,,
+34.160.119.165,AS15169 google llc,US,,,,
+34.110.179.88,AS15169 google llc,US,njRAT  BazarLoader    WebToolbar   Qbot,,2023-11-07T01:10:46.934000,2023-11-07T01:10:46.934000
