@@ -1,0 +1,69 @@
+.......................................
+NG-Connection on: 2023-11-24 13:29:18
+
+Fetched IP Firewall Connections with 3 entries
+Fetched IP DNS Cache with 2 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+  .id    protocol      src-address        dst-address   reply-src-address  reply-dst-address    tcp-state   connection-mark timeout  orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+0  *EA         tcp  175.103.43.90:51463   10.0.0.4:7502    10.0.0.4:7502   175.103.43.90:51463  established      OpenIXP         5m        5           280           3           139         0          0        True   2023-11-24 13:29:18 WIB
+1  *EB         tcp  175.103.43.90:51462   10.0.0.4:7502    10.0.0.4:7502   175.103.43.90:51462    time-wait      OpenIXP         9s        5           249           4           179         0          0        True   2023-11-24 13:29:18 WIB
+2  *EC  ipv6-encap       172.188.58.135  216.218.221.42   216.218.221.42              10.0.0.4                                3m57s        4           424           0             0         0          0       False   2023-11-24 13:29:18 WIB
+
+[Connections]
+    protocol    src-address   src-port   dst-address   dst-port  tcp-state   connection-mark
+2  ipv6-encap  172.188.58.135           216.218.221.42                                      
+1         tcp   175.103.43.90   51462         10.0.0.4   7502      time-wait      OpenIXP   
+0         tcp   175.103.43.90   51463         10.0.0.4   7502    established      OpenIXP   
+
+[DNS]
+No type A Cached DNS
+No Resolved Entries
+
+IP PUBLIC LAN : 10.0.0.4/32
+
+Public Address with 3 entries
+
+Count of each flow:
+IN.bound       : 2
+Other          : 1
+
+OTX result has been Fetched for 4 seconds
+
+[OTX]
+     indicator                  asn                country_code2 name description modified created
+2  216.218.221.42    AS6939 hurricane electric llc       JP                                       
+1  172.188.58.135                          ASNone        GB                                       
+0   175.103.43.90  AS38320 pt maxindo mitra solusi       ID                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 67% ||||||||         ipv6-encap        : 33%
+flow              ==          IN.bound         : 67% ||||||||           Other           : 33%
+dst-port          ==            7502           : 67%
+dst-address       ==          10.0.0.4         : 67% ||||||||       216.218.221.42      : 33%
+src-address       ==       175.103.43.90       : 67% ||||||||       172.188.58.135      : 33%
+src-port          ==           51463           : 33% ||||||||           51462           : 33%
+cc                ==             ID            : 67%
+asn               == AS38320 pt maxindo mitra solusi : 67%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+    protocol    src-address   src-port   dst-address   dst-port    flow    tcp-state   resolved   mark    cc               asn                threat description modified
+0         tcp   175.103.43.90   51463         10.0.0.4   7502    IN.bound  established           OpenIXP  ID  AS38320 pt maxindo mitra solusi                            
+2  ipv6-encap  172.188.58.135           216.218.221.42              Other                                                                                                
+1         tcp   175.103.43.90   51462         10.0.0.4   7502    IN.bound    time-wait           OpenIXP  ID  AS38320 pt maxindo mitra solusi                            
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+No Last 7 days Potential Threat Entries !Big ASN.
+
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
