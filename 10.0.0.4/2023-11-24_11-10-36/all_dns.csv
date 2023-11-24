@@ -1,0 +1,5 @@
+name,data,.id,type,static,ttl,timestamp
+dms5.bumenredjaabadi.com,114.129.23.254,*37B,A,False,2h15m25s,2023-11-24 11:10:26 WIB
+captureclient-36.sonicwall.com,d35zo7yi6yy867.cloudfront.net,*37F,CNAME,False,4h12m49s,2023-11-24 11:10:26 WIB
+cloud2.mikrotik.com,2a02:610:7501:1000::201,*38A,AAAA,False,11m37s,2023-11-24 11:10:26 WIB
+cloud2.mikrotik.com,2a02:610:7501:4000::251,*38B,AAAA,False,11m37s,2023-11-24 11:10:26 WIB
