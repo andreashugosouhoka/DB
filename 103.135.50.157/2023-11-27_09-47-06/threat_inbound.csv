@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,37.120.244.53,443,103.169.73.162,53,IN.bound,,,,US,AS9009 m247 ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-26 20:30:44.043
+tcp,193.163.125.49,34327,103.169.73.160,51685,IN.bound,syn-sent,,in-utama.c,GB,AS211298 constantine cybersecurity ltd.,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-26 20:30:44.043
+tcp,118.123.105.92,37387,103.169.73.172,689,IN.bound,syn-sent,,,CN,AS38283 chinanet sichuan telecom internet data center,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:07:24.553
+tcp,147.135.4.9,40362,103.169.73.173,22240,IN.bound,syn-sent,,,US,AS16276 ovh sas,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:07:55.724
+tcp,152.32.245.196,38904,103.169.73.174,8010,IN.bound,syn-sent,,,TH,AS135377 ucloud information technology (hk) limited,ETIC Cybersecurity 2023-11-26 Port Scan,,2023-11-26 23:00:00.170
