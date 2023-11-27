@@ -1,0 +1,116 @@
+.......................................
+NG-Connection on: 2023-11-27 09:47:17
+
+Fetched IP Firewall Connections with 5665 entries
+Fetched IP DNS Cache with 0 entries
+
+Raw Connection data is Extracted
+Raw DNS data is Extracted
+
+[Pre-process Connections]
+       .id   protocol      src-address          dst-address      reply-src-address    reply-dst-address    tcp-state   connection-mark  timeout    orig-packets  orig-bytes  repl-packets  repl-bytes  orig-rate  repl-rate  assured        timestamp        
+446   *8EA45    udp     103.169.73.162:8567  202.180.17.36:8590  202.180.17.36:8590   103.169.73.162:8567                   LOKAL.c         1m40s        4           252           5           341         0          0        True   2023-11-27 09:47:17 WIB
+2298  *9384C    udp    103.169.73.162:39080     31.13.95.63:443     31.13.95.63:443  103.169.73.162:39080                   LOKAL.c         2m46s        5          3974          23          6920         0          0        True   2023-11-27 09:47:17 WIB
+986   *901B7    tcp    103.169.73.162:49297  157.240.235.58:443  157.240.235.58:443  103.169.73.162:49297  established      LOKAL.c     23h59m24s        6           447           6           453         0          0        True   2023-11-27 09:47:17 WIB
+1170  *9092B    udp    103.169.73.162:33283   142.251.10.95:443   142.251.10.95:443  103.169.73.162:33283                    INTL.c         1m28s       18          5512          15          9544         0          0        True   2023-11-27 09:47:17 WIB
+1762  *922D3    tcp    103.169.73.162:49680  20.198.118.190:443  20.198.118.190:443  103.169.73.162:49680  established       INTL.c     23h58m52s        1            41           1            52         0          0       False   2023-11-27 09:47:17 WIB
+
+[Connections]
+     protocol   src-address   src-port   dst-address   dst-port  tcp-state   connection-mark
+1166    tcp    103.169.73.162   53880    74.125.24.188   5228    established      INTL.c    
+288     udp    103.169.73.162   57506   64.233.170.147    443                     INTL.c    
+2691    udp    103.169.73.162   50312   64.233.170.132    443                     INTL.c    
+
+[DNS]
+No type A Cached DNS
+No Resolved Entries
+
+IP PUBLIC LAN : 103.135.50.157 || 103.169.73.160/28 || 103.237.140.181
+
+Public Address with 2009 entries
+
+Count of each flow:
+OUT.bound      : 4154
+IN.bound       : 497
+broadcast      : 82
+local          : 31
+Other          : 14
+
+OTX result has been Fetched for 39 minutes and 46 seconds
+
+[OTX]
+        indicator                             asn                          country_code2 name description modified created
+1316  115.178.162.230                    AS18004 pt wireless indonesia win       ID                                       
+381    74.125.200.138                                   AS15169 google llc       US                                       
+1135   107.150.124.47  AS135377 ucloud information technology (hk) limited       HK                                       
+
+::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+protocol          ==            tcp            : 61% ||||||||            udp            : 38% ||||||||            icmp           : 0%
+flow              ==         OUT.bound         : 87% ||||||||          IN.bound         : 10% ||||||||         broadcast         : 2% ||||||||           local           : 1% ||||||||     others     : 1%
+dst-port          ==            443            : 54% ||||||||            1433           : 9% ||||||||            3306           : 7% ||||||||             53            : 6% ||||||||     others     : 30%
+dst-address       ==       103.169.73.162      : 9% ||||||||          8.8.8.8          : 3% ||||||||          1.1.1.1          : 3% ||||||||       157.240.208.60      : 2% ||||||||     others     : 86%
+src-address       ==       103.169.73.162      : 86% ||||||||       103.169.73.163      : 0% ||||||||        52.111.240.2       : 0% ||||||||       157.240.208.60      : 0% ||||||||     others     : 13%
+src-port          ==            443            : 5% ||||||||            1089           : 2% ||||||||            1041           : 2% ||||||||             53            : 1% ||||||||     others     : 91%
+cc                ==             US            : 45% ||||||||             ID            : 29% ||||||||             SG            : 7% ||||||||     others     : 19%
+asn               ==     AS15169 google llc    : 34% ||||||||   AS32934 facebook  inc.  : 7% |||||||| AS18004 pt wireless indonesia win : 7% |||||||| AS58397 pt infinys system indonesia : 7% ||||||||     others     : 52%
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[NG-Connection]
+     protocol   src-address   src-port   dst-address    dst-port    flow     tcp-state   resolved   mark    cc                 asn                  threat description modified
+3599    tcp    103.169.73.162   63198    103.41.189.220    3306   OUT.bound     syn-sent           LOKAL.c  ID  AS58397 pt infinys system indonesia                            
+3631    tcp    103.169.73.162   43844    217.12.201.177      80   OUT.bound  established            INTL.c  NL                      AS21100 itl llc                            
+2397    udp    103.169.73.162   38279   172.253.118.113     443   OUT.bound                         INTL.c  US                   AS15169 google llc                            
+1023    udp    103.169.73.162   56841    172.217.194.94     443   OUT.bound                         INTL.c  US                   AS15169 google llc                            
+617     tcp    157.240.208.60     443    103.169.73.162   53064    IN.bound  established           LOKAL.c  ID               AS32934 facebook  inc.                            
+3895    tcp    103.169.73.162   63462     103.41.190.72    3306   OUT.bound     syn-sent           LOKAL.c  ID  AS58397 pt infinys system indonesia                            
+759     tcp    103.169.73.162   35578     74.125.68.149     443   OUT.bound  established            INTL.c  US                   AS15169 google llc                            
+2541    udp    103.169.73.162   63988     74.125.200.95     443   OUT.bound                         INTL.c  US                   AS15169 google llc                            
+553     udp    103.169.73.162   65041    35.186.225.202     443   OUT.bound                        LOKAL.c  US                   AS15169 google llc                            
+3983    tcp    103.169.73.162   56266     74.125.68.100     443   OUT.bound  established            INTL.c  US                   AS15169 google llc                            
+2565    udp    103.169.73.162   65060      74.125.24.95     443   OUT.bound                         INTL.c  US                   AS15169 google llc                            
+2350    tcp    103.169.73.162   36766      74.125.68.94     443   OUT.bound  established            INTL.c  US                   AS15169 google llc                            
+92      udp    103.169.73.162   40875    142.251.175.93     443   OUT.bound                         INTL.c  US                   AS15169 google llc                            
+3369    tcp    103.169.73.162   62683    115.178.162.26    1433   OUT.bound     syn-sent           LOKAL.c  ID    AS18004 pt wireless indonesia win                            
+2784    udp    103.169.73.162   58744     163.70.153.21     443   OUT.bound                         INTL.c  FR                              ASNone                             
+3169    udp    103.169.73.162   60347     74.125.24.102     443   OUT.bound                         INTL.c  US                   AS15169 google llc                            
+3443    tcp    103.169.73.162   47457    216.239.38.135     443   OUT.bound    time-wait            INTL.c  US                   AS15169 google llc                            
+2845    tcp    103.169.73.162   44774     157.240.13.32     443   OUT.bound  established           LOKAL.c  SG               AS32934 facebook  inc.                            
+956     tcp    103.169.73.162   44853     157.240.13.54     443   OUT.bound  established           LOKAL.c  SG               AS32934 facebook  inc.                            
+3985    tcp    103.169.73.162   63738   115.178.163.146    1433   OUT.bound     syn-sent           LOKAL.c  ID    AS18004 pt wireless indonesia win                            
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+All Last 7 days Potential Threat Entries !Big ASN:
+
+protocol  src-address   src-port   dst-address   dst-port    flow    tcp-state  resolved    mark    cc                      asn                                                 threat                                                                       description                                                      modified       
+  udp      96.44.142.14   5208    103.135.50.157   5060    IN.bound                      in-utama.c US              AS8100 quadranet enterprises llc                     ETIC Cybersecurity 2023-11-27 Port Scan                                                                                                      2023-11-27 02:48:27.710
+  udp    162.142.125.95  52096    103.169.73.166   5061    IN.bound                                 US                         AS398324 censys  inc.                     ETIC Cybersecurity 2023-11-26 Port Scan                                                                                                      2023-11-26 23:00:00.170
+  tcp    103.169.73.162  46172    104.244.42.194    443   OUT.bound established              INTL.c US                          AS13414 twitter inc. CVE JAR Found   Massive active Malicious   unlatched issues Monitoring Tsara Brashears - Extreme cyber attack against documented as alleged SA victim. Non-Adver 2023-11-24 12:03:49.398
+  udp    103.169.73.162   1089       117.4.36.89  27318   OUT.bound                          INTL.c VN                          AS7552 viettel group                                     Scan port 445 SMB (S3#) Scans hitting the server at TCP port 445 SMB. Same IP should not appear more than once in 96 hours i 2023-11-26 10:00:17.534
+  tcp    103.169.73.162  41238   129.226.103.217     80   OUT.bound established              INTL.c HK AS132203 tencent building  kejizhongyi avenue CVE JAR Found   Massive active Malicious   unlatched issues Monitoring Tsara Brashears - Extreme cyber attack against documented as alleged SA victim. Non-Adver 2023-11-24 12:03:49.398
+  udp    146.88.241.157  45408    103.169.73.162    137    IN.bound                                 US                                       ASNone                      ETIC Cybersecurity 2023-11-27 Port Scan                                                                                                      2023-11-27 02:52:10.217
+  tcp    103.169.73.162  43150     174.35.118.62    443   OUT.bound established              INTL.c US                                       ASNone       ACTIVIDAD MALICIOSA   Relacionada con Gh0st 21-10-2023 Gh0st es una herramienta de administración o acceso remoto que está diseñada para controlar equipos  2023-11-21 02:01:29.502
+  tcp    103.169.73.162  43148     174.35.118.62    443   OUT.bound established              INTL.c US                                       ASNone       ACTIVIDAD MALICIOSA   Relacionada con Gh0st 21-10-2023 Gh0st es una herramienta de administración o acceso remoto que está diseñada para controlar equipos  2023-11-21 02:01:29.502
+  tcp     167.94.146.16  59260    103.169.73.175   4176    IN.bound    syn-sent          in-utama.c US                         AS398705 censys  inc.                     ETIC Cybersecurity 2023-11-27 Port Scan                                                                                                      2023-11-27 02:53:12.142
+  tcp    157.245.98.245  61000    103.169.73.169     22    IN.bound    syn-sent                     IN                     AS14061 digitalocean  llc                     ETIC Cybersecurity 2023-11-26 Port Scan                                                                                                      2023-11-26 23:00:00.170
+  tcp    118.37.157.169  58136    103.169.73.172  33896    IN.bound    syn-sent                     KR                          AS4766 korea telecom                     ETIC Cybersecurity 2023-11-27 Port Scan                                                                                                      2023-11-27 02:53:40.254
+  tcp    118.37.157.169  58136    103.169.73.160  33896    IN.bound    syn-sent          in-utama.c KR                          AS4766 korea telecom                     ETIC Cybersecurity 2023-11-27 Port Scan                                                                                                      2023-11-27 02:53:40.254
+  tcp     103.135.35.58  47411    103.169.73.166   8088    IN.bound    syn-sent                     HK                         AS40065 cnservers llc                     ETIC Cybersecurity 2023-11-27 Port Scan                                                                                                      2023-11-27 02:54:32.230
+Added address 117.4.36.89 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 104.244.42.194 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 129.226.103.217 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 174.35.118.62 to address list 'threat_outbound_addresses' (OUT.bound Threat).
+Added address 118.37.157.169 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 96.44.142.14 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 157.245.98.245 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 167.94.146.16 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 103.135.35.58 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 146.88.241.157 to address list 'threat_inbound_addresses' (IN.bound Threat).
+Added address 162.142.125.95 to address list 'threat_inbound_addresses' (IN.bound Threat).
+raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
+raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
+
+####################################################################################################################################################################################################
+####################################################################################################################################################################################################
