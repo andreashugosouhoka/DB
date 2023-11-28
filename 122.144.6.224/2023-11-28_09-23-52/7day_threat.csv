@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,122.144.6.226,61412,142.251.175.94,443,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,CVE JAR Found   Massive active Malicious   unlatched issues,Monitoring Tsara Brashears - Extreme cyber attack against documented as alleged SA victim. Non-Adver,2023-11-24 12:03:49.398
+tcp,122.144.6.226,58915,162.247.243.30,443,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,http://malwaredomainlist.com/   CNC   Spyware   Tracking,nan,2023-11-22 07:37:34.595
+udp,122.144.6.226,65314,172.253.118.147,443,OUT.bound,,,LOKAL.c,US,AS15169 google llc,AIG Hacked or Spoofed website?,nan,2023-11-27 23:02:02.229
+tcp,122.144.6.226,58991,162.247.243.30,443,OUT.bound,established,,INTL.c,US,AS13335 cloudflare,http://malwaredomainlist.com/   CNC   Spyware   Tracking,nan,2023-11-22 07:37:34.595
+tcp,122.144.6.226,49630,142.251.175.94,80,OUT.bound,established,,LOKAL.c,US,AS15169 google llc,CVE JAR Found   Massive active Malicious   unlatched issues,Monitoring Tsara Brashears - Extreme cyber attack against documented as alleged SA victim. Non-Adver,2023-11-24 12:03:49.398
