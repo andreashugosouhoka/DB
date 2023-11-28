@@ -1,0 +1,2 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-28_09-18-30,tcp,118.37.157.169,50474,122.144.6.224,60520,IN.bound,syn-sent,,,KR,AS4766 korea telecom,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 02:11:21.179
