@@ -1,0 +1,13 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-29_11-06-58,tcp,94.102.61.5,33369,175.103.46.158,12313,IN.bound,syn-sent,,,GB,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,198.199.80.62,50139,175.103.46.159,6969,IN.bound,syn-sent,,,US,AS14061 digitalocean  llc,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 22:59:55.478
+2023-11-29_11-06-58,tcp,77.90.185.191,57670,175.103.46.158,217,IN.bound,syn-sent,,,DE,AS208485 nese mala trading as moon dc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:33.853
+2023-11-29_11-06-58,tcp,104.248.138.237,40293,175.103.46.156,14548,IN.bound,syn-sent,,,DE,AS14061 digitalocean  llc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:36.008
+2023-11-29_11-06-58,tcp,78.128.113.250,51759,175.103.46.158,3335,IN.bound,syn-sent,,,BG,AS209160 miti 2000 eood,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:36.008
+2023-11-29_11-06-58,tcp,77.90.185.166,56809,175.103.46.156,1808,IN.bound,syn-sent,,,DE,AS208485 nese mala trading as moon dc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:39.039
+2023-11-29_11-06-58,tcp,94.102.61.5,51344,175.103.46.159,12313,IN.bound,syn-sent,,,GB,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,103.187.191.235,35104,175.103.46.159,3283,IN.bound,syn-sent,,,,ASNone ,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-29 03:55:06.968
+2023-11-29_11-06-58,tcp,198.98.57.135,50240,175.103.46.159,2375,IN.bound,syn-sent,,,US,AS53667 frantech solutions,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,198.98.57.135,50240,175.103.46.158,2375,IN.bound,syn-sent,,,US,AS53667 frantech solutions,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,31.7.58.42,51827,175.103.46.158,9090,IN.bound,syn-sent,,,CH,AS51852 private layer inc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:46.147
+2023-11-29_11-06-58,tcp,198.98.57.135,50240,175.103.46.156,2375,IN.bound,syn-sent,,,US,AS53667 frantech solutions,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
