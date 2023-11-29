@@ -1,0 +1,5 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,175.103.46.158,50714,52.113.194.132,443,OUT.bound,established,,speedtest.c,US,AS8068 microsoft corporation,Investigation of Distribution Vectors and Threat Network Infrastructure,nan,2023-11-27 07:26:03.810
+udp,175.103.46.158,62254,216.239.38.117,443,OUT.bound,,,speedtest.c,US,AS15169 google llc,PHI at risk? Infected Healthcare System? Masquerading,Masquerading. Obnoxious privilege escalation. Dangerous entanglements. Attorneys representing  targe,2023-11-27 08:48:22.997
+tcp,80.82.77.144,38073,175.103.46.159,2455,IN.bound,syn-sent,,,NL,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-29 Port Scan,nan,2023-11-29 04:07:46.910
+tcp,45.128.232.84,59566,175.103.46.156,3131,IN.bound,syn-sent,,,BG,ASNone ,ETIC Cybersecurity 2023-11-29 Port Scan,nan,2023-11-29 04:07:46.910
