@@ -1,0 +1,14 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-29_10-24-55,udp,80.120.241.118,8080,175.103.46.157,5060,IN.bound,,,speedtest.c,AT,AS8447 a1 telekom austria ag,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,3620,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,56195,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,udp,194.233.78.54,33337,146.196.111.218,5060,IN.bound,,,speedtest.c,SG,AS141995 contabo asia private limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:17:05.184
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,11912,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,udp,185.217.137.118,19937,175.103.46.157,5060,IN.bound,,,speedtest.c,SC,AS210531 ,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,192.142.59.218,80,175.103.46.158,6782,IN.bound,established,,,GB,ASNone ,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,4121,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,45.79.177.245,48656,175.103.46.158,6667,IN.bound,syn-sent,,,US,AS63949 linode  llc,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,116.153.70.171,60000,175.103.46.159,1321,IN.bound,syn-sent,,,CN,AS4837 china unicom china169 backbone,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:17:05.184
+2023-11-29_10-24-55,tcp,92.63.197.210,53692,175.103.46.159,19129,IN.bound,syn-sent,,,RU,AS44446 qwalarty corporation,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:17:05.184
+2023-11-29_10-24-55,tcp,118.123.105.93,36439,175.103.46.156,10909,IN.bound,syn-sent,,,CN,AS38283 chinanet sichuan telecom internet data center,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:19:09.001
+2023-11-29_10-24-55,tcp,118.123.105.93,34135,175.103.46.159,10909,IN.bound,syn-sent,,,CN,AS38283 chinanet sichuan telecom internet data center,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:19:09.001
