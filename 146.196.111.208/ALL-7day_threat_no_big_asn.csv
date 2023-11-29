@@ -1,0 +1,31 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+2023-11-29_10-24-55,udp,80.120.241.118,8080,175.103.46.157,5060,IN.bound,,,speedtest.c,AT,AS8447 a1 telekom austria ag,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,3620,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,56195,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,udp,194.233.78.54,33337,146.196.111.218,5060,IN.bound,,,speedtest.c,SG,AS141995 contabo asia private limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:17:05.184
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,11912,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,udp,185.217.137.118,19937,175.103.46.157,5060,IN.bound,,,speedtest.c,SC,AS210531 ,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,192.142.59.218,80,175.103.46.158,6782,IN.bound,established,,,GB,ASNone ,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,195.85.201.201,30120,175.103.46.158,4121,IN.bound,established,,,TR,AS211557 oguzhan oktay,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,45.79.177.245,48656,175.103.46.158,6667,IN.bound,syn-sent,,,US,AS63949 linode  llc,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-24-55,tcp,116.153.70.171,60000,175.103.46.159,1321,IN.bound,syn-sent,,,CN,AS4837 china unicom china169 backbone,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:17:05.184
+2023-11-29_10-24-55,tcp,92.63.197.210,53692,175.103.46.159,19129,IN.bound,syn-sent,,,RU,AS44446 qwalarty corporation,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:17:05.184
+2023-11-29_10-24-55,tcp,118.123.105.93,36439,175.103.46.156,10909,IN.bound,syn-sent,,,CN,AS38283 chinanet sichuan telecom internet data center,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:19:09.001
+2023-11-29_10-24-55,tcp,118.123.105.93,34135,175.103.46.159,10909,IN.bound,syn-sent,,,CN,AS38283 chinanet sichuan telecom internet data center,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:19:09.001
+2023-11-29_10-28-22,tcp,103.139.248.11,58203,175.103.46.156,23471,IN.bound,syn-sent,,,PH,AS139213 hillview cable systems  inc.,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-28-22,tcp,81.70.6.172,47825,175.103.46.159,8088,IN.bound,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:23:52.741
+2023-11-29_10-38-49,tcp,167.94.145.91,24425,175.103.46.156,10000,IN.bound,syn-sent,,,US,AS398705 censys  inc.,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_10-46-34,tcp,77.90.185.186,57665,175.103.46.158,19363,IN.bound,syn-sent,,,DE,AS208485 nese mala trading as moon dc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:39:30.210
+2023-11-29_10-58-04,tcp,192.241.197.43,34881,175.103.46.158,32540,IN.bound,syn-sent,,,US,AS14061 digitalocean  llc,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-29 03:45:23.720
+2023-11-29_11-06-58,tcp,94.102.61.5,33369,175.103.46.158,12313,IN.bound,syn-sent,,,GB,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,198.199.80.62,50139,175.103.46.159,6969,IN.bound,syn-sent,,,US,AS14061 digitalocean  llc,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 22:59:55.478
+2023-11-29_11-06-58,tcp,77.90.185.191,57670,175.103.46.158,217,IN.bound,syn-sent,,,DE,AS208485 nese mala trading as moon dc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:33.853
+2023-11-29_11-06-58,tcp,104.248.138.237,40293,175.103.46.156,14548,IN.bound,syn-sent,,,DE,AS14061 digitalocean  llc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:36.008
+2023-11-29_11-06-58,tcp,78.128.113.250,51759,175.103.46.158,3335,IN.bound,syn-sent,,,BG,AS209160 miti 2000 eood,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:36.008
+2023-11-29_11-06-58,tcp,77.90.185.166,56809,175.103.46.156,1808,IN.bound,syn-sent,,,DE,AS208485 nese mala trading as moon dc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:39.039
+2023-11-29_11-06-58,tcp,94.102.61.5,51344,175.103.46.159,12313,IN.bound,syn-sent,,,GB,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,103.187.191.235,35104,175.103.46.159,3283,IN.bound,syn-sent,,,,ASNone ,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-29 03:55:06.968
+2023-11-29_11-06-58,tcp,198.98.57.135,50240,175.103.46.159,2375,IN.bound,syn-sent,,,US,AS53667 frantech solutions,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,198.98.57.135,50240,175.103.46.158,2375,IN.bound,syn-sent,,,US,AS53667 frantech solutions,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
+2023-11-29_11-06-58,tcp,31.7.58.42,51827,175.103.46.158,9090,IN.bound,syn-sent,,,CH,AS51852 private layer inc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:59:46.147
+2023-11-29_11-06-58,tcp,198.98.57.135,50240,175.103.46.156,2375,IN.bound,syn-sent,,,US,AS53667 frantech solutions,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
