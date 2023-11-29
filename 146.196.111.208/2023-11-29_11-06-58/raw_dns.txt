@@ -1,0 +1,1 @@
+{'.id': '*12BC9', 'type': 'A', 'data': '10.79.20.104', 'name': 'uvyz.norak.us', 'ttl': '18s', 'static': False, 'timestamp': '2023-11-29 10:58:20 WIB'}
