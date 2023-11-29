@@ -1,0 +1,4 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+udp,175.103.46.158,53082,142.251.175.94,443,OUT.bound,,,speedtest.c,US,AS15169 google llc,CVE JAR Found   Massive active Malicious   unlatched issues,Monitoring Tsara Brashears - Extreme cyber attack against documented as alleged SA victim. Non-Adver,2023-11-24 12:03:49.398
+udp,175.103.46.158,55183,142.251.175.94,443,OUT.bound,,,speedtest.c,US,AS15169 google llc,CVE JAR Found   Massive active Malicious   unlatched issues,Monitoring Tsara Brashears - Extreme cyber attack against documented as alleged SA victim. Non-Adver,2023-11-24 12:03:49.398
+tcp,77.90.185.186,57665,175.103.46.158,19363,IN.bound,syn-sent,,,DE,AS208485 nese mala trading as moon dc,ETIC Cybersecurity 2023-11-29 Port Scan,nan,2023-11-29 03:39:30.210
