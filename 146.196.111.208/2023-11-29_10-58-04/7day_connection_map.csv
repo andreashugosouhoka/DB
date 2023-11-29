@@ -1,0 +1,5 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,185.10.68.123,443,175.103.46.158,55469,IN.bound,established,,speedtest.c,SC,AS200651 flokinet ltd,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-26 20:30:44.043
+tcp,192.241.197.43,34881,175.103.46.158,32540,IN.bound,syn-sent,,,US,AS14061 digitalocean  llc,Webscanners 2018-02-09  thru current day,Automated detection of webscanners based on 404,2023-11-29 03:45:23.720
+tcp,218.92.0.118,24648,175.103.46.158,22,IN.bound,close,,speedtest.c,CN,AS4134 chinanet,SSH Brute-Force Honeypot Live,every host is banned for 3 hours and receives an abuse report from me every 96 hours if it continues,2023-11-29 03:48:12.790
+tcp,205.210.31.102,55988,175.103.46.156,51007,IN.bound,syn-sent,,,CA,AS396982 google,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:48:36.238
