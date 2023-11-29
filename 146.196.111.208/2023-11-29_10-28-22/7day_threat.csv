@@ -1,0 +1,3 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
+tcp,103.139.248.11,58203,175.103.46.156,23471,IN.bound,syn-sent,,,PH,AS139213 hillview cable systems  inc.,ETIC Cybersecurity 2023-11-28 Port Scan,nan,2023-11-28 22:59:05.287
+tcp,81.70.6.172,47825,175.103.46.159,8088,IN.bound,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,nan,2023-11-29 03:23:52.741
