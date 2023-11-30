@@ -1,0 +1,3 @@
+name,data,.id,type,static,ttl,timestamp
+cloud2.mikrotik.com,2a02:610:7501:4000::251,*24D3,AAAA,False,21m2s,2023-11-30 14:38:35 WIB
+cloud2.mikrotik.com,2a02:610:7501:1000::201,*24D4,AAAA,False,21m2s,2023-11-30 14:38:35 WIB
