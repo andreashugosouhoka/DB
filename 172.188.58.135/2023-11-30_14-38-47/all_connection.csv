@@ -1,0 +1,9 @@
+.id,protocol,src-address,dst-address,reply-src-address,reply-dst-address,gre-key,tcp-state,connection-type,timeout,connection-mark,orig-packets,orig-bytes,orig-fasttrack-packets,orig-fasttrack-bytes,repl-packets,repl-bytes,repl-fasttrack-packets,repl-fasttrack-bytes,orig-rate,repl-rate,expected,seen-reply,assured,confirmed,dying,fasttrack,srcnat,dstnat,icmp-code,icmp-type,icmp-id,timestamp
+*49C7,udp,115.207.110.67:50641,10.0.0.4:8610,10.0.0.4:8610,115.207.110.67:50641,,,,4s,,1,44,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-30 14:38:35 WIB
+*49C8,tcp,10.0.0.4:4075,175.103.43.90:59324,175.103.43.90:59324,10.0.0.4:4075,,established,,4m59s,OpenIXP,6810,9299266,0,0,7800,626780,0,0,33136,2432,False,True,True,True,False,False,False,False,,,,2023-11-30 14:38:35 WIB
+*49C9,udp,10.0.0.4:4500,175.103.43.90:4500,175.103.43.90:4500,10.0.0.4:4500,,,,8s,,1,29,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-30 14:38:35 WIB
+*49CA,tcp,175.103.43.90:57455,10.0.0.4:7502,10.0.0.4:7502,175.103.43.90:57455,,established,,4m59s,OpenIXP,5,280,0,0,3,139,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-30 14:38:35 WIB
+*49CB,udp,96.44.142.10:5075,10.0.0.4:5060,10.0.0.4:5060,96.44.142.10:5075,,,sip,52m16s,,1,437,0,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,,,,2023-11-30 14:38:35 WIB
+*49CC,tcp,175.103.43.90:57454,10.0.0.4:7502,10.0.0.4:7502,175.103.43.90:57454,,time-wait,,9s,OpenIXP,5,249,0,0,4,179,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-30 14:38:35 WIB
+*49CD,tcp,103.234.253.69:55550,10.0.0.4:4438,10.0.0.4:4438,103.234.253.69:55550,,established,,23h59m47s,OpenIXP,190,22002,0,0,191,13960,0,0,0,0,False,True,True,True,False,False,False,False,,,,2023-11-30 14:38:35 WIB
+*49CE,ipv6-encap,172.188.58.135,216.218.221.42,216.218.221.42,10.0.0.4,,,,1m17s,,4,424,0,0,0,0,0,0,0,0,False,False,False,True,False,False,True,False,,,,2023-11-30 14:38:35 WIB
