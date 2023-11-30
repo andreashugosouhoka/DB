@@ -1,4 +1,0 @@
-{'.id': '*37B', 'type': 'A', 'data': '114.129.23.254', 'name': 'dms5.bumenredjaabadi.com', 'ttl': '2h15m25s', 'static': False, 'timestamp': '2023-11-24 11:10:26 WIB'}
-{'.id': '*37F', 'type': 'CNAME', 'data': 'd35zo7yi6yy867.cloudfront.net', 'name': 'captureclient-36.sonicwall.com', 'ttl': '4h12m49s', 'static': False, 'timestamp': '2023-11-24 11:10:26 WIB'}
-{'.id': '*38A', 'type': 'AAAA', 'data': '2a02:610:7501:1000::201', 'name': 'cloud2.mikrotik.com', 'ttl': '11m37s', 'static': False, 'timestamp': '2023-11-24 11:10:26 WIB'}
-{'.id': '*38B', 'type': 'AAAA', 'data': '2a02:610:7501:4000::251', 'name': 'cloud2.mikrotik.com', 'ttl': '11m37s', 'static': False, 'timestamp': '2023-11-24 11:10:26 WIB'}
