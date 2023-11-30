@@ -1,430 +1,49 @@
 
-Saved Logging on: 2023-11-17 16:26:53
-.......................................
-NG-Connection on: 2023-11-17 16:26:51
-
-Fetched IP Firewall Connections with 7 entries
-Fetched IP DNS Cache with 504 entries
-
-Raw Connection data is Extracted
-Raw DNS data is Extracted
-
-[Connections]
-protocol  src-address src-port   dst-address dst-port   tcp-state  connection-mark
-     tcp     10.0.0.4      179  20.205.36.71    34788 established              NaN
-     udp 20.205.36.71     4500      10.0.0.4     4500         NaN              NaN
-    icmp     10.0.0.4     None 175.103.43.90     None         NaN              NaN
-
-[DNS]
-                  name            data
-     sid.storygize.net 143.244.208.184
-euw2.smartadserver.com    5.135.209.97
-    analytic.detik.com   35.241.10.124
-
-Sample Entries with Resolved Values:
-protocol src-address src-port  dst-address   dst-port tcp-state  connection-mark     resolved   
-  icmp     10.0.0.4     0     202.58.182.241    0        NaN          NaN        bcs.binus.ac.id
-
-IP PUBLIC LAN : 172.188.58.135
-
-Public Address with 3 entries
-
-Count of each flow:
-OUT.bound      : 3
-IN.bound       : 3
-broadcast      : 1
-
-OTX result has been Fetched for 1 seconds
-
-[OTX]
-     indicator                               asn country_code2 name description modified created
-202.58.182.241 AS24526 bina nusantara university            ID  NaN         NaN      NaN     NaN
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 43% ||||||||            icmp           : 29% ||||||||            tcp            : 29%
-flow              ==         OUT.bound         : 43% ||||||||          IN.bound         : 43% ||||||||         broadcast         : 14%
-dst-port          ==             0             : 29% ||||||||           34788           : 14% ||||||||            4075           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
-dst-address       ==          10.0.0.4         : 43% ||||||||       202.58.182.241      : 14% ||||||||       175.103.43.90       : 14% ||||||||        20.205.36.71       : 14% ||||||||     others     : 29%
-src-address       ==          10.0.0.4         : 43% ||||||||        20.205.36.71       : 29% ||||||||       175.103.43.90       : 14% ||||||||        192.168.55.2       : 14% ||||||||     others     : 14%
-src-port          ==             0             : 29% ||||||||            179            : 14% ||||||||           57307           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
-cc                ==             ID            : 43% ||||||||             HK            : 43%
-asn               == AS8075 microsoft corporation : 43% |||||||| AS38320 pt maxindo mitra solusi : 29% |||||||| AS24526 bina nusantara university : 14%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[NG-Connection]
-protocol src-address src-port  dst-address dst-port      flow   tcp-state resolved  mark cc                          asn  threat  description  modified
-     tcp    10.0.0.4      179 20.205.36.71    34788 OUT.bound established      NaN   NaN HK AS8075 microsoft corporation     NaN          NaN       NaN
-..
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-No Last 7 days Potential Threat Entries !Big ASN.
-
-raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
-
-Saved Logging on: 2023-11-17 16:26:40
-.......................................
-NG-Connection on: 2023-11-17 16:26:37
-
-Fetched IP Firewall Connections with 4 entries
-Fetched IP DNS Cache with 512 entries
-
-Raw Connection data is Extracted
-Raw DNS data is Extracted
-
-[Connections]
-protocol    src-address src-port    dst-address dst-port tcp-state  connection-mark
-    icmp       10.0.0.4     None 202.58.182.241     None       NaN              NaN
-     udp 112.111.41.105    54276       10.0.0.4     8610       NaN              NaN
-    icmp       10.0.0.4     None  175.103.43.90     None       NaN              NaN
-
-[DNS]
-                  name         data
-  lb.eu-1-id5-sync.com 141.95.98.65
-euw2.smartadserver.com 5.196.111.64
-    applets.ebxcdn.com 172.64.160.3
-
-Sample Entries with Resolved Values:
-protocol src-address src-port  dst-address   dst-port tcp-state  connection-mark     resolved   
-  icmp     10.0.0.4     0     202.58.182.241    0        NaN          NaN        bcs.binus.ac.id
-
-IP PUBLIC LAN : 172.188.58.135
-
-Public Address with 3 entries
-
-Count of each flow:
-OUT.bound      : 3
-IN.bound       : 1
-
-OTX result has been Fetched for 1 seconds
-
-[OTX]
-     indicator                                   asn country_code2 name description modified created
-112.111.41.105 AS4837 china unicom china169 backbone            CN  NaN         NaN      NaN     NaN
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            icmp           : 50% ||||||||            tcp            : 25% ||||||||            udp            : 25%
-flow              ==         OUT.bound         : 75% ||||||||          IN.bound         : 25%
-dst-port          ==             0             : 50% ||||||||           57307           : 25% ||||||||            8610           : 25%
-dst-address       ==       175.103.43.90       : 50% ||||||||       202.58.182.241      : 25% ||||||||          10.0.0.4         : 25%
-src-address       ==          10.0.0.4         : 75% ||||||||       112.111.41.105      : 25%
-src-port          ==             0             : 50% ||||||||            4075           : 25% ||||||||           54276           : 25%
-cc                ==             ID            : 75% ||||||||             CN            : 25%
-asn               == AS38320 pt maxindo mitra solusi : 50% |||||||| AS24526 bina nusantara university : 25% |||||||| AS4837 china unicom china169 backbone : 25%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[NG-Connection]
-protocol src-address src-port   dst-address dst-port      flow tcp-state resolved  mark cc                             asn  threat  description  modified
-    icmp    10.0.0.4        0 175.103.43.90        0 OUT.bound       NaN      NaN   NaN ID AS38320 pt maxindo mitra solusi     NaN          NaN       NaN
-..
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-No Last 7 days Potential Threat Entries !Big ASN.
-
-raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
-
-Saved Logging on: 2023-11-17 16:26:26
-.......................................
-NG-Connection on: 2023-11-17 16:25:44
-
-Fetched IP Firewall Connections with 99 entries
-Fetched IP DNS Cache with 579 entries
-
-Raw Connection data is Extracted
-Raw DNS data is Extracted
-
-[Connections]
-protocol    src-address src-port     dst-address dst-port   tcp-state  connection-mark
-     tcp 192.168.55.150    61003   74.125.68.155      443 established              NaN
-    icmp 192.168.55.150     None 203.190.242.211     None         NaN              NaN
-     tcp 192.168.55.150    61184    52.84.228.19      443 established              NaN
-
-[DNS]
-                      name            data
-    euw1.smartadserver.com    81.17.55.112
-pubads46.g.doubleclick.net 172.217.194.156
-    ads.adnuntius.delivery    172.67.172.5
-
-Sample Entries with Resolved Values:
-protocol  src-address   src-port   dst-address   dst-port  tcp-state   connection-mark               resolved              
-  tcp    192.168.55.150  61070   172.217.194.154   443    established       NaN                  pubads46.g.doubleclick.net
-  tcp    192.168.55.150  61126     172.66.42.247   443    established       NaN                        router.infolinks.com
-  tcp    192.168.55.150  61043     104.18.21.134   443    established       NaN        idsync.reson8.com.cdn.cloudflare.net
-
-IP PUBLIC LAN : 172.188.58.135
-
-Public Address with 72 entries
-
-Count of each flow:
-OUT.bound      : 92
-IN.bound       : 8
-
-OTX result has been Fetched for 39 seconds
-
-[OTX]
-     indicator                asn country_code2 name description modified created
-104.17.216.204 AS13335 cloudflare            US  NaN         NaN      NaN     NaN
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            tcp            : 87% ||||||||            icmp           : 8% ||||||||            udp            : 5%
-flow              ==         OUT.bound         : 92% ||||||||          IN.bound         : 8%
-dst-port          ==            443            : 89% ||||||||             0             : 8% ||||||||            4500           : 1% ||||||||            1701           : 1% ||||||||     others     : 2%
-dst-address       ==      203.190.242.211      : 10% ||||||||          10.0.0.4         : 8% ||||||||       69.173.158.64       : 3% ||||||||        13.33.88.46        : 3% ||||||||     others     : 79%
-src-address       ==       192.168.55.150      : 90% ||||||||       175.103.43.90       : 3% ||||||||          10.0.0.4         : 2% ||||||||       108.137.50.54       : 1% ||||||||     others     : 5%
-src-port          ==             0             : 8% ||||||||           61003           : 2% ||||||||           61070           : 2% ||||||||           61007           : 2% ||||||||     others     : 88%
-cc                ==             US            : 67% ||||||||             ID            : 19% ||||||||             SG            : 8% ||||||||             AU            : 2% ||||||||     others     : 6%
-asn               ==   AS16509 amazon.com inc  : 19% ||||||||     AS15169 google llc    : 15% ||||||||       AS24211 detik       : 10% ||||||||     AS13335 cloudflare    : 8% ||||||||     others     : 56%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[NG-Connection]
-protocol    src-address src-port    dst-address dst-port      flow   tcp-state                         resolved  mark cc                asn threat description modified
-     tcp 192.168.55.150    60994 142.251.12.132      443 OUT.bound established pagead-googlehosted.l.google.com   NaN US AS15169 google llc    NaN         NaN      NaN
-
-Information Related from the Last 7 Days:
-protocol    src-address src-port    dst-address dst-port      flow   tcp-state resolved  mark cc                  asn     threat description                modified
-     tcp 192.168.55.150    61029 104.244.42.195      443 OUT.bound established      NaN   NaN US AS13414 twitter inc. WHO IS NIC         NaN 2023-11-14 06:01:29.027
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-No Last 7 days Potential Threat Entries !Big ASN.
-
-raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
-
-Saved Logging on: 2023-11-17 16:25:32
-.......................................
-NG-Connection on: 2023-11-17 16:23:12
-
-Fetched IP Firewall Connections with 385 entries
-Fetched IP DNS Cache with 524 entries
-
-Raw Connection data is Extracted
-Raw DNS data is Extracted
-
-[Connections]
-protocol    src-address src-port    dst-address dst-port   tcp-state  connection-mark
-     udp       10.0.0.4    50671        8.8.4.4       53         NaN              NaN
-     udp 192.168.55.150    62676   192.168.55.1       53         NaN              NaN
-     tcp 192.168.55.150    60924 13.224.250.116      443 established              NaN
-
-[DNS]
-                           name            data
-connect.detik.com.w.cdngslb.com 163.181.160.235
-         messaging.insurads.com     52.205.52.6
-                        hbr.org   13.224.250.25
-
-Sample Entries with Resolved Values:
-protocol  src-address   src-port   dst-address   dst-port  tcp-state   connection-mark                           resolved                          
-  icmp   192.168.55.150      0   203.190.242.211     0            NaN       NaN                                                           detik.com
-   udp   192.168.55.150  64989    34.120.133.188   443            NaN       NaN                                                   collent.detik.com
-   tcp   192.168.55.150  60904     54.169.48.198   443    established       NaN        firewall-external-894891845.ap-southeast-1.elb.amazonaws.com
-
-IP PUBLIC LAN : 172.188.58.135
-
-Public Address with 109 entries
-
-Count of each flow:
-OUT.bound      : 276
-local          : 123
-IN.bound       : 3
-broadcast      : 2
-
-OTX result has been Fetched for 2 minutes and 14 seconds
-
-[OTX]
-    indicator                asn country_code2 name description modified created
-74.125.130.94 AS15169 google llc            US  NaN         NaN      NaN     NaN
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 67% ||||||||            tcp            : 32% ||||||||            icmp           : 1%
-flow              ==         OUT.bound         : 68% ||||||||           local           : 30% ||||||||          IN.bound         : 1% ||||||||         broadcast         : 0% ||||||||     others     : 0%
-dst-port          ==             53            : 54% ||||||||            443            : 43% ||||||||             0             : 1% ||||||||            4500           : 0% ||||||||     others     : 2%
-dst-address       ==        192.168.55.1       : 30% ||||||||          8.8.4.4          : 24% ||||||||       103.49.221.172      : 3% ||||||||      203.190.242.211      : 2% ||||||||     others     : 43%
-src-address       ==       192.168.55.150      : 74% ||||||||          10.0.0.4         : 25% ||||||||       175.103.43.90       : 0% ||||||||        20.205.36.71       : 0% ||||||||     others     : 0%
-src-port          ==           60929           : 1% ||||||||           60935           : 1% ||||||||           60876           : 1% ||||||||             0             : 1% ||||||||     others     : 97%
-cc                ==             US            : 25% ||||||||             ID            : 8% ||||||||             SG            : 8% ||||||||             RU            : 1% ||||||||     others     : 3%
-asn               ==     AS15169 google llc    : 11% ||||||||       AS24211 detik       : 6% ||||||||   AS16509 amazon.com inc  : 6% ||||||||  AS14618 amazon.com  inc. : 3% ||||||||     others     : 22%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[NG-Connection]
-protocol    src-address src-port  dst-address dst-port  flow tcp-state resolved  mark  cc asn threat description modified
-     udp 192.168.55.150    49467 192.168.55.1       53 local       NaN      NaN   NaN NaN NaN    NaN         NaN      NaN
-
-Information Related from the Last 7 Days:
-protocol    src-address src-port   dst-address dst-port      flow tcp-state           resolved  mark cc                asn                                                                      threat                                                                                          description                modified
-     udp 192.168.55.150    58308 104.18.25.173      443 OUT.bound       NaN a.tribalfusion.com   NaN US AS13335 cloudflare Apple iTunes| Malicious site | Anonyization | Siphoning | Trojan Downloader IC3 attached to links, apple , messaging, Skype.\nIC3 CN?\nChina? Unclear. Possibly intercepting  IC 2023-11-12 17:01:15.222
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-No Last 7 days Potential Threat Entries !Big ASN.
-
-raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
-
-Saved Logging on: 2023-11-17 16:23:00
-.......................................
-NG-Connection on: 2023-11-17 16:22:58
-
-Fetched IP Firewall Connections with 7 entries
-Fetched IP DNS Cache with 179 entries
-
-Raw Connection data is Extracted
-Raw DNS data is Extracted
-
-[Connections]
-protocol src-address src-port   dst-address dst-port   tcp-state  connection-mark
-    icmp    10.0.0.4     None 175.103.43.90     None         NaN              NaN
-     tcp    10.0.0.4     4075 175.103.43.90    57307 established              NaN
-     udp    10.0.0.4     4500  20.205.36.71     4500         NaN              NaN
-
-[DNS]
-           name            data
-  rec.detik.com  103.49.221.155
- push.detik.com  103.49.221.172
-video.detik.com 203.190.242.240
-
-Sample Entries with Resolved Values:
-protocol src-address src-port  dst-address   dst-port tcp-state  connection-mark     resolved   
-  icmp     10.0.0.4     0     202.58.182.241    0        NaN          NaN        bcs.binus.ac.id
-
-IP PUBLIC LAN : 172.188.58.135
-
-Public Address with 3 entries
-
-Count of each flow:
-OUT.bound      : 4
-IN.bound       : 2
-broadcast      : 1
-
-OTX result has been Fetched for 1 seconds
-
-[OTX]
-     indicator                               asn country_code2 name description modified created
-202.58.182.241 AS24526 bina nusantara university            ID  NaN         NaN      NaN     NaN
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 57% ||||||||            icmp           : 29% ||||||||            tcp            : 14%
-flow              ==         OUT.bound         : 57% ||||||||          IN.bound         : 29% ||||||||         broadcast         : 14%
-dst-port          ==             0             : 29% ||||||||           57307           : 14% ||||||||            1701           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
-dst-address       ==       175.103.43.90       : 29% ||||||||          10.0.0.4         : 29% ||||||||       202.58.182.241      : 14% ||||||||        20.205.36.71       : 14% ||||||||     others     : 29%
-src-address       ==          10.0.0.4         : 57% ||||||||        20.205.36.71       : 14% ||||||||        192.168.55.2       : 14% ||||||||       175.103.43.90       : 14% ||||||||     others     : 14%
-src-port          ==             0             : 29% ||||||||            4075           : 14% ||||||||            1701           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
-cc                ==             ID            : 57% ||||||||             HK            : 29%
-asn               == AS38320 pt maxindo mitra solusi : 43% |||||||| AS8075 microsoft corporation : 29% |||||||| AS24526 bina nusantara university : 14%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[NG-Connection]
-protocol  src-address src-port dst-address dst-port     flow tcp-state resolved  mark cc                          asn  threat  description  modified
-     udp 20.205.36.71     1701    10.0.0.4     1701 IN.bound       NaN      NaN   NaN HK AS8075 microsoft corporation     NaN          NaN       NaN
-..
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-No Last 7 days Potential Threat Entries !Big ASN.
-
-raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
-
-Saved Logging on: 2023-11-17 16:22:47
-.......................................
-NG-Connection on: 2023-11-17 16:22:44
-
-Fetched IP Firewall Connections with 7 entries
-Fetched IP DNS Cache with 179 entries
-
-Raw Connection data is Extracted
-Raw DNS data is Extracted
-
-[Connections]
-protocol  src-address src-port   dst-address dst-port   tcp-state  connection-mark
-     udp     10.0.0.4     1701  20.205.36.71     1701         NaN              NaN
-    icmp     10.0.0.4     None 175.103.43.90     None         NaN              NaN
-     tcp 20.205.36.71    34788      10.0.0.4      179 established              NaN
-
-[DNS]
-              name           data
-data.cdnbasket.net 34.149.164.179
-    mood.detik.com 103.49.221.122
-   bcs.binus.ac.id 202.58.182.241
-
-Sample Entries with Resolved Values:
-protocol src-address src-port  dst-address   dst-port tcp-state  connection-mark     resolved   
-  icmp     10.0.0.4     0     202.58.182.241    0        NaN          NaN        bcs.binus.ac.id
-
-IP PUBLIC LAN : 172.188.58.135
-
-Public Address with 4 entries
-
-Count of each flow:
-OUT.bound      : 4
-IN.bound       : 3
-
-OTX result has been Fetched for 2 seconds
-
-[OTX]
-    indicator                   asn country_code2                                    name description                   modified                    created
-207.188.6.237 AS396356 maxihost llc            US ETIC Cybersecurity 2023-11-16 Port Scan             2023-11-16T22:59:32.686000 2023-11-15T23:00:04.487000
-
-::::::::::Summary NG-Connection Entries:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-protocol          ==            udp            : 43% ||||||||            tcp            : 29% ||||||||            icmp           : 29%
-flow              ==         OUT.bound         : 57% ||||||||          IN.bound         : 43%
-dst-port          ==             0             : 29% ||||||||            4075           : 14% ||||||||            179            : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
-dst-address       ==          10.0.0.4         : 43% ||||||||        20.205.36.71       : 29% ||||||||       202.58.182.241      : 14% ||||||||       175.103.43.90       : 14% ||||||||     others     : 14%
-src-address       ==          10.0.0.4         : 57% ||||||||       175.103.43.90       : 14% ||||||||        20.205.36.71       : 14% ||||||||       207.188.6.237       : 14% ||||||||     others     : 14%
-src-port          ==             0             : 29% ||||||||           57307           : 14% ||||||||           34788           : 14% ||||||||            4500           : 14% ||||||||     others     : 43%
-cc                ==             ID            : 43% ||||||||             HK            : 43% ||||||||             US            : 14%
-asn               == AS8075 microsoft corporation : 43% |||||||| AS38320 pt maxindo mitra solusi : 29% |||||||| AS24526 bina nusantara university : 14% ||||||||   AS396356 maxihost llc   : 14% ||||||||     others     : 14%
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[NG-Connection]
-protocol src-address src-port    dst-address dst-port      flow tcp-state        resolved  mark cc                               asn threat  description modified
-    icmp    10.0.0.4        0 202.58.182.241        0 OUT.bound       NaN bcs.binus.ac.id   NaN ID AS24526 bina nusantara university    NaN          NaN      NaN
-
-Information Related from the Last 7 Days:
-protocol   src-address src-port dst-address dst-port     flow tcp-state resolved  mark cc                   asn                                  threat  description                modified
-     udp 207.188.6.237     8082    10.0.0.4     5060 IN.bound       NaN      NaN   NaN US AS396356 maxihost llc ETIC Cybersecurity 2023-11-16 Port Scan          NaN 2023-11-16 22:59:32.686
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ---- THREAT VERDICT ----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-All Last 7 days Potential Threat Entries !Big ASN:
-
-protocol   src-address  src-port dst-address  dst-port     flow  tcp-state  resolved  mark cc                   asn                                  threat  description                modified
-     udp 207.188.6.237      8082    10.0.0.4      5060 IN.bound        NaN       NaN   NaN US AS396356 maxihost llc ETIC Cybersecurity 2023-11-16 Port Scan          NaN 2023-11-16 22:59:32.686
-Added address 207.188.6.237 to address list 'threat_inbound_addresses' (IN.bound Threat).
-raw rule with the specified comment already exists for IN.bound Threat, no new rule added.
-raw rule with the specified comment already exists for OUT.bound Threat, no new rule added.
-
-####################################################################################################################################################################################################
-####################################################################################################################################################################################################
+Saved Logging on: 2023-11-30 14:39:49
+Error executing the script. Error: Traceback (most recent call last):
+  File "D:\PYT\FLASK 2 auto\TAKE 57 IANA get\analyzer.py", line 896, in <module>
+    classified_df = pd.read_csv('complete_connection.csv')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\io\parsers\readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\io\parsers\readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\io\parsers\readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'complete_connection.csv'
+
+
+
+Saved Logging on: 2023-11-30 14:39:40
+Error executing the script. Error: Traceback (most recent call last):
+  File "D:\PYT\FLASK 2 auto\TAKE 57 IANA get\analyzer.py", line 1042, in <module>
+    filtered_df = df[df["modified"] >= seven_days_ago]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\arraylike.py", line 60, in __ge__
+    return self._cmp_method(other, operator.ge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\series.py", line 5799, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\ops\array_ops.py", line 346, in comparison_op
+    res_values = comp_method_OBJECT_ARRAY(op, lvalues, rvalues)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\ops\array_ops.py", line 131, in comp_method_OBJECT_ARRAY
+    result = libops.scalar_compare(x.ravel(), y, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ops.pyx", line 107, in pandas._libs.ops.scalar_compare
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
 POWERED BY NG-Connection [AUTO] Threat Verdict
 PROCESSING........
