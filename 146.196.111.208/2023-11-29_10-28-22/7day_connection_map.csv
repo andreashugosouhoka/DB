@@ -1,7 +1,0 @@
-protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-tcp,175.103.46.158,51009,204.79.197.239,443,OUT.bound,established,,,US,AS8068 microsoft corporation,SOC2023,,2023-11-28 19:42:01.795
-tcp,103.139.248.11,58203,175.103.46.156,23471,IN.bound,syn-sent,,,PH,AS139213 hillview cable systems  inc.,ETIC Cybersecurity 2023-11-28 Port Scan,,2023-11-28 22:59:05.287
-tcp,103.56.61.132,53901,175.103.46.158,8989,IN.bound,syn-sent,,,CN,AS4837 china unicom china169 backbone,IP Addresses Logged by the Rosethorn PotNet,Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp,2023-11-29 03:24:58.099
-tcp,210.177.54.82,47355,175.103.46.156,1433,IN.bound,syn-sent,,,HK,AS4515 hkt limited,IOC Records Provided by @NextRayAI,This IOC report provided and daily updated by NextRay AI Detection & Response Inc.,2023-11-26 20:30:44.043
-tcp,122.199.110.136,31599,175.103.46.159,23,IN.bound,syn-sent,,,KR,AS9981 saero network service,IP Addresses Logged by the Rosethorn PotNet,Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp,2023-11-29 03:24:58.099
-tcp,81.70.6.172,47825,175.103.46.159,8088,IN.bound,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 03:23:52.741
