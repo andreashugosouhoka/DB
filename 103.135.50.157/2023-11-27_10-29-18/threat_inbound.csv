@@ -1,9 +1,0 @@
-protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-udp,96.44.142.14,5208,103.135.50.157,5060,IN.bound,,,in-utama.c,US,AS8100 quadranet enterprises llc,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:48:27.710
-udp,162.142.125.95,52096,103.169.73.166,5061,IN.bound,,,,US,AS398324 censys  inc.,ETIC Cybersecurity 2023-11-26 Port Scan,,2023-11-26 23:00:00.170
-udp,146.88.241.157,45408,103.169.73.162,137,IN.bound,,,,US,ASNone ,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:52:10.217
-tcp,167.94.146.16,59260,103.169.73.175,4176,IN.bound,syn-sent,,in-utama.c,US,AS398705 censys  inc.,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:53:12.142
-tcp,157.245.98.245,61000,103.169.73.169,22,IN.bound,syn-sent,,,IN,AS14061 digitalocean  llc,ETIC Cybersecurity 2023-11-26 Port Scan,,2023-11-26 23:00:00.170
-tcp,118.37.157.169,58136,103.169.73.172,33896,IN.bound,syn-sent,,,KR,AS4766 korea telecom,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:53:40.254
-tcp,118.37.157.169,58136,103.169.73.160,33896,IN.bound,syn-sent,,in-utama.c,KR,AS4766 korea telecom,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:53:40.254
-tcp,103.135.35.58,47411,103.169.73.166,8088,IN.bound,syn-sent,,,HK,AS40065 cnservers llc,ETIC Cybersecurity 2023-11-27 Port Scan,,2023-11-27 02:54:32.230
