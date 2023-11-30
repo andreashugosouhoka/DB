@@ -1,2 +1,0 @@
-{'.id': '*392', 'type': 'AAAA', 'data': '2a02:610:7501:1000::201', 'name': 'cloud2.mikrotik.com', 'ttl': '33m13s', 'static': False, 'timestamp': '2023-11-24 13:29:18 WIB'}
-{'.id': '*393', 'type': 'AAAA', 'data': '2a02:610:7501:4000::251', 'name': 'cloud2.mikrotik.com', 'ttl': '33m13s', 'static': False, 'timestamp': '2023-11-24 13:29:18 WIB'}
