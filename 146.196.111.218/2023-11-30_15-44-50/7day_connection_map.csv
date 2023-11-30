@@ -1,0 +1,3 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,175.103.46.158,62448,13.107.21.239,443,OUT.bound,https,established,,speedtest.c,US,AS8068 microsoft corporation,SOC2023,,2023-11-29 19:40:41.222,Cloud Provider IP range
+tcp,141.98.11.60,36131,175.103.46.156,80,IN.bound,,syn-sent,,,LT,AS209605 uab host baltic,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 08:41:29.775,
