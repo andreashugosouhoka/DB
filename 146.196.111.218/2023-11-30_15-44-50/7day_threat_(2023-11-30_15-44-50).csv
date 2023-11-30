@@ -1,0 +1,2 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+2023-11-30_15-44-50,tcp,141.98.11.60,36131,175.103.46.156,80,IN.bound,,syn-sent,,,LT,AS209605 uab host baltic,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 08:41:29.775,
