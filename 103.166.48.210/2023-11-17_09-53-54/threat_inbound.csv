@@ -1,5 +1,0 @@
-protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-tcp,152.199.39.108,80,103.166.48.247,49896,IN.bound,established,,,US,AS15133 verizon,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-17 01:12:50.009
-tcp,152.199.39.108,80,103.166.48.247,49890,IN.bound,established,,,US,AS15133 verizon,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-17 01:12:50.009
-udp,188.165.253.193,30301,103.166.48.247,5060,IN.bound,,,,FR,AS16276 ovh sas,ETIC Cybersecurity 2023-11-17 Port Scan,,2023-11-17 02:46:13.678
-tcp,152.199.39.108,80,103.166.48.247,49888,IN.bound,established,,,US,AS15133 verizon,Japanese phishing site.,phishing-site list generated from scattered spam emails.\n\nOTX(2021): https://otx.alienvault.com/pu,2023-11-17 01:12:50.009
