@@ -1,0 +1,21 @@
+Error executing the script. Error: Traceback (most recent call last):
+  File "D:\PYT\FLASK 2 auto\TAKE 57 IANA get\analyzer.py", line 1042, in <module>
+    filtered_df = df[df["modified"] >= seven_days_ago]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\arraylike.py", line 60, in __ge__
+    return self._cmp_method(other, operator.ge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\series.py", line 5799, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\ops\array_ops.py", line 346, in comparison_op
+    res_values = comp_method_OBJECT_ARRAY(op, lvalues, rvalues)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ABProgram Files\Python\Lib\site-packages\pandas\core\ops\array_ops.py", line 131, in comp_method_OBJECT_ARRAY
+    result = libops.scalar_compare(x.ravel(), y, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ops.pyx", line 107, in pandas._libs.ops.scalar_compare
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
