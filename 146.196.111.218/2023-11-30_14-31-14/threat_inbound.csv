@@ -1,0 +1,4 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,119.91.208.128,35890,175.103.46.156,6379,IN.bound,,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
+tcp,119.91.208.128,56556,175.103.46.158,6379,IN.bound,,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
+tcp,119.91.208.128,49304,175.103.46.159,6379,IN.bound,,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
