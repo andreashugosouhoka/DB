@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,175.103.46.158,62398,40.79.189.59,443,OUT.bound,https,established,,,JP,AS8075 microsoft corporation,Investigation of Distribution Vectors and Threat Network Infrastructure,https://www.virustotal.com/gui/collection/27233a89c864ba0e77e672a8909fd63b4a8b6d457c9e4ff219f2a3e47d,2023-11-27 07:26:03.810,Cloud Provider IP range
