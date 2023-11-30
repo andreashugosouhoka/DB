@@ -1,0 +1,6 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,153.0.155.5,38066,175.103.46.159,8088,IN.bound,,syn-sent,,,CN,AS4837 china unicom china169 backbone,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:42:38.202,
+tcp,94.102.61.42,38968,175.103.46.156,23023,IN.bound,,syn-sent,,,GB,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:42:38.202,
+tcp,77.90.185.184,44368,175.103.46.156,30217,IN.bound,,syn-sent,,,DE,AS208485 nese mala trading as moon dc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:43:08.525,
+tcp,94.102.61.42,50613,175.103.46.158,23023,IN.bound,,syn-sent,,,GB,AS202425 ip volume inc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:42:38.202,
+tcp,167.94.138.156,51144,175.103.46.156,13451,IN.bound,,syn-sent,,,US,AS398324 censys  inc.,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
