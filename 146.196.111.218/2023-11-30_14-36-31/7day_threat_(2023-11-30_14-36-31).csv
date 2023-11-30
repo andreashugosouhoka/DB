@@ -1,0 +1,5 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+2023-11-30_14-36-31,tcp,175.103.46.158,49551,35.186.224.25,443,OUT.bound,https,established,,,US,AS15169 google llc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,Cloud Provider IP range
+2023-11-30_14-36-31,tcp,205.210.31.78,52258,175.103.46.158,8531,IN.bound,,syn-sent,,,CA,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:31:52.109,
+2023-11-30_14-36-31,tcp,162.142.125.246,46794,175.103.46.156,61368,IN.bound,,syn-sent,,,US,AS398324 censys  inc.,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:31:52.109,
+2023-11-30_14-36-31,tcp,172.104.138.223,10651,175.103.46.159,30804,IN.bound,,syn-sent,,,DE,AS63949 linode  llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:31:52.109,
