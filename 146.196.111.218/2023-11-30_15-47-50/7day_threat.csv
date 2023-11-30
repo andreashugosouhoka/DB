@@ -1,0 +1,4 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,175.103.46.158,58335,40.126.35.150,443,OUT.bound,https,established,,speedtest.c,SG,AS8075 microsoft corporation,DeepScan:Generic.Ransom.GandCrab5,nan,2023-11-30 00:00:17.613,Cloud Provider IP range
+tcp,185.142.236.38,26200,175.103.46.159,3952,IN.bound,,syn-sent,,,NL,AS174 cogent communications,ETIC Cybersecurity 2023-11-30 Port Scan,nan,2023-11-30 08:45:17.538,
+tcp,185.233.19.253,58914,175.103.46.158,8089,IN.bound,,syn-sent,,,PK,AS7029 windstream communications llc,ETIC Cybersecurity 2023-11-30 Port Scan,nan,2023-11-30 08:45:36.541,
