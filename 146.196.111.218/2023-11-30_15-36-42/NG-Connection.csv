@@ -1,0 +1,440 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,175.103.46.158,63003,157.240.217.2,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,49436,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,57608,157.240.217.61,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,57426,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,54019,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+udp,175.103.46.158,62998,157.240.235.63,443,OUT.bound,https,,,speedtest.c,SG,AS32934 facebook  inc.,Apple iTunes  Malicious site   Anonyization   Siphoning   Trojan Downloader,IC3 attached to links  apple   messaging  Skype. nIC3 CN? nChina? Unclear. Possibly intercepting  IC,2023-11-12T17:01:15.222000,
+tcp,43.134.53.107,799,175.103.46.158,39024,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,61967,31.13.95.40,443,OUT.bound,https,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,63016,91.108.56.139,443,OUT.bound,https,established,,speedtest.c,AG,AS62014 telegram messenger inc,,,,
+tcp,205.210.31.70,56232,175.103.46.158,4024,IN.bound,,syn-sent,,,CA,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:32:28.167000,
+tcp,218.92.0.101,51797,175.103.46.158,22,IN.bound,,established,,speedtest.c,CN,AS4134 chinanet,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,
+tcp,175.103.46.158,41878,31.13.77.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,46622,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,63202,20.44.10.122,443,OUT.bound,https,established,,,US,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,175.103.46.158,57280,157.240.211.61,443,OUT.bound,https,time-wait,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,51418,31.13.75.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,53154,142.250.4.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,57936,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,157.240.199.61,443,175.103.46.158,48714,IN.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,54488,51.81.245.139,25,OUT.bound,smtp,,,speedtest.c,US,AS16276 ovh sas,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,
+udp,175.103.46.158,60539,31.13.95.60,443,OUT.bound,https,,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,59277,103.107.198.66,6568,OUT.bound,canit-store,established,,,SG,AS137409 gsl networks pty ltd,,,,
+tcp,175.103.46.158,55723,74.125.68.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,39554,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,54297,51.81.245.139,25,OUT.bound,smtp,,,speedtest.c,US,AS16276 ovh sas,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,
+tcp,175.103.46.158,50927,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,41226,192.53.174.79,4001,OUT.bound,newoak,established,,speedtest.c,SG,AS63949 linode  llc,,,,
+tcp,175.103.46.158,36810,64.233.170.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,57722,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,64767,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,43746,43.128.74.37,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,56382,142.251.175.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,39416,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,43.133.45.194,799,175.103.46.158,46458,IN.bound,,established,,,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,62841,47.246.177.254,80,OUT.bound,http,established,,speedtest.c,US,ASNone ,,,,
+tcp,146.196.111.218,899,175.103.43.90,53679,OUT.bound,,established,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+tcp,43.134.53.107,799,175.103.46.158,38964,IN.bound,,established,,,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,47612,47.74.170.157,5222,OUT.bound,xmpp-client,established,,speedtest.c,SG,AS45102 alibaba (us) technology co.  ltd.,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000,
+tcp,175.103.46.158,51758,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,43.198.50.186,23008,175.103.46.158,58924,IN.bound,,established,,speedtest.c,US,AS16509 amazon.com inc,,,,
+tcp,184.25.236.200,443,175.103.46.158,49278,IN.bound,https,established,,,ID,AS7713 pt telekomunikasi indonesia,,,,Whitelisted IP
+tcp,157.240.235.60,443,175.103.46.158,57658,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,63775,51.159.103.157,443,OUT.bound,https,established,,speedtest.c,FR,AS12876 online s.a.s.,,,,
+tcp,175.103.46.158,63035,64.233.170.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,101.32.248.90,799,175.103.46.158,50820,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,39392,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,55680,74.125.68.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,34074,157.240.235.61,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,63001,31.13.95.175,5222,OUT.bound,xmpp-client,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,53043,91.108.56.100,443,OUT.bound,https,established,,speedtest.c,AG,AS62014 telegram messenger inc,,,,
+tcp,175.103.46.158,53044,91.108.56.100,443,OUT.bound,https,last-ack,,speedtest.c,AG,AS62014 telegram messenger inc,,,,
+tcp,175.103.46.158,53045,91.108.56.100,443,OUT.bound,https,last-ack,,speedtest.c,AG,AS62014 telegram messenger inc,,,,
+tcp,175.103.46.158,50532,4.150.240.254,443,OUT.bound,https,close,,speedtest.c,US,AS8075 microsoft corporation,,,,
+tcp,175.103.46.158,50906,74.125.68.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,pc connections,pulled from router,2022-05-20T00:01:19.453000,Whitelisted IP
+tcp,31.13.68.60,443,175.103.46.158,63074,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,43970,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,62887,157.240.218.61,5222,OUT.bound,xmpp-client,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,31.13.68.60,443,175.103.46.158,57919,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,37868,31.13.75.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,61692,20.212.88.117,443,OUT.bound,https,established,,speedtest.c,US,AS8075 microsoft corporation,,,,
+udp,175.103.46.158,57116,142.251.10.100,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,62958,31.13.95.60,443,OUT.bound,https,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,63450,20.198.118.190,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,175.103.46.158,46894,157.240.13.55,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,49726,192.53.174.79,4001,OUT.bound,newoak,established,,speedtest.c,SG,AS63949 linode  llc,,,,
+tcp,157.240.235.61,5222,175.103.46.158,48296,IN.bound,xmpp-client,established,,,SG,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,5678,192.168.124.1,53,local,domain,,,speedtest.c,,,,,,
+tcp,175.103.46.158,53041,52.184.217.37,443,OUT.bound,https,established,,,US,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,48026,43.134.120.219,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,41964,74.125.130.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,51867,23.205.70.106,443,OUT.bound,https,established,,speedtest.c,ID,AS7713 pt telekomunikasi indonesia,,,,Whitelisted IP
+tcp,175.103.46.158,59339,74.125.68.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+udp,175.103.46.158,63036,8.8.8.8,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Known False Positive
+tcp,175.103.46.158,50624,104.26.14.38,443,OUT.bound,https,established,,,US,AS13335 cloudflare,,,,CDN IP ranges
+tcp,175.103.46.158,50497,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,63037,142.251.175.113,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,39318,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,43.134.120.219,799,175.103.46.158,46916,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,49408,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,91.92.248.9,443,175.103.46.158,50622,IN.bound,https,established,,speedtest.c,BG,AS34368 zonata - natskovi & sie ltd.,,,,
+tcp,175.103.46.158,57052,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,57204,157.240.217.60,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,48360,172.217.194.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+udp,175.103.46.158,56213,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,55114,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,49436,20.198.118.190,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,101.32.248.90,799,175.103.46.158,50804,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,43.134.53.107,799,175.103.46.158,39112,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,57910,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,41186,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,57487,172.217.194.91,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,55546,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,60326,43.128.74.37,800,OUT.bound,mdbs-daemon,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,64375,142.251.10.188,443,OUT.bound,https,established,,,US,AS15169 google llc,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000,
+tcp,175.103.46.158,50988,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,61514,142.251.175.91,80,OUT.bound,http,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,54444,52.184.217.37,443,OUT.bound,https,established,,,US,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,62924,35.213.190.132,443,OUT.bound,https,established,,speedtest.c,SG,AS15169 google llc,,,,Cloud Provider IP range
+tcp,175.103.46.158,62769,184.25.236.176,443,OUT.bound,https,established,,speedtest.c,ID,AS7713 pt telekomunikasi indonesia,,,,Whitelisted IP
+tcp,175.103.46.158,60173,142.251.10.94,80,OUT.bound,http,last-ack,,speedtest.c,US,AS15169 google llc,alt-YouTube.com,,2023-09-24T14:00:05.977000,
+tcp,175.103.46.158,63024,210.210.145.136,443,OUT.bound,https,established,,speedtest.c,ID,AS4787 pt cyberindo aditama,,,,
+tcp,175.103.46.158,51754,194.138.240.119,443,OUT.bound,https,established,,speedtest.c,DE,AS9890 atos information technology,,,,
+tcp,175.103.46.158,54930,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,101.32.248.90,799,175.103.46.158,50858,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,41948,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,43.134.53.107,799,175.103.46.158,38918,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,53065,74.125.24.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000,Whitelisted IP
+tcp,175.103.46.158,42758,52.45.221.176,443,OUT.bound,https,established,,speedtest.c,US,AS14618 amazon.com  inc.,,,,Cloud Provider IP range
+udp,175.103.46.158,49152,142.250.4.190,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,63629,103.107.199.6,443,OUT.bound,https,established,,,SG,AS137409 gsl networks pty ltd,,,,
+tcp,175.103.46.158,57500,31.13.68.60,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,59120,74.125.24.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+udp,175.103.46.158,63043,8.8.8.8,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Known False Positive
+tcp,43.133.45.194,799,175.103.46.158,46400,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,63686,52.25.237.147,8883,OUT.bound,secure-mqtt,established,,speedtest.c,US,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,3.216.157.50,7010,175.103.46.158,63395,IN.bound,ups-onlinet,established,,speedtest.c,US,AS14618 amazon.com  inc.,,,,Cloud Provider IP range
+tcp,175.103.46.158,46942,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,51730,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,43758,43.128.74.37,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,59620,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,59541,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,63044,64.233.170.94,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,65318,142.251.10.94,443,OUT.bound,https,last-ack,,speedtest.c,US,AS15169 google llc,alt-YouTube.com,,2023-09-24T14:00:05.977000,
+tcp,175.103.46.158,52781,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,52272,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,63810,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,33340,74.125.130.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,46144,172.253.118.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000,
+tcp,175.103.46.158,49824,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,34752,104.22.20.162,443,OUT.bound,https,established,,speedtest.c,US,AS13335 cloudflare,,,,CDN IP ranges
+udp,175.103.46.158,63034,64.233.170.95,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,39422,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,205.210.31.102,51395,175.103.46.159,5060,IN.bound,,,,speedtest.c,CA,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:32:54.363000,
+tcp,175.103.46.158,46610,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,56654,13.107.42.16,443,OUT.bound,https,established,,speedtest.c,US,AS8068 microsoft corporation,ChromeDriver.exe,There is a malware spread under the name of chromedriver.exe (which is a malware downland ) as per :,2023-10-31T15:03:52.440000,Cloud Provider IP range
+udp,175.103.46.158,5678,192.168.1.1,53,local,domain,,,speedtest.c,,,,,,
+tcp,142.251.175.188,5228,175.103.46.158,36002,IN.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,52102,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,36140,142.251.175.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,63030,8.8.8.8,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Known False Positive
+tcp,175.103.46.158,50530,4.232.89.175,443,OUT.bound,https,close,,speedtest.c,US,AS8075 microsoft corporation,,,,
+udp,175.103.46.158,63018,35.186.203.63,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Cloud Provider IP range
+tcp,175.103.46.158,49524,74.125.130.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,43.128.74.37,799,175.103.46.158,42834,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,43.198.50.186,23006,175.103.46.158,46472,IN.bound,,established,,speedtest.c,US,AS16509 amazon.com inc,,,,
+tcp,175.103.46.158,62982,74.125.130.156,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+udp,175.103.46.158,5678,192.168.122.1,53,local,domain,,,speedtest.c,,,,,,
+tcp,175.103.46.158,41762,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,46578,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,50376,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,43.134.53.107,799,175.103.46.158,39064,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,18.163.242.58,23008,175.103.46.158,34682,IN.bound,,established,,speedtest.c,HK,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,57499,31.13.68.60,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,50160,18.163.242.58,23002,OUT.bound,inovaport3,established,,speedtest.c,HK,AS16509 amazon.com inc,,,,Cloud Provider IP range
+udp,216.250.117.80,5211,175.103.46.158,5060,IN.bound,,,,speedtest.c,US,AS8560 1&1 ionos se,,,,
+tcp,192.53.174.79,4001,175.103.46.158,46500,IN.bound,newoak,established,,speedtest.c,SG,AS63949 linode  llc,,,,
+tcp,157.240.208.34,443,175.103.46.158,45116,IN.bound,https,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,57442,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,49244,118.98.113.99,443,OUT.bound,https,established,,,ID,AS7713 pt telekomunikasi indonesia,,,,
+udp,175.103.46.158,60597,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,63566,64.233.170.188,5228,OUT.bound,hpvroom,established,,,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,54370,92.223.85.120,443,OUT.bound,https,established,,,SG,AS199524 g-core labs s.a.,,,,
+tcp,175.103.46.158,50926,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,41232,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,61730,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,49445,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,48618,43.133.45.194,800,OUT.bound,mdbs-daemon,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,31.13.68.60,443,175.103.46.158,57348,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+icmp,175.103.43.90,,175.103.46.158,,IN.bound,,,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+tcp,175.103.46.158,63037,20.198.118.190,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,175.103.46.158,57206,20.198.118.190,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,175.103.46.158,41660,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,43662,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,18.163.242.58,23015,175.103.46.158,51830,IN.bound,,established,,speedtest.c,HK,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,49417,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+udp,175.103.46.158,54059,40.81.120.44,3544,OUT.bound,teredo,,,speedtest.c,GB,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,53358,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,51142,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,55503,20.198.118.190,443,OUT.bound,https,established,,,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+udp,175.103.46.158,53310,74.125.101.41,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,58032,64.233.170.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,56118,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,49564,40.81.120.44,3544,OUT.bound,teredo,,,speedtest.c,GB,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,37384,3.233.87.30,443,OUT.bound,https,last-ack,,speedtest.c,US,AS14618 amazon.com  inc.,,,,Cloud Provider IP range
+tcp,175.103.46.158,51346,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,62760,130.44.212.234,443,OUT.bound,https,established,,speedtest.c,US,AS396986 bytedance inc.,,,,
+tcp,175.103.46.158,51828,101.32.248.90,800,OUT.bound,mdbs-daemon,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,51940,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,31.13.68.60,443,175.103.46.158,57085,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,61853,156.59.239.197,8888,OUT.bound,ddi-tcp-1,established,,speedtest.c,SG,ASNone ,,,,
+tcp,175.103.46.158,63009,31.13.95.9,443,OUT.bound,https,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,50534,204.79.197.222,443,OUT.bound,https,close,,speedtest.c,US,AS8068 microsoft corporation,LCIA:HoneyNet:2022,pulled from router,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,175.103.46.158,41838,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,52544,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,57494,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,61849,157.240.235.34,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,63031,8.8.8.8,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Known False Positive
+tcp,175.103.46.158,55052,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,46844,43.134.120.219,800,OUT.bound,mdbs-daemon,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,47962,43.134.120.219,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,63022,54.192.150.48,443,OUT.bound,https,established,,speedtest.c,US,AS16509 amazon.com inc,,,,CDN IP ranges
+tcp,175.103.46.158,63026,74.125.68.84,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,63000,13.224.250.31,443,OUT.bound,https,established,,speedtest.c,US,AS16509 amazon.com inc,,,,CDN IP ranges
+tcp,43.133.45.194,799,175.103.46.158,46338,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,216.250.117.80,5211,175.103.46.157,5060,IN.bound,,,,speedtest.c,US,AS8560 1&1 ionos se,,,,
+udp,175.103.46.158,62554,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,54984,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,65374,142.251.175.84,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,49473,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+udp,175.103.46.158,52819,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,42822,216.239.32.178,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,Obfuscated Files or Information,,2023-11-21T17:12:49.783000,Whitelisted IP
+tcp,175.103.46.158,55726,74.125.68.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,47140,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,34932,157.240.217.61,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,51108,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,57798,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,65125,122.144.2.204,443,OUT.bound,https,,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+tcp,43.133.45.194,799,175.103.46.158,46264,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,39238,74.125.24.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000,Whitelisted IP
+tcp,175.103.46.158,41076,216.239.38.120,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,52164,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,41566,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,50668,64.233.170.188,5228,OUT.bound,hpvroom,established,,,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,51830,194.138.37.194,443,OUT.bound,https,established,,speedtest.c,DE,AS15465 siemens ag,,,,
+tcp,175.103.46.158,57164,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,55670,74.125.68.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,42088,74.125.130.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,48522,157.240.7.53,5222,OUT.bound,xmpp-client,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,62984,74.125.130.156,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,45742,43.133.45.194,800,OUT.bound,mdbs-daemon,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,47698,43.134.120.219,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,47374,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,43764,43.128.74.37,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,63004,31.13.95.63,443,OUT.bound,https,,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,59542,192.53.174.79,4001,OUT.bound,newoak,established,,speedtest.c,SG,AS63949 linode  llc,,,,
+tcp,175.103.46.158,60405,92.223.85.121,80,OUT.bound,http,established,,,SG,AS199524 g-core labs s.a.,,,,
+tcp,175.103.46.158,55268,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,92.223.85.54,80,175.103.46.158,62734,IN.bound,http,established,,,SG,AS199524 g-core labs s.a.,,,,
+tcp,175.103.46.158,64249,20.198.118.190,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,175.103.46.158,63621,34.151.192.19,5938,OUT.bound,,established,,speedtest.c,BR,AS396982 google,,,,
+tcp,175.103.46.158,57209,157.240.217.60,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,43604,43.128.74.37,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,43838,43.128.74.37,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,157.240.235.61,443,175.103.46.158,60850,IN.bound,https,established,,,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,62443,36.67.189.250,443,OUT.bound,https,established,,speedtest.c,ID,AS7713 pt telekomunikasi indonesia,,,,
+tcp,175.103.46.158,62415,184.25.236.185,443,OUT.bound,https,established,,,ID,AS7713 pt telekomunikasi indonesia,,,,Whitelisted IP
+tcp,175.103.46.158,51038,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,63013,157.240.235.1,443,OUT.bound,https,,,speedtest.c,SG,AS32934 facebook  inc.,Toll Troll AU,,2022-09-19T00:10:46.535000,
+tcp,175.103.46.158,62547,34.102.147.19,443,OUT.bound,https,established,,,US,AS396982 google,,,,Cloud Provider IP range
+tcp,175.103.46.158,49779,157.240.217.60,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,51202,51.81.245.139,25,OUT.bound,smtp,,,speedtest.c,US,AS16276 ovh sas,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,
+tcp,175.103.46.158,47294,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,43.134.120.219,799,175.103.46.158,47148,IN.bound,,established,,,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,48698,43.134.53.107,800,OUT.bound,mdbs-daemon,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,57441,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+udp,96.44.142.10,5104,146.196.111.218,5060,IN.bound,,,,speedtest.c,US,AS8100 quadranet enterprises llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:32:54.363000,
+udp,175.103.46.158,44473,51.81.245.139,25,OUT.bound,smtp,,,speedtest.c,US,AS16276 ovh sas,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,
+tcp,175.103.46.158,50572,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,62398,40.79.189.59,443,OUT.bound,https,established,,,JP,AS8075 microsoft corporation,Investigation of Distribution Vectors and Threat Network Infrastructure,https://www.virustotal.com/gui/collection/27233a89c864ba0e77e672a8909fd63b4a8b6d457c9e4ff219f2a3e47d,2023-11-27T07:26:03.810000,Cloud Provider IP range
+tcp,157.240.235.61,443,175.103.46.158,56478,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,50810,64.233.170.94,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,54946,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,46854,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,120.204.196.181,47471,175.103.46.158,5060,IN.bound,,,,speedtest.c,CN,AS9808 china mobile communications group co.  ltd.,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29T22:59:38.184000,
+tcp,175.103.46.158,50289,188.172.208.136,5938,OUT.bound,,established,,speedtest.c,TW,AS42473 anexia internetdienstleistungs gmbh,,,,
+tcp,175.103.46.158,46834,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,62968,31.13.95.1,443,OUT.bound,https,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,46902,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,65103,92.223.85.147,80,OUT.bound,http,established,,,SG,AS199524 g-core labs s.a.,,,,
+tcp,43.134.53.107,799,175.103.46.158,39060,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,39528,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,49153,64.233.170.94,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,62795,36.89.220.200,443,OUT.bound,https,established,,speedtest.c,ID,AS7713 pt telekomunikasi indonesia,,,,
+tcp,175.103.46.158,43756,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,54364,188.172.201.132,5938,OUT.bound,,established,,speedtest.c,HK,AS42473 anexia internetdienstleistungs gmbh,,,,
+tcp,175.103.46.158,53044,52.184.217.37,443,OUT.bound,https,established,,,US,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,54131,138.199.46.216,80,OUT.bound,http,established,,,SG,AS60068 datacamp limited,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000,
+tcp,175.103.46.158,57658,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,36194,104.26.14.38,443,OUT.bound,https,established,,speedtest.c,US,AS13335 cloudflare,,,,CDN IP ranges
+tcp,175.103.46.158,38532,142.251.12.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000,
+tcp,175.103.46.158,53534,157.240.235.61,5222,OUT.bound,xmpp-client,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,39548,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,55690,74.125.68.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,55234,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,216.250.117.80,5211,175.103.46.159,5060,IN.bound,,,,speedtest.c,US,AS8560 1&1 ionos se,,,,
+tcp,175.103.46.158,41690,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,41972,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,44212,31.13.68.61,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,155.138.243.251,443,175.103.46.158,63376,IN.bound,https,established,,speedtest.c,US,AS20473 the constant company  llc,,,,
+tcp,149.154.175.53,443,175.103.46.158,49714,IN.bound,https,established,,,AG,AS59930 telegram messenger inc,,,,
+tcp,175.103.46.158,54689,172.104.174.27,1194,OUT.bound,openvpn,established,,speedtest.c,SG,AS63949 linode  llc,,,,
+tcp,175.103.46.158,51646,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,49696,103.115.98.3,443,OUT.bound,https,established,,speedtest.c,SG,AS9890 atos information technology,,,,
+tcp,175.103.46.158,46918,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,49517,20.198.119.143,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+udp,175.103.46.158,63025,74.125.68.84,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,63005,157.240.235.18,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+udp,216.250.117.80,5211,175.103.46.156,5060,IN.bound,,,,speedtest.c,US,AS8560 1&1 ionos se,,,,
+tcp,175.103.46.158,57406,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,51414,54.148.59.27,80,OUT.bound,http,syn-sent,,,US,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,40654,142.250.190.3,80,OUT.bound,http,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,46830,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,63059,74.125.200.188,5228,OUT.bound,hpvroom,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000,Whitelisted IP
+tcp,175.103.46.158,52605,143.244.33.70,80,OUT.bound,http,established,,,SG,AS60068 datacamp limited,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000,
+tcp,175.103.46.158,43590,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,63652,34.84.242.117,5938,OUT.bound,,established,,speedtest.c,JP,AS396982 google,,,,Cloud Provider IP range
+tcp,175.103.46.158,56156,54.255.247.221,13501,OUT.bound,,established,,speedtest.c,SG,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,57856,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,205.209.104.5,5060,146.196.111.218,5060,IN.bound,sip,,,speedtest.c,US,AS19318 interserver  inc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29T22:59:38.184000,
+tcp,175.103.46.158,46702,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,5678,192.168.121.1,53,local,domain,,,speedtest.c,,,,,,
+tcp,43.133.45.194,799,175.103.46.158,46344,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,63299,64.233.170.95,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,57058,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,46772,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,157.240.235.60,443,175.103.46.158,56640,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,43.134.53.107,799,175.103.46.158,38898,IN.bound,,time-wait,,,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,65143,213.227.167.133,5938,OUT.bound,,established,,speedtest.c,AU,AS42473 anexia internetdienstleistungs gmbh,conns,The full list of candidates for the 2016 General Election has been released.. and here are the key p,2022-09-03T00:03:41.487000,
+tcp,175.103.46.158,46724,64.233.170.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,33590,157.240.235.61,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,52160,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,39512,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,55671,74.125.68.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,61948,31.13.95.9,443,OUT.bound,https,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,50966,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,59631,172.217.194.91,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,63040,31.13.95.9,443,OUT.bound,https,established,,speedtest.c,ID,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,55296,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,39570,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,56885,172.217.194.91,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,58421,31.13.68.60,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+udp,175.103.46.158,62999,157.240.7.52,443,OUT.bound,https,,,speedtest.c,SG,AS32934 facebook  inc.,Apple iTunes  Malicious site   Anonyization   Siphoning   Trojan Downloader,IC3 attached to links  apple   messaging  Skype. nIC3 CN? nChina? Unclear. Possibly intercepting  IC,2023-11-12T17:01:15.222000,Whitelisted IP
+udp,175.103.46.158,52470,142.250.4.94,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000,
+tcp,175.103.46.158,51212,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,52692,20.198.119.84,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,63021,142.251.12.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,18.163.242.58,23008,175.103.46.158,49458,IN.bound,,established,,speedtest.c,HK,AS16509 amazon.com inc,,,,Cloud Provider IP range
+udp,175.103.46.158,62579,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,56488,157.240.235.61,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,61091,64.233.170.94,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+udp,175.103.46.158,64390,142.250.4.91,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,64123,74.125.200.188,5228,OUT.bound,hpvroom,established,,,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000,Whitelisted IP
+tcp,175.103.46.158,51132,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,52897,20.198.118.190,443,OUT.bound,https,established,,speedtest.c,IN,AS8075 microsoft corporation,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,Cloud Provider IP range
+tcp,175.103.46.158,50527,13.107.4.254,443,OUT.bound,https,close,,speedtest.c,US,AS8068 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,49623,52.184.217.37,443,OUT.bound,https,established,,,US,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,55738,157.240.217.61,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,43836,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,58545,142.251.175.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,41884,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,47590,43.134.120.219,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,31.13.68.60,443,175.103.46.158,57225,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+udp,175.103.46.158,50870,74.125.24.95,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,62905,20.44.248.159,443,OUT.bound,https,established,,speedtest.c,SG,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,43.206.188.149,443,175.103.46.158,60533,IN.bound,https,established,,speedtest.c,US,AS16509 amazon.com inc,,,,
+tcp,175.103.46.158,57706,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,54562,157.240.13.55,443,OUT.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,Whitelisted IP
+tcp,175.103.46.158,51788,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,43.128.74.37,799,175.103.46.158,42806,IN.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,175.103.46.158,59096,122.144.2.204,443,OUT.bound,https,,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+tcp,74.125.200.188,5228,175.103.46.158,61850,IN.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000,Whitelisted IP
+udp,175.103.46.158,59392,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,175.103.46.158,63019,71.18.36.225,443,OUT.bound,https,established,,speedtest.c,US,ASNone ,,,,
+tcp,64.176.80.9,443,175.103.46.158,63375,IN.bound,https,established,,speedtest.c,US,ASNone ,,,,
+tcp,175.103.46.158,51420,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,43.133.45.194,799,175.103.46.158,46360,IN.bound,,established,,,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,63029,74.125.68.84,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,43740,43.128.74.37,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,42858,142.251.175.188,5228,OUT.bound,hpvroom,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,51674,157.240.211.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+udp,175.103.46.158,63006,157.240.235.15,443,OUT.bound,https,,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,63032,8.8.8.8,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,Known False Positive
+tcp,15.197.193.114,443,175.103.46.158,63368,IN.bound,https,established,,speedtest.c,US,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,51170,101.32.248.90,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,43.128.74.37,799,175.103.46.158,42824,IN.bound,,established,,,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+icmp,175.103.46.158,,175.103.46.157,,local,,,,speedtest.c,,,,,,
+udp,175.103.46.158,63033,8.8.8.8,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Known False Positive
+tcp,175.103.46.158,57506,157.240.199.61,443,OUT.bound,https,established,,speedtest.c,HK,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,41678,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,39474,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,24.199.86.58,443,175.103.46.158,63377,IN.bound,https,established,,speedtest.c,US,ASNone ,,,,
+tcp,175.103.46.158,39428,142.251.10.139,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,39616,43.134.53.107,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+tcp,175.103.46.158,55716,142.250.190.3,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,57160,172.67.70.70,443,OUT.bound,https,established,,,US,AS13335 cloudflare,,,,CDN IP ranges
+tcp,175.103.46.158,63038,47.246.159.93,80,OUT.bound,http,established,,speedtest.c,US,AS45102 alibaba (us) technology co.  ltd.,,,,
+tcp,3.216.157.50,7010,175.103.46.158,63331,IN.bound,ups-onlinet,established,,speedtest.c,US,AS14618 amazon.com  inc.,,,,Cloud Provider IP range
+tcp,175.103.46.158,49535,20.198.119.84,443,OUT.bound,https,established,,,IN,AS8075 microsoft corporation,,,,Cloud Provider IP range
+udp,175.103.46.158,61875,36.86.63.182,3544,OUT.bound,teredo,,,speedtest.c,,,,,,
+udp,175.103.46.158,59332,64.233.170.95,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+udp,175.103.46.158,64700,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+tcp,157.240.235.60,443,175.103.46.158,57483,IN.bound,https,established,,speedtest.c,SG,AS32934 facebook  inc.,,,,
+tcp,175.103.46.158,62926,20.189.173.23,443,OUT.bound,https,time-wait,,speedtest.c,US,AS8075 microsoft corporation,,,,Cloud Provider IP range
+tcp,175.103.46.158,56150,36.86.63.182,443,OUT.bound,https,syn-sent,,,,,,,,
+tcp,175.103.46.158,64865,122.144.2.204,443,OUT.bound,https,established,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+udp,175.103.46.158,49344,122.144.2.204,443,OUT.bound,https,,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+tcp,175.103.46.158,64866,122.144.2.204,443,OUT.bound,https,close,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+tcp,175.103.46.158,63045,8.8.8.8,853,OUT.bound,domain-s,established,,speedtest.c,US,AS15169 google llc,,,,Known False Positive
+udp,10.20.30.123,40769,255.255.255.255,10002,broadcast,,,,speedtest.c,,,,,,
+tcp,58.144.148.20,59770,175.103.46.156,61616,IN.bound,,syn-sent,,,CN,AS4837 china unicom china169 backbone,IP Addresses Logged by the Rosethorn PotNet,Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp,2023-11-30T08:32:25.552000,
+tcp,175.103.46.158,62820,142.251.175.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,51415,54.148.59.27,80,OUT.bound,http,syn-sent,,,US,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,62819,142.251.175.95,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,175.103.46.158,53438,36.86.63.182,443,OUT.bound,https,syn-sent,,,,,,,,
+udp,162.216.149.22,52906,175.103.46.156,1123,IN.bound,,,,speedtest.c,US,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:33:19.923000,
+tcp,175.103.46.158,38506,172.232.251.34,2000,OUT.bound,cisco-sccp,established,,speedtest.c,US,AS20940 akamai international b.v.,,,,
+udp,0.0.0.0,5678,255.255.255.255,5678,broadcast,rrac,,,speedtest.c,,,,,,
+udp,175.103.46.158,55608,74.125.101.41,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+udp,10.20.30.90,46251,255.255.255.255,10002,broadcast,,,,speedtest.c,,,,,,
+udp,10.20.30.162,58206,255.255.255.255,10002,broadcast,,,,speedtest.c,,,,,,
+tcp,95.214.55.244,39462,175.103.46.158,1080,IN.bound,,syn-sent,,,PL,AS201814 meverywhere sp. z o.o.,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:33:20.512000,
+udp,10.161.60.21,5678,255.255.255.255,5678,broadcast,rrac,,,speedtest.c,,,,,,
+tcp,175.103.46.158,64871,74.125.101.41,443,OUT.bound,https,close,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,63047,54.192.150.48,443,OUT.bound,https,established,,speedtest.c,US,AS16509 amazon.com inc,,,,CDN IP ranges
+tcp,175.103.46.158,49696,103.74.143.200,443,OUT.bound,https,time-wait,,speedtest.c,ID,AS46034 departemen kesehatan,,,,
+tcp,175.103.46.158,52756,35.80.154.106,443,OUT.bound,https,time-wait,,speedtest.c,US,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,49703,43.218.57.171,443,OUT.bound,https,time-wait,,speedtest.c,AU,ASNone ,,,,
+udp,175.103.46.158,52586,172.217.194.91,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,55265,35.80.154.106,443,OUT.bound,https,time-wait,,speedtest.c,US,AS16509 amazon.com inc,,,,Cloud Provider IP range
+tcp,175.103.46.158,49974,15.72.80.128,443,OUT.bound,https,established,,speedtest.c,US,AS54680 hewlett-packard company,,,,
+udp,175.103.46.158,57231,74.125.101.41,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,,,,Whitelisted IP
+tcp,175.103.46.158,35888,23.109.73.84,443,OUT.bound,https,time-wait,,speedtest.c,NL,AS7979 servers.com  inc.,,,,
+udp,175.103.46.158,5678,255.255.255.255,5678,broadcast,rrac,,,speedtest.c,,,,,,
+udp,175.103.46.158,50515,40.81.120.44,3544,OUT.bound,teredo,,,speedtest.c,GB,AS8075 microsoft corporation,,,,Cloud Provider IP range
+udp,175.103.46.158,61077,216.239.38.120,443,OUT.bound,https,,,speedtest.c,US,AS15169 google llc,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,Whitelisted IP
+udp,175.103.46.158,52249,36.86.63.182,3544,OUT.bound,teredo,,,speedtest.c,,,,,,
+tcp,175.103.46.158,42026,43.133.45.194,799,OUT.bound,,established,,speedtest.c,SG,AS132203 tencent building  kejizhongyi avenue,,,,
+udp,146.196.111.215,5678,255.255.255.255,5678,broadcast,rrac,,,speedtest.c,,,,,,
+tcp,175.103.46.158,59102,142.250.190.3,443,OUT.bound,https,established,,speedtest.c,US,AS15169 google llc,,,,
+tcp,218.92.0.101,43673,175.103.46.158,22,IN.bound,,established,,speedtest.c,CN,AS4134 chinanet,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,
+tcp,175.103.43.90,59021,146.196.111.218,8278,IN.bound,,established,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+udp,146.196.111.218,40636,122.144.3.6,514,OUT.bound,shell,,,,ID,AS38320 pt maxindo mitra solusi,,,,
+udp,146.196.111.218,51794,10.79.16.9,1813,local,radius-acct,,,,,,,,,
+udp,146.196.111.218,57285,10.79.16.9,1813,local,radius-acct,,,speedtest.c,,,,,,
+tcp,175.103.43.90,59020,146.196.111.218,8278,IN.bound,,time-wait,,speedtest.c,ID,AS38320 pt maxindo mitra solusi,,,,
+udp,146.196.111.218,56027,10.79.16.9,1812,local,radius,,,speedtest.c,,,,,,
+udp,146.196.111.218,36495,10.79.16.9,1812,local,radius,,,speedtest.c,,,,,,
+udp,10.20.30.27,55569,255.255.255.255,10002,broadcast,,,,speedtest.c,,,,,,
+udp,146.196.111.218,46220,10.79.16.9,1813,local,radius-acct,,,speedtest.c,,,,,,
