@@ -1,0 +1,2 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,175.103.46.158,58335,40.126.35.150,443,OUT.bound,https,established,,speedtest.c,SG,AS8075 microsoft corporation,DeepScan:Generic.Ransom.GandCrab5,,2023-11-30 00:00:17.613,Cloud Provider IP range
