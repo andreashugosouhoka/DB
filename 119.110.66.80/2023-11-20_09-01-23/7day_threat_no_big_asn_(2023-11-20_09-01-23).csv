@@ -1,2 +1,0 @@
-session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-2023-11-20_09-01-23,tcp,167.235.112.134,9000,119.110.75.198,49160,IN.bound,established,,,DE,AS24940 hetzner online gmbh,TrojanDownloader:Win32/Cutwail.BS/Win.Trojan.Pushdo-20,,2023-11-16 21:45:11.721
