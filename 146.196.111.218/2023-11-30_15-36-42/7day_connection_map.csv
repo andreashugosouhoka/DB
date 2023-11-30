@@ -1,0 +1,10 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+tcp,205.210.31.70,56232,175.103.46.158,4024,IN.bound,,syn-sent,,,CA,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 08:32:28.167,
+udp,205.210.31.102,51395,175.103.46.159,5060,IN.bound,,,,speedtest.c,CA,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 08:32:54.363,
+udp,96.44.142.10,5104,146.196.111.218,5060,IN.bound,,,,speedtest.c,US,AS8100 quadranet enterprises llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 08:32:54.363,
+tcp,175.103.46.158,62398,40.79.189.59,443,OUT.bound,https,established,,,JP,AS8075 microsoft corporation,Investigation of Distribution Vectors and Threat Network Infrastructure,https://www.virustotal.com/gui/collection/27233a89c864ba0e77e672a8909fd63b4a8b6d457c9e4ff219f2a3e47d,2023-11-27 07:26:03.810,Cloud Provider IP range
+udp,120.204.196.181,47471,175.103.46.158,5060,IN.bound,,,,speedtest.c,CN,AS9808 china mobile communications group co.  ltd.,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
+udp,205.209.104.5,5060,146.196.111.218,5060,IN.bound,sip,,,speedtest.c,US,AS19318 interserver  inc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
+tcp,58.144.148.20,59770,175.103.46.156,61616,IN.bound,,syn-sent,,,CN,AS4837 china unicom china169 backbone,IP Addresses Logged by the Rosethorn PotNet,Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp,2023-11-30 08:32:25.552,
+udp,162.216.149.22,52906,175.103.46.156,1123,IN.bound,,,,speedtest.c,US,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 08:33:19.923,
+tcp,95.214.55.244,39462,175.103.46.158,1080,IN.bound,,syn-sent,,,PL,AS201814 meverywhere sp. z o.o.,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 08:33:20.512,
