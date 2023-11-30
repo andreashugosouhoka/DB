@@ -1,0 +1,5 @@
+session,protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+2023-11-30_14-31-14,tcp,119.91.208.128,35890,175.103.46.156,6379,IN.bound,,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
+2023-11-30_14-31-14,tcp,175.103.46.158,65383,52.113.194.132,443,OUT.bound,https,established,,speedtest.c,US,AS8068 microsoft corporation,Investigation of Distribution Vectors and Threat Network Infrastructure,,2023-11-27 07:26:03.810,Whitelisted IP
+2023-11-30_14-31-14,tcp,119.91.208.128,56556,175.103.46.158,6379,IN.bound,,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
+2023-11-30_14-31-14,tcp,119.91.208.128,49304,175.103.46.159,6379,IN.bound,,syn-sent,,,CN,AS45090 shenzhen tencent computer systems company limited,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
