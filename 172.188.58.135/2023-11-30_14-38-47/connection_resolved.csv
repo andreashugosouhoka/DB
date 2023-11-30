@@ -1,0 +1,9 @@
+protocol,src-address,src-port,dst-address,dst-port,tcp-state,connection-mark,resolved
+udp,115.207.110.67,50641,10.0.0.4,8610,,,
+tcp,10.0.0.4,4075,175.103.43.90,59324,established,OpenIXP,
+udp,10.0.0.4,4500,175.103.43.90,4500,,,
+tcp,175.103.43.90,57455,10.0.0.4,7502,established,OpenIXP,
+udp,96.44.142.10,5075,10.0.0.4,5060,,,
+tcp,175.103.43.90,57454,10.0.0.4,7502,time-wait,OpenIXP,
+tcp,103.234.253.69,55550,10.0.0.4,4438,established,OpenIXP,
+ipv6-encap,172.188.58.135,,216.218.221.42,,,,
