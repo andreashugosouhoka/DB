@@ -1,8 +1,0 @@
-protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-udp,45.155.91.237,5179,203.123.56.244,5060,IN.bound,,,,PH,AS133334 dctv cable network broadband services inc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
-udp,45.155.91.237,5081,146.196.110.84,5060,IN.bound,,,,PH,AS133334 dctv cable network broadband services inc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
-udp,45.155.91.237,5179,203.123.56.247,5060,IN.bound,,,,PH,AS133334 dctv cable network broadband services inc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
-udp,45.155.91.237,5179,203.123.56.246,5060,IN.bound,,,,PH,AS133334 dctv cable network broadband services inc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
-udp,45.155.91.237,5179,203.123.56.245,5060,IN.bound,,,,PH,AS133334 dctv cable network broadband services inc,ETIC Cybersecurity 2023-11-20 Port Scan,,2023-11-20 23:00:11.182
-tcp,167.248.133.150,4151,203.123.56.244,16289,IN.bound,syn-sent,,,US,AS398722 censys  inc.,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 03:05:12.348
-tcp,43.130.57.239,45254,203.123.56.244,40000,IN.bound,syn-sent,,,SG,AS132203 tencent building  kejizhongyi avenue,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 03:05:12.348
