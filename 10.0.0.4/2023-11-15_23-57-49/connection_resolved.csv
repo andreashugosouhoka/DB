@@ -1,7 +1,0 @@
-protocol,src-address,src-port,dst-address,dst-port,tcp-state,connection-mark,resolved
-tcp,20.205.36.71,34788,10.0.0.4,179,established,,
-tcp,175.103.43.90,51242,10.0.0.4,7502,established,,
-tcp,175.103.43.90,51241,10.0.0.4,7502,time-wait,,
-udp,10.0.0.4,4500,20.205.36.71,4500,,,
-udp,10.0.0.4,1701,20.205.36.71,1701,,,
-udp,167.248.133.165,15620,10.0.0.4,5060,,,
