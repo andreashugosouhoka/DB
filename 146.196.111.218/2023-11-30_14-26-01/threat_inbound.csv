@@ -1,0 +1,12 @@
+protocol,src-address,src-port,dst-address,dst-port,flow,service,tcp-state,resolved,mark,cc,asn,threat,description,modified,validation_name
+udp,167.94.138.106,33402,175.103.46.156,5061,IN.bound,,,,speedtest.c,US,AS398324 censys  inc.,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:17:29.153,
+udp,96.44.143.190,5144,175.103.46.156,5060,IN.bound,,,,speedtest.c,US,AS8100 quadranet enterprises llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:17:53.391,
+udp,96.44.143.190,5144,175.103.46.158,5060,IN.bound,,,,speedtest.c,US,AS8100 quadranet enterprises llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:17:53.391,
+udp,96.44.143.190,5144,175.103.46.157,5060,IN.bound,,,,speedtest.c,US,AS8100 quadranet enterprises llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:17:53.391,
+tcp,184.105.247.202,41513,175.103.46.156,80,IN.bound,,established,,speedtest.c,US,AS6939 hurricane electric llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:18:17.379,
+udp,96.44.143.190,5144,175.103.46.159,5060,IN.bound,,,,speedtest.c,US,AS8100 quadranet enterprises llc,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:17:53.391,
+tcp,45.221.111.29,42631,175.103.46.159,6160,IN.bound,,established,,,TR,AS328543 african network information center,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:18:54.751,
+tcp,45.221.111.29,3985,175.103.46.158,57462,IN.bound,mapper-mapethd,established,,,TR,AS328543 african network information center,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:18:54.751,
+tcp,24.97.220.105,11055,175.103.46.159,52123,IN.bound,,established,,speedtest.c,US,AS11351 charter communications inc,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
+tcp,35.203.210.33,54251,175.103.46.156,9056,IN.bound,,syn-sent,,,GB,AS396982 google,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30 07:18:55.798,Cloud Provider IP range
+tcp,47.253.47.153,59553,175.103.46.158,12505,IN.bound,,syn-sent,,,US,AS45102 alibaba (us) technology co.  ltd.,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29 22:59:38.184,
