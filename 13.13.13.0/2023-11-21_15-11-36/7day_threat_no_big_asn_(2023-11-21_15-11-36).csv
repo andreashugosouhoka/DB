@@ -1,2 +1,0 @@
-session,protocol,src-address,src-port,dst-address,dst-port,flow,tcp-state,resolved,mark,cc,asn,threat,description,modified
-2023-11-21_15-11-36,udp,125.228.82.251,43361,175.103.46.95,5060,IN.bound,,,in-utama.c,TW,AS3462 data communication business group,ETIC Cybersecurity 2023-11-21 Port Scan,,2023-11-21 07:36:40.202
