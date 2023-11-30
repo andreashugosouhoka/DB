@@ -1,0 +1,13 @@
+name,data,.id,type,static,ttl,timestamp
+detik.com,203.190.242.211,*13AE3,A,False,20s,2023-11-30 14:42:35 WIB
+detik.com,103.49.221.211,*13AE4,A,False,20s,2023-11-30 14:42:35 WIB
+google.com,74.125.68.101,*13AE5,A,False,14s,2023-11-30 14:42:35 WIB
+google.com,74.125.68.139,*13AE6,A,False,14s,2023-11-30 14:42:35 WIB
+google.com,74.125.68.100,*13AE7,A,False,14s,2023-11-30 14:42:35 WIB
+google.com,74.125.68.138,*13AE8,A,False,14s,2023-11-30 14:42:35 WIB
+google.com,74.125.68.102,*13AE9,A,False,14s,2023-11-30 14:42:35 WIB
+google.com,74.125.68.113,*13AEA,A,False,14s,2023-11-30 14:42:35 WIB
+4shared.com,204.155.149.43,*13AEB,A,False,1s,2023-11-30 14:42:35 WIB
+4shared.com,204.155.149.42,*13AEC,A,False,1s,2023-11-30 14:42:35 WIB
+4shared.com,204.155.149.41,*13AED,A,False,1s,2023-11-30 14:42:35 WIB
+4shared.com,204.155.146.95,*13AEE,A,False,1s,2023-11-30 14:42:35 WIB
