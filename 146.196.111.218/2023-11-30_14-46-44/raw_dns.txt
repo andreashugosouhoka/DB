@@ -1,0 +1,12 @@
+{'.id': '*13AE3', 'type': 'A', 'data': '203.190.242.211', 'name': 'detik.com', 'ttl': '20s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AE4', 'type': 'A', 'data': '103.49.221.211', 'name': 'detik.com', 'ttl': '20s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AE5', 'type': 'A', 'data': '74.125.68.101', 'name': 'google.com', 'ttl': '14s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AE6', 'type': 'A', 'data': '74.125.68.139', 'name': 'google.com', 'ttl': '14s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AE7', 'type': 'A', 'data': '74.125.68.100', 'name': 'google.com', 'ttl': '14s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AE8', 'type': 'A', 'data': '74.125.68.138', 'name': 'google.com', 'ttl': '14s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AE9', 'type': 'A', 'data': '74.125.68.102', 'name': 'google.com', 'ttl': '14s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AEA', 'type': 'A', 'data': '74.125.68.113', 'name': 'google.com', 'ttl': '14s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AEB', 'type': 'A', 'data': '204.155.149.43', 'name': '4shared.com', 'ttl': '1s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AEC', 'type': 'A', 'data': '204.155.149.42', 'name': '4shared.com', 'ttl': '1s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AED', 'type': 'A', 'data': '204.155.149.41', 'name': '4shared.com', 'ttl': '1s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
+{'.id': '*13AEE', 'type': 'A', 'data': '204.155.146.95', 'name': '4shared.com', 'ttl': '1s', 'static': False, 'timestamp': '2023-11-30 14:42:35 WIB'}
