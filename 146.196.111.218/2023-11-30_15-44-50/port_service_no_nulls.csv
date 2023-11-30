@@ -1,0 +1,26 @@
+Port Number,service
+5678,rrac
+6568,canit-store
+443,https
+800,mdbs-daemon
+80,http
+4001,newoak
+1194,openvpn
+23002,inovaport3
+53,domain
+3544,teredo
+2000,cisco-sccp
+5228,hpvroom
+5222,xmpp-client
+25,smtp
+161,snmp
+3306,mysql
+10002,documentum
+123,ntp
+1433,ms-sql-s
+8883,secure-mqtt
+1812,radius
+853,domain-s
+22,ssh
+514,shell
+1813,radius-acct
