@@ -1,0 +1,163 @@
+indicator,asn,country_code2,name,description,modified,created,source,message,validation_name
+43.134.53.107,AS132203 tencent building  kejizhongyi avenue,SG,,,,,,,
+205.210.31.70,AS396982 google,CA,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:32:28.167000,2023-11-29T23:00:27.728000,,,
+218.92.0.101,AS4134 chinanet,CN,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,2023-10-08T22:10:40.622000,,,
+157.240.199.61,AS32934 facebook  inc.,HK,,,,,,,
+43.133.45.194,AS132203 tencent building  kejizhongyi avenue,SG,,,,,,,
+43.198.50.186,AS16509 amazon.com inc,US,,,,,,,
+184.25.236.200,AS7713 pt telekomunikasi indonesia,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+157.240.235.60,AS32934 facebook  inc.,SG,,,,,,,
+101.32.248.90,AS132203 tencent building  kejizhongyi avenue,SG,,,,,,,
+31.13.68.60,AS32934 facebook  inc.,SG,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+157.240.235.61,AS32934 facebook  inc.,SG,,,,,,,
+43.134.120.219,AS132203 tencent building  kejizhongyi avenue,SG,,,,,,,
+91.92.248.9,AS34368 zonata - natskovi & sie ltd.,BG,,,,,,,
+3.216.157.50,AS14618 amazon.com  inc.,US,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+205.210.31.102,AS396982 google,CA,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:32:54.363000,2023-11-29T23:00:27.728000,,,
+142.251.175.188,AS15169 google llc,US,,,,,,,
+43.128.74.37,AS132203 tencent building  kejizhongyi avenue,SG,,,,,,,
+18.163.242.58,AS16509 amazon.com inc,HK,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+216.250.117.80,AS8560 1&1 ionos se,US,,,,,,,
+192.53.174.79,AS63949 linode  llc,SG,,,,,,,
+157.240.208.34,AS32934 facebook  inc.,ID,,,,,,,
+175.103.43.90,AS38320 pt maxindo mitra solusi,ID,,,,,,,
+92.223.85.54,AS199524 g-core labs s.a.,SG,,,,,,,
+96.44.142.10,AS8100 quadranet enterprises llc,US,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:32:54.363000,2023-11-29T23:00:27.728000,,,
+120.204.196.181,AS9808 china mobile communications group co.  ltd.,CN,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29T22:59:38.184000,2023-11-28T23:00:20.181000,,,
+155.138.243.251,AS20473 the constant company  llc,US,,,,,,,
+149.154.175.53,AS59930 telegram messenger inc,AG,,,,,,,
+205.209.104.5,AS19318 interserver  inc,US,ETIC Cybersecurity 2023-11-29 Port Scan,,2023-11-29T22:59:38.184000,2023-11-28T23:00:20.181000,,,
+43.206.188.149,AS16509 amazon.com inc,US,,,,,,,
+74.125.200.188,AS15169 google llc,US,LCIA:HoneyNet:2023,pulled from router,2023-07-23T12:04:51.473000,2023-05-27T06:06:26.480000,whitelist,contained in whitelisted prefix,Whitelisted IP
+64.176.80.9,ASNone ,US,,,,,,,
+15.197.193.114,AS16509 amazon.com inc,US,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+24.199.86.58,ASNone ,US,,,,,,,
+58.144.148.20,AS4837 china unicom china169 backbone,CN,IP Addresses Logged by the Rosethorn PotNet,Malicious activity detections from a small network of honeypots that spans multiple ISPs and geograp,2023-11-30T08:32:25.552000,2023-03-27T16:17:36.094000,,,
+162.216.149.22,AS396982 google,US,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:33:19.923000,2023-11-29T23:00:27.728000,,,
+,,,,,,,,,
+95.214.55.244,AS201814 meverywhere sp. z o.o.,PL,ETIC Cybersecurity 2023-11-30 Port Scan,,2023-11-30T08:33:20.512000,2023-11-29T23:00:27.728000,,,
+146.196.111.215,AS139460 pt maxindo mitra solusi,ID,,,,,,,
+157.240.217.2,AS32934 facebook  inc.,SG,,,,,,,
+20.198.119.84,AS8075 microsoft corporation,IN,,,,,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+157.240.217.61,AS32934 facebook  inc.,SG,,,,,,,
+20.198.119.143,AS8075 microsoft corporation,IN,,,,,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+157.240.235.63,AS32934 facebook  inc.,SG,Apple iTunes  Malicious site   Anonyization   Siphoning   Trojan Downloader,IC3 attached to links  apple   messaging  Skype. nIC3 CN? nChina? Unclear. Possibly intercepting  IC,2023-11-12T17:01:15.222000,2023-10-13T18:20:24.042000,,,
+31.13.95.40,AS32934 facebook  inc.,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+91.108.56.139,AS62014 telegram messenger inc,AG,,,,,,,
+31.13.77.61,AS32934 facebook  inc.,HK,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+20.44.10.122,AS8075 microsoft corporation,US,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,2022-03-16T14:03:19.241000,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+157.240.211.61,AS32934 facebook  inc.,HK,,,,,,,
+31.13.75.61,AS32934 facebook  inc.,HK,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+142.250.4.95,AS15169 google llc,US,,,,,,,
+51.81.245.139,AS16276 ovh sas,US,IOCs - 20231081410 - ANIA Threat Feeds - IP Segment 1,ANIA Collector - Advanced Network Interactive Analysis Collector - Collected from Internet Storm Cen,2023-11-07T22:02:18.651000,2023-10-08T22:10:40.622000,,,
+31.13.95.60,AS32934 facebook  inc.,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+103.107.198.66,AS137409 gsl networks pty ltd,SG,,,,,,,
+74.125.68.95,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+64.233.170.188,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+216.239.38.120,AS15169 google llc,US,Remcos RAT,Remcos (acronym of Remote Control & Surveillance Software) is a Remote Access Software used to remot,2022-10-02T11:03:36.202000,2022-07-16T10:42:33.303000,whitelist,contained in whitelisted prefix,Whitelisted IP
+47.246.177.254,ASNone ,US,,,,,,,
+47.74.170.157,AS45102 alibaba (us) technology co.  ltd.,SG,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000,2022-10-27T03:04:24.332000,,,
+51.159.103.157,AS12876 online s.a.s.,FR,,,,,,,
+64.233.170.95,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+31.13.95.175,AS32934 facebook  inc.,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+91.108.56.100,AS62014 telegram messenger inc,AG,,,,,,,
+4.150.240.254,AS8075 microsoft corporation,US,,,,,,,
+74.125.68.188,AS15169 google llc,US,pc connections,pulled from router,2022-05-20T00:01:19.453000,2022-04-20T04:14:28.377000,whitelist,contained in whitelisted prefix,Whitelisted IP
+157.240.218.61,AS32934 facebook  inc.,SG,,,,,,,
+20.212.88.117,AS8075 microsoft corporation,US,,,,,,,
+142.251.10.100,AS15169 google llc,US,,,,,,,
+20.198.118.190,AS8075 microsoft corporation,IN,LCIA:HoneyNet:2022,,2023-01-30T23:00:04.143000,2022-03-16T14:03:19.241000,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+157.240.13.55,AS32934 facebook  inc.,SG,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+52.184.217.37,AS8075 microsoft corporation,US,,,,,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+74.125.130.188,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+23.205.70.106,AS7713 pt telekomunikasi indonesia,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+8.8.8.8,AS15169 google llc,US,,,,,false_positive,Known False Positive,Known False Positive
+104.26.14.38,AS13335 cloudflare,US,,,,,cdn,In CDN range: provider=cloudflare,CDN IP ranges
+142.251.175.113,AS15169 google llc,US,,,,,,,
+157.240.217.60,AS32934 facebook  inc.,SG,,,,,,,
+172.217.194.95,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+172.217.194.91,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+142.251.10.188,AS15169 google llc,US,firewall conns,Proto NATed Address  - 192.5.8 Â 1.4m -  is the most popular address on the internet for those tryin,2022-10-03T00:03:36.708000,2022-09-03T14:28:29.224000,,,
+142.251.175.91,AS15169 google llc,US,,,,,,,
+35.213.190.132,AS15169 google llc,SG,,,,,cloud,In cloud provider range: provider=google,Cloud Provider IP range
+184.25.236.176,AS7713 pt telekomunikasi indonesia,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+142.251.10.94,AS15169 google llc,US,alt-YouTube.com,,2023-09-24T14:00:05.977000,2023-08-25T14:43:56.683000,,,
+210.210.145.136,AS4787 pt cyberindo aditama,ID,,,,,,,
+194.138.240.119,AS9890 atos information technology,DE,,,,,,,
+74.125.24.188,AS15169 google llc,US,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000,2023-02-17T20:24:01.223000,whitelist,contained in whitelisted prefix,Whitelisted IP
+52.45.221.176,AS14618 amazon.com  inc.,US,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+142.250.4.190,AS15169 google llc,US,,,,,,,
+103.107.199.6,AS137409 gsl networks pty ltd,SG,,,,,,,
+74.125.24.95,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+52.25.237.147,AS16509 amazon.com inc,US,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+64.233.170.94,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+172.253.118.188,AS15169 google llc,US,router conns,Proto NATed Address  - 192.5.8  Â 1.4m -  is the latest in a long line of addresses to be considered,2023-03-20T00:01:17.081000,2023-02-17T20:24:01.223000,,,
+104.22.20.162,AS13335 cloudflare,US,,,,,cdn,In CDN range: provider=cloudflare,CDN IP ranges
+13.107.42.16,AS8068 microsoft corporation,US,ChromeDriver.exe,There is a malware spread under the name of chromedriver.exe (which is a malware downland ) as per :,2023-10-31T15:03:52.440000,2023-10-01T15:03:56.727000,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+142.251.175.95,AS15169 google llc,US,,,,,,,
+4.232.89.175,AS8075 microsoft corporation,US,,,,,,,
+35.186.203.63,AS15169 google llc,US,,,,,cloud,In cloud provider range: provider=google,Cloud Provider IP range
+74.125.130.156,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+118.98.113.99,AS7713 pt telekomunikasi indonesia,ID,,,,,,,
+92.223.85.120,AS199524 g-core labs s.a.,SG,,,,,,,
+40.81.120.44,AS8075 microsoft corporation,GB,,,,,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+74.125.101.41,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+3.233.87.30,AS14618 amazon.com  inc.,US,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+130.44.212.234,AS396986 bytedance inc.,US,,,,,,,
+156.59.239.197,ASNone ,SG,,,,,,,
+31.13.95.9,AS32934 facebook  inc.,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+204.79.197.222,AS8068 microsoft corporation,US,LCIA:HoneyNet:2022,pulled from router,2023-01-30T23:00:04.143000,2022-03-16T14:03:19.241000,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+157.240.235.34,AS32934 facebook  inc.,SG,,,,,,,
+54.192.150.48,AS16509 amazon.com inc,US,,,,,cdn,In CDN range: provider=cloudfront,CDN IP ranges
+74.125.68.84,AS15169 google llc,US,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+13.224.250.31,AS16509 amazon.com inc,US,,,,,cdn,In CDN range: provider=cloudfront,CDN IP ranges
+142.251.175.84,AS15169 google llc,US,,,,,,,
+216.239.32.178,AS15169 google llc,US,Obfuscated Files or Information,,2023-11-21T17:12:49.783000,2023-11-21T17:12:49.783000,whitelist,contained in whitelisted prefix,Whitelisted IP
+122.144.2.204,AS38320 pt maxindo mitra solusi,ID,,,,,,,
+194.138.37.194,AS15465 siemens ag,DE,,,,,,,
+157.240.7.53,AS32934 facebook  inc.,SG,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+31.13.95.63,AS32934 facebook  inc.,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+92.223.85.121,AS199524 g-core labs s.a.,SG,,,,,,,
+34.151.192.19,AS396982 google,BR,,,,,,,
+36.67.189.250,AS7713 pt telekomunikasi indonesia,ID,,,,,,,
+184.25.236.185,AS7713 pt telekomunikasi indonesia,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+157.240.235.1,AS32934 facebook  inc.,SG,Toll Troll AU,,2022-09-19T00:10:46.535000,2022-08-20T09:11:18.427000,,,
+34.102.147.19,AS396982 google,US,,,,,cloud,In cloud provider range: provider=google,Cloud Provider IP range
+40.79.189.59,AS8075 microsoft corporation,JP,Investigation of Distribution Vectors and Threat Network Infrastructure,https://www.virustotal.com/gui/collection/27233a89c864ba0e77e672a8909fd63b4a8b6d457c9e4ff219f2a3e47d,2023-11-27T07:26:03.810000,2023-08-28T21:28:30.294000,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+188.172.208.136,AS42473 anexia internetdienstleistungs gmbh,TW,,,,,,,
+31.13.95.1,AS32934 facebook  inc.,ID,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+92.223.85.147,AS199524 g-core labs s.a.,SG,,,,,,,
+36.89.220.200,AS7713 pt telekomunikasi indonesia,ID,,,,,,,
+188.172.201.132,AS42473 anexia internetdienstleistungs gmbh,HK,,,,,,,
+138.199.46.216,AS60068 datacamp limited,SG,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000,2023-01-01T00:00:05.491000,,,
+142.251.12.188,AS15169 google llc,US,wifi logs to check,Here is the full text of the key event in the IBSS/ESS (3) system  which has been disabled since its,2022-11-26T03:02:13.742000,2022-10-27T03:04:24.332000,,,
+31.13.68.61,AS32934 facebook  inc.,SG,,,,,whitelist,contained in whitelisted prefix,Whitelisted IP
+172.104.174.27,AS63949 linode  llc,SG,,,,,,,
+103.115.98.3,AS9890 atos information technology,SG,,,,,,,
+157.240.235.18,AS32934 facebook  inc.,SG,,,,,,,
+54.148.59.27,AS16509 amazon.com inc,US,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+142.250.190.3,AS15169 google llc,US,,,,,,,
+143.244.33.70,AS60068 datacamp limited,SG,LCIA:HoneyNet:2023,,2023-06-24T12:00:07.021000,2023-01-01T00:00:05.491000,,,
+34.84.242.117,AS396982 google,JP,,,,,cloud,In cloud provider range: provider=google,Cloud Provider IP range
+54.255.247.221,AS16509 amazon.com inc,SG,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+213.227.167.133,AS42473 anexia internetdienstleistungs gmbh,AU,conns,The full list of candidates for the 2016 General Election has been released.. and here are the key p,2022-09-03T00:03:41.487000,2022-08-04T05:37:21.195000,,,
+157.240.7.52,AS32934 facebook  inc.,SG,Apple iTunes  Malicious site   Anonyization   Siphoning   Trojan Downloader,IC3 attached to links  apple   messaging  Skype. nIC3 CN? nChina? Unclear. Possibly intercepting  IC,2023-11-12T17:01:15.222000,2023-10-13T18:20:24.042000,whitelist,contained in whitelisted prefix,Whitelisted IP
+142.250.4.94,AS15169 google llc,US,uTorrent seeds from a VM,The world ,2022-12-16T13:03:24.863000,2022-11-16T13:55:36.805000,,,
+142.251.12.95,AS15169 google llc,US,,,,,,,
+142.250.4.91,AS15169 google llc,US,,,,,,,
+13.107.4.254,AS8068 microsoft corporation,US,,,,,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+20.44.248.159,AS8075 microsoft corporation,SG,,,,,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+71.18.36.225,ASNone ,US,,,,,,,
+157.240.235.15,AS32934 facebook  inc.,SG,,,,,,,
+142.251.10.139,AS15169 google llc,US,,,,,,,
+172.67.70.70,AS13335 cloudflare,US,,,,,cdn,In CDN range: provider=cloudflare,CDN IP ranges
+47.246.159.93,AS45102 alibaba (us) technology co.  ltd.,US,,,,,,,
+,,,,,,,,,
+20.189.173.23,AS8075 microsoft corporation,US,,,,,cloud,In cloud provider range: provider=azure,Cloud Provider IP range
+172.232.251.34,AS20940 akamai international b.v.,US,,,,,,,
+103.74.143.200,AS46034 departemen kesehatan,ID,,,,,,,
+35.80.154.106,AS16509 amazon.com inc,US,,,,,cloud,In cloud provider range: provider=AWS,Cloud Provider IP range
+43.218.57.171,ASNone ,AU,,,,,,,
+15.72.80.128,AS54680 hewlett-packard company,US,,,,,,,
+23.109.73.84,AS7979 servers.com  inc.,NL,,,,,,,
+122.144.3.6,AS38320 pt maxindo mitra solusi,ID,,,,,,,
